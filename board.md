@@ -13,64 +13,31 @@ layout: home
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-{% include_relative content_who_we_are.md %}
+# The Executive Director, the Board, and Executive Advisors
 
-{% include_relative content_what_is_the_internet_computer.md %}
+## The Executive Director
 
-Jek is a minimalist jekyll theme putting the power of color schemes in the user's hands. Toggle between schemes hassle-free, create new ones on the go, and store settings in-browser. Developed by [Tyler Butler](https://tbutler.org)
+**Austin Fatheree** - Austin has been working with corporations since 2017 to create strategic plans and ventures tied to decentralized, pan-industry platforms.  He has been a developer and data architect for over 20 years and brings a unique mix of technical know-how and business sense to the ICDevs.org team.
 
-## ⚡ Features
+## The Board
 
-- [x] toggle light/dark with <i class="far fa-moon zoom" onclick="darkMode();"></i>
-- [x] choose theme with <i class="fas fa-palette zoom" onclick="toggleTheme();"></i>
-- [x] choose font with <i class="fas fa-pen-nib" onclick="toggleFont();"></i>
-- [x] save current theme for next visit with <i class="fas fa-user-astronaut zoom" onclick="saveFavorite();"></i>
-- [x] open/close settings with <i class="fas fa-tools zoom" onclick="toggleSettings();"></i>
-- [x] clear settings with <i class="fas fa-snowplow zoom" onclick="clearSettings();"></i>
+The board was organized to provide a set of diverse and external viewpoints to the governance of the ICDevs.org organization.  Each member brings relevant experience in areas of direct and indirect relevance to running a developer-focused organization.  The board provides governance, oversight, and advice.  Day-to-day operations are handled by the Executive Director and the operations team that the organization will be building. Internal allocation and operational decisions will be made by the Executive Director with help from a community-led developer advisory board that will be separate from the board of directors.
 
+**David Bash** - David provides an enterprise development perspective to the board.  He has spent over 20 years developing and leading the development of enterprise software targeting B2B and B2C data services.  David's significant experience will be relied on to help target the resources and technologies that the organization pursued in ways that maximize the relevance ICDev's work to building relevant and valuable business systems.
 
-## 💡 All About The Theme
+**Kevin Seagraves** -  Kevin brings significant crypto experience and product management experience to the board.  The perspective of a product manager is incredibly important to the work that developers do. Without a clear and focused product plan, software technology can be relegated to remain on a hard drive unused.  Kevin also brings his early experience in working with Gitcoin to the table and a number of lessons learned in planning and developing blockchain systems.
 
-Theme settings are saved in [session](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage) and [local](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) storage. Toggling light/dark mode or choosing a random palette saves settings for only the current session. Clicking the save button adds the theme to local storage for future visits.
+**Jenny Liang** - Jenny is an expert in human-centered design and technology ethics.  Designing human useable tech that operates in an ethical manner will be a significant challenge for the IC ecosystem. Jenny's perspective will be invaluable to the long-term useability of the tech we help develop and in ensuring that the technology avoids many of the ethical pitfalls that new tech can cause.
 
+**Taylor McConnaughy** - Taylor is a technology recruiter and understands the process of getting developers jobs.  As ICDevs develops resources for developers, Taylor's experience and oversight will help us make sure that we are creating relevant material that helps real developers get real and valuable jobs.
 
-## 🍭 Default Themes
+**Magnus Rayos** - Magnus brings two decades of legal experience across a diverse set of corporate law positions.  Understanding how corporations will view the use IC technology will be paramount to the mission of ICDevs.
 
-*Try out the default themes by clicking below*
+## Executive Advisors
 
+**Marcus Shingles** - Executive Advisor -  Marcus has deep innovation experience and has led innovation at some of the world's prominent consulting firms as well as leading the XPrize foundation as their CEO.  Marcus' perspective on innovation and practical experience leading a charitable organization focused on technology innovation is incredibly important to ICDevs as we form and advance our mission.
 
-{% for themes in site.data.themes %}
-<div class="theme-options {{ themes.name }} zoom" onclick="setSpeceficPallet('{{ themes.name }}');">
-    <p class="center">{{ themes.name }} ~ Lorem ipsum dolor sit amet</p>
-</div>
-{% endfor %}
-
-
-## 👩‍🚀 Add New Themes
-
-Adding new themes to your new jek site could not be easier, just pick a background color and text color and add them to main.css. Once you're done, add your theme to _data/themes.yaml. Check out [colorhunt](https://colorhunt.co/) for inspiration.
-
-
-1) Add a new scheme to main.css with background-color and color set.
-
-```css
-.mytheme {
-  background-color: #0a1d37;
-  color: #ffeedb;
-}
-```
-
-2) Add a color scheme name to _data/themes.yaml.
-
-```yaml
-- name: mytheme
-  enabled: true
-```
-
-## ✍️ Contributing
-
-If you're interested in contributing to Jek, feel free to fork the repository and make a pull request! If you made a cool new theme and want to add it to the defaults, create an issue and add the [*Theme Suggestion*](https://github.com/tcbutler320/jek/labels/Theme%20Suggestion) label.
-
-## ⚖️ License
-
-Licensed under [MIT](/LICENSE.txt) by [@tcbutler320](https://github.com/tcbutler320).
+* [Meet our Board and Advisors](/board)
+* [Meet our Developer Advisory Committee](/developer_advisory_committee)
+* [Read our Bylaws](/bylaws)
+* [Who we are](/who_we_are)
