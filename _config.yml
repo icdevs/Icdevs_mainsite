@@ -1,22 +1,20 @@
-title: Jek
-email: hello@jek.com
+title: ICDevs.org
+email: admin@icdevs.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A US 501(c)3 non-profit benefiting the Internet Computer and DFINITY ecosystem. Grants. Bounties. Education. Tutorials. Utilities. Open Source.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
-twitter: tbutler0x90
-github:  tcbutler320
-mail: developer.tbutler@gmail.com
-linkedin: tyler-b-a700a1aa
+twitter: ICDevs_org
+github:  xxx
+mail: admin@icdevs.org
+linkedin: xxx
 
 # site settings
 contact: true
 about: true
 who_we_are: true
 donations: true
-version: v1.1.0
+version: v0.1.0
 
 # Theme settings
 
