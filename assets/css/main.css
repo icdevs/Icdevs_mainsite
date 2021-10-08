@@ -18,17 +18,20 @@ img {
     width: 100%;
 }
 
-@media only screen 
-and (min-device-width : 320px) 
+@media only screen
+and (min-device-width : 320px)
 and (max-device-width : 767px) {
     /* body {
         background-color: red;
     } */
+    .syntax {
+      font-size: 6px;
+    }
 
     .center {
         margin: auto;
         width: 90%;
-      } 
+      }
 
       .nav {
         margin-right: 10px;
@@ -36,7 +39,9 @@ and (max-device-width : 767px) {
 }
 
 
-@media only screen 
+
+
+@media only screen
 and (min-device-width : 768px) {
     /* body {
         background-color: blue;
@@ -45,12 +50,12 @@ and (min-device-width : 768px) {
     .center {
         margin: auto;
         width: 60%;
-    } 
+    }
 
     .nav {
         margin-right: 100px;
     }
-    
+
 
 }
 
@@ -60,7 +65,7 @@ and (min-device-width : 768px) {
 }
 
 
-  
+
 .zoom:hover {
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
@@ -71,10 +76,10 @@ and (min-device-width : 768px) {
     background-color: white;
 }
 
-.Light blockquote {  
-    margin: 0;  
-    padding-left: 1.4rem;  
-    border-left: 2px solid black; 
+.Light blockquote {
+    margin: 0;
+    padding-left: 1.4rem;
+    border-left: 2px solid black;
 }
 
 .Dark {
@@ -92,9 +97,9 @@ and (min-device-width : 768px) {
 }
 
 .Dark blockquote {
-    margin: 0;  
-    padding-left: 1.4rem;  
-    border-left: 2px solid white; 
+    margin: 0;
+    padding-left: 1.4rem;
+    border-left: 2px solid white;
 }
 
 
@@ -303,7 +308,7 @@ and (min-device-width : 768px) {
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
   }
-  
+
   /* Modal Content/Box */
   .modal-content {
     background-color: inherit;
@@ -313,7 +318,7 @@ and (min-device-width : 768px) {
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
   }
-  
+
   /* The Close Button */
   .close {
     color: #aaa;
@@ -321,7 +326,7 @@ and (min-device-width : 768px) {
     font-size: 28px;
     font-weight: bold;
   }
-  
+
   .close:hover,
   .close:focus {
     text-decoration: none;
@@ -366,7 +371,7 @@ table{
       top: 50%;
       left: 8%;
     }
-  
+
     .rotate {
       display: flex;
       margin-top: 0;
@@ -384,8 +389,8 @@ table{
       -ms-transform-origin: 50% 100%;
       transform-origin: 50% 100%;
     }
-  
-  
+
+
   .d-none {
     display: none!important;
   }
@@ -415,10 +420,10 @@ table{
     margin-bottom: 5px;
 }
 
-blockquote {  
-    margin: 0;  
-    padding-left: 1.4rem;  
-    border-left: 2px solid black; 
+blockquote {
+    margin: 0;
+    padding-left: 1.4rem;
+    border-left: 2px solid black;
 }
 
 
@@ -440,7 +445,7 @@ canvas {
 .map3 {
   background: url('/assets/img/sprites/map3.png');
 }
-  
+
 
 /* fireworks */
 
@@ -521,25 +526,25 @@ $box-shadow2: ();
   box-shadow: $box-shadow2;
   @include animation((1s bang ease-out infinite backwards, 1s gravity ease-in infinite backwards, 5s position linear infinite backwards));
 }
-    
+
 .pyro > .after {
   @include animation-delay((1.25s, 1.25s, 1.25s));
   @include animation-duration((1.25s, 1.25s, 6.25s));
 }
-        
+
 @include keyframes(bang) {
   to {
     box-shadow:$box-shadow;
   }
 }
-    
+
 @include keyframes(gravity)  {
   to {
     @include transform(translateY(200px));
     opacity: 0;
   }
 }
-    
+
 @include keyframes(position) {
   0%, 19.9% {
     margin-top: 10%;
@@ -549,15 +554,15 @@ $box-shadow2: ();
     margin-top: 40%;
     margin-left: 30%;
   }
-  40%, 59.9% {  
+  40%, 59.9% {
     margin-top: 20%;
     margin-left: 70%
   }
-  60%, 79.9% {  
+  60%, 79.9% {
     margin-top: 30%;
     margin-left: 20%;
   }
-  80%, 99.9% {  
+  80%, 99.9% {
     margin-top: 30%;
     margin-left: 80%;
   }
@@ -575,20 +580,20 @@ text-align: center;
 .Woods {
   color: #FFF5DA;
   background-color: hsla(200,40%,30%,.4);
-  background-image:   
-    url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'), 
+  background-image:
+    url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'),
     url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'),
     url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
     url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),
     url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
   background-repeat: repeat-x;
-  background-position: 
+  background-position:
     0 20%,
     0 100%,
     0 50%,
     0 100%,
     0 0;
-  background-size: 
+  background-size:
     2500px,
     800px,
     500px 200px,
@@ -599,7 +604,7 @@ text-align: center;
 
 @keyframes para {
   100% {
-    background-position: 
+    background-position:
       -5000px 20%,
       -800px 95%,
       500px 50%,
@@ -616,7 +621,7 @@ text-align: center;
     margin-top: 60px;
     animation: backgroundScroll 60s linear infinite;
   }
-  
+
   @keyframes backgroundScroll {
     from {background-position: 0 0;}
     to {background-position: -4502px 0;}

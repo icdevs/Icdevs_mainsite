@@ -1,6 +1,29 @@
-# 💰Donations
+# 💰 Donations
 
 ICDevs.org is funded by the Internet Computer community.  Raising funds is essential for us to continue to be able to provide the services that are core to our missing.  There are lots of ways to give and the structure of the ICP token gives us additional creative ways for the community to support our work.
+
+## Giving Levels
+
+### Developers
+
+1. Developer Advisory Board Members(limited) - Liquid Donation of 50+ ICP or Dedicate a 100+ ICP - 8 year neuron
+2. Developer Advisor - Dedicate a 12+ ICP Neuron(minimum lock 2 years)
+3. Anything Helps - Reduce your potential tax liability by dedicating your ICP Neurons and avoiding hard to report income. You can undedicate at any time.
+
+### Non-Developers
+
+1. Executive Advisors(limited) - Liquid Donation of 20K ICP or dedicate a 50K ICP 8 year Neuron.
+2. Recognized Donor - Liquid Donation of 500+ ICP or Dedicate a 1K ICP Neuron - Name on the ICDevs.org Site
+3. Anything Helps - Reduce your potential tax liability by dedicating your ICP Neurons and avoiding hard to report income. You can undedicate at any time.
+
+### Corporations
+
+1. Diamond - 20K Liquid ICP donation or dedicate a 50K ICP Neuron and start your company's ICP Treasury - Logo on ICDevs.org
+2. Gold - 5K Liquid ICP donation or dedicate a 12.5K ICP Neuron and start your company's ICP Treasury - Logo on ICDevs.org
+3. Silver - 1K Liquid ICP donation or dedicate a 2.5K ICP Neuron and start your company's ICP Treasury - Logo on ICDevs.org
+4. Bronze - 200K Liquid ICP donation or dedicate a 500 ICP Neuron and start your company's ICP Treasury - Logo on ICDevs.org
+5. Matching - Offer corporate matching to you employees. Please Contact Us.
+6. Other Corporate Donations - Reduce your potential tax liability by dedicating your ICP Neurons and avoiding hard to report income.
 
 ## Tax-Deductible Donations:
 
@@ -92,6 +115,7 @@ Follow Neuron 14231996777861930328 for the Manage Neuron Topic(instructions). Th
 ### ETH and ETH base ERC20
 
 Tax deductable: 0x4A7C969110f7358bF334b49A2FF1a2585ac372B8
+
 Anonymous: 0x4666fBf259F42ff794A8732A2d9143e1F4a713c0
 
 ### BTC:

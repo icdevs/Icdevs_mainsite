@@ -1,5 +1,5 @@
 
-# ♾️What is the Internet Computer
+# ♾️ What is the Internet Computer
 
 From [https://sdk.dfinity.org/docs/developers-guide/concepts/what-is-ic](https://sdk.dfinity.org/docs/developers-guide/concepts/what-is-ic)#
 

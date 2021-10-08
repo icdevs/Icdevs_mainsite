@@ -1,9 +1,9 @@
 
-# 🌍Ecosystem support:
+# 🌍 Ecosystem support:
 
 ## Current Initiatives:
 
-Bounty for the production of a Motoko based BLS signature verification component
+...pending fundraising and developer board prioritization...
 
 ## Road Map(Increasing donations and dedicated neurons will help us accelerate our roadmap):
 
@@ -28,13 +28,13 @@ Bounty for the production of a Motoko based BLS signature verification component
 * Annual National Meeting
 * Quarterly Educational Symposiums
 
-## Fatheree's Conjecture
+## The Conjecture
 
-Any suitably interesting consensus mechanism that can be deployed to the Internet Computer will be deployed to the Internet Computer with functionally sufficient security guarantees and satisfactory or superior performance performance.
+All suitably interesting consensus mechanisms can and will be built on or ported to the Internet Computer -- while enjoying sufficient security and performance that is equal or superior to other consensus platforms.
 
 * Eth on the IC
 * BTC on the IC
-* Algorand on the IC
+* Algorand/Polygon/Tendermint/etc on the IC
 * ZK Implementation on the IC
 
 ## JS on the IC
