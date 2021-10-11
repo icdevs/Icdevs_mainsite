@@ -25,14 +25,14 @@ The Developer Advisory Committee coordinates the grants, prizes, educational, an
 
 * Demonstrated Familiarity with Internet Computer Development. Send us your github.
 * A commitment to participate in the on-chain governance process in a timely manner. You don't have to actively vote, but we'd love for you to.
-* A dedicated neuron contributing to the ICDevs.org ecosystem. Please send us your dedicated 12+ ICP 8 year locked neuron address.  You can find dedication instructions on the [donations page](/donations).
+* A dedicated neuron contributing to the ICDevs.org ecosystem. Please send us your dedicated 12+ ICP 8 year locked neuron address.  You can find dedication instructions on the [donations page](/donations.html).
 
 
 Send this info to admin@icdevs.org along with the principal on axon.ooo that you'd like us to assign to your voting token and we'll get you set up on axon.
 
-* [Meet our Board and Advisors](/board)
-* [Meet our Developer Advisory Committee](/developer_advisory_committee)
-* [Read our Bylaws](/bylaws)
-* [Who we are](/who_we_are)
+* [Meet our Board and Advisors](/board.html)
+* [Meet our Developer Advisory Committee](/developer_advisory_committee.html)
+* [Read our Bylaws](/bylaws.html)
+* [Who we are](/who_we_are.html)
 
 
