@@ -37,7 +37,7 @@ The board was organized to provide a set of diverse and external viewpoints to t
 
 **Marcus Shingles** - Executive Advisor -  Marcus has deep innovation experience and has led innovation at some of the world's prominent consulting firms as well as leading the XPrize foundation as their CEO.  Marcus' perspective on innovation and practical experience leading a charitable organization focused on technology innovation is incredibly important to ICDevs as we form and advance our mission.
 
-* [Meet our Board and Advisors](/board)
-* [Meet our Developer Advisory Committee](/developer_advisory_committee)
-* [Read our Bylaws](/bylaws)
-* [Who we are](/who_we_are)
+* [Meet our Board and Advisors](/board.html)
+* [Meet our Developer Advisory Committee](/developer_advisory_committee.html)
+* [Read our Bylaws](/bylaws.html)
+* [Who we are](/who_we_are.html)

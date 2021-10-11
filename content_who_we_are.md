@@ -21,7 +21,7 @@ ICDevs.org seeks to provide the general public with
 
 ICDevs.org is completely independent from the DFINITY Foundation and the ICA. Our goal is to further diversify and decentralize the Internet Computer ecosystem. By providing a United States-based non-profit organization we open up new, tax-advantaged ways, for US-based proponents of the Internet Computer to organize their resources and influence to advance the Ideals of the Internet Computer.
 
-* [Meet our Board and Advisors](/board)
-* [Meet our Developer Advisory Committee](/developer_advisory_committee)
-* [Read our Bylaws](/bylaws)
+* [Meet our Board and Advisors](/board.html)
+* [Meet our Developer Advisory Committee](/developer_advisory_committee.html)
+* [Read our Bylaws](/bylaws.html)
 
