@@ -120,6 +120,8 @@ Anonymous: 0x4666fBf259F42ff794A8732A2d9143e1F4a713c0
 
 ### BTC:
 
-Tax deductible and Anonymous: 1HcraDyV6cgbmqzCx1H3kknMYaaoZFnCMH
+Tax deductible: 1HcraDyV6cgbmqzCx1H3kknMYaaoZFnCMH
+
+Anonymous: 17UwETY4TQEpchBYby8Nvjv446a8EhGkgk
 
 For Tax Deductible Donations, please email us at donations@icdevs.org the details of your transaction(from address, date, transaction hash, your SSN, Address so that we can deliver you the appropriate documents you will need to document your taxes.
