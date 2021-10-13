@@ -53,6 +53,8 @@ Tax Deductable Donations: c8e78c28beebd305370cfc798bbe96132fcade8ac88ec742084a4e
 
 Anonymous Donations: 93a3506e08e88e1f65f85990451038f7a232b6f860ee706b42cc9edec96eecee
 
+NFT Donation Principal: p75el-ys2la-2xa6n-unek2-gtnwo-7zklx-25vdp-uepyz-qhdg7-pt2fi-bqe
+
 For Tax Deductible Donations, please email us at donations@icdevs.org  the details of your transaction(from address, date, your SSN, Address so that we can deliver you the appropriate documents you will need to document your taxes
 
 ## Dedicate a Neuron
@@ -112,7 +114,7 @@ Follow Neuron 14231996777861930328 for the Manage Neuron Topic(instructions). Th
 
 ## Other Tokens:
 
-### ETH and ETH base ERC20
+### ETH and ETH base ERC20, ETH based NFTs
 
 Tax deductable: 0x4A7C969110f7358bF334b49A2FF1a2585ac372B8
 
