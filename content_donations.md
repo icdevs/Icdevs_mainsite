@@ -21,7 +21,7 @@ ICDevs.org is funded by the Internet Computer community.  Raising funds is essen
 1. Diamond - 20K Liquid ICP donation or dedicate a 50K ICP Neuron and start your company's ICP Treasury - Logo on ICDevs.org
 2. Gold - 5K Liquid ICP donation or dedicate a 12.5K ICP Neuron and start your company's ICP Treasury - Logo on ICDevs.org
 3. Silver - 1K Liquid ICP donation or dedicate a 2.5K ICP Neuron and start your company's ICP Treasury - Logo on ICDevs.org
-4. Bronze - 200K Liquid ICP donation or dedicate a 500 ICP Neuron and start your company's ICP Treasury - Logo on ICDevs.org
+4. Bronze - 200 Liquid ICP donation or dedicate a 500 ICP Neuron and start your company's ICP Treasury - Logo on ICDevs.org
 5. Matching - Offer corporate matching to you employees. Please Contact Us.
 6. Other Corporate Donations - Reduce your potential tax liability by dedicating your ICP Neurons and avoiding hard to report income.
 
