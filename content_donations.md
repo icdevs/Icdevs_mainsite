@@ -6,7 +6,7 @@ ICDevs.org is funded by the Internet Computer community.  Raising funds is essen
 
 ### Developers
 
-1. Developer Advisory Board Members(limited) - Liquid Donation of 50+ ICP or Dedicate a 100+ ICP - 8 year neuron
+1. Developer Advisory Board Members(limited) - Liquid Donation of 60+ ICP or Dedicate a 100+ ICP - 8 year neuron
 2. Developer Advisor -  2.5 Liquid ICP or Dedicate a 18+ ICP Neuron(minimum lock 2 years) - This is a bit high because the maturity takes a long time to be claimable at low ICP levels.  We are trying to keep this at ~$100/year and the purpose is to show a long term commitment to the IC.
 3. Anything Helps - Reduce your potential tax liability by dedicating your ICP Neurons and avoiding hard to report income. You can undedicate at any time.
 
