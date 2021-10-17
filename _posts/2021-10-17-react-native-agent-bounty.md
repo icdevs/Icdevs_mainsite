@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bounty - React-native IC Agent"
-date:   2021-10-18 00:00:00 -0600
+date:   2021-10-16 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
