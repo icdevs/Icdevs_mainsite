@@ -17,7 +17,7 @@ author: Austin Fatheree
 * In Review
 * Closed
 
-[Issue Link]()
+[Issue Link - Discussion Forum](https://forum.dfinity.org/t/icdevs-org-bounty-0-react-native-agent/8007)
 
 ## Bounty Details
 
@@ -95,4 +95,7 @@ The Dev Council is reviewing the submission
 ### Awarded
 
 The award has be been given and the bounty is closed.
+
+
+[Other ICDevs.org Bounties](https://icdevs.org/bounties.html)
 
