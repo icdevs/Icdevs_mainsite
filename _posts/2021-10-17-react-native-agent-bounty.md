@@ -6,7 +6,7 @@ categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# React-Native IC Agent Bounty
+# React-Native IC Agent Bounty - #0
 
 ## Current Status: Discussion
 
