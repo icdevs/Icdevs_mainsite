@@ -10,9 +10,9 @@ author: Austin Fatheree
 
 ## Current Status: Discussion
 
-* **Discussion (10/18/2021)** <- We are here
-* Ratification
-* Open for application
+* Discussion (10/18/2021)
+* Ratification (10/19/2021) https://axon.ooo/axon/180/proposal/3
+* **Open for application** <- We are here
 * Assigned
 * In Review
 * Closed
@@ -82,7 +82,7 @@ The developer advisor's board will propose a bounty be ratified and a vote will 
 
 ### Open for application
 
-Developers can submit applications to the Dev Forum post.  The council will consider these as they come in and propose a vote to award the bounty to one of the applicants.
+Developers can submit applications to the Dev Forum post.  The council will consider these as they come in and propose a vote to award the bounty to one of the applicants.  If you would like to apply anonymously you can send an email to austin at icdevs dot org.
 
 ### Assigned
 
