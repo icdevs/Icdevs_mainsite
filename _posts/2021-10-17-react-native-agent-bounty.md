@@ -82,7 +82,7 @@ The developer advisor's board will propose a bounty be ratified and a vote will 
 
 ### Open for application
 
-Developers can submit applications to the Dev Forum post.  The council will consider these as they come in and propose a vote to award the bounty to one of the applicants.  If you would like to apply anonymously you can send an email to austin at icdevs dot org.
+Developers can submit applications to the Dev Forum post.  The council will consider these as they come in and propose a vote to award the bounty to one of the applicants.  If you would like to apply anonymously you can send an email to austin at icdevs dot org or sending a PM on the dev forum.
 
 ### Assigned
 
