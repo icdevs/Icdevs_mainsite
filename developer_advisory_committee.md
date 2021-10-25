@@ -17,7 +17,11 @@ layout: home
 
 The Developer Advisory Committee coordinates the grants, prizes, educational, and developmental priorities of the ICDevs.org organization.  The group follows a governance process to propose and ratify the funding goals of the organization.  Each member is an experienced Internet Computer Developer with significant buy-in to the Internet Computer Ecosystem.
 
-## Coming soon....the advisory committee is forming now...like voltron.
+## Our Developer Advisor Board Members:
+
+* [Jordan Last](https://github.com/lastmjs) - Defender of the Internet Computer / Creator of Sudograph / Host of the Demergence podcast
+* [Integral Wizard](https://twitter.com/integral_wizard)
+
 
 ## Apply to be a Developer Advisory Committee:
 

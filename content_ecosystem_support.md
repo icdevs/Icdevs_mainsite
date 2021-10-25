@@ -3,7 +3,7 @@
 
 ## Current Initiatives:
 
-...pending fundraising and developer board prioritization...
+{% include_relative content_bounties.md %}
 
 ## Road Map(Increasing donations and dedicated neurons will help us accelerate our roadmap):
 

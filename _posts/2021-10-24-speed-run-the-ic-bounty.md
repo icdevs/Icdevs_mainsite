@@ -6,18 +6,18 @@ categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# Speed Run the IC Bounty - #1
+# Basic tutorials and site - #1
 
 ## Current Status: Discussion
 
-* **Discussion** (10/25/2021)
+* **Discussion** (10/25/2021) <- We are here
 * Ratification
 * Open for application
 * Assigned
 * In Review
 * Closed
 
-[Issue Link - Discussion Forum]()
+[Issue Link - Discussion Forum](https://forum.dfinity.org/t/icdevs-org-bounty-1-basic-tutorial-and-site/8136/2)
 
 ## Bounty Details
 
@@ -38,13 +38,13 @@ This bounty gives the opportunity to
 * write some basic IC tutorials
 * understand how to deploy a static site on the IC using Fleek
 * get to know google codelab
-* help onboard thousands of developers on to the IC
+* help onboard thousands of developers onto the IC
 
 ICDevs would like help setting up our tutorials site and seeding it with an initial set of tutorials for developing on the IC.
 
-We will use google codelabs(https://codelabs.developers.google.com/) to create a site that will live at https://tutorials.icdebs.org. Code labs is a tool that lets you easily author and publish tutorials. You can begin to author them in google docs and then out put the results to markdown.  Ultimately you'll need to publish your markdown versions as the canonical versions.  You will be free to start with markdown if you don't want to use google docs.  Here is a tutorial on how to build a tutorial using code lab(https://medium.com/@zarinlo/publish-technical-tutorials-in-google-codelab-format-b07ef76972cd)
+We will use google codelabs(https://codelabs.developers.google.com/) to create a site that will live at https://tutorials.icdebs.org. Code labs is a tool that lets you easily author and publish tutorials. You can begin to author them in google docs and then output the results to markdown.  Ultimately you'll need to publish your markdown versions as the canonical versions.  You will be free to start with markdown if you don't want to use google docs.  Here is a tutorial on how to build a tutorial using code lab(https://medium.com/@zarinlo/publish-technical-tutorials-in-google-codelab-format-b07ef76972cd)
 
-This site will use Austin Griffith's Speed Run Ethereum article as a guide for what we want the first 1.0 version of this site to contain(https://medium.com/@austin_48503/%EF%B8%8Fethereum-dev-speed-run-bd72bcba6a4c). Obviously at this point we don't have anything as robust as scaffold.eth to piggy back off of, but hopefuly we can use a combination of the motoko playground(https://m7sm4-2iaaa-aaaab-qabra-cai.raw.ic0.app/) and other resources to get people started.
+This site will use Austin Griffith's Speed Run Ethereum article as a guide for what we want the first 1.0 version of this site to contain(https://medium.com/@austin_48503/%EF%B8%8Fethereum-dev-speed-run-bd72bcba6a4c). Obviously, at this point, we don't have anything as robust as scaffold.eth to piggyback off of, but hopefully we can use a combination of the motoko playground(https://m7sm4-2iaaa-aaaab-qabra-cai.raw.ic0.app/) and other resources to get people started.
 
 Ultimately this repository will be an open repo where any community member can build a tutorial for something they think is important to communicate to developers trying to level up their IC development skills.
 
@@ -64,7 +64,7 @@ To claim this bounty you will need to do the following:
     * Creating a simple Token
     * Serving a simple nft from http
 
-Some of this content may already exist. You are free to reach out to those authors and ask if you can reproduce their content in this repo. Please credit an link to them and the original content if and only if you receive permission.
+Some of this content may already exist. You are free to reach out to those authors and ask if you can reproduce their content in this repo. Please credit and link to them and the original content if and only if you receive permission.
 
 Finally, the site will need to be deployable via Fleek. See the documentation on their website here:  https://docs.fleek.co/internet-computer-hosting/site-deployment/.  Using code lab you should be able to generate the static html locally and check that into the repo.  We can work with Fleek to figure this out, but ideally fleek won't be needing to run any build scripts and can just deploy the source files.
 
@@ -74,12 +74,12 @@ Will you host rust tutorials - Absolutely. We're starting with motoko, but as so
 
 Will you give authors credit - Absolutely.  Our goal will be to feature, link to, and drive attention to any authors that contribute to this repository.
 
-Will you ever sell this content - This content will be completely free and open sourced on github and tutorials.icdevs.org. If we come up with a creative way to fund raise off the back of it in some other medium we may do so, but all proceeds will go straight back into ICDevs.org.
+Will you ever sell this content - This content will be completely free and open-sourced on github and tutorials.icdevs.org. If we come up with a creative way to fundraise off the back of it in some other medium we may do so, but all proceeds will go straight back into ICDevs.org.
 
 ## To apply for this bounty you should:
 
-* Include links to previous work writing tutorials and any other open source contributions(ie. your github).
-* Include a brief overview of how you will complete the task. This can include things like which dependencies you will use, how you will make it self contained, the sacrifices you would have to make to achieve that, or how you will make it simple. Anything that can convince us you are taking a thoughtful and expert approach to this design.
+* Include links to previous work writing tutorials and any other open-source contributions(ie. your github).
+* Include a brief overview of how you will complete the task. This can include things like which dependencies you will use, how you will make it self-contained, the sacrifices you would have to make to achieve that, or how you will make it simple. Anything that can convince us you are taking a thoughtful and expert approach to this design.
 * Give an estimated timeline on completing the task.
 * Post your application text to the Bounty Thread
 
@@ -91,13 +91,13 @@ The ICDevs.org developer's advisors will propose a vote to award the bounty and 
 
 Please keep your ongoing code in a public repository(fork or branch is ok). Please provide regular (at least weekly) updates.  Code commits count as updates if you link to your branch/fork from the bounty thread.  We just need to be able to see that you are making progress.
 
-This bounty will have a progressive pay out according to the following schedule:
+This bounty will have a progressive payout according to the following schedule:
 
 5 ICP - Empty google code labs site crated, instructions for other devs running locally, and fleek hosting.
 Each one of the 10 listed tutorials: 2 ICP
 Completion: 5 ICP.
 
-If the community matches we'll adjust accordingly and up the reward for each tutorial by up to 2 ICP each, starting with last tutorial and working back to 1.
+If the community matches we'll adjust accordingly and up the reward for each tutorial by up to 2 ICP each, starting with the last tutorial and working back to 1.
 
 The balance will be paid out at completion.
 
