@@ -17,7 +17,7 @@ author: Austin Fatheree
 * In Review
 * Closed
 
-[Issue Link - Discussion Forum](https://forum.dfinity.org/t/icdevs-org-bounty-1-basic-tutorial-and-site/8136/2)
+[Issue Link - Discussion Forum](https://forum.dfinity.org/t/icdevs-org-bounty-2-add-generic-dao-functions-and-interface-to-axon/8284)
 
 ## Bounty Details
 
@@ -42,7 +42,7 @@ This bounty gives the opportunity to
 
 ICDevs needs some DAO like features for our Developer Advisory Board and Developer Advisors to interact and lead the funding of ICDevs projects.
 
-We want to use [axon](https://github.com/FloorLamp/axon) for "motion" votes, but currently the application submits those to the NNS for everyone to vote on.  This, and a couple more features will need to be added to satisfy this bounty.
+We want to use [axon](https://github.com/FloorLamp/axon) for "motion" votes, but currently the application submits those to the NNS for everyone to vote on.  This, and a couple more features will need to be added to satisfy this bounty.  Our fork is at https://github.com/icdevs/axon
 
 To claim this bounty you will need to do the following:
 
