@@ -10,9 +10,9 @@ author: Austin Fatheree
 
 ## Current Status: Discussion
 
-* **Discussion** (10/25/2021) <- We are here
-* Ratification
-* Open for application
+* Discussion (10/25/2021)
+* Ratification (11/1/2021)
+* **Open for application** (11/2/2021) <- We are here
 * Assigned
 * In Review
 * Closed
