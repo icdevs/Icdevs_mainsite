@@ -17,7 +17,7 @@ author: Austin Fatheree
 * In Review
 * Closed
 
-[Issue Link - Discussion Forum](https://forum.dfinity.org/t/icdevs-org-bounty-2-add-generic-dao-functions-and-interface-to-axon/8284)
+[Issue Link - Discussion Forum](https://forum.dfinity.org/t/icdevs-org-bounty-3-ulid-motoko-library/8473)
 
 ## Bounty Details
 
@@ -25,7 +25,7 @@ author: Austin Fatheree
 * ICDevs.org Match Available: 20 ICP - (For every ICP sent to 860bd56f4c8a9d40f26462e51e2a4dd4e27cf0e1463372a1179df089695bfd63, ICDevs.org will add one more ICP to the bounty, up to 20 ICP, After 20 ICP, Donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
 * Time Left: Expires 12/31/2022
 * Project Type: Single Contributor
-* Opened: 11/01/2021
+* Opened: 11/08/2021
 * Time Commitment: Days
 * Project Type: Traditional
 * Experience Type: Intermediate - Motoko; Intermediate - Encoding
@@ -37,8 +37,9 @@ This bounty gives the opportunity to
 
 * learn how motoko works
 * learn about unique ID encodings
+* learn about randomness on the IC
 
-A donor genrously funded a full bounty for ICDevs to help find a dev that would like to build a ULID library.
+A donor(The Dragginz Team) genrously funded a full bounty for ICDevs to help find a dev that would like to build a ULID library.
 
 The spec for ULID can be found at https://github.com/ulid/spec
 
