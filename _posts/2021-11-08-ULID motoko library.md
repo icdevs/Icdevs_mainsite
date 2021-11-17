@@ -39,13 +39,13 @@ This bounty gives the opportunity to
 * learn about unique ID encodings
 * learn about randomness on the IC
 
-A donor(The Dragginz Team) genrously funded a full bounty for ICDevs to help find a dev that would like to build a ULID library.
+A donor(The Dragginz Team) generously funded a full bounty for ICDevs to help find a dev that would like to build a ULID library.
 
 The spec for ULID can be found at https://github.com/ulid/spec
 
 There are a number of example libraries in other languages.  You will need to transcode the library into motoko.  This may require the construction of other sub libraries for encoding, string manipulation, and decoding.
 
-There are unique properites that the IC has that you should take advantage of.  The IC provides randomness via the [Random](https://sdk.dfinity.org/docs/base-libraries/random) base library.  This library shold two modes. One where true randomness is used and another where an alternative form of randomness that does not require an async await to be used.  Perhaps hasing the Principal of the canister plus an always increasing nonce might do the trick but a healthy discussion shold ensue about what will work and what won't.
+There are unique properties that the IC has that you should take advantage of.  The IC provides randomness via the [Random](https://sdk.dfinity.org/docs/base-libraries/random) base library.  This library should have two modes. One where true randomness is used and another where an alternative form of randomness that does not require an async await to be used.  Perhaps hashing the Principal of the canister plus an always increasing nonce might do the trick but a healthy discussion should ensue about what will work and what won't.
 
 ## To apply for this bounty you should:
 

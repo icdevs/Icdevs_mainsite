@@ -17,7 +17,7 @@ author: Austin Fatheree
 * In Review
 * Closed
 
-[Issue Link - Discussion Forum](https://forum.dfinity.org/t/icdevs-org-bounty-4-uuid-motoko-library/8473)
+[Issue Link - Discussion Forum](https://forum.dfinity.org/t/icdevs-org-bounty-4-uuid-motoko-library/8648)
 
 ## Bounty Details
 
@@ -25,7 +25,7 @@ author: Austin Fatheree
 * ICDevs.org Match Available: 20 ICP - (For every ICP sent to 66083bb3c940c7de2a70aa127ec771da75d60deadc10f5f66b280f203d8f6e73, ICDevs.org will add one more ICP to the bounty, up to 20 ICP, After 20 ICP, Donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
 * Time Left: Expires 12/31/2022
 * Project Type: Single Contributor
-* Opened: 11/08/2021
+* Opened: 11/17/2021
 * Time Commitment: Days
 * Project Type: Traditional
 * Experience Type: Intermediate - Motoko; Intermediate - Encoding
@@ -39,7 +39,7 @@ This bounty gives the opportunity to
 * learn about unique ID encodings
 * learn about randomness on the IC
 
-A donor(The Dragginz Team) genrously funded a full bounty for ICDevs to help find a dev that would like to build a UUID library.
+A donor(The Dragginz Team) generously funded a full bounty for ICDevs to help find a dev that would like to build a UUID library.
 
 The spec for UUID v4 can be found at https://datatracker.ietf.org/doc/html/rfc4122
 
@@ -47,7 +47,7 @@ Quint has done a ton of work on this already at https://github.com/aviate-labs/u
 
 There are a number of example libraries in other languages.  You will need to transcode the library into motoko.  This may require the construction of other sub libraries for encoding, string manipulation, and decoding.
 
-There are unique properites that the IC has that you should take advantage of.  The IC provides randomness via the [Random](https://sdk.dfinity.org/docs/base-libraries/random) base library.  This library shold two modes. One where true randomness is used and another where an alternative form of randomness that does not require an async await to be used.  Perhaps hasing the Principal of the canister plus an always increasing nonce might do the trick but a healthy discussion shold ensue about what will work and what won't.
+There are unique properites that the IC has that you should take advantage of.  The IC provides randomness via the [Random](https://sdk.dfinity.org/docs/base-libraries/random) base library.  This library should have two modes. One where true randomness is used and another where an alternative form of randomness that does not require an async await to be used.  Perhaps hashing the Principal of the canister plus an always increasing nonce might do the trick but a healthy discussion should ensue about what will work and what won't.
 
 ## To apply for this bounty you should:
 
