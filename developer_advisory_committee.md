@@ -22,6 +22,14 @@ The Developer Advisory Committee coordinates the grants, prizes, educational, an
 * [Jordan Last](https://github.com/lastmjs) - Defender of the Internet Computer / Creator of Sudograph / Host of the Demergence podcast
 * [Integral Wizard](https://twitter.com/integral_wizard)
 
+## Apply to be a Developer Advisory Board(limited):
+
+## Requirements:
+
+* Demonstrated Familiarity with Internet Computer Development. Send us your github.
+* A commitment to participate in the on-chain governance process in a timely manner. You don't have to actively vote, but we'd love for you to.
+* Liquid Donation of 60+ ICP or Dedicate a 100+ ICP - 8 year neuron.  You can find dedication instructions on the [donations page](/donations.html).
+
 
 ## Apply to be a Developer Advisory Committee:
 
@@ -29,7 +37,7 @@ The Developer Advisory Committee coordinates the grants, prizes, educational, an
 
 * Demonstrated Familiarity with Internet Computer Development. Send us your github.
 * A commitment to participate in the on-chain governance process in a timely manner. You don't have to actively vote, but we'd love for you to.
-* A dedicated neuron contributing to the ICDevs.org ecosystem. Please send us your dedicated 12+ ICP 8 year locked neuron address.  You can find dedication instructions on the [donations page](/donations.html).
+* A dedicated neuron contributing to the ICDevs.org ecosystem. Please send us your dedicated 18+ ICP 8 year locked neuron address.  You can find dedication instructions on the [donations page](/donations.html).
 
 
 Send this info to admin@icdevs.org along with the principal on axon.ooo that you'd like us to assign to your voting token and we'll get you set up on axon.
