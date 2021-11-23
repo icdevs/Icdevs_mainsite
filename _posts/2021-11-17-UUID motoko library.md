@@ -10,11 +10,11 @@ author: Austin Fatheree
 
 ## Current Status: Discussion
 
-* **Discussion** (11/17/2021) <- We are here
-* Ratification
-* Open for application
-* Assigned
-* In Review
+* Discussion (11/17/2021) <- We are here
+* Ratification (11/19/2021)
+* Open for application (11/19/2021)
+* Assigned (11/19/2021)
+* **In Review** (11/23/2021) <- We are here
 * Closed
 
 [Issue Link - Discussion Forum](https://forum.dfinity.org/t/icdevs-org-bounty-4-uuid-motoko-library/8648)
@@ -49,28 +49,17 @@ There are a number of example libraries in other languages.  You will need to tr
 
 There are unique properites that the IC has that you should take advantage of.  The IC provides randomness via the [Random](https://sdk.dfinity.org/docs/base-libraries/random) base library.  This library should have two modes. One where true randomness is used and another where an alternative form of randomness that does not require an async await to be used.  Perhaps hashing the Principal of the canister plus an always increasing nonce might do the trick but a healthy discussion should ensue about what will work and what won't.
 
-## To apply for this bounty you should:
+## Application:
 
-* Include links to previous work writing tutorials and any other open-source contributions(ie. your github).
-* Include a brief overview of how you will complete the task. This can include things like which dependencies you will use, how you will make it self-contained, the sacrifices you would have to make to achieve that, or how you will make it simple. Anything that can convince us you are taking a thoughtful and expert approach to this design.
-* Give an estimated timeline on completing the task.
-* Post your application text to the Bounty Thread
+Github user @di-wu (everyone's favorite quint) has applied for this bounty.
 
-## Selection Process
+## Selection:
 
-The ICDevs.org developer's advisors will propose a vote to award the bounty and the Developer Advisors will vote.
+Github user @di-wu was selected for this bounty.
 
-## Bounty Completion
+## Bounty Completion:
 
-Please keep your ongoing code in a public repository(fork or branch is ok). Please provide regular (at least weekly) updates.  Code commits count as updates if you link to your branch/fork from the bounty thread.  We just need to be able to see that you are making progress.
-
-The balance of the bounty will be paid out at completion.
-
-Once you have finished, please alert the dev forum thread that you have completed work and where we can find that work.  We will review and award the bounty reward if the terms have been met.  If there is any coordination work(like a pull request) or additional documentation needed we will inform you of what is needed before we can award the reward.
-
-## Bounty Abandonment and Re-awarding
-
-If you cease work on the bounty for a prolonged(at the Developer Advisory Board's discretion) or if the quality of work degrades to the point that we think someone else should be working on the bounty we may re-award it.  We will be transparent about this and try to work with you to push through and complete the project, but sometimes, it may be necessary to move on or to augment your contribution with another resource which would result in a split bounty.
+The code at the following repo was submitted by github user di-wu:  [https://github.com/aviate-labs/uuid.mo](https://github.com/aviate-labs/uuid.mo)  and is available for review.
 
 ## Funding
 
