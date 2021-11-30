@@ -24,4 +24,6 @@ ICDevs.org is completely independent from the DFINITY Foundation and the ICA. Ou
 * [Meet our Board and Advisors](/board.html)
 * [Meet our Developer Advisory Committee](/developer_advisory_committee.html)
 * [Read our Bylaws](/bylaws.html)
+* [Find a bounty to complete and earn ICP](/bounties.html)
+* [Explore the languages we are creating to help build the interent computer](/language_project/index.html)
 

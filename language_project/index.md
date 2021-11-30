@@ -25,7 +25,7 @@ A pattern language provides a set of interconnected patterns that that support e
 
 A generative language provides a set of perscriptive actions that ensure the proper transformation and evolution of a living and dynamic system.
 
-This collection should be a living document that evolves along with the technology, culture, and political climate that manifestis over the years.  ICDevs.org has published this repository at https://github.com/icdevs/https://github.com/icdevs/Icdevs_fleeksite/_language_project. We accept issues, debate, and pull requests to help augment the material available to the developer community.  We expect this to be an ongoing project that is ‘never finished’ and that many valid patterns and forms will be superseded by more ‘correct’ and advantageous patterns and forms.
+This collection should be a living document that evolves along with the technology, culture, and political climate that manifestis over the years.  ICDevs.org has published this repository at [github](https://github.com/icdevs/Icdevs_fleeksite/tree/main/language_project). We accept issues, debate, and pull requests to help augment the material available to the developer community.  We expect this to be an ongoing project that is ‘never finished’ and that many valid patterns and forms will be superseded by more ‘correct’ and advantageous patterns and forms.
 
 For a full example of these kinds of languages, see [Immortality](https://amzn.to/3d1WJwd) by our Executive Director, Austin Fatheree. [gitbook](https://skilesare.github.io/immortality).
 

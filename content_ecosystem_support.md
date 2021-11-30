@@ -5,6 +5,10 @@
 
 {% include_relative content_bounties.md %}
 
+## [The Language Project](/language_project/index.html)
+
+Defining a Form, Pattern, and Generative Language for the Internet Computer.
+
 ## Road Map(Increasing donations and dedicated neurons will help us accelerate our roadmap):
 
 ### Motoko file utilities:
