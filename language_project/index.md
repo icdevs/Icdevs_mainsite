@@ -13,40 +13,37 @@ layout: home
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-# Meet our Developer Advisory Committee
+# The Language Project
 
-The Developer Advisory Committee coordinates the grants, prizes, educational, and developmental priorities of the ICDevs.org organization.  The group follows a governance process to propose and ratify the funding goals of the organization.  Each member is an experienced Internet Computer Developer with significant buy-in to the Internet Computer Ecosystem.
+The “Languages Project” is an attempt by ICDevs.org to contribute to the adoption of the Internet Computer by creating generative, form, and pattern language to the community that provides a common set of communication tools that foster well-formed, productive, interoperable, and collaborative systems for innovation on and around the Internet Computer ecosystem.
 
-## Our Developer Advisor Board Members:
+The “Languages Project” is loosely based on the work of Christopher Alexander in is various works on Architecture including [The Timeless Way of Bulding](https://amzn.to/3o8dZ9h), [A Pattern Language](https://amzn.to/3D7BgMP), [The Nature of Order](https://amzn.to/3xGBGJ1), Volumes [1](https://amzn.to/31efud2), [2](https://amzn.to/3d5lffP), [3](https://amzn.to/3xDDfrd) and [4](https://amzn.to/3D8QLnU).  These ideas have been applied to computer systems in [Thriving Systems Theory and Metaphor-Driven Modeling](https://amzn.to/3D95gI8) by Leslie Waguespack.
 
-* [Jordan Last](https://github.com/lastmjs) - Defender of the Internet Computer / Creator of Sudograph / Host of the Demergence podcast
-* [Integral Wizard](https://twitter.com/integral_wizard)
-* cryptoschindler - former community organizer [@dfinity](https://twitter.com/dfinity) | [@waterslide_app](https://twitter.com/waterslide_app) frontend provider for [@LiquityProtocol](https://twitter.com/LiquityProtocol) | plants | coding
-* [quint](https://github.com/di-wu)
+A form language provides clear language around the domain objects, processes, and repeatable patterns that can be used to accelerate building new systems.
 
-## Apply to be a Developer Advisory Board(limited):
+A pattern language provides a set of interconnected patterns that that support each other in building up a domain. In our case we are interested in patterns that support an open and interoperable Internt Computer.
 
-## Requirements:
+A generative language provides a set of perscriptive actions that ensure the proper transformation and evolution of a living and dynamic system.
 
-* Demonstrated Familiarity with Internet Computer Development. Send us your github.
-* A commitment to participate in the on-chain governance process in a timely manner. You don't have to actively vote, but we'd love for you to.
-* Liquid Donation of 60+ ICP or Dedicate a 100+ ICP - 8 year neuron.  You can find dedication instructions on the [donations page](/donations.html).
+This collection should be a living document that evolves along with the technology, culture, and political climate that manifestis over the years.  ICDevs.org has published this repository at https://github.com/icdevs/https://github.com/icdevs/Icdevs_fleeksite/_language_project. We accept issues, debate, and pull requests to help augment the material available to the developer community.  We expect this to be an ongoing project that is ‘never finished’ and that many valid patterns and forms will be superseded by more ‘correct’ and advantageous patterns and forms.
 
+For a full example of these kinds of languages, see [Immortality](https://amzn.to/3d1WJwd) by our Executive Director, Austin Fatheree. [gitbook](https://skilesare.github.io/immortality).
 
-## Apply to be a Developer Advisory Committee:
+## The Form Language
 
-## Requirements:
+### Network Level Forms
 
-* Demonstrated Familiarity with Internet Computer Development. Send us your github.
-* A commitment to participate in the on-chain governance process in a timely manner. You don't have to actively vote, but we'd love for you to.
-* A dedicated neuron contributing to the ICDevs.org ecosystem. Please send us your dedicated 18+ ICP 8 year locked neuron address.  You can find dedication instructions on the [donations page](/donations.html).
+1. Canisters
+2. Subnets
+3. Nodes
 
+## The Pattern Language
 
-Send this info to admin@icdevs.org along with the principal on axon.ooo that you'd like us to assign to your voting token and we'll get you set up on axon.
+Services on the Interent Computer should exhibit
 
-* [Meet our Board and Advisors](/board.html)
-* [Meet our Developer Advisory Committee](/developer_advisory_committee.html)
-* [Read our Bylaws](/bylaws.html)
-* [Who we are](/who_we_are.html)
+[INT. Interoperability](interoperability.html)
 
+...by using...
+
+[NSP. Namespaced Interfaces](namespaced_interfaces.html)
 
