@@ -21,7 +21,7 @@ The Developer Advisory Committee coordinates the grants, prizes, educational, an
 
 * [Jordan Last](https://github.com/lastmjs) - Defender of the Internet Computer / Creator of Sudograph / Host of the Demergence podcast
 * [Integral Wizard](https://twitter.com/integral_wizard)
-* cryptoschindler - former community organizer [@dfinity](https://twitter.com/dfinity) | [@waterslide_app](https://twitter.com/waterslide_app) frontend provider for [@LiquityProtocol](https://twitter.com/LiquityProtocol) | plants | coding
+* [cryptoschindler](https://twitter.com/cryptoschindler) - former community organizer [@dfinity](https://twitter.com/dfinity) / [@waterslide_app](https://twitter.com/waterslide_app) frontend provider for [@LiquityProtocol](https://twitter.com/LiquityProtocol) / plants / coding
 * [quint](https://github.com/di-wu)
 
 ## Apply to be a Developer Advisory Board(limited):
