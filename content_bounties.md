@@ -16,7 +16,7 @@ If you have a piece of functionality that you need for your application and woul
 {:start="5"}
 5. [CBOR developer plug-in](https://icdevs.org/bounties/2021/11/23/CBOR-plug-in.html) - 10 ICP, 10 ICP Match Available
 
-## Bounties in Review
+## Awarded Bounties
 
 {:start="3"}
 3. [ULID Motoko Library](https://icdevs.org/bounties/2021/11/08/ULID-motoko-library.html) - 20 ICP, 20 ICP Match Available

@@ -10,20 +10,18 @@ author: Austin Fatheree
 
 ## Current Status: Discussion
 
-* Discussion (11/17/2021) <- We are here
+* Discussion (11/17/2021)
 * Ratification (11/19/2021)
 * Open for application (11/19/2021)
 * Assigned (11/19/2021)
-* **In Review** (11/23/2021) <- We are here
-* Closed
+* In Review (11/23/2021)
+* **Closed** (12/7/2021)
 
 [Issue Link - Discussion Forum](https://forum.dfinity.org/t/icdevs-org-bounty-4-uuid-motoko-library/8648)
 
 ## Bounty Details
 
-* Current Bounty Amount: 20 ICP
-* ICDevs.org Match Available: 20 ICP - (For every ICP sent to 66083bb3c940c7de2a70aa127ec771da75d60deadc10f5f66b280f203d8f6e73, ICDevs.org will add one more ICP to the bounty, up to 20 ICP, After 20 ICP, Donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
-* Time Left: Expires 12/31/2022
+* Bounty Amount: 20 ICP
 * Project Type: Single Contributor
 * Opened: 11/17/2021
 * Time Commitment: Days
@@ -59,11 +57,15 @@ Github user @di-wu was selected for this bounty.
 
 ## Bounty Completion:
 
-The code at the following repo was submitted by github user di-wu:  [https://github.com/aviate-labs/uuid.mo](https://github.com/aviate-labs/uuid.mo)  and is available for review.
+The code at the following repo was submitted by github user di-wu:  [https://github.com/aviate-labs/uuid.mo](https://github.com/aviate-labs/uuid.mo) and is available for review.
 
 ## Funding
 
 The bounty was generously funded by a donor(The Dragginz Team). If you would like to turbocharge this bounty you can seed additional donations of ICP to 66083bb3c940c7de2a70aa127ec771da75d60deadc10f5f66b280f203d8f6e73.  ICDevs will match the bounty 1:1 for the first 20 ICP and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+
+## Award
+
+Github user @di-wu forfeited this bounty back to the ICDevs.org treasury.
 
 ## General Bounty Process
 

@@ -14,17 +14,14 @@ author: Austin Fatheree
 * Ratification (11/19/2021)
 * Open for application (11/19/2021)
 * Assigned (11/19/2021)
-* **In Review** (11/23/2021) <- We are here
-* Closed
+* In Review (11/23/2021)
+* **Closed** (127/2021)
 
 [Issue Link - Discussion Forum](https://forum.dfinity.org/t/icdevs-org-bounty-3-ulid-motoko-library/8473)
 
 ## Bounty Details
 
-* Current Bounty Amount: 20 ICP
-* ICDevs.org Match Available: 20 ICP - (For every ICP sent to 860bd56f4c8a9d40f26462e51e2a4dd4e27cf0e1463372a1179df089695bfd63, ICDevs.org will add one more ICP to the bounty, up to 20 ICP, After 20 ICP, Donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
-* Time Left: Expires 12/31/2022
-* Project Type: Single Contributor
+* Bounty Amount: 20 ICP
 * Opened: 11/08/2021
 * Time Commitment: Days
 * Project Type: Traditional
@@ -59,13 +56,13 @@ Github user @di-wu was selected for this bounty.
 
 The code at the following repo was submitted by github user di-wu:  [https://github.com/aviate-labs/ulid.mo](https://github.com/aviate-labs/ulid.mo)  and is available for review.
 
-## Bounty Abandonment and Re-awarding
-
-If you cease work on the bounty for a prolonged(at the Developer Advisory Board's discretion) or if the quality of work degrades to the point that we think someone else should be working on the bounty we may re-award it.  We will be transparent about this and try to work with you to push through and complete the project, but sometimes, it may be necessary to move on or to augment your contribution with another resource which would result in a split bounty.
-
 ## Funding
 
 The bounty was generously funded by a donor(The Dragginz Team). If you would like to turbocharge this bounty you can seed additional donations of ICP to 860bd56f4c8a9d40f26462e51e2a4dd4e27cf0e1463372a1179df089695bfd63.  ICDevs will match the bounty 1:1 for the first 20 ICP and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+
+## Award
+
+Github user @di-wu forfeited this bounty back to the ICDevs.org treasury.
 
 ## General Bounty Process
 
