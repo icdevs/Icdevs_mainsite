@@ -4,7 +4,7 @@ ICDevs.org funds code bounties. These bounties are meant to be both challenges t
 
 ## Directly sponsor a bounty:
 
-If you have a piece of functionality that you need for your application and would like to sponsor a bounty, please reach out to us specific details around endowing a bounty.  A 20 ICP bounty can be endowned by [donating](https://icdevs.org/donations.html) 90 ICP to ICDevs.  20 ICP goes directly to the first bounty, 60 goes into the ICDevs 8 year neuorn and will produce enough ICP maturity to fund another ~20 ICP bounty each year, and the final 10 ICP goes into the ICDevs Admin Fund.
+If you have a piece of functionality that you need for your application and would like to sponsor a bounty, please reach out to us specific details around endowing a bounty.  A 20 ICP bounty can be endowned by [donating](https://icdevs.org/donations.html) 90 ICP to ICDevs.  20 ICP goes directly to the first bounty, 60 goes into the ICDevs 8 year neuron and will produce enough ICP maturity to fund another ~20 ICP bounty each year, and the final 10 ICP goes into the ICDevs Admin Fund.
 
 ## Open Bounties
 
