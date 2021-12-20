@@ -15,6 +15,7 @@ If you have a piece of functionality that you need for your application and woul
 
 {:start="5"}
 5. [CBOR developer plug-in](https://icdevs.org/bounties/2021/11/23/CBOR-plug-in.html) - 10 ICP, 10 ICP Match Available
+6. [Integrate DAB with Stoic Wallet](https://icdevs.org/bounties/2021/12/17/DAB-and-Stoic-Integration.html) - 100 ICP, General fund match Available
 
 ## Awarded Bounties
 
