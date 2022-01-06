@@ -1,4 +1,15 @@
 
+# 💪🏾 Act now:
+
+* [Donate!](/donations.html)
+* [Dedicate a neuron!](/donations.html) - You keep your neuron's principal and the maturity benifits ICDevs.org
+* Submit a bounty idea to admin@icdevs.org
+* [Sponsor a Bounty for software you need built](/bounties.html)
+* [Endow the bug bounty](/bounties/2022/01/03/Bug-Bounty.html)
+* [Write a tutorial](/bounties/2021/10/25/speed-run-the-ic-bounty.html)
+* [Tackle a bounty and earn ICP](/bounties.html)
+* [Join the Developer Advisory Committee and help drive our agenda](/developer_advisory_committee.html)
+
 # 🖥️  Who we are:
 
 ICDevs.org (registered as The Internet Computer Developers Education and Discovery Corporation) is a 501(c)3 Texas Non-profit.

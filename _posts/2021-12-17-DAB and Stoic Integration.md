@@ -12,9 +12,9 @@ author: Austin Fatheree
 
 * Discussion (12/17/2021)
 * Ratification (12/20/2021)
-* **Open for application** (12/20/2021)
-* Assigned 
-* In Review 
+* Open for application (12/20/2021)
+* Assigned (12/22/2021)
+* **In Review** 
 * Closed 
 
 [Issue Link - Discussion Forum](https://forum.dfinity.org/t/icdevs-org-bounty-integrate-dab-with-stoic-wallet-6-100-icp/9824)
@@ -38,7 +38,7 @@ This bounty gives the opportunity to
 * learn how to cross call different services and standards on the IC
 
 
-[DAB](https://docs.dab.ooo/nft-list/getting-started/_) is a service that allows NFT developers to register their canister and type of standard used with a central repository. Once submitted to DAB, a simple interface can be used to retrieve all of a user's NFT, send NFTs, and to get token details.
+[DAB](https://docs.dab.ooo/nft-list/getting-started) is a service that allows NFT developers to register their canister and type of standard used with a central repository. Once submitted to DAB, a simple interface can be used to retrieve all of a user's NFT, send NFTs, and to get token details.
 
 [Stoic wallet](https://stoicwallet.com) is a popular wallet used to interact with Etrepot and other Toniq labs based applications. The current process for adding new NFTs to Stoic wallet is to submit a pull request at github(https://github.com/Toniq-Labs/stoic-wallet) that specifically handles the NFT canister's NFT implementation or to implement a number of Stoic specific functions into the canister and add the canister manually by principle ID.
 

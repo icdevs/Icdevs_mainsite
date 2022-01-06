@@ -44,6 +44,13 @@ The Developer Advisory Committee coordinates the grants, prizes, educational, an
 
 Send this info to admin@icdevs.org along with the principal on axon.ooo that you'd like us to assign to your voting token and we'll get you set up on axon.
 
+## Voting
+
+Once the Developer Advisory Committee voting axon fork is live, we will submit governance and other relevant NNS topics to the system.  Developer Advisory Committee members may vote to approve or reject the topics and the vote of the ICDevs.org neuron will will be decided by majority vote of the Committee.
+
+The ICDevs.org neuron is currently configured to folllow cycle_dao and the ICP Maximalist Network neurons for governance topics that ICDevs.org chooses not to proactivly vote on.
+
+
 * [Meet our Board and Advisors](/board.html)
 * [Meet our Developer Advisory Committee](/developer_advisory_committee.html)
 * [Read our Bylaws](/bylaws.html)
