@@ -18,6 +18,7 @@ If you have a piece of functionality that you need for your application and woul
 
 {:start="7"}
 7. [Bug Bounty](https://icdevs.org/bounties/2022/01/03/Bug-Bounty.html) - 40 ICP, Endowment Available
+8. [HttpRequest Parser](https://icdevs.org/bounties/2022/01/11/HTTPRequest-Parser.html)
 
 ## Under Review
 
