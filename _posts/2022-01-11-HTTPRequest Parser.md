@@ -49,8 +49,7 @@ The developer will need to create a vessel package called HttpRequestParser that
             port: Nat16; //maybe always 443? What about local replica?
             host: {
                 original: Text;
-                array: Array<Text>; //(canisterID at 0, ic0 at 1, app at 2) //will we always have this structure?
-                canister: Principal; //parse the canisterID into a principal
+                array: Array<Text>; // host split at the "."s
             };
             path: {
                 original: Text;
@@ -58,7 +57,7 @@ The developer will need to create a vessel package called HttpRequestParser that
             };
             query: {
                 original: Text; //everything after the ? and before an anchor
-                get: (Text) -> ?Text; //pass in a key and get value. null if not present
+                get: (Text) -> ?Text; //helper function: pass in a key and get value. null if not present
                 hashMap: HashMap<Text, Text>;
                 keys: [Text]; //list of query keys
             };
@@ -67,22 +66,22 @@ The developer will need to create a vessel package called HttpRequestParser that
         };
         headers: {
             original: Array<(Text, Text)>;
-            get: (Text) -> ?Text //pass in a key and get value. null if not present
-            hashMap: HashMap<Text, Text>;
+            get: (Text) -> ?[Text] //helper function: pass in a key and get values. null if not present
+            hashMap: HashMap<Text, [Text]>;
             keys: [Text]; //list of header keys
         };
         body: ?{ //Get requests won't have a body
             original: Blob
             size: Nat; //size of the body
             form: { //if the content-type is as specified at https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST, parse the form and populate the collection
-                get: (Text) -> ?Text //pass in a key and get value. null if not present
-                hashMap: HashMap<Text, Text>;
-                keys: [Text]; //list of form keys
+                get: (Text) -> ?[Text] //helper function: pass in a key and get value. null if not present
+                hashMap: HashMap<Text, [Text]>;
+                keys: [Text]; //list of form keys;
+                files: (Text) -> ?[Buffer<Nat8>]; //helper function returns the formdata as a byte array; null if the form entry does not exist 
             };
             text: () -> Text; //converts the Blob to plain text
-            files: (Text) -> ?Buffer<Nat8>; //returns the formdata as a byte array; null if the form entry does not exist 
             file: () -> ?Buffer<Nat8>; //if not formdata and only one file is provided it will be here.
-            bytes: (start, end) -> Buffer<Nat8>;//return the specified bytes from the blob.
+            bytes: (start, end) -> Buffer<Nat8>;//helper function: return the specified bytes from the blob.
         };
 
     };

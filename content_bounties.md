@@ -11,10 +11,8 @@ If you have a piece of functionality that you need for your application and woul
 {:start="0"}
 0. [React-native agent](https://icdevs.org/bounties/2021/10/16/react-native-agent-bounty.html) - 31 ICP, 9 ICP Match Available
 1. [Basic tutorials and site](https://icdevs.org/bounties/2021/10/25/speed-run-the-ic-bounty.html) - 20 ICP, 20 ICP Match Available
-2. [Add Generic DAO functions and interface to axon](https://icdevs.org/bounties/2021/11/01/generic-dao-fork-axon-copy.html) - 10 ICP, 10 ICP Match Available
+2. [Add Generic DAO functions and interface to axon](https://icdevs.org/bounties/2021/11/01/generic-dao-fork-axon-copy.html) - 20 ICP, 20 ICP Match Available
 
-{:start="5"}
-5. [CBOR developer plug-in](https://icdevs.org/bounties/2021/11/23/CBOR-plug-in.html) - 10 ICP, 10 ICP Match Available
 
 {:start="7"}
 7. [Bug Bounty](https://icdevs.org/bounties/2022/01/03/Bug-Bounty.html) - 40 ICP, Endowment Available
@@ -30,3 +28,4 @@ If you have a piece of functionality that you need for your application and woul
 {:start="3"}
 3. [ULID Motoko Library](https://icdevs.org/bounties/2021/11/08/ULID-motoko-library.html) - 20 ICP
 4. [UUID Motoko Library](https://icdevs.org/bounties/2021/11/17/UUID-motoko-library.html) - 20 ICP
+5. [CBOR developer plug-in](https://icdevs.org/bounties/2021/11/23/CBOR-plug-in.html) - 10 ICP
