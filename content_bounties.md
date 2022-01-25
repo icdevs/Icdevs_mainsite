@@ -9,19 +9,20 @@ If you have a piece of functionality that you need for your application and woul
 ## Open Bounties
 
 {:start="0"}
-0. [React-native agent](https://icdevs.org/bounties/2021/10/16/react-native-agent-bounty.html) - 31 ICP, 9 ICP Match Available
-1. [Basic tutorials and site](https://icdevs.org/bounties/2021/10/25/speed-run-the-ic-bounty.html) - 20 ICP, 20 ICP Match Available
-2. [Add Generic DAO functions and interface to axon](https://icdevs.org/bounties/2021/11/01/generic-dao-fork-axon-copy.html) - 20 ICP, 20 ICP Match Available
+0. [React-native agent](/bounties/2021/10/16/react-native-agent-bounty.html) - 31 ICP, 9 ICP Match Available
+1. [Basic tutorials and site](/bounties/2021/10/25/speed-run-the-ic-bounty.html) - 20 ICP, 20 ICP Match Available
+2. [Add Generic DAO functions and interface to axon](/bounties/2021/11/01/generic-dao-fork-axon-copy.html) - 20 ICP, 20 ICP Match Available
 
 
 {:start="7"}
-7. [Bug Bounty](https://icdevs.org/bounties/2022/01/03/Bug-Bounty.html) - 40 ICP, Endowment Available
-8. [HttpRequest Parser](https://icdevs.org/bounties/2022/01/11/HTTPRequest-Parser.html)
+7. [Bug Bounty](/bounties/2022/01/03/Bug-Bounty.html) - 40 ICP, Endowment Available
+8. [HttpRequest Parser](/bounties/2022/01/11/HTTPRequest-Parser.html) - 20 ICP, 20 ICP Match Available
+9. [Cover Browser Extention](/bounties/2022/01/19/Cover-Browser-Extension.html) - 50 ICP, 40 ICP Match Available
 
 ## Under Review
 
 {:start="6"}
-6. [Integrate DAB with Stoic Wallet](https://icdevs.org/bounties/2021/12/17/DAB-and-Stoic-Integration.html) - 100 ICP, General fund match Available
+6. [Integrate DAB with Stoic Wallet](https://icdevs.org/bounties/2021/12/17/DAB-and-Stoic-Integration.html) - 100 ICP
 
 ## Awarded Bounties
 

@@ -22,7 +22,7 @@ author: Austin Fatheree
 ## Bounty Details
 
 * Current Bounty Amount: 20 ICP + 11 ICP Matched
-* ICDevs.org Match Available: 19 ICP - (For every ICP sent to e156fe180f0f6deffa87344390dc45b2e6d4483d4007f6ea8f3f4d89e56fa5d2, ICDevs.org will add one more ICP to the bounty, up to 20 ICP, After 20 ICP, Donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* ICDevs.org Match Available: 19 ICP - (For every ICP sent to e156fe180f0f6deffa87344390dc45b2e6d4483d4007f6ea8f3f4d89e56fa5d2, ICDevs.org will add 2 more ICP to the bounty, up to 10 ICP, After 10 ICP, Donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
 * Time Left: Expires 12/31/2022
 * Project Type: Single Contributor
 * Opened: 10/18/2021
@@ -68,7 +68,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the community. If you would like to turbocharge this bounty you can seed additional donations of ICP to e156fe180f0f6deffa87344390dc45b2e6d4483d4007f6ea8f3f4d89e56fa5d2.  ICDevs will match the bounty 1:1 for the first 20 ICP and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the community. If you would like to turbocharge this bounty you can seed additional donations of ICP to e156fe180f0f6deffa87344390dc45b2e6d4483d4007f6ea8f3f4d89e56fa5d2.  ICDevs will match the bounty 2:1 for the first 20 ICP and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 ## General Bounty Process
 
