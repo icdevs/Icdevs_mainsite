@@ -17,7 +17,7 @@ author: Austin Fatheree
 * In Review 
 * Closed 
 
-[Issue Link - Discussion Forum]()
+[Issue Link - Discussion Forum](https://forum.dfinity.org/t/icdevs-org-bounty-9-cover-browser-plugin/10485)
 
 ## Bounty Details
 

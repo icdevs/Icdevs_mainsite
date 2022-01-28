@@ -4,7 +4,12 @@ ICDevs.org funds code bounties. These bounties are meant to be both challenges t
 
 ## Directly sponsor a bounty:
 
-If you have a piece of functionality that you need for your application and would like to sponsor a bounty, please reach out to us specific details around endowing a bounty.  A 20 ICP bounty can be endowned by [donating](https://icdevs.org/donations.html) 100 ICP to ICDevs.  20 ICP goes directly to the first bounty, 80 goes into a bounty 8 year neuorn. From this bounty neuron 2/3 of the maturity will fund more bounties and 1/3 will go into the general ICDevs.org endowment neuron.
+If you have a piece of functionality that you need for your application and would like to sponsor a bounty, please reach out to us with specific details around endowing a bounty.  A 20 ICP bounty can be endowed by [donating](https://icdevs.org/donations.html) 100 ICP to ICDevs.  20 ICP goes directly to the first bounty, 80 goes into a bounty 8 year neuorn. From this bounty neuron 2/3 of the maturity will fund more bounties and 1/3 will go into the general ICDevs.org endowment neuron.
+
+## Accelerate a bounty:
+
+DFINITY has awarded ICDevs.org a Bounty Accelerator Grant. For each ICP donated to ICDevs on behalf of an open bounty, we will add 2 ICP to that bounty from the grant. (Maximums Apply)  Pick your favorite bounty and spend DFINITY's money.  Donations are tax-deductible for US Citizens and Corporations.
+
 
 ## Open Bounties
 
@@ -18,6 +23,8 @@ If you have a piece of functionality that you need for your application and woul
 7. [Bug Bounty](/bounties/2022/01/03/Bug-Bounty.html) - 40 ICP, Endowment Available
 8. [HttpRequest Parser](/bounties/2022/01/11/HTTPRequest-Parser.html) - 20 ICP, 20 ICP Match Available
 9. [Cover Browser Extention](/bounties/2022/01/19/Cover-Browser-Extension.html) - 50 ICP, 40 ICP Match Available
+10. [Motoko Prettier Plugin](/bounties/2022/01/19/Motoko-Prettier-Plugin.html) - 150 ICP, 100 ICP Match Available
+
 
 ## Under Review
 
