@@ -14,16 +14,16 @@ DFINITY has awarded ICDevs.org a Bounty Accelerator Grant. For each ICP donated 
 ## Open Bounties
 
 {:start="0"}
-0. [React-native agent](/bounties/2021/10/16/react-native-agent-bounty.html) - 31 ICP, 9 ICP Match Available
-1. [Basic tutorials and site](/bounties/2021/10/25/speed-run-the-ic-bounty.html) - 20 ICP, 20 ICP Match Available
-2. [Add Generic DAO functions and interface to axon](/bounties/2021/11/01/generic-dao-fork-axon-copy.html) - 20 ICP, 20 ICP Match Available
+0. [React-native agent](/bounties/2021/10/16/react-native-agent-bounty.html) - 21 ICP + $250 USD of ICP at award date, 9 ICP Match Available
+1. [Basic tutorials and site](/bounties/2021/10/25/speed-run-the-ic-bounty.html) - 20 ICP + $1000 USD of ICP on award date, $500 Match Available
+2. [Add Generic DAO functions and interface to axon](/bounties/2021/11/01/generic-dao-fork-axon-copy.html) - 10 ICP + $250 USD of ICP at award date, $500 Match Available
 
 
 {:start="7"}
-7. [Bug Bounty](/bounties/2022/01/03/Bug-Bounty.html) - 40 ICP, Endowment Available
-8. [HttpRequest Parser](/bounties/2022/01/11/HTTPRequest-Parser.html) - 20 ICP, 20 ICP Match Available
-9. [Cover Browser Extention](/bounties/2022/01/19/Cover-Browser-Extension.html) - 50 ICP, 40 ICP Match Available
-10. [Motoko Prettier Plugin](/bounties/2022/01/19/Motoko-Prettier-Plugin.html) - 150 ICP, 100 ICP Match Available
+7. [Bug Bounty](/bounties/2022/01/03/Bug-Bounty.html) - 20 ICP + $500 USD of ICP at award date, Endowment Available
+8. [HttpRequest Parser](/bounties/2022/01/11/HTTPRequest-Parser.html) -  10 ICP + $2000 USD of ICP at award date, $500 Match Available
+9. [Cover Browser Extention](/bounties/2022/01/19/Cover-Browser-Extension.html) - 10 ICP + $2000 USD of ICP at award date, $2000 ICP Match Available
+10. [Motoko Prettier Plugin](/bounties/2022/01/19/Motoko-Prettier-Plugin.html) - $4000 USD of ICP at award date - $2250 ICP Match Available
 
 
 ## Under Review
