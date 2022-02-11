@@ -10,15 +10,15 @@ author: Austin Fatheree
 
 ## Current Status: Discussion
 
-* **Discussion** (01/03/2022)
+* Discussion (01/03/2022)
 * Ratification 
-* Open 
+* Open (02/10/2022)
 
 [Issue Link - Discussion Forum](https://forum.dfinity.org/t/icdevs-org-bounty-7-bug-bounty/10153)
 
 ## Bounty Details
 
-* Current Bounty Account: 40 ICP
+* Current Bounty Account: 20 ICP + $500 USD of ICP at award date
 * Project Type: Ongoing
 * Opened: 01/03/2021
 * Time Commitment: Days
@@ -63,7 +63,7 @@ The bounty was generously funded by the community and a Foundation Accelerator o
 
 # Matches
 
-Acclerator Fund: - 20 ICP Direct
+Acclerator Fund: - $500 USD of ICP at award date
 
 # Endowments
 

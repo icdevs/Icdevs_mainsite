@@ -10,9 +10,9 @@ author: Austin Fatheree
 
 ## Current Status: Discussion
 
-* Discussion (01/19/2021)
-* Ratification 
-* Open for application 
+* Discussion (01/19/2022)
+* Ratification (02/10/2022)
+* Open for application (02/10/2022)
 * Assigned 
 * In Review 
 * Closed 
@@ -21,8 +21,8 @@ author: Austin Fatheree
 
 ## Bounty Details
 
-* Bounty Amount: 50 ICP - 40 ICP Match Available
-* ICDevs.org DFINITY Bounty Acclerator Grant Match Available: 40 ICP - (For every ICP sent to f2b488b80eb22bf57c1556683efcb51e090b46c181ca28e167e6f095223dfa3e, ICDevs.org will add two more ICP to the bounty, up to 40 ICP, After 40 ICP, Donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* Bounty Amount: 10 ICP + $2000 USD of ICP at award date - $2000 ICP Match Available
+* ICDevs.org DFINITY Bounty Acclerator Grant Match Available: 40 ICP - (For every ICP sent to f2b488b80eb22bf57c1556683efcb51e090b46c181ca28e167e6f095223dfa3e, ICDevs.org will add $50 more ICP at award date to the bounty, up to 40 ICP, After 40 ICP, Donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
 * Project Type: Single Contributor
 * Opened: 01/25/2021
 * Time Commitment: Days
@@ -113,7 +113,7 @@ The award has be been given and the bounty is closed.
 
 # Matches
 
-DFINITY Acclerator Grant: - 40 ICP
+DFINITY Acclerator Grant: - $2000 ICP at award date
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)

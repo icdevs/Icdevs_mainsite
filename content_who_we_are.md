@@ -8,6 +8,7 @@
 * [Endow the bug bounty](/bounties/2022/01/03/Bug-Bounty.html)
 * [Write a tutorial](/bounties/2021/10/25/speed-run-the-ic-bounty.html)
 * [Tackle a bounty and earn ICP](/bounties.html)
+* [Follow the ICDevs.org Neuron](/nns.html)
 * [Join the Developer Advisory Committee and help drive our agenda](/developer_advisory_committee.html)
 
 # 🖥️  Who we are:
