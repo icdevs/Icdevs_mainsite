@@ -63,7 +63,7 @@ The bounty was generously funded by the community and a Foundation Accelerator o
 
 # Matches
 
-Acclerator Fund: - $500 USD of ICP at award date
+Accelerator Fund: - $500 USD of ICP at award date
 
 # Endowments
 

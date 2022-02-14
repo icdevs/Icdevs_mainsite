@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Bounty - ICDevs.org Motoko Prettier Plugin"
-date:   2022-01-19 00:00:00 -0600
+title:  "Bounty - ICDevs.org Language Server Updates"
+date:   2022-02-12 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
@@ -17,12 +17,12 @@ author: Austin Fatheree
 * In Review 
 * Closed 
 
-[Forum Link - Discussion]()
+[Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-11-language-server-updates-3750/10885)
 
 ## Bounty Details
 
 * Bounty Amount: $3750 USD of ICP at award date - $2500 USD of ICP Match Available
-* ICDevs.org DFINITY Bounty Acclerator Grant Match Available: $2500 USD of ICP at award time - (For every ICP sent to edaa35657e696ec3ca92fc45edf8f7204139adea348d3f3fa17a26dffce8493b, ICDevs.org will add $125 USD of ICP at award date to the bounty, up to the first 20 ICP donated, After 20 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* ICDevs.org DFINITY Bounty Accelerator Grant Match Available: $2500 USD of ICP at award time - (For every ICP sent to edaa35657e696ec3ca92fc45edf8f7204139adea348d3f3fa17a26dffce8493b, ICDevs.org will add $125 USD of ICP at award date to the bounty, up to the first 20 ICP donated, After 20 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
 * Project Type: Single Contributor
 * Opened: 02/10/2021
 * Time Commitment: Days
@@ -38,11 +38,11 @@ This bounty gives the opportunity to
 * learn more javascript
 * learn about Language Servers
 
-The goal of this bounty is to augment [the motoko language server](https://github.com/dfinity/motoko/tree/master/src/languageServer) with additional features.  A Language Serever is a helpful tool that eases development in Visual Studio Code and other IDEs.
+The goal of this bounty is to augment [the motoko language server](https://github.com/dfinity/motoko/tree/master/src/languageServer) with additional features.  A Language Server is a helpful tool that eases development in Visual Studio Code and other IDEs.
 
 [Language Server Extention Guide](https://code.visualstudio.com/api/language-extensions/language-server-extension-guide)
 
-The following featues need to be added to the language server:
+The following features need to be added to the language server:
 
 * Support for multiple canisters in the same project
 * Refactoring Tools
@@ -111,7 +111,7 @@ The award has be been given and the bounty is closed.
 
 # Matches
 
-DFINITY Acclerator Grant: - $3750 USD of ICP at award date
+DFINITY Accelerator Grant: - $3750 USD of ICP at award date
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)

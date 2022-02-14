@@ -110,7 +110,7 @@ The award has be been given and the bounty is closed.
 
 DAB - 40 ICP
 Toniq Labs - 40 ICP
-Acclerator Fund: - 20 ICP Direct, 60 ICP General Fund
+Accelerator Fund: - 20 ICP Direct, 60 ICP General Fund
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)
