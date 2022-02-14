@@ -21,7 +21,7 @@ author: Austin Fatheree
 
 ## Bounty Details
 
-* Current Bounty Amount: 20 ICP + 1 ICP Matched + $250 USD of ICP at award date
+* Current Bounty Amount: 21 ICP + $250 USD of ICP at award date
 * ICDevs.org Match Available: 19 ICP - (For every ICP sent to e156fe180f0f6deffa87344390dc45b2e6d4483d4007f6ea8f3f4d89e56fa5d2, ICDevs.org will add $50 USD of ICP to the bounty at award date, up to 10 ICP, After 10 ICP, Donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
 * Time Left: Expires 12/31/2022
 * Project Type: Single Contributor
@@ -101,7 +101,7 @@ The award has be been given and the bounty is closed.
 Thank you to the amazing community who has contributed to help turbocharge this Bounty:
 
 1 ICP - Deepsea (Jeremy K)
-10 ICP - DFINITY Acceleration Grant
+$250 USD of ICP at award date - DFINITY Acceleration Grant
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)
