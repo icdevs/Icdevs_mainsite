@@ -12,8 +12,8 @@ author: Austin Fatheree
 
 * Discussion (10/25/2021)
 * Ratification (11/1/2021)
-* Open for application (11/2/2021)
-* **Assigned** (11/6/2021) <- We are here
+* ** Open for application ** (11/2/2021) <- We are here
+* Assigned
 * In Review
 * Closed
 
@@ -42,17 +42,15 @@ This bounty gives the opportunity to
 
 ICDevs would like help setting up our tutorials site and seeding it with an initial set of tutorials for developing on the IC.
 
-We will use google codelabs(https://codelabs.developers.google.com/) to create a site that will live at https://tutorials.icdebs.org. Code labs is a tool that lets you easily author and publish tutorials. You can begin to author them in google docs and then output the results to markdown.  Ultimately you'll need to publish your markdown versions as the canonical versions.  You will be free to start with markdown if you don't want to use google docs.  Here is a tutorial on how to build a tutorial using code lab(https://medium.com/@zarinlo/publish-technical-tutorials-in-google-codelab-format-b07ef76972cd)
+We will use retype(https://retype.com/) to create a site that will live at https://tutorials.icdevs.org. Retype is a tool that lets you easily author and publish tutorials. Here is a [tutorial on how to build a tutorial using retype](https://tutorials.icdevs.org/contribute/how-to/)
 
-This site will use Austin Griffith's Speed Run Ethereum article as a guide for what we want the first 1.0 version of this site to contain(https://medium.com/@austin_48503/%EF%B8%8Fethereum-dev-speed-run-bd72bcba6a4c). Obviously, at this point, we don't have anything as robust as scaffold.eth to piggyback off of, but hopefully we can use a combination of the motoko playground(https://m7sm4-2iaaa-aaaab-qabra-cai.raw.ic0.app/) and other resources to get people started.
+This site will use Austin Griffith's Speed Run Ethereum article as a guide for what we want the first 1.0 version of this site to contain [https://speedrunethereum.com/](https://speedrunethereum.com/). Obviously, at this point, we don't have anything as robust as scaffold.eth to piggyback off of, but hopefully we can use a combination of the motoko playground(https://m7sm4-2iaaa-aaaab-qabra-cai.raw.ic0.app/) and other resources to get people started.
 
 Ultimately this repository will be an open repo where any community member can build a tutorial for something they think is important to communicate to developers trying to level up their IC development skills.
 
-To claim this bounty you will need to do the following:
+To claim this bounty you will need to complete 5 of the following topics:
 
-* seed the repo at https://github.com/icdevs/ic_devs_org_tutorials with a google code labs site
-* document in the readme.md how to set up the site for further development by future devs
-* The following tutorials should be seeded with robust, easy to understand, instructional content
+* The following tutorials can be selected from, and you should create easy to understand, instructional content
     * Getting to know the motoko playground
     * Primitive Data Types in motoko
     * Understanding Types
@@ -63,6 +61,12 @@ To claim this bounty you will need to do the following:
     * Intercanister communication
     * Creating a simple Token
     * Serving a simple nft from http
+    * Decentralized Staking App
+    * Token Vendor
+    * Multisig Wallet
+    * Build a DEX
+    * SVG NFTs
+    * Oracles
 
 Some of this content may already exist. You are free to reach out to those authors and ask if you can reproduce their content in this repo. Please credit and link to them and the original content if and only if you receive permission.
 
@@ -88,13 +92,7 @@ The ICDevs.org developer's advisors will propose a vote to award the bounty and 
 
 Please keep your ongoing code in a public repository(fork or branch is ok). Please provide regular (at least weekly) updates.  Code commits count as updates if you link to your branch/fork from the bounty thread.  We just need to be able to see that you are making progress.
 
-This bounty will have a progressive payout according to the following schedule:
-
-5 ICP - Empty google code labs site crated, instructions for other devs running locally, and fleek hosting.
-Each one of the 10 listed tutorials: 2 ICP
-Completion: 5 ICP.
-
-If the community matches we'll adjust accordingly and up the reward for each tutorial by up to 2 ICP each, starting with the last tutorial and working back to 1.
+This bounty can be shared among authors.  The goal is to produce 5 starter tutorials.
 
 The balance will be paid out at completion.
 

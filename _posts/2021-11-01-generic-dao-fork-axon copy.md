@@ -21,8 +21,8 @@ author: Austin Fatheree
 
 ## Bounty Details
 
-* Current Bounty Amount: 10 ICP + $250 USD of ICP at award date
-* ICDevs.org Match Available: 20 ICP - (For every ICP sent to fca3c36aad1afdb8482670b4e644b73696155f18e02d12150ba997a628487abe, ICDevs.org will add $50 USD of ICP at award date to the bounty, up to 10 ICP, After 10 ICP, Donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* Current Bounty Amount: 10 ICP + $2000 USD of ICP at award date
+* ICDevs.org Match Available: $2000 USD of ICP at award time - (For every ICP sent to fca3c36aad1afdb8482670b4e644b73696155f18e02d12150ba997a628487abe, ICDevs.org will add $50 USD of ICP at award date to the bounty, up to 40 ICP, After 40 ICP, Donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
 * Time Left: Expires 12/31/2022
 * Project Type: Single Contributor
 * Opened: 11/01/2021
@@ -60,6 +60,7 @@ To claim this bounty you will need to do the following:
     * Add a screen to view a motion
     * update the logo and theme to focus on ICDevs.org powered by Axon
     * add an about link that links to an anchor at the bottom of the page where we can add informational html to the page.
+    * add the call_raw functionality coming in dfx 0.9.1 to allow a proposal that calls a function with a payload.  Please coordiante with the bounty hunter from the Motoko Wallet bounty on this feature.  You may also need to coordinate with the CBOR and Candid Motoko Parser bounty hunter to properly parse the payload.
 
 
 ## To apply for this bounty you should:
