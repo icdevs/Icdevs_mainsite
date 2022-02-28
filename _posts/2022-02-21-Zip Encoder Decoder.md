@@ -42,19 +42,19 @@ The goal of this bounty is to create an encoder/decoder to gzip/zlib data in mot
 
 More info about GZip can be found at:
 
-https://git.savannah.gnu.org/cgit/gzip.git/?h=v1.11
+[https://git.savannah.gnu.org/cgit/gzip.git/?h=v1.11](https://git.savannah.gnu.org/cgit/gzip.git/?h=v1.11)
 
-https://stackoverflow.com/questions/19746313/when-using-the-yui-compressor-should-i-combine-then-minify-or-minify-then-comb/19799494#19799494
+[https://stackoverflow.com/questions/19746313/when-using-the-yui-compressor-should-i-combine-then-minify-or-minify-then-comb/19799494#19799494](https://stackoverflow.com/questions/19746313/when-using-the-yui-compressor-should-i-combine-then-minify-or-minify-then-comb/19799494#19799494)
 
-http://www.infinitepartitions.com/art001.html
+[http://www.infinitepartitions.com/art001.html](http://www.infinitepartitions.com/art001.html)
 
-https://stackoverflow.com/questions/20762094/how-are-zlib-gzip-and-zip-related-what-do-they-have-in-common-and-how-are-they#:~:text=The%20main%20difference%20between%20zlib,that%20read%20and%20write%20the%20.
+[https://stackoverflow.com/questions/20762094/how-are-zlib-gzip-and-zip-related-what-do-they-have-in-common-and-how-are-they#:~:text=The%20main%20difference%20between%20zlib,that%20read%20and%20write%20the%20](https://stackoverflow.com/questions/20762094/how-are-zlib-gzip-and-zip-related-what-do-they-have-in-common-and-how-are-they#:~:text=The%20main%20difference%20between%20zlib,that%20read%20and%20write%20the%20)
 
 Example GZip/Zlib libraries can be found at:
 
-https://github.com/nodeca/pako
+[https://github.com/nodeca/pako](https://github.com/nodeca/pako)
 
-https://github.com/sile/libflate
+[https://github.com/sile/libflate](https://github.com/sile/libflate)
 
 The library will need to support compressing and uncompressing large data arrays that likely outrun the current cycle limit. You will need to use a library like [Pipelinify.mo](https://github.com/skilesare/pipelinify.mo). Using pipelinify is not required if another, better method is available.  The bounty applicant may also enhance pipelinify.mo for their needs.
 

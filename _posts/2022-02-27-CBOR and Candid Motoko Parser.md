@@ -42,13 +42,15 @@ The goal of this bounty is to produce two motoko libraries.
 
 More info about CBOR can be found at:
 
-https://cbor.io/
+[https://cbor.io/](https://cbor.io/)
 
 An example of cbor library can be found at:
 
-https://github.com/hildjj/node-cbor/tree/main/packages/cbor/lib
+[https://github.com/hildjj/node-cbor/tree/main/packages/cbor/lib](https://github.com/hildjj/node-cbor/tree/main/packages/cbor/lib)
 
-DFINITY uses CBOR in the agent-js library as well. The implementation can be found at https://github.com/dfinity/agent-js/blob/main/packages/agent/src/cbor.ts
+DFINITY uses CBOR in the agent-js library as well. The implementation can be found at [https://github.com/dfinity/agent-js/blob/main/packages/agent/src/cbor.ts](https://github.com/dfinity/agent-js/blob/main/packages/agent/src/cbor.ts)
+
+Github user Nomeata has done some cbor(only on binaries) at [https://github.com/nomeata/motoko-certified-http](https://github.com/nomeata/motoko-certified-http) which may demonstrate some good paterns for parsing and constructing CBOR.
 
 We need a CBOR library in motoko because the new call_raw functionality allows a motoko canister to receive Binary Represented data from a server.  A wallet may want to filter this call and decide if it wants to pass it on to another IC service by data inside the encoded representation.  The cbor plug in will allow a wallet author to inspect the payload and make decisions about the call.
 
@@ -56,11 +58,11 @@ The opposite is also possible, where a wallet may want to be able to construct a
 
 Once CBOR is decoded it needs to be synced with the cadid representation of the service it was encoded for. If you want to be able to tell what property is what in your function call package you need to know the candid that was used to encode the package.  
 
-The Candid parsing logic can be found for the agent-js library at: https://github.com/dfinity/agent-js/blob/main/packages/candid/src/candid-core.ts
+The Candid parsing logic can be found for the agent-js library at: [https://github.com/dfinity/agent-js/blob/main/packages/candid/src/candid-core.ts](https://github.com/dfinity/agent-js/blob/main/packages/candid/src/candid-core.ts)
 
 These libraries will often be used together to parse and encode binary data.
 
-The developer is welcome to attempt to refactor the Candy Library at https://github.com/aramakme/candy_library to host the candid parser as that was one of the initial intents of that library.
+The developer is welcome to attempt to refactor the Candy Library at [https://github.com/aramakme/candy_library](https://github.com/aramakme/candy_library) to host the candid parser as that was one of the initial intents of that library.
 
 A full set of tests should be implemented.
 

@@ -57,9 +57,9 @@ Storage keys are stored as a keccak hash of the variable name so you will need t
 
 Receipt proofs contain a bloom filter and you will need to create/use a motoko library that processes those.
 
-https://medium.com/hackernoon/getting-deep-into-ethereum-how-data-is-stored-in-ethereum-e3f669d96033
+[https://medium.com/hackernoon/getting-deep-into-ethereum-how-data-is-stored-in-ethereum-e3f669d96033](https://medium.com/hackernoon/getting-deep-into-ethereum-how-data-is-stored-in-ethereum-e3f669d96033)
 
-https://ethereum.stackexchange.com/questions/5888/relationship-between-transaction-trie-and-receipts-trie
+[https://ethereum.stackexchange.com/questions/5888/relationship-between-transaction-trie-and-receipts-trie](https://ethereum.stackexchange.com/questions/5888/relationship-between-transaction-trie-and-receipts-trie)
 
 The package should be deployed as a vessel package.
 

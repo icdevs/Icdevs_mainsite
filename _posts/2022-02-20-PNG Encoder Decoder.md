@@ -42,14 +42,18 @@ The goal of this bounty is to create an encoder/decoder for PNG written in Motok
 
 More info about PNG can be found at:
 
-https://www.w3.org/TR/2003/REC-PNG-20031110/
+[https://www.w3.org/TR/2003/REC-PNG-20031110/](https://www.w3.org/TR/2003/REC-PNG-20031110/)
 
 Example PNG libraries can be found at:
 
-https://github.com/image-rs/image-png
-https://docs.rs/png/0.17.3/png/https://docs.rs/png/0.17.3/png/
+* [https://github.com/image-rs/image-png](https://github.com/image-rs/image-png)
+* [https://docs.rs/png/0.17.3/png/](https://docs.rs/png/0.17.3/png/)
+* [https://github.com/saschaklick/jspng](https://github.com/saschaklick/jspng)
+
 
 The library will need to support decoding and encoding large images that likely outrun the current cycle limit. You will need to use a library like [Pipelinify.mo](https://github.com/skilesare/pipelinify.mo). Using pipelinify is not required if another, better method is available.  The bounty applicant may also enhance pipelinify.mo for their needs.
+
+Some work on this issue can be found at [https://github.com/aviate-labs/png.mo](https://github.com/aviate-labs/png.mo)
 
 The library will need to provide the following functions(or equivalent with a different multi-step processing library):
 
