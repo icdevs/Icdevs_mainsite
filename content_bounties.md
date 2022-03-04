@@ -8,7 +8,7 @@ If you have a piece of functionality that you need for your application and woul
 
 ## Accelerate a bounty:
 
-DFINITY has awarded ICDevs.org a Bounty Accelerator Grant. For each ICP donated to ICDevs on behalf of an open bounty, we will add 2 ICP to that bounty from the grant. (Maximums Apply)  Pick your favorite bounty and spend DFINITY's money.  Donations are tax-deductible for US Citizens and Corporations.
+DFINITY has awarded ICDevs.org a Foundation Grant. For each ICP donated to ICDevs on behalf of an open bounty, we will add 2 ICP to that bounty from the grant. (Maximums Apply)  Pick your favorite bounty and spend DFINITY's money.  Donations are tax-deductible for US Citizens and Corporations.
 
 
 ## Open Bounties
@@ -30,7 +30,7 @@ DFINITY has awarded ICDevs.org a Bounty Accelerator Grant. For each ICP donated 
 14. [Big SHA256](/bounties/2022/02/22/Big-SHA256.html) - $1,000 USD of ICP at award date, $1,000 USD of ICP Match Available
 15. [Motoko Wallet](/bounties/2022/02/23/Motoko-Wallet.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
 16. [EVM Witness Library](/bounties/2022/02/24/EVM-Witness-Library.html) - $8,000 USD of ICP at award date, $2,000 USD of ICP Match Available
-17. [A DAO for Cycles](/bounties/2022/02/25/A-DAO-for-Cycles.html) - $8,000 USD of ICP at award date, $2,000 USD of ICP Match Available
+17. [A DAO for Cycles](/bounties/2022/02/25/A-DAO-for-Cycles.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
 18. [Bitcoin on the IC Reference Implementation](/bounties/2022/02/26/Bitcoin-on-the-IC-Reference-Implementation.html) - $10,000 USD of ICP at award date
 19. [CBOR and Candid Motoko Parser](/bounties/2022/02/22/CBOR-and-Candid-Motoko-Parser.html) - $3,000 USD of ICP at award date, $3,000 USD of ICP Match Available
 

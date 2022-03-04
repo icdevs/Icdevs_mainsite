@@ -22,7 +22,7 @@ author: Austin Fatheree
 ## Bounty Details
 
 * Bounty Amount: $10,000 USD of ICP at award date 
-* ICDevs.org DFINITY Bounty Accelerator Grant Match Available: $10000 USD of ICP at award time. If you would like to accelerate this bounty, donations to 76aeadf2a9cfa62c3b8543360f18d90cff46e03e39afaf8d9604d3f2c46ec069 will add .75 ICP to this issue and .25 ICP to fund other ICDevs.org initiatives.
+* ICDevs.org DFINITY Foundation Grant Match Available: $10000 USD of ICP at award time. If you would like to accelerate this bounty, donations to 76aeadf2a9cfa62c3b8543360f18d90cff46e03e39afaf8d9604d3f2c46ec069 will add .75 ICP to this issue and .25 ICP to fund other ICDevs.org initiatives.
 * Project Type: Team
 * Opened: 02/26/2021
 * Time Commitment: Weeks
@@ -113,7 +113,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation Accelerator. If you would like to turbocharge this bounty you can seed additional donations of ICP to 76aeadf2a9cfa62c3b8543360f18d90cff46e03e39afaf8d9604d3f2c46ec069.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 76aeadf2a9cfa62c3b8543360f18d90cff46e03e39afaf8d9604d3f2c46ec069.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## General Bounty Process
@@ -144,7 +144,7 @@ The award has be been given and the bounty is closed.
 
 # Matches
 
-DFINITY Accelerator Grant: - $10000 USD of ICP at award date
+DFINITY Foundation Grant: - $10000 USD of ICP at award date
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)

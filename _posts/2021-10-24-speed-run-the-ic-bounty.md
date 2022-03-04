@@ -136,7 +136,7 @@ The award has be been given and the bounty is closed.
 
 # Matches
 
-$1000 USD worth of ICP at award date - DFINITY Acceleration Grant
+$1000 USD worth of ICP at award date - DFINITY Foundation Grant
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)

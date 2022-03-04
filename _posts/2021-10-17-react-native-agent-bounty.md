@@ -101,7 +101,7 @@ The award has be been given and the bounty is closed.
 Thank you to the amazing community who has contributed to help turbocharge this Bounty:
 
 1 ICP - Deepsea (Jeremy K)
-$250 USD of ICP at award date - DFINITY Acceleration Grant
+$250 USD of ICP at award date - DFINITY Foundation Grant
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)

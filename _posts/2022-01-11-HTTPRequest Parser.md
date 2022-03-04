@@ -22,7 +22,7 @@ author: Austin Fatheree
 ## Bounty Details
 
 * Current Bounty Amount: 10 ICP + $2000 USD of ICP at award date
-* ICDevs.org DFINITY Bounty Accelerator Grant Match Available: 20 ICP - (For every ICP sent to 860bd56f4c8a9d40f26462e51e2a4dd4e27cf0e1463372a1179df089695bfd63, ICDevs.org will add $50 more ICP to the bounty, up to 10 ICP, After 10 ICP, Donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* ICDevs.org DFINITY Foundation Grant Match Available: 20 ICP - (For every ICP sent to 860bd56f4c8a9d40f26462e51e2a4dd4e27cf0e1463372a1179df089695bfd63, ICDevs.org will add $50 more ICP to the bounty, up to 10 ICP, After 10 ICP, Donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
 * Time Left: Expires 12/31/2022
 * Project Type: Single Contributor
 * Opened: 01/22/2022
@@ -118,7 +118,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the community and the DFINITY Bounty Accelerator Grant. If you would like to turbocharge this bounty you can seed additional donations of ICP to 860bd56f4c8a9d40f26462e51e2a4dd4e27cf0e1463372a1179df089695bfd63.  ICDevs will match the bounty 1:1 for the first 20 ICP and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the community and the DFINITY Foundation Grant. If you would like to turbocharge this bounty you can seed additional donations of ICP to 860bd56f4c8a9d40f26462e51e2a4dd4e27cf0e1463372a1179df089695bfd63.  ICDevs will match the bounty 1:1 for the first 20 ICP and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 ## General Bounty Process
 
@@ -148,7 +148,7 @@ The award has be been given and the bounty is closed.
 
 # Matches
 
-$2000 ICP - DFINITY Accelerator Grant
+$2000 ICP - DFINITY Foundation Grant
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)

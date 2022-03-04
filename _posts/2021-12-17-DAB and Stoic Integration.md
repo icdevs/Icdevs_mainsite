@@ -77,7 +77,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by DAB/Psycadelic(40 ICP), Toniq Labs(40 ICP), and a Foundation Accelerator of 20 more ICP. If you would like to turbocharge this bounty you can seed additional donations of ICP to 66083bb3c940c7de2a70aa127ec771da75d60deadc10f5f66b280f203d8f6e73.  ICDevs will match the bounty 1:1 for the first 40 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by DAB/Psycadelic(40 ICP), Toniq Labs(40 ICP), and a Foundation Match of 20 more ICP. If you would like to turbocharge this bounty you can seed additional donations of ICP to 66083bb3c940c7de2a70aa127ec771da75d60deadc10f5f66b280f203d8f6e73.  ICDevs will match the bounty 1:1 for the first 40 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## General Bounty Process
@@ -110,7 +110,7 @@ The award has be been given and the bounty is closed.
 
 DAB - 40 ICP
 Toniq Labs - 40 ICP
-Accelerator Fund: - 20 ICP Direct, 60 ICP General Fund
+Foundation Fund: - 20 ICP Direct, 60 ICP General Fund
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)
