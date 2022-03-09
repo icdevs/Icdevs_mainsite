@@ -17,7 +17,7 @@ author: Austin Fatheree
 * In Review 
 * Closed 
 
-[Forum Link - Discussion]()
+[Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-16-evm-witness-library-8-000)
 
 ## Bounty Details
 
