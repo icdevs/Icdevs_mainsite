@@ -21,8 +21,8 @@ author: Austin Fatheree
 
 ## Bounty Details
 
-* Bounty Amount: $5,000 USD of ICP at award date - $5000 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $2000 USD of ICP at award time - (For every ICP sent to 596b5cdecdae9a8ba967d3bdc448d829f353c40c40a284b5f51a6ca283249e02, ICDevs.org will add $125 USD of ICP at award date to the bounty, up to the first 40 ICP donated, After 40 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* Bounty Amount: $10,000 USD of ICP at award date - Standard ICP Match Available
+* ICDevs.org DFINITY Foundation Grant Match: This grant was accelerated with by [Arthur Falls](https://twitter.com/arthurfalls?lang=en) and the [cycle_dao](https://cycledao.xyz/) for an additional $5,000. For every ICP sent to 596b5cdecdae9a8ba967d3bdc448d829f353c40c40a284b5f51a6ca283249e02 we will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives.
 * Project Type: Team
 * Opened: 02/24/2021
 * Time Commitment: Days
@@ -95,11 +95,6 @@ type ConfigureDAOCommand:{
     #ConfigureGovernanceCanister: {
         principal: Principal;
     };
-    #ConfigureDevFund:{//a portion of donated cycles can be swapped for tokens
-        rate: Float;
-        principal: Principal;
-        standard: Text;
-    };
 };
 
 type ExchangeLevel {
@@ -114,8 +109,6 @@ The canister should implement execute_proposal(Nat) -> Result<Bool, Error> that 
 As an implementation detail of DistributeCycles, it should likely be wired up via timer function and automatically approved and executed by the governance canister.  The internal logic should keep it from running too often.
 
 The canister should implement query cycle_balance() -> Nat that returns the current number of cycles in the canister.
-
-The canister should implement request_top_up() -> Nat that returns
 
 The inspiration for this kind of generic infrastructure was inspired by Max and the InfinitySwap team that is implementing something similar to support their canisters.
 
@@ -144,7 +137,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 596b5cdecdae9a8ba967d3bdc448d829f353c40c40a284b5f51a6ca283249e02.  ICDevs will match the bounty 5:1 for the first 40 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation and cycle_dao. If you would like to turbocharge this bounty you can seed additional donations of ICP to 596b5cdecdae9a8ba967d3bdc448d829f353c40c40a284b5f51a6ca283249e02.  ICDevs will match the bounty 0.25:1.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## General Bounty Process
@@ -175,7 +168,8 @@ The award has be been given and the bounty is closed.
 
 # Matches
 
-DFINITY Foundation Grant: - $8000 USD of ICP at award date
+DFINITY Foundation Grant: - $5,000 USD of ICP at award date
+cycle_dao - 40 ICP accelerator Matched with $5,000 from the DFINITY Foundatin Grant
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)
