@@ -24,7 +24,7 @@ author: Austin Fatheree
 * Bounty Amount: $5,000 USD of ICP at award date - $5000 USD of ICP Match Available
 * ICDevs.org DFINITY Foundation Grant Match Available: $5000 USD of ICP at award time - (For every ICP sent to 77f7c65f6a5b59e8694ab9594ee6ba4fd2d9fb4d8197e869173f22679d8465c8, ICDevs.org will add $125 USD of ICP at award date to the bounty, up to the first 40 ICP donated, After 40 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
 * Project Type: Single Contributor
-* Opened: 02/20/2021
+* Opened: 02/20/2022
 * Time Commitment: Weeks
 * Project Type: Library
 * Experience Type: Intermediate - Motoko

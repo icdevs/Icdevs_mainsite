@@ -17,14 +17,14 @@ author: Austin Fatheree
 * In Review 
 * Closed 
 
-[Forum Link - Discussion]()
+[Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-17-a-dao-for-cycles-10-000-ht-cycle-dao/11427)
 
 ## Bounty Details
 
 * Bounty Amount: $10,000 USD of ICP at award date - Standard ICP Match Available
 * ICDevs.org DFINITY Foundation Grant Match: This grant was accelerated with by [Arthur Falls](https://twitter.com/arthurfalls?lang=en) and the [cycle_dao](https://cycledao.xyz/) for an additional $5,000. For every ICP sent to 596b5cdecdae9a8ba967d3bdc448d829f353c40c40a284b5f51a6ca283249e02 we will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives.
 * Project Type: Team
-* Opened: 02/24/2021
+* Opened: 02/24/2022
 * Time Commitment: Days
 * Project Type: Library
 * Experience Type: Beginer - Motoko;

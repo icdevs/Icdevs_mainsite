@@ -41,6 +41,8 @@ This bounty gives the opportunity to
 * experiment with DAOs
 * agitate bitcoin maximalists
 
+## NOTE: This is supposed to be a fun bounty to help us all learn the internet computer and maybe experiment with DAOs.  It is not an attempt to create significant value and you should be skeptical of anyone promising significant rewards beyond education.  If this turns into something cooler then we will readdress it in the future.
+
 ### Implement the Bitcoin Blockchain on the internet computer.
 
 Bitcoin uses a utxo model. You will build the utxo model, including the opcodes, specified in the Bitcoin spec: https://en.bitcoin.it/wiki/Protocol_documentation
@@ -84,7 +86,7 @@ This DAO should be a functional dao that takes votes to distribute the distribut
 
 ### An environmental note:
 
-We'd love to get rid of POW.  The point of doing both dBTC and cBTC is to show that the BTC model runs on the IC with 'good enough' security gurantees that even if you just really love the BTC model, we don't need POW any more.
+We'd love to get rid of POW.  The point of doing both dBTC and cBTC is to show that the BTC model runs on the IC with 'good enough' security guarantees that even if you just really love the BTC model, we don't need POW any more.
 
 This bounty is part of a series of bounties to try to prove the conjecture that "All suitably interesting consensus mechanisms can and will be built on or ported to the Internet Computer – while enjoying sufficient security and performance that is equal or superior to other consensus platforms."
 

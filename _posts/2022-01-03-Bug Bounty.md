@@ -20,7 +20,7 @@ author: Austin Fatheree
 
 * Current Bounty Account: 20 ICP + $500 USD of ICP at award date
 * Project Type: Ongoing
-* Opened: 01/03/2021
+* Opened: 01/03/2022
 * Time Commitment: Days
 * Experience Type: Intermediate - Motoko; Intermediate - Web Dev
 * Issue Type: Bug Bounty
