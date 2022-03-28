@@ -11,9 +11,9 @@ author: Austin Fatheree
 ## Current Status: Discussion
 
 * Discussion (02/21/2022)
-* Ratification 
-* Open for application
-* Assigned 
+* Ratification (3/1/2022)
+* Open for application (3/1/2022)
+* **Assigned** (3/28/2022) <- We are here - Assigned to discord user barolukluk - A [motoko bootcamp](https://www.dfinitycommunity.com/motoko-bootcamp/) Intermediate award winner!
 * In Review 
 * Closed 
 

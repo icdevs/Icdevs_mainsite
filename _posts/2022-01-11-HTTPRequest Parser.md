@@ -12,8 +12,8 @@ author: Austin Fatheree
 
 * Discussion (01/11/2022)
 * Ratification (02/10/2022)
-* **Open for application** (02/10/2022) <- We are here
-* Assigned
+* Open for application (02/10/2022) 
+* **Assigned** (3/28/2022) <- We are here - Assigned to dev forum user tomijaga
 * In Review
 * Closed
 
@@ -22,7 +22,7 @@ author: Austin Fatheree
 ## Bounty Details
 
 * Current Bounty Amount: 10 ICP + $2000 USD of ICP at award date
-* ICDevs.org DFINITY Foundation Grant Match Available: 20 ICP - (For every ICP sent to 860bd56f4c8a9d40f26462e51e2a4dd4e27cf0e1463372a1179df089695bfd63, ICDevs.org will add $50 more ICP to the bounty, up to 10 ICP, After 10 ICP, Donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* ICDevs.org DFINITY Foundation Grant Match Available: $1,000 of ICP at award date- (For every ICP sent to 860bd56f4c8a9d40f26462e51e2a4dd4e27cf0e1463372a1179df089695bfd63, ICDevs.org will add $50 more ICP to the bounty, up to 20 ICP, After 20 ICP, Donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
 * Time Left: Expires 12/31/2022
 * Project Type: Single Contributor
 * Opened: 01/22/2022

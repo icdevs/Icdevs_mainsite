@@ -12,8 +12,8 @@ author: Austin Fatheree
 
 * Discussion (10/25/2021)
 * Ratification (11/1/2021)
-* ** Open for application ** (11/2/2021) <- We are here
-* Assigned
+* Open for application (11/2/2021) 
+* **Assigned** (3/28/2022) <- We are here - Assigned to LukeVoz - A [motoko bootcamp](https://www.dfinitycommunity.com/motoko-bootcamp/) Intermediate winner!
 * In Review
 * Closed
 
@@ -22,7 +22,7 @@ author: Austin Fatheree
 ## Bounty Details
 
 * Current Bounty Amount: 20 ICP + $1000 USD of ICP on award date
-* ICDevs.org Match Available: 20 ICP - (For every ICP sent to 9f65a13064f16d444af9975ee1bca01eded559d6f753b58a43cfeb8a9617436d, ICDevs.org will add $50 USD of ICP at award date to the bounty, up to 10 ICP, After 10 ICP, Donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* ICDevs.org Match Available: $500 worth of ICP at award date - (For every ICP sent to 9f65a13064f16d444af9975ee1bca01eded559d6f753b58a43cfeb8a9617436d, ICDevs.org will add $50 USD of ICP at award date to the bounty, up to 10 ICP, After 10 ICP, Donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
 * Time Left: Expires 12/31/2022
 * Project Type: Single Contributor
 * Opened: 10/18/2021
