@@ -13,7 +13,7 @@ author: Austin Fatheree
 * Open for submission - (03/28/2022)
 * Closed 
 
-[Forum Link - Discussion]()
+[Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-20-quickstart-dapp-scaling-with-canisters-200-icp-100-icp-50-icp-multiple-winners)
 
 ## Bounty Details
 
@@ -45,6 +45,10 @@ Reach Goal 1: The primary canister provides indexing information such that a cli
 
 Reach Goal 2: Provide a security interface such that secondary canisters can hold private data from many users but only deliver requests to authorized requesters. Attempt to use as few inter-canister calls as possible.
 
+Your application can be written in either motoko or rust.  Further, a motoko and rust version can be submitted as seperate entries by the same person/team.
+
+The code must be opensourced using the [MIT License](https://opensource.org/licenses/MIT).
+
 ## To submit for this bounty you should:
 
 Create a github repo with your sample application and post the link to either the (dev forum post)[] or the (ICDevs.org dscvr portal)[https://h5aet-waaaa-aaaab-qaamq-cai.raw.ic0.app/p/icdevs].
@@ -55,11 +59,10 @@ We will start selecting prize winners by April 12th, 2022.  Submission will stay
 
 Once your app is complete and submitted, it will be judged on the following criteria:
 
-* How relevant is this sample dapps for the community?
-
-* How well is the sample dapps functionality presented?
+* How relevant is this sample dapp for the community?
+* How well is the sample dapp's functionality presented?
 * Does this sample dapp help me to build enough? Can I use the sample dapp for a real project? 
-* How was the sample dapp written?
+* How well was the sample dapp written?
 * How many goals were reached?
 
 Bonus considerations:
@@ -73,4 +76,3 @@ Bonus considerations:
 The bounty was generously funded by the DFINITY Foundation. Additional donations that fund the administration of these bounties can be sent to ICDevs.org.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)
-
