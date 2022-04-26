@@ -94,8 +94,8 @@ Follow Neuron 14231996777861930328 for the Manage Neuron Topic(instructions). Th
 1. Log into the NNS and navigate to the neuron you want to dedicate.
 2. Right click and "Inspect"
 3. Go to the Sources Tab and navigate to top/nns.ic0.app/ic_agent.js
-4. Search for "this.follow = async (request)" (about line 1793)
-5. Add a breakpoint on the next line by clicking the line number. This line should say something like "const rawRequest = this.requestConverters.fromFollowRequest(request)"
+4. Search for "this.follow = async" (about line 1793)
+5. Add a breakpoint on the next line by clicking the line number. This line should say something like "await updateRequestHandler_1.submitUpdateRequest(......"
 6. Leave the console open and go to the "Following" box.
 7. Click Edit Followees.
 8. Click A topic for which you have 0 followees. ie "Exchange Rate"
