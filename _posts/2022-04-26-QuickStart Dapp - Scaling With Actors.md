@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bounty - QuickStart Dapp - Scaling With Canisters"
+title:  "Bounty - QuickStart Dapp - Actor Model"
 date:   2022-04-26 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
@@ -13,7 +13,7 @@ author: Austin Fatheree
 * Open for submission - (04/26/2022)
 * Closed 
 
-[Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-20-quickstart-dapp-scaling-with-canisters-200-icp-100-icp-50-icp-multiple-winners)
+[Forum Link - Discussion]()
 
 ## Bounty Details
 

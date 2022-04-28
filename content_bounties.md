@@ -36,6 +36,7 @@ DFINITY has awarded ICDevs.org a Foundation Grant. For each ICP donated to ICDev
 18. [Bitcoin on the IC Reference Implementation](/bounties/2022/02/26/Bitcoin-on-the-IC-Reference-Implementation.html) - $10,000 USD of ICP at award date
 19. [CBOR and Candid Motoko Parser](/bounties/2022/02/22/CBOR-and-Candid-Motoko-Parser.html) - $3,000 USD of ICP at award date, $3,000 USD of ICP Match Available
 20. [QuickStart Dapp - Scaling With Canisters](/bounties/2022/03/25/QuickStart-Dapp-Scaling-With-Canisters.html) - 200 ICP First Prize, 100 ICP Second Prize, 50 ICP Third Prize
+21. [QuickStart Dapp - Actor Model](/bounties/2022/04/26/QuickStart-Dapp-Scaling-With-Actors.html) - 200 ICP First Prize, 100 ICP Second Prize, 50 ICP Third Prize
 
 
 ## Assigned 
