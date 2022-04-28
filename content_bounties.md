@@ -26,7 +26,7 @@ DFINITY has awarded ICDevs.org a Foundation Grant. For each ICP donated to ICDev
 {:start="10"}
 10. [Motoko Prettier Plugin](/bounties/2022/01/19/Motoko-Prettier-Plugin.html) - $4,000 USD of ICP at award date - $2,250 ICP Match Available
 11. [Motoko Language Server Updates](/bounties/2022/02/12/Language-Server-Updates.html) - $3,750 USD of ICP at award date, $2,500 USD of ICP match available.
-12. [PNG Encoder/Decoder](/bounties/2022/02/20/PNG-Encoder-Decoder.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
+
 
 {:start="14"}
 14. [Big SHA256](/bounties/2022/02/22/Big-SHA256.html) - $1,000 USD of ICP at award date, $1,000 USD of ICP Match Available
@@ -36,6 +36,7 @@ DFINITY has awarded ICDevs.org a Foundation Grant. For each ICP donated to ICDev
 18. [Bitcoin on the IC Reference Implementation](/bounties/2022/02/26/Bitcoin-on-the-IC-Reference-Implementation.html) - $10,000 USD of ICP at award date
 19. [CBOR and Candid Motoko Parser](/bounties/2022/02/22/CBOR-and-Candid-Motoko-Parser.html) - $3,000 USD of ICP at award date, $3,000 USD of ICP Match Available
 20. [QuickStart Dapp - Scaling With Canisters](/bounties/2022/03/25/QuickStart-Dapp-Scaling-With-Canisters.html) - 200 ICP First Prize, 100 ICP Second Prize, 50 ICP Third Prize
+21. [QuickStart Dapp - Actor Model](/bounties/2022/04/26/QuickStart-Dapp-Scaling-With-Actors.html) - 200 ICP First Prize, 100 ICP Second Prize, 50 ICP Third Prize
 
 
 ## Assigned 
@@ -47,15 +48,8 @@ DFINITY has awarded ICDevs.org a Foundation Grant. For each ICP donated to ICDev
 8. [HttpRequest Parser](/bounties/2022/01/11/HTTPRequest-Parser.html) -  10 ICP + $2,000 USD of ICP at award date, $500 Match Available
 
 {:start="13"}
+12. [PNG Encoder/Decoder](/bounties/2022/02/20/PNG-Encoder-Decoder.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
 13. [Zip Encoder/Decoder](/bounties/2022/02/21/Zip-Encoder-Decoder.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
-
-## Under Review
-
-{:start="9"}
-9. [Cover Browser Extention](/bounties/2022/01/19/Cover-Browser-Extension.html) - 10 ICP + $2,000 USD of ICP at award date, $2000 ICP Match Available
-
-{:start="6"}
-6. [Integrate DAB with Stoic Wallet](https://icdevs.org/bounties/2021/12/17/DAB-and-Stoic-Integration.html) - 100 ICP
 
 ## Awarded Bounties
 
@@ -63,3 +57,5 @@ DFINITY has awarded ICDevs.org a Foundation Grant. For each ICP donated to ICDev
 3. [ULID Motoko Library](https://icdevs.org/bounties/2021/11/08/ULID-motoko-library.html) - 20 ICP
 4. [UUID Motoko Library](https://icdevs.org/bounties/2021/11/17/UUID-motoko-library.html) - 20 ICP
 5. [CBOR developer plug-in](https://icdevs.org/bounties/2021/11/23/CBOR-plug-in.html) - 10 ICP
+6. [Integrate DAB with Stoic Wallet](https://icdevs.org/bounties/2021/12/17/DAB-and-Stoic-Integration.html) - 100 ICP
+9. [Cover Browser Extention](/bounties/2022/01/19/Cover-Browser-Extension.html) - 10 ICP + $2,000 USD of ICP at award date, $2000 ICP Match Available
