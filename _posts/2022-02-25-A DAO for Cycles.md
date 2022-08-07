@@ -13,7 +13,7 @@ author: Austin Fatheree
 * Discussion (02/25/2022)
 * Ratification 
 * Open for application
-* Assigned 
+* **Assigned** Assigned to sardariuss
 * In Review 
 * Closed 
 
@@ -164,7 +164,7 @@ The Dev Council is reviewing the submission
 
 ### Awarded
 
-The award has be been given and the bounty is closed.
+The award has been given and the bounty is closed.
 
 # Matches
 

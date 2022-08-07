@@ -14,8 +14,8 @@ author: Austin Fatheree
 * Ratification (12/20/2021)
 * Open for application (12/20/2021)
 * Assigned (12/22/2021)
-* **In Review** 
-* Closed 
+* In Review
+* Closed (12/1/2021)
 
 [Issue Link - Discussion Forum](https://forum.dfinity.org/t/icdevs-org-bounty-integrate-dab-with-stoic-wallet-6-100-icp/9824)
 
@@ -52,28 +52,9 @@ Requirements:
 
 To claim the award you must produce a pull request for stoic wallet that adds this functionality and is accepted by the Toniq labs team.  Reach out to Bob or Easy Steve if you have any questions.
 
-## To apply for this bounty you should:
+## Results
 
-* Include links to previous work writing tutorials and any other open-source contributions(ie. your github).
-* Include a brief overview of how you will complete the task. This can include things like which dependencies you will use, how you will make it self-contained, the sacrifices you would have to make to achieve that, or how you will make it simple. Anything that can convince us you are taking a thoughtful and expert approach to this design.
-* Give an estimated timeline on completing the task.
-* Post your application text to the Bounty Thread
-
-## Selection Process
-
-The ICDevs.org developer's advisors will propose a vote to award the bounty and the Developer Advisors will vote.
-
-## Bounty Completion
-
-Please keep your ongoing code in a public repository(fork or branch is ok). Please provide regular (at least weekly) updates.  Code commits count as updates if you link to your branch/fork from the bounty thread.  We just need to be able to see that you are making progress.
-
-The balance of the bounty will be paid out at completion.
-
-Once you have finished, please alert the dev forum thread that you have completed work and where we can find that work.  We will review and award the bounty reward if the terms have been met.  If there is any coordination work(like a pull request) or additional documentation needed we will inform you of what is needed before we can award the reward.
-
-## Bounty Abandonment and Re-awarding
-
-If you cease work on the bounty for a prolonged(at the Developer Advisory Board's discretion) or if the quality of work degrades to the point that we think someone else should be working on the bounty we may re-award it.  We will be transparent about this and try to work with you to push through and complete the project, but sometimes, it may be necessary to move on or to augment your contribution with another resource which would result in a split bounty.
+https://github.com/Toniq-Labs/stoic-wallet/pull/13
 
 ## Funding
 
@@ -104,7 +85,7 @@ The Dev Council is reviewing the submission
 
 ### Awarded
 
-The award has be been given and the bounty is closed.
+The award has been given and the bounty is closed.
 
 # Matches
 

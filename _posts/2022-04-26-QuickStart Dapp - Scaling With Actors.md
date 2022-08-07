@@ -6,14 +6,14 @@ categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# QuickStart Dapp - Scaling With Actors - #21
+# QuickStart Dapp - Actor Model - #21
 
 ## Current Status: Discussion
 
 * Open for submission - (04/26/2022)
-* Closed 
+* Closed (08/07/2022)
 
-[Forum Link - Discussion]()
+[Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-21-quickstart-actor-model-200-100-50-icp-prizes/12503)
 
 ## Bounty Details
 
@@ -55,27 +55,11 @@ Your application can be written in either motoko, rust, or azel.  Further, a mot
 
 The code must be opensourced using the [MIT License](https://opensource.org/licenses/MIT).
 
-## To submit for this bounty you should:
+## Results
 
-Create a github repo with your sample application and post the link to either the (dev forum post)[] or the (ICDevs.org dscvr portal)[https://h5aet-waaaa-aaaab-qaamq-cai.raw.ic0.app/p/icdevs].
+First - 400 ICP - Iceypee - https://forum.dfinity.org/t/icdevs-org-bounty-21-quickstart-actor-model-200-100-50-icp-prizes/12503/8?u=skilesare
 
-We will start selecting prize winners by May 12th, 2022.  Submission will stay open until we believe we have a sufficient number of sample applications.  Multiple prizes may be awarded for submissions that reach a sufficient level of completeness.
-
-## Bounty Completion
-
-Once your app is complete and submitted, it will be judged on the following criteria:
-
-* How relevant is this sample dapp for the community?
-* How well is the sample dapp's functionality presented?
-* Does this sample dapp help me to build enough? Can I use the sample dapp for a real project? 
-* How well was the sample dapp written?
-* How many goals were reached?
-
-Bonus considerations:
-
-* Are there tests?
-* Is the documentation provided (readme file on github) sufficient? 
-* A user interface of some kind is highly encouraged so that users of your sample application can get a visual view of how your application works.
+First - 400 ICP GLDev - https://forum.dfinity.org/t/icdevs-org-bounty-21-quickstart-actor-model-200-100-50-icp-prizes/12503/5?u=skilesare
 
 ## Funding
 
