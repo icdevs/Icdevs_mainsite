@@ -1,59 +1,55 @@
 ---
 layout: post
-title:  "Bounty - ICDevs.org Language Server Updates"
-date:   2022-02-12 00:00:00 -0600
+title:  "Bounty - ICDevs.org NoKey Wallet - Rust"
+date:   2022-09-05 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# Motoko Language Server Updates - #11
+# Rust NoKey Wallet - #27
 
 ## Current Status: Discussion
 
-* Discussion (02/11/2022)
+* Discussion (09/05/2022)
 * Ratification 
 * Open for application
 * Assigned 
 * In Review 
 * Closed 
 
-[Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-11-language-server-updates-3750/10885)
+[Forum Link - Discussion]()
 
 ## Bounty Details
 
-* Bounty Amount: $3750 USD of ICP at award date - $2500 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $2500 USD of ICP at award time - (For every ICP sent to edaa35657e696ec3ca92fc45edf8f7204139adea348d3f3fa17a26dffce8493b, ICDevs.org will add $125 USD of ICP at award date to the bounty, up to the first 20 ICP donated, After 20 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
-* Project Type: Single Contributor
-* Opened: 02/10/2022
-* Time Commitment: Days
-* Project Type: Traditional
-* Experience Type: Intermediate - JavaScript; Intermediate - Language Servers
-* Issue Type: Language Server
+* Bounty Amount: $5,000 USD of ICP at award date - $5000 USD of ICP Match Available
+* ICDevs.org DFINITY Foundation Grant Match Available: $2000 USD of ICP at award time - (For every ICP sent to 8e6a56cf83240d1f07afe5002d8ce3574e2bde9ede8c4a8964cd6b53c40d0c22, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 125 ICP donated, After 125 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* Project Type: Team
+* Opened: 09/05/2022
+* Time Commitment: Weeks
+* Project Type: Library
+* Experience Type: Intermediate - Rust;
 
 ## Description
 
+This Rust class is allows for canisters to hold assets on other EVM based chains.
+
 This bounty gives the opportunity to
 
-* learn how the motoko compiler works - it is oCaml
-* learn more javascript
-* learn about Language Servers
+* learn Rust
+* learn about signing transactions
+* learn about evm transactions
+* learn about t-ecdsa
+* learn about managing nonces
 
-The goal of this bounty is to augment [the motoko language server](https://github.com/dfinity/motoko/tree/master/src/languageServer) with additional features.  A Language Server is a helpful tool that eases development in Visual Studio Code and other IDEs.
+The NoKey wallet is a stable class that any Rust canister can add that will allow it to act as a wallet for Evm-based chains.  It should implement the following features:
 
-[Language Server Extention Guide](https://code.visualstudio.com/api/language-extensions/language-server-extension-guide)
-
-The following features need to be added to the language server:
-
-* Support for multiple canisters in the same project
-* Refactoring Tools
-* Go to definition for variables defined in a local module, actor, class, or function
-* Show type on variable hover
-* Go to imported module definition directly (e.g. Blob instead of Blob.fromArray)
-* Type check .mo files that aren’t imported from the canister entry point (e.g. unit tests)
-
-Other interesting links:
-
-https://github.com/dfinity/motoko/tree/master/src/lsp
+* Derive a t-ecdsa key according to a consistent derivation scheme.
+* Save that derivation for the user in a (Nat,Text) pair.
+* Sign Evm-based transactions with a t-ecdsa key selected by the wallet owner. The transaction will be passed in as part of the sign function sign(rawtrx, {#derivation([Nat], #named(id)}, nonce, other Info?, saveHistory)
+* Keep a history of signed transactions.
+* Enable clearing the history
+* Provide an upgrade strategy, preferably using stable vars.
+* Suggest and follow a safe nonce generation/management scheme that protects the user.
 
 ## To apply for this bounty you should:
 
@@ -80,10 +76,10 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to edaa35657e696ec3ca92fc45edf8f7204139adea348d3f3fa17a26dffce8493b.  ICDevs will match the bounty 5:1 for the first 20 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 8e6a56cf83240d1f07afe5002d8ce3574e2bde9ede8c4a8964cd6b53c40d0c22.  ICDevs will match the bounty $40:1 ICP for the first 125 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
-## General Bounty Process
+## FYI: General Bounty Process
 
 ### Discussion
 
@@ -111,7 +107,7 @@ The award has been given and the bounty is closed.
 
 # Matches
 
-DFINITY Foundation Grant: - $3750 USD of ICP at award date
+DFINITY Foundation Grant: - $5000 USD of ICP at award date
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)

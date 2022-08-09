@@ -114,7 +114,7 @@ The Dev Council is reviewing the submission
 
 ### Awarded
 
-The award has be been given and the bounty is closed.
+The award has been given and the bounty is closed.
 
 # Matches
 

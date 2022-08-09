@@ -13,9 +13,9 @@ author: Austin Fatheree
 * Discussion (01/11/2022)
 * Ratification (02/10/2022)
 * Open for application (02/10/2022) 
-* **Assigned** (3/28/2022) <- We are here - Assigned to dev forum user tomijaga
+* Assigned (3/28/2022) 
 * In Review
-* Closed
+* Closed (05/16/2022)
 
 [Dev Forum Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-8-httprequest-parser/10219)
 
@@ -93,28 +93,9 @@ Prior art that may help in getting you started:
 [https://github.com/aramakme/aramakme_nft_auction/blob/f0ca7fb629814dc24a90ad84c7d024a49390e38b/main.mo#L2757](https://github.com/aramakme/aramakme_nft_auction/blob/f0ca7fb629814dc24a90ad84c7d024a49390e38b/main.mo#L2757)
 [https://github.com/dfinity/motoko-base/blob/57c3bb724dfe36928d443f5a81446872bf646de9/src/Text.mo#L346](https://github.com/dfinity/motoko-base/blob/57c3bb724dfe36928d443f5a81446872bf646de9/src/Text.mo#L346)
 
-## To apply for this bounty you should:
+## Results
 
-* Include links to previous work writing tutorials and any other open-source contributions(ie. your github).
-* Include a brief overview of how you will complete the task. This can include things like which dependencies you will use, how you will make it self-contained, the sacrifices you would have to make to achieve that, or how you will make it simple. Anything that can convince us you are taking a thoughtful and expert approach to this design.
-* Give an estimated timeline on completing the task.
-* Post your application text to the Bounty Thread
-
-## Selection Process
-
-The ICDevs.org developer's advisors will propose a vote to award the bounty and the Developer Advisors will vote.
-
-## Bounty Completion
-
-Please keep your ongoing code in a public repository(fork or branch is ok). Please provide regular (at least weekly) updates.  Code commits count as updates if you link to your branch/fork from the bounty thread.  We just need to be able to see that you are making progress.
-
-The balance of the bounty will be paid out at completion.
-
-Once you have finished, please alert the dev forum thread that you have completed work and where we can find that work.  We will review and award the bounty reward if the terms have been met.  If there is any coordination work(like a pull request) or additional documentation needed we will inform you of what is needed before we can award the reward.
-
-## Bounty Abandonment and Re-awarding
-
-If you cease work on the bounty for a prolonged(at the Developer Advisory Board's discretion) or if the quality of work degrades to the point that we think someone else should be working on the bounty we may re-award it.  We will be transparent about this and try to work with you to push through and complete the project, but sometimes, it may be necessary to move on or to augment your contribution with another resource which would result in a split bounty.
+[GitHub - tomijaga/http-parser.mo: HTTP Request Parser for Motoko 12](https://github.com/tomijaga/http-parser.mo)
 
 ## Funding
 
@@ -144,7 +125,7 @@ The Dev Council is reviewing the submission
 
 ### Awarded
 
-The award has be been given and the bounty is closed.
+The award has been given and the bounty is closed.
 
 # Matches
 

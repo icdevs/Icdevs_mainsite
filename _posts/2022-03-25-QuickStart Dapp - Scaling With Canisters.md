@@ -11,7 +11,7 @@ author: Austin Fatheree
 ## Current Status: Discussion
 
 * Open for submission - (03/28/2022)
-* Closed 
+* Closed - (05/16/2022)
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-20-quickstart-dapp-scaling-with-canisters-200-icp-100-icp-50-icp-multiple-winners)
 
@@ -49,27 +49,29 @@ Your application can be written in either motoko or rust.  Further, a motoko and
 
 The code must be opensourced using the [MIT License](https://opensource.org/licenses/MIT).
 
-## To submit for this bounty you should:
+## Results
 
-Create a github repo with your sample application and post the link to either the (dev forum post)[] or the (ICDevs.org dscvr portal)[https://h5aet-waaaa-aaaab-qaamq-cai.raw.ic0.app/p/icdevs].
+We have had 5 amazing submissions for the QuickStart Bounty on scaling with canisters. Do you want BigMap? BigMap is in the bones of most of these projects. They are a great way to get started and explore how to use canisters to expand the scalability of your smartcontracts.
 
-We will start selecting prize winners by April 12th, 2022.  Submission will stay open until we believe we have a sufficient number of sample applications.  Multiple prizes may be awarded for submissions that reach a sufficient level of completeness.
+We’ve decided to award all 5 projects with the 1st place prize of 400 ICP. Congrats to the winners:
 
-## Bounty Completion
+Iceypee - shared canisters - motoko  [GitHub - professionalGithub99/ScalingBounty
+repo - GitHub - professionalGithub99/ScalingBounty 2
 
-Once your app is complete and submitted, it will be judged on the following criteria:
+GLdev - storage and indexing across container - Rust - https://github.com/GLicDEV/quickstart_scaling 21 2
 
-* How relevant is this sample dapp for the community?
-* How well is the sample dapp's functionality presented?
-* Does this sample dapp help me to build enough? Can I use the sample dapp for a real project? 
-* How well was the sample dapp written?
-* How many goals were reached?
+Hoosan - auto scaling node - motoko - https://forum.dfinity.org/t/icdevs-org-bounty-20-quickstart-dapp-scaling-with-canisters-200-icp-100-icp-50-icp-multiple-winners/11756/10?u=skilesare 2 - GitHub - hoosan/auto-scaling-notes 27 1
 
-Bonus considerations:
+C-B-Elite - ICSP - motoko - https://github.com/PrimLabs/ICSP 3 - Internet Computer Storage Protocol(ICSP)
 
-* Are there tests?
-* Is the documentation provided (readme file on github) sufficient? 
-* A user interface of some kind is highly encouraged so that users of your sample application can get a visual view of how your application works.
+* Autoscaling Storage
+* Self Cycle Monitor
+* One step store, two steps get
+* Simdi - rust - Scaled Storage - [ (ICDevs.org Bounty #20 - QuickStart Dapp - Scaling With Canisters - 200 ICP, 100 ICP, 50 ICP - Multiple winners - #30 by simdi.jinkins 2) -
+
+Scaled Storage is a generic distributed hash table tailored for the internet computer. It can scale to possibly an infinite amount of canisters, with a worst-case scenario of one inter-canister call and usually a best case of zero. The client side never needs prior knowledge of all canisters holding data, but instead just the canister id of any one of the canisters. - The repo: GitHub - scroobius-pip/scaled_storage 1
+
+Congrats to all the authors. Please use the below thread to promote your project and if you plan to do any more with it.
 
 ## Funding
 

@@ -13,9 +13,9 @@ author: Austin Fatheree
 * Discussion (11/21/2021)
 * Ratification (11/22/2021)
 * Open for application (11/23/2021)
-* **Assigned** (11/23/2021) <- We are here
+* Assigned (11/23/2021) <- We are here
 * In Review
-* Closed
+* **Closed** (5/28/2021)
 
 [Issue Link - Discussion Forum](https://forum.dfinity.org/t/cbor-plug-in-or-tools/4556/26)
 
@@ -63,7 +63,7 @@ The bounty was generously funded by the community. If you would like to turbocha
 
 ## Award
 
-This bounty was paid to jorgenbuilder on 1/18/2021
+This bounty was paid to jorgenbuilder on 1/18/2022
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)
