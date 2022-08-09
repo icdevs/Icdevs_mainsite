@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "Bounty - ICDevs.org Motoko StableBTree"
-date:   2022-09-02 00:00:00 -0600
+title:  "Bounty - ICDevs.org NoKey Wallet - Motoko"
+date:   2022-09-05 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# Motoko StableBTree - #24
+# Motoko NoKey Wallet - #27
 
 ## Current Status: Discussion
 
-* Discussion (09/02/2022)
+* Discussion (09/05/2022)
 * Ratification 
 * Open for application
 * Assigned 
@@ -22,37 +22,34 @@ author: Austin Fatheree
 ## Bounty Details
 
 * Bounty Amount: $5,000 USD of ICP at award date - $5000 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $5000 USD of ICP at award time - (For every ICP sent to 801581b2c8f3303eaeb91892784b2eac99e1128115b0fadf739576d6c94f3c8e, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 125 ICP donated, After 125 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* ICDevs.org DFINITY Foundation Grant Match Available: $2000 USD of ICP at award time - (For every ICP sent to 6e8afebab59f703356e189297e3f49fbe18ace5150ccc43f74f30ceb3f6b5ece, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 125 ICP donated, After 125 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
 * Project Type: Team
-* Opened: 09/02/2022
+* Opened: 09/05/2022
 * Time Commitment: Weeks
 * Project Type: Library
 * Experience Type: Intermediate - Motoko;
 
 ## Description
 
-This Motoko library will allow for more efficient storage and better crypt capabilities of data storage in motoko contracts.
+This motoko class is allows for canisters to hold assets on other EVM based chains.
 
 This bounty gives the opportunity to
 
 * learn motoko
-* learn about merkleizaton
-* learn btrees
-* learn about stable memory
+* learn about signing transactions
+* learn about evm transactions
+* learn about t-ecdsa
+* learn about managing nonces
 
-This one is pretty simple. Implement the StableBTree library found at https://github.com/ielashi/stable-btreemap-example in Motoko.  Accomplishing this will award 50% of the bounty.
+The NoKey wallet is a stable class that any Motoko canister can add that will allow it to act as a wallet for Evm-based chains.  It should implement the following features:
 
-For the second 50%, add a mode(or an alternate library if it is more efficient), That keeps active track of a merkle hash of the root of the data set.  This library will be used to calculate certified data, so the root should be compatible with including in a canister certification.
-
-Please:
-
-1. Duplicate the existing functionality.
-
-2. Provide a set of tests.
-
-3. Publish as a vessel package
-
-4. For the merkle stretch goal, please provide tests and an example of using the tree to store certified data.
+* Derive a t-ecdsa key according to a consistent derivation scheme.
+* Save that derivation for the user in a (Nat,Text) pair.
+* Sign Evm-based transactions with a t-ecdsa key selected by the wallet owner. The transaction will be passed in as part of the sign function sign(rawtrx, {#derivation([Nat], #named(id)}, nonce, other Info?, saveHistory)
+* Keep a history of signed transactions.
+* Enable clearing the history
+* Provide an upgrade strategy, preferably using stable vars.
+* Suggest and follow a safe nonce generation/management scheme that protects the user.
 
 ## To apply for this bounty you should:
 
@@ -79,7 +76,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 801581b2c8f3303eaeb91892784b2eac99e1128115b0fadf739576d6c94f3c8e.  ICDevs will match the bounty $40:1 ICP for the first 125 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 6e8afebab59f703356e189297e3f49fbe18ace5150ccc43f74f30ceb3f6b5ece.  ICDevs will match the bounty $40:1 ICP for the first 125 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## FYI: General Bounty Process

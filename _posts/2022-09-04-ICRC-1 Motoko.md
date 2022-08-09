@@ -22,7 +22,7 @@ author: Austin Fatheree
 ## Bounty Details
 
 * Bounty Amount: $5,000 USD of ICP at award date - $5000 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $2000 USD of ICP at award time - (For every ICP sent to 4dc0678d04c632921a7e5b913a4e3f185a3b48e2da6cba71f4be1e86272a789b, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 125 ICP donated, After 125 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* ICDevs.org DFINITY Foundation Grant Match Available: $5000 USD of ICP at award time - (For every ICP sent to 4dc0678d04c632921a7e5b913a4e3f185a3b48e2da6cba71f4be1e86272a789b, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 125 ICP donated, After 125 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
 * Project Type: Team
 * Opened: 09/04/2022
 * Time Commitment: Weeks

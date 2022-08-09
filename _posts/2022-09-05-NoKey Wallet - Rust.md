@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "Bounty - ICDevs.org Private Candid"
-date:   2022-09-01 00:00:00 -0600
+title:  "Bounty - ICDevs.org NoKey Wallet - Rust"
+date:   2022-09-05 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# Private Candid - #22
+# Rust NoKey Wallet - #27
 
 ## Current Status: Discussion
 
-* Discussion (09/01/2022)
+* Discussion (09/05/2022)
 * Ratification 
 * Open for application
 * Assigned 
@@ -22,47 +22,34 @@ author: Austin Fatheree
 ## Bounty Details
 
 * Bounty Amount: $5,000 USD of ICP at award date - $5000 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $2000 USD of ICP at award time - (For every ICP sent to 8b9cbe90c23b9d0a36006e6623205e89c72938d064c911bdbf4fde9e17280b20, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 125 ICP donated, After 125 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* ICDevs.org DFINITY Foundation Grant Match Available: $2000 USD of ICP at award time - (For every ICP sent to 8e6a56cf83240d1f07afe5002d8ce3574e2bde9ede8c4a8964cd6b53c40d0c22, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 125 ICP donated, After 125 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
 * Project Type: Team
-* Opened: 08/31/2022
+* Opened: 09/05/2022
 * Time Commitment: Weeks
 * Project Type: Library
-* Experience Type: Intermediate - Motoko; Intermediate - JS; 
+* Experience Type: Intermediate - Rust;
 
 ## Description
 
-This Motoko library will allow for more private communication with a particular canister.
+This Rust class is allows for canisters to hold assets on other EVM based chains.
 
 This bounty gives the opportunity to
 
-* learn how Public Key Encryption Works
-* learn about t-ecdsa works on the Internet computer(creating keys that don't exist and can only be recombined through consensus)
-* learn about agent-js and how to interact with the IC from javascript
+* learn Rust
+* learn about signing transactions
+* learn about evm transactions
+* learn about t-ecdsa
+* learn about managing nonces
 
-Did you know that, just like ethereum, all transactions going into subnets can be stored and replayed later to reconstruct the canister state? This means that the values in the messages you send to the IC should not be considered private. Right now they aren’t being exposed anywhere, but there is also not anything to keep subnets from keeping them around.  And DFINITY is considering making them public.
+The NoKey wallet is a stable class that any Rust canister can add that will allow it to act as a wallet for Evm-based chains.  It should implement the following features:
 
-Just like if you want your state at rest to be private you will need to use encryption (and eventually a Secure Enclave) you also should consider if your message data should be encrypted as well.
-
-Motoko just added a from_candid and to_candid method that allows you to easily convert blobs to known Motoko types.
-
-This bounty asks you to 
-
-1. Create a js library that converts a candid variable into a Binary representation that Motoko can understand.(This may already exist in  agent.js - you will just need to expose it.)
-
-2. Ask a canister for an ethereal public key that can be used to decrypt data. You will be able to generate this key using t-ECDSA. You may want to give the ability to produce a set of these ahead of time using derivations that your library can refresh at times of lower processing.
-
-3. Encrypt your serialized candid using the key in js.
-
-4. On the canister side, your class will need to unencrypt the candid if the public key is still valid, decrypt it, and return it using a known type.(you should use generic types for this).
-
-5. Upon each x number of successful calls or after y time, the canister should update the value of the public key(or use a sliding window of a set of valid keys.)
-
-6. Create a sample dapp that sends encrypted data to a canister and uses it. (something like a simple wall application would be fine.)
-
-7. Your library should allow for the injection of a non-t-ecdsa key for testing purposes.
-
-The package should be deployed as a vessel package.
-
+* Derive a t-ecdsa key according to a consistent derivation scheme.
+* Save that derivation for the user in a (Nat,Text) pair.
+* Sign Evm-based transactions with a t-ecdsa key selected by the wallet owner. The transaction will be passed in as part of the sign function sign(rawtrx, {#derivation([Nat], #named(id)}, nonce, other Info?, saveHistory)
+* Keep a history of signed transactions.
+* Enable clearing the history
+* Provide an upgrade strategy, preferably using stable vars.
+* Suggest and follow a safe nonce generation/management scheme that protects the user.
 
 ## To apply for this bounty you should:
 
@@ -89,7 +76,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 8b9cbe90c23b9d0a36006e6623205e89c72938d064c911bdbf4fde9e17280b20.  ICDevs will match the bounty $40:1 ICP for the first 125 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 8e6a56cf83240d1f07afe5002d8ce3574e2bde9ede8c4a8964cd6b53c40d0c22.  ICDevs will match the bounty $40:1 ICP for the first 125 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## FYI: General Bounty Process

@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "Bounty - ICDevs.org Motoko StableBTree"
-date:   2022-09-02 00:00:00 -0600
+title:  "Bounty - ICDevs.org Private Candid - Rust"
+date:   2022-09-01 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# Motoko StableBTree - #24
+# Private Candid - Rust - #22b
 
 ## Current Status: Discussion
 
-* Discussion (09/02/2022)
+* Discussion (09/01/2022)
 * Ratification 
 * Open for application
 * Assigned 
@@ -22,37 +22,47 @@ author: Austin Fatheree
 ## Bounty Details
 
 * Bounty Amount: $5,000 USD of ICP at award date - $5000 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $5000 USD of ICP at award time - (For every ICP sent to 801581b2c8f3303eaeb91892784b2eac99e1128115b0fadf739576d6c94f3c8e, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 125 ICP donated, After 125 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* ICDevs.org DFINITY Foundation Grant Match Available: $5000 USD of ICP at award time - (For every ICP sent to 25a63a3dfafde9da5ca73e63b66e6a5912cc61e8cb3581e9df8cd96ca5faa6ab, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 125 ICP donated, After 125 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
 * Project Type: Team
-* Opened: 09/02/2022
+* Opened: 08/31/2022
 * Time Commitment: Weeks
 * Project Type: Library
-* Experience Type: Intermediate - Motoko;
+* Experience Type: Intermediate - Rust; Intermediate - JS; 
 
 ## Description
 
-This Motoko library will allow for more efficient storage and better crypt capabilities of data storage in motoko contracts.
+This Rust library will allow for more private communication with a particular canister.
 
 This bounty gives the opportunity to
 
-* learn motoko
-* learn about merkleizaton
-* learn btrees
-* learn about stable memory
+* learn how Public Key Encryption Works
+* learn about t-ecdsa works on the Internet computer(creating keys that don't exist and can only be recombined through consensus)
+* learn about agent-js and how to interact with the IC from javascript
 
-This one is pretty simple. Implement the StableBTree library found at https://github.com/ielashi/stable-btreemap-example in Motoko.  Accomplishing this will award 50% of the bounty.
+Did you know that, just like ethereum, all transactions going into subnets can be stored and replayed later to reconstruct the canister state? This means that the values in the messages you send to the IC should not be considered private. Right now they aren’t being exposed anywhere, but there is also not anything to keep subnets from keeping them around.  And DFINITY is considering making them public.
 
-For the second 50%, add a mode(or an alternate library if it is more efficient), That keeps active track of a merkle hash of the root of the data set.  This library will be used to calculate certified data, so the root should be compatible with including in a canister certification.
+Just like if you want your state at rest to be private you will need to use encryption (and eventually a Secure Enclave) you also should consider if your message data should be encrypted as well.
 
-Please:
+Rust just added a from_candid and to_candid method that allows you to easily convert blobs to known Rust types.
 
-1. Duplicate the existing functionality.
+This bounty asks you to 
 
-2. Provide a set of tests.
+1. Create a js library that converts a candid variable into a Binary representation that Rust can understand.(This may already exist in  agent.js - you will just need to expose it.)
 
-3. Publish as a vessel package
+2. Ask a canister for an ethereal public key that can be used to decrypt data. You will be able to generate this key using t-ECDSA. You may want to give the ability to produce a set of these ahead of time using derivations that your library can refresh at times of lower processing.
 
-4. For the merkle stretch goal, please provide tests and an example of using the tree to store certified data.
+3. Encrypt your serialized candid using the key in js.
+
+4. On the canister side, your class will need to unencrypt the candid if the public key is still valid, decrypt it, and return it using a known type.(you should use generic types for this).
+
+5. Upon each x number of successful calls or after y time, the canister should update the value of the public key(or use a sliding window of a set of valid keys.)
+
+6. Create a sample dapp that sends encrypted data to a canister and uses it. (something like a simple wall application would be fine.)
+
+7. Your library should allow for the injection of a non-t-ecdsa key for testing purposes.
+
+The package should be deployed as a cargo package for Rust.
+
 
 ## To apply for this bounty you should:
 
@@ -79,7 +89,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 801581b2c8f3303eaeb91892784b2eac99e1128115b0fadf739576d6c94f3c8e.  ICDevs will match the bounty $40:1 ICP for the first 125 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 25a63a3dfafde9da5ca73e63b66e6a5912cc61e8cb3581e9df8cd96ca5faa6ab.  ICDevs will match the bounty $40:1 ICP for the first 125 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## FYI: General Bounty Process

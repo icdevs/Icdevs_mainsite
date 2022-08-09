@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Bounty - ICDevs.org icSwagger"
+title:  "Bounty - ICDevs.org icSwagger - Rust"
 date:   2022-09-03 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# Motoko icSwagger - #25
+# Rust icSwagger - #25b
 
 ## Current Status: Discussion
 
@@ -22,12 +22,12 @@ author: Austin Fatheree
 ## Bounty Details
 
 * Bounty Amount: $5,000 USD of ICP at award date - $5000 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $2000 USD of ICP at award time - (For every ICP sent to 72a30c85baa23152f9ccd44a67bf43b4069e6de279c746fd0b883a086c8619f5, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 125 ICP donated, After 125 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* ICDevs.org DFINITY Foundation Grant Match Available: $5000 USD of ICP at award time - (For every ICP sent to c637ee6eb27a470765785a8373f061012c1e13379eae8b5d0eb86ee8e94aa80e, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 125 ICP donated, After 125 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
 * Project Type: Team
 * Opened: 09/02/2022
 * Time Commitment: Weeks
 * Project Type: Library
-* Experience Type: Intermediate - Motoko;
+* Experience Type: Intermediate - Rust;
 
 ## Description
 
@@ -35,7 +35,7 @@ This framework will allow classic web developers used to using rest-based web se
 
 This bounty gives the opportunity to
 
-* learn motoko
+* learn Rust
 * learn about encryption
 * learn about authorization
 * learn about Swagger
@@ -51,7 +51,7 @@ The bounty involves building a set of base features that can be iterated and exp
 * Json to candid mapper
 * Base http_request and http_request_upgraded  functionality
 * Signing function for js
-* Signature verification for motoko
+* Signature verification for Rust
 
 ### Code generation from a swagger file
 
@@ -59,12 +59,12 @@ Given a swagger file, the application should produce a base skeleton of code tha
 
 This will likely include:
 
-* Request and response Motoko types for each swagger function.
+* Request and response Rust types for each swagger function.
 * A handler function that http_request can call to handle the swagger functions. This handler function should call external functions that the user can manipulate without fear of them being overwritten.
 * Json to candid mapping functions that unwrap an incoming json body into a comparable candid structure.
 * An internal principal to nonce counter that will keep track of max-nonce requests and keep duplicate requests from being processed.
 
-### Signature verification for Motoko
+### Signature verification for Rust
 
 The body will arrive as json text accompanied by a signature of the request + ulid nonce. 
 
@@ -76,7 +76,7 @@ Get methods should be handled via http_request while post methods should be upgr
 
 ### Signing function and examples in js
 
-The code should provide a js library or extension that will allow node.js and js devs the ability to sign their transactions and send them to the server. This should impede the standard swagger workflow as little as possible so that standard swagger tools can be used. Likely signature will need to be a part of each request and the code will need to remove that field for the signature.  A stable json sort will need to be used in js and marched in Motoko.
+The code should provide a js library or extension that will allow node.js and js devs the ability to sign their transactions and send them to the server. This should impede the standard swagger workflow as little as possible so that standard swagger tools can be used. Likely signature will need to be a part of each request and the code will need to remove that field for the signature.  A stable json sort will need to be used in js and marched in Rust.
 
 To complete this bounty please implement a minimum viable solution for each of these requirements.  Once a base end-to-end solution is working for a minimum feature set we can close this bounty and issue another one with additional features, bells, and whistles.
 
@@ -107,7 +107,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 72a30c85baa23152f9ccd44a67bf43b4069e6de279c746fd0b883a086c8619f5.  ICDevs will match the bounty $40:1 ICP for the first 125 ICP out of the DFINITY grant and then 0.25:1 after that. All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to c637ee6eb27a470765785a8373f061012c1e13379eae8b5d0eb86ee8e94aa80e.  ICDevs will match the bounty $40:1 ICP for the first 125 ICP out of the DFINITY grant and then 0.25:1 after that. All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## FYI: General Bounty Process
