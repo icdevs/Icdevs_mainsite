@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bounty - ICDevs.org Private Candid - Rust"
-date:   2022-09-01 00:00:00 -0600
+date:   2022-08-08 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
