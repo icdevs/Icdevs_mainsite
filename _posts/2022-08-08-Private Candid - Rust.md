@@ -10,14 +10,14 @@ author: Austin Fatheree
 
 ## Current Status: Discussion
 
-* Discussion (09/01/2022)
+* Discussion (08/08/2022)
 * Ratification 
 * Open for application
 * Assigned 
 * In Review 
 * Closed 
 
-[Forum Link - Discussion]()
+[Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-23b-private-candid-rust/14793)
 
 ## Bounty Details
 
@@ -43,7 +43,7 @@ Did you know that, just like ethereum, all transactions going into subnets can b
 
 Just like if you want your state at rest to be private you will need to use encryption (and eventually a Secure Enclave) you also should consider if your message data should be encrypted as well.
 
-Rust just added a from_candid and to_candid method that allows you to easily convert blobs to known Rust types.
+Rust should alredy have methods that are used to easily convert blobs to known Rust types.
 
 This bounty asks you to 
 

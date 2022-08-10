@@ -19,7 +19,6 @@ DFINITY has awarded ICDevs.org a Foundation Grant. For each ICP donated to ICDev
 {:start="2"}
 2. [Add Generic DAO functions and interface to axon](/bounties/2021/11/01/generic-dao-fork-axon-copy.html) - 10 ICP + $250 USD of ICP at award date, $500 Match Available
 
-
 {:start="7"}
 7. [Bug Bounty](/bounties/2022/01/03/Bug-Bounty.html) - 20 ICP + $500 USD of ICP at award date, Endowment Available
 
@@ -32,11 +31,14 @@ DFINITY has awarded ICDevs.org a Foundation Grant. For each ICP donated to ICDev
 14. [Big SHA256](/bounties/2022/02/22/Big-SHA256.html) - $1,000 USD of ICP at award date, $1,000 USD of ICP Match Available
 15. [Motoko Wallet](/bounties/2022/02/23/Motoko-Wallet.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
 16. [EVM Witness Library](/bounties/2022/02/24/EVM-Witness-Library.html) - $8,000 USD of ICP at award date, $2,000 USD of ICP Match Available
-17. [A DAO for Cycles](/bounties/2022/02/25/A-DAO-for-Cycles.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
+
+{:start="18"}
 18. [Bitcoin on the IC Reference Implementation](/bounties/2022/02/26/Bitcoin-on-the-IC-Reference-Implementation.html) - $10,000 USD of ICP at award date
 19. [CBOR and Candid Motoko Parser](/bounties/2022/02/22/CBOR-and-Candid-Motoko-Parser.html) - $3,000 USD of ICP at award date, $3,000 USD of ICP Match Available
-20. [QuickStart Dapp - Scaling With Canisters](/bounties/2022/03/25/QuickStart-Dapp-Scaling-With-Canisters.html) - 200 ICP First Prize, 100 ICP Second Prize, 50 ICP Third Prize
-21. [QuickStart Dapp - Actor Model](/bounties/2022/04/26/QuickStart-Dapp-Scaling-With-Actors.html) - 200 ICP First Prize, 100 ICP Second Prize, 50 ICP Third Prize
+
+
+{:start="23"}
+23. a - [Private Candid - Motoko](/bounties/2022/08/08/Private-Candid-Motoko.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available and b - [Private Candid - Motoko](/bounties/2022/08/08/Private-Candid-Rust.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
 
 
 ## Assigned 
@@ -51,6 +53,9 @@ DFINITY has awarded ICDevs.org a Foundation Grant. For each ICP donated to ICDev
 12. [PNG Encoder/Decoder](/bounties/2022/02/20/PNG-Encoder-Decoder.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
 13. [Zip Encoder/Decoder](/bounties/2022/02/21/Zip-Encoder-Decoder.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
 
+{:start="14"}
+17. [A DAO for Cycles](/bounties/2022/02/25/A-DAO-for-Cycles.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
+
 ## Awarded Bounties
 
 {:start="3"}
@@ -58,4 +63,10 @@ DFINITY has awarded ICDevs.org a Foundation Grant. For each ICP donated to ICDev
 4. [UUID Motoko Library](https://icdevs.org/bounties/2021/11/17/UUID-motoko-library.html) - 20 ICP
 5. [CBOR developer plug-in](https://icdevs.org/bounties/2021/11/23/CBOR-plug-in.html) - 10 ICP
 6. [Integrate DAB with Stoic Wallet](https://icdevs.org/bounties/2021/12/17/DAB-and-Stoic-Integration.html) - 100 ICP
+
+{:start="9"}
 9. [Cover Browser Extention](/bounties/2022/01/19/Cover-Browser-Extension.html) - 10 ICP + $2,000 USD of ICP at award date, $2000 ICP Match Available
+
+{:start="20"}
+20. [QuickStart Dapp - Scaling With Canisters](/bounties/2022/03/25/QuickStart-Dapp-Scaling-With-Canisters.html) - 200 ICP First Prize, 100 ICP Second Prize, 50 ICP Third Prize
+21. [QuickStart Dapp - Actor Model](/bounties/2022/04/26/QuickStart-Dapp-Scaling-With-Actors.html) - 200 ICP First Prize, 100 ICP Second Prize, 50 ICP Third Prize
