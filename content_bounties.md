@@ -34,11 +34,13 @@ DFINITY has awarded ICDevs.org a Foundation Grant. For each ICP donated to ICDev
 
 {:start="18"}
 18. [Bitcoin on the IC Reference Implementation](/bounties/2022/02/26/Bitcoin-on-the-IC-Reference-Implementation.html) - $10,000 USD of ICP at award date
-19. [CBOR and Candid Motoko Parser](/bounties/2022/02/22/CBOR-and-Candid-Motoko-Parser.html) - $3,000 USD of ICP at award date, $3,000 USD of ICP Match Available
 
+{:start="24"}
+24. [Motoko StableBTree](/bounties/2022/08/14/Motoko-StableBTree.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
 
-{:start="23"}
-23. a - [Private Candid - Motoko](/bounties/2022/08/08/Private-Candid-Motoko.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available and b - [Private Candid - Motoko](/bounties/2022/08/08/Private-Candid-Rust.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
+{:start="26"}
+26. [ICRC-1 Motoko](/bounties/2022/08/14/ICRC-1-Motoko.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
+
 
 
 ## Assigned 
@@ -53,8 +55,20 @@ DFINITY has awarded ICDevs.org a Foundation Grant. For each ICP donated to ICDev
 12. [PNG Encoder/Decoder](/bounties/2022/02/20/PNG-Encoder-Decoder.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
 13. [Zip Encoder/Decoder](/bounties/2022/02/21/Zip-Encoder-Decoder.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
 
-{:start="14"}
+{:start="17"}
 17. [A DAO for Cycles](/bounties/2022/02/25/A-DAO-for-Cycles.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
+
+{:start="19"}
+19. [CBOR and Candid Motoko Parser](/bounties/2022/02/22/CBOR-and-Candid-Motoko-Parser.html) - $3,000 USD of ICP at award date, $3,000 USD of ICP Match Available
+
+
+
+## Freezer
+
+These bounties require addional tech before they can be executed. Please review and see if you have a creative solution!
+
+{:start="23"}
+23. a - [Private Candid - Motoko](/bounties/2022/08/08/Private-Candid-Motoko.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available and b - [Private Candid - Motoko](/bounties/2022/08/08/Private-Candid-Rust.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
 
 ## Awarded Bounties
 
