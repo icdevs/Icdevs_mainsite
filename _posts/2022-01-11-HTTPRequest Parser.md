@@ -21,11 +21,10 @@ author: Austin Fatheree
 
 ## Bounty Details
 
-* Current Bounty Amount: 10 ICP + $2000 USD of ICP at award date
-* ICDevs.org DFINITY Foundation Grant Match Available: $1,000 of ICP at award date- (For every ICP sent to 860bd56f4c8a9d40f26462e51e2a4dd4e27cf0e1463372a1179df089695bfd63, ICDevs.org will add $50 more ICP to the bounty, up to 20 ICP, After 20 ICP, Donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
-* Time Left: Expires 12/31/2022
+
 * Project Type: Single Contributor
 * Opened: 01/22/2022
+* Closed: 05/16/2022
 * Time Commitment: Days
 * Project Type: Traditional
 * Experience Type: Beginner - Motoko
@@ -95,41 +94,10 @@ Prior art that may help in getting you started:
 
 ## Results
 
-[GitHub - tomijaga/http-parser.mo: HTTP Request Parser for Motoko 12](https://github.com/tomijaga/http-parser.mo)
+[GitHub - tomijaga/http-parser.mo: HTTP Request Parser for Motoko](https://github.com/tomijaga/http-parser.mo)
 
 ## Funding
 
 The bounty was generously funded by the community and the DFINITY Foundation Grant. If you would like to turbocharge this bounty you can seed additional donations of ICP to 860bd56f4c8a9d40f26462e51e2a4dd4e27cf0e1463372a1179df089695bfd63.  ICDevs will match the bounty 1:1 for the first 20 ICP and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
-
-## General Bounty Process
-
-### Discussion
-
-The draft bounty is posted to the DFINITY developer's forum for discussion
-
-### Ratification
-
-The developer advisor's board will propose a bounty be ratified and a vote will take place to ratify the bounty.  Until a bounty is ratified by the Dev it hasn't been officially adopted. Please take this into consideration if you are considering starting early.
-
-### Open for application
-
-Developers can submit applications to the Dev Forum post.  The council will consider these as they come in and propose a vote to award the bounty to one of the applicants.  If you would like to apply anonymously you can send an email to austin at icdevs dot org or sending a PM on the dev forum.
-
-### Assigned
-
-A developer is currently working on this bounty, you are free to contribute, but any splitting of the award will need to be discussed with the currently assigned developer.
-
-### In Review
-
-The Dev Council is reviewing the submission
-
-### Awarded
-
-The award has been given and the bounty is closed.
-
-# Matches
-
-$2000 ICP - DFINITY Foundation Grant
-
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)
