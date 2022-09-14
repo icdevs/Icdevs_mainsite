@@ -10,6 +10,27 @@ If you have a piece of functionality that you need for your application and woul
 
 DFINITY has awarded ICDevs.org a Foundation Grant. For each ICP donated to ICDevs on behalf of an open bounty, we will add 2 ICP to that bounty from the grant. (Maximums Apply)  Pick your favorite bounty and spend DFINITY's money.  Donations are tax-deductible for US Citizens and Corporations.
 
+## Results
+
+The following libraries and applications were funded with ICDevs Bounties:
+
+- [ULID - Motoko](https://github.com/aviate-labs/ulid.mo)
+- [UUID - Motoko](https://github.com/aviate-labs/uuid.mo)
+- [DFINITY Decoder - plug in](https://chrome.google.com/webstore/detail/dfinity-decoder/meaadkenfkhjakkkdapaallimhbdofck) - [source](https://github.com/jorgenbuilder/chrome-dfinity-decoder)
+- [DAB integration with Stoic Wallet](https://github.com/Toniq-Labs/stoic-wallet/pull/13)
+- [HTTP Request Parser for Motoko](https://github.com/tomijaga/http-parser.mo)
+- [Cover Browser Plug-in](https://github.com/IT-Union-DAO/can-check/)
+- [A cyclesDAO](https://github.com/sardariuss/CyclesDAO)
+- [Motoko Candid](https://github.com/Gekctek/motoko_candid)
+- [Motoko CBOR](https://github.com/Gekctek/motoko_cbor)
+- [Motoko Numbers](https://github.com/Gekctek/motoko_numbers)
+- [Shared Canisters - Motoko](https://github.com/professionalGithub99/ScalingBounty)
+- [Storage and Indexing across canisters - Rust](https://github.com/GLicDEV/quickstart_scaling/)
+- [Autoscaling Nodes - Motoko](https://github.com/hoosan/auto-scaling-notes)
+- [Internet Computer Storage Protocol - Motoko](https://github.com/PrimLabs/ICSP0)
+- [Scaled Storage - Rust](https://github.com/scroobius-pip/scaled_storage)
+- [Bitcoin Federal Reserve - Actor Model - Motoko](https://github.com/professionalGithub99/actormodelbounty)
+- [Colony Game - Actor Model - Rust](https://github.com/GLicDEV/ic-quickstart-actor-model)
 
 ## Open Bounties
 
@@ -35,12 +56,13 @@ DFINITY has awarded ICDevs.org a Foundation Grant. For each ICP donated to ICDev
 {:start="18"}
 18. [Bitcoin on the IC Reference Implementation](/bounties/2022/02/26/Bitcoin-on-the-IC-Reference-Implementation.html) - $10,000 USD of ICP at award date
 
-{:start="24"}
+{:start="23"}
+23. a - [Metacalls - Motoko](/bounties/2022/09/14/Metacalls-Motoko.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available and b - [Metacalls - Rust](/bounties/2022/09/14/Metacalls-Rust.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
 24. [Motoko StableBTree](/bounties/2022/08/14/Motoko-StableBTree.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
 
 {:start="26"}
 26. [ICRC-1 Motoko](/bounties/2022/08/14/ICRC-1-Motoko.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
-
+27. a - [Motoko NoKey Wallet](/bounties/2022/09/14/NoKey-Wallet-Motoko.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available and b - [Rust NoKey Wallet](/bounties/2022/09/14/NoKey-Wallet-Rust.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
 
 
 ## Assigned 
@@ -48,18 +70,13 @@ DFINITY has awarded ICDevs.org a Foundation Grant. For each ICP donated to ICDev
 {:start="1"}
 1. [Basic tutorials and site](/bounties/2021/10/25/speed-run-the-ic-bounty.html) - 20 ICP + $1000 USD of ICP on award date, $500 Match Available
 
-{:start="8"}
-8. [HttpRequest Parser](/bounties/2022/01/11/HTTPRequest-Parser.html) -  10 ICP + $2,000 USD of ICP at award date, $500 Match Available
-
 {:start="13"}
 12. [PNG Encoder/Decoder](/bounties/2022/02/20/PNG-Encoder-Decoder.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
 13. [Zip Encoder/Decoder](/bounties/2022/02/21/Zip-Encoder-Decoder.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
 
-{:start="17"}
-17. [A DAO for Cycles](/bounties/2022/02/25/A-DAO-for-Cycles.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
 
-{:start="19"}
-19. [CBOR and Candid Motoko Parser](/bounties/2022/02/22/CBOR-and-Candid-Motoko-Parser.html) - $3,000 USD of ICP at award date, $3,000 USD of ICP Match Available
+
+
 
 
 
@@ -78,8 +95,15 @@ These bounties require addional tech before they can be executed. Please review 
 5. [CBOR developer plug-in](https://icdevs.org/bounties/2021/11/23/CBOR-plug-in.html) - 10 ICP
 6. [Integrate DAB with Stoic Wallet](https://icdevs.org/bounties/2021/12/17/DAB-and-Stoic-Integration.html) - 100 ICP
 
-{:start="9"}
+{:start="8"}
+8. [HttpRequest Parser](/bounties/2022/01/11/HTTPRequest-Parser.html) -  10 ICP + $2,000 USD of ICP at award date
 9. [Cover Browser Extention](/bounties/2022/01/19/Cover-Browser-Extension.html) - 10 ICP + $2,000 USD of ICP at award date, $2000 ICP Match Available
+
+{:start="17"}
+17. [A DAO for Cycles](/bounties/2022/02/25/A-DAO-for-Cycles.html) - $1,000 USD of ICP at award date
+
+{:start="19"}
+19. [CBOR and Candid Motoko Parser](/bounties/2022/02/22/CBOR-and-Candid-Motoko-Parser.html) - $6,000 USD
 
 {:start="20"}
 20. [QuickStart Dapp - Scaling With Canisters](/bounties/2022/03/25/QuickStart-Dapp-Scaling-With-Canisters.html) - 200 ICP First Prize, 100 ICP Second Prize, 50 ICP Third Prize

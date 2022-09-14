@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Bounty - ICDevs.org Metacalls - Rust"
-date:   2022-08-31 00:00:00 -0600
+date:   2022-09-14 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# Metacalls - #23
+# Metacalls - Rust - #23b
 
 ## Current Status: Discussion
 
@@ -66,12 +66,10 @@ To complete this bounty:
 
 6. The class should send the produced request using the http outgoing request api.
 
-7. Until the http api is turned on, a user should be able to download the request, and instructions for relaying the item to the IC should be provided.
-
-8. The class should keep track of the request ID so that a user can retrieve it and check the status of their message on the IC via an alternative method.
+7. The class should keep track of the request ID so that a user can retrieve it and check the status of their message on the IC via an alternative method.
 
 
-The package should be deployed as a vessel package.
+The package should be deployed as a cargo package.
 
 
 ## To apply for this bounty you should:

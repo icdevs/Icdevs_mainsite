@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "Bounty - ICDevs.org NoKey Wallet - Rust"
-date:   2022-09-05 00:00:00 -0600
+title:  "Bounty - ICDevs.org Metacalls - Motoko"
+date:   2022-09-14 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# Rust NoKey Wallet - #27
+# Metacalls - Motoko - #23a
 
 ## Current Status: Discussion
 
-* Discussion (09/05/2022)
+* Discussion (08/31/2022)
 * Ratification 
 * Open for application
 * Assigned 
@@ -22,34 +22,55 @@ author: Austin Fatheree
 ## Bounty Details
 
 * Bounty Amount: $5,000 USD of ICP at award date - $5000 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $2000 USD of ICP at award time - (For every ICP sent to 8e6a56cf83240d1f07afe5002d8ce3574e2bde9ede8c4a8964cd6b53c40d0c22, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 125 ICP donated, After 125 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
-* Project Type: Team
-* Opened: 09/05/2022
-* Time Commitment: Weeks
+* ICDevs.org DFINITY Foundation Grant Match Available: $5000 USD of ICP at award time - (For every ICP sent to 2b94dfa24ea7a456d717469236d7da290310f61caaae448cd5a5940d729a6d4e, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 125 ICP donated, After 125 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* Project Type: Individual
+* Opened: 09/01/2022
+* Time Commitment: A Week
 * Project Type: Library
-* Experience Type: Intermediate - Rust;
+* Experience Type: Intermediate - Motoko;
 
 ## Description
 
-This Rust class is allows for canisters to hold assets on other EVM based chains.
+This Motoko library will allow an Internet Computer Canister to call the IC using an assumed identity.
 
 This bounty gives the opportunity to
 
-* learn Rust
-* learn about signing transactions
-* learn about evm transactions
-* learn about t-ecdsa
-* learn about managing nonces
+* learn how Public Key Encryption Works
+* learn about t-ecdsa works on the Internet computer(creating keys that don't exist and can only be recombined through consensus)
+* learn about outgoing http calls
+* learn about CBOR and Candid
 
-The NoKey wallet is a stable class that any Rust canister can add that will allow it to act as a wallet for Evm-based chains.  It should implement the following features:
+Now that t-ecdsa is approaching production, the IC will be able to generate keys that can be used to sign other IC transactions.  There are many reasons one may want to do this.  
 
-* Derive a t-ecdsa key according to a consistent derivation scheme.
-* Save that derivation for the user in a (Nat,Text) pair.
-* Sign Evm-based transactions with a t-ecdsa key selected by the wallet owner. The transaction will be passed in as part of the sign function sign(rawtrx, {#derivation([Nat], #named(id)}, nonce, other Info?, saveHistory)
-* Keep a history of signed transactions.
-* Enable clearing the history
-* Provide an upgrade strategy, preferably using stable vars.
-* Suggest and follow a safe nonce generation/management scheme that protects the user.
+Currently, a canister only has one Identity, its principal.  Using t-ecdsa the canister could have multiple identities.  
+
+Unfortunately, at the moment, the protocol does not allow a canister to relay calls to other canisters using a derived identity.  As a result, the calls generated with these t-ecdsa keys will need to be relayed to the IC.
+
+Currently, you will need to provide a way to download the transactions so that a program can relay them to the IC using dfx, quill, or some other kind of IC client.
+
+Once outgoing HTTP requests are turned on(the api is already available) you will need to submit the payload to the IC for submission.  
+
+Warning: When you submit something to the IC for an outgoing http request it may be submitted multiple times. Please confirm with DFINITY that idempotency is supported by the replica.
+
+To complete this bounty:
+
+1. Create a stable motoko class that can keep track of generated t-ecdsa keys.
+
+2. The class should be able to take a Candid request and convert it into the format needed for signing.
+
+3. The class should ask the IC to sign the request.
+
+4. The class should store the request for historical purposes. (user should be able to set a time limit).
+
+5. The class should clean up expired requests.
+
+6. The class should send the produced request using the http outgoing request api.
+
+7. The class should keep track of the request ID so that a user can retrieve it and check the status of their message on the IC via an alternative method.
+
+
+The package should be deployed as a vessel package.
+
 
 ## To apply for this bounty you should:
 
@@ -76,7 +97,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 8e6a56cf83240d1f07afe5002d8ce3574e2bde9ede8c4a8964cd6b53c40d0c22.  ICDevs will match the bounty $40:1 ICP for the first 125 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 2b94dfa24ea7a456d717469236d7da290310f61caaae448cd5a5940d729a6d4e.  ICDevs will match the bounty $40:1 ICP for the first 125 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## FYI: General Bounty Process
