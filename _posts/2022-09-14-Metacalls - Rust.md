@@ -10,14 +10,14 @@ author: Austin Fatheree
 
 ## Current Status: Discussion
 
-* Discussion (08/31/2022)
+* Discussion (09/14/2022)
 * Ratification 
 * Open for application
 * Assigned 
 * In Review 
 * Closed 
 
-[Forum Link - Discussion]()
+[Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-23b-metacalls-rust-up-to-10k/15423)
 
 ## Bounty Details
 

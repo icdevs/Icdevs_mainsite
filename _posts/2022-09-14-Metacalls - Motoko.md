@@ -10,14 +10,14 @@ author: Austin Fatheree
 
 ## Current Status: Discussion
 
-* Discussion (08/31/2022)
+* Discussion (9/14/2022)
 * Ratification 
 * Open for application
 * Assigned 
 * In Review 
 * Closed 
 
-[Forum Link - Discussion]()
+[Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-23a-metacalls-motoko-up-to-10k/15422)
 
 ## Bounty Details
 
@@ -46,9 +46,7 @@ Currently, a canister only has one Identity, its principal.  Using t-ecdsa the c
 
 Unfortunately, at the moment, the protocol does not allow a canister to relay calls to other canisters using a derived identity.  As a result, the calls generated with these t-ecdsa keys will need to be relayed to the IC.
 
-Currently, you will need to provide a way to download the transactions so that a program can relay them to the IC using dfx, quill, or some other kind of IC client.
-
-Once outgoing HTTP requests are turned on(the api is already available) you will need to submit the payload to the IC for submission.  
+Outgoing HTTP requests are turned on(the api is already available) you will need to submit the payload to the IC for submission.  
 
 Warning: When you submit something to the IC for an outgoing http request it may be submitted multiple times. Please confirm with DFINITY that idempotency is supported by the replica.
 

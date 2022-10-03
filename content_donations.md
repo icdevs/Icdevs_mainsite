@@ -93,21 +93,21 @@ Follow Neuron 14231996777861930328 for the Manage Neuron Topic(instructions). Th
 
 1. Log into the NNS and navigate to the neuron you want to dedicate.
 2. Right click and "Inspect"
-3. Go to the Sources Tab and navigate to top/nns.ic0.app/ic_agent.js
-4. Search for "this.follow = async" (about line 1793)
-5. Add a breakpoint on the next line by clicking the line number. This line should say something like "await updateRequestHandler_1.submitUpdateRequest(......"
+3. Go to the Sources Tab and navigate to top/nns.ic0.app/assets/build/EditFollowNeurons......js
+4. Search for "followee: s.id" 
+5. Add a breakpoint on the await line right above this by clicking the dash in the gutter of the interface. This line should say something like "await e({
 6. Leave the console open and go to the "Following" box.
 7. Click Edit Followees.
 8. Click A topic for which you have 0 followees. ie "Exchange Rate"
 9. Expand the topic and click Add Followee
 10. Put 14231996777861930328 in the Followee Address box and click "Follow Neuron".
 11. Your breakpoint should trigger.
-12. Hold your mouse over the 'request' variable on the line. This should bring up an interface to edit the properties of the request.
-13. Change the topic to 1.
+12. Goto the variables panel on the right, Look for "Scope" and expand "closure".
+13. Change the variable a to 1.
 14. Click the "play" button.
 15. Confirm that your neuron now follows 14231996777861930328 for the Manage Neuron Topic.
 
-
+Please let us know that you've dedicated your neruon or add our neruon as a hot key on your neuron.
 
 
 

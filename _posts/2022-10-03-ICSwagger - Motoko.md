@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bounty - ICDevs.org icSwagger"
-date:   2022-10-03 00:00:00 -0600
+date:   2022-11-03 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
@@ -10,7 +10,7 @@ author: Austin Fatheree
 
 ## Current Status: Discussion
 
-* Discussion (09/03/2022)
+* Discussion (11/03/2022)
 * Ratification 
 * Open for application
 * Assigned 
