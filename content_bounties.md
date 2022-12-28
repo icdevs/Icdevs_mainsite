@@ -31,48 +31,51 @@ The following libraries and applications were funded with ICDevs Bounties:
 - [Scaled Storage - Rust](https://github.com/scroobius-pip/scaled_storage)
 - [Bitcoin Federal Reserve - Actor Model - Motoko](https://github.com/professionalGithub99/actormodelbounty)
 - [Colony Game - Actor Model - Rust](https://github.com/GLicDEV/ic-quickstart-actor-model)
+- [ICRC-1 Motoko](https://github.com/NatLabs/icrc1)
+- [EVM Sign - Rust - A no key wallet for EVM based canister wallets](https://github.com/nikolas-con/ic-evm-sign-starter)
+- [Motoko StableBTree](https://github.com/sardariuss/MotokoStableBTree)
 
 ## Open Bounties
 
-{:start="0"}
-0. [React-native agent](/bounties/2021/10/16/react-native-agent-bounty.html) - 21 ICP + $250 USD of ICP at award date, $250 Match Available
-
-{:start="2"}
-2. [Add Generic DAO functions and interface to axon](/bounties/2021/11/01/generic-dao-fork-axon-copy.html) - 10 ICP + $250 USD of ICP at award date, $500 Match Available
+{:start="1"}
+1. [Basic tutorials and site](/bounties/2021/10/25/speed-run-the-ic-bounty.html) - 20 ICP + $1000 USD of ICP on award date, $500 Match Available
 
 {:start="7"}
 7. [Bug Bounty](/bounties/2022/01/03/Bug-Bounty.html) - 20 ICP + $500 USD of ICP at award date, Endowment Available
 
 {:start="10"}
-10. [Motoko Prettier Plugin](/bounties/2022/01/19/Motoko-Prettier-Plugin.html) - $4,000 USD of ICP at award date - $2,250 ICP Match Available
+
 11. [Motoko Language Server Updates](/bounties/2022/02/12/Language-Server-Updates.html) - $3,750 USD of ICP at award date, $2,500 USD of ICP match available.
 
-
 {:start="14"}
+12. [PNG Encoder/Decoder](/bounties/2022/02/20/PNG-Encoder-Decoder.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
+13. [Zip Encoder/Decoder](/bounties/2022/02/21/Zip-Encoder-Decoder.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
 14. [Big SHA256](/bounties/2022/02/22/Big-SHA256.html) - $1,000 USD of ICP at award date, $1,000 USD of ICP Match Available
-15. [Motoko Wallet](/bounties/2022/02/23/Motoko-Wallet.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
+
+{:start="16"}
 16. [EVM Witness Library](/bounties/2022/02/24/EVM-Witness-Library.html) - $8,000 USD of ICP at award date, $2,000 USD of ICP Match Available
 
 {:start="18"}
 18. [Bitcoin on the IC Reference Implementation](/bounties/2022/02/26/Bitcoin-on-the-IC-Reference-Implementation.html) - $10,000 USD of ICP at award date
 
 {:start="23"}
-23. a - [Metacalls - Motoko](/bounties/2022/09/14/Metacalls-Motoko.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available and b - [Metacalls - Rust](/bounties/2022/09/14/Metacalls-Rust.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
-24. [Motoko StableBTree](/bounties/2022/08/14/Motoko-StableBTree.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
+23. a - [Metacalls - Motoko](/bounties/2022/09/14/Metacalls-Motoko.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available and 
 
-{:start="26"}
-26. [ICRC-1 Motoko](/bounties/2022/08/14/ICRC-1-Motoko.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
-27. a - [Motoko NoKey Wallet](/bounties/2022/09/14/NoKey-Wallet-Motoko.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available and b - [Rust NoKey Wallet](/bounties/2022/09/14/NoKey-Wallet-Rust.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
+{:start="27"}
+27. a - [Motoko NoKey Wallet](/bounties/2022/09/14/NoKey-Wallet-Motoko.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available and
+
 
 
 ## Assigned 
 
-{:start="1"}
-1. [Basic tutorials and site](/bounties/2021/10/25/speed-run-the-ic-bounty.html) - 20 ICP + $1000 USD of ICP on award date, $500 Match Available
+{:start="2"}
+2. [Add Generic DAO functions and interface to axon](/bounties/2021/11/01/generic-dao-fork-axon-copy.html) - 10 ICP + $2,000 USD of ICP at award date, $2,000 Match Available
 
-{:start="13"}
-12. [PNG Encoder/Decoder](/bounties/2022/02/20/PNG-Encoder-Decoder.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
-13. [Zip Encoder/Decoder](/bounties/2022/02/21/Zip-Encoder-Decoder.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
+{:start="15"}
+15. [Motoko Wallet](/bounties/2022/02/23/Motoko-Wallet.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
+
+{:start="23"}
+23. b - [Metacalls - Rust](/bounties/2022/09/14/Metacalls-Rust.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
 
 
 
@@ -82,7 +85,13 @@ The following libraries and applications were funded with ICDevs Bounties:
 
 ## Freezer
 
-These bounties require addional tech before they can be executed. Please review and see if you have a creative solution!
+These bounties require additional tech before they can be executed and/or have had alternate solutions presented by the community. Please review and see if you have a creative solution!
+
+{:start="0"}
+0. [React-native agent](/bounties/2021/10/16/react-native-agent-bounty.html) - 21 ICP + $250 USD of ICP at award date, $250 Match Available
+
+{:start="10"}
+10. [Motoko Prettier Plugin](/bounties/2022/01/19/Motoko-Prettier-Plugin.html) - $4,000 USD of ICP at award date - $2,250 ICP Match Available
 
 {:start="23"}
 23. a - [Private Candid - Motoko](/bounties/2022/08/08/Private-Candid-Motoko.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available and b - [Private Candid - Motoko](/bounties/2022/08/08/Private-Candid-Rust.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
@@ -108,3 +117,10 @@ These bounties require addional tech before they can be executed. Please review 
 {:start="20"}
 20. [QuickStart Dapp - Scaling With Canisters](/bounties/2022/03/25/QuickStart-Dapp-Scaling-With-Canisters.html) - 200 ICP First Prize, 100 ICP Second Prize, 50 ICP Third Prize
 21. [QuickStart Dapp - Actor Model](/bounties/2022/04/26/QuickStart-Dapp-Scaling-With-Actors.html) - 200 ICP First Prize, 100 ICP Second Prize, 50 ICP Third Prize
+
+{:start="21"}
+24. [Motoko StableBTree](/bounties/2022/08/14/Motoko-StableBTree.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
+
+{:start="26"}
+26. [ICRC-1 Motoko](/bounties/2022/08/14/ICRC-1-Motoko.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
+27. b - [Rust NoKey Wallet](/bounties/2022/09/14/NoKey-Wallet-Rust.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available

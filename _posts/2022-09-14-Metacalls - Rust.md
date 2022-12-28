@@ -8,12 +8,12 @@ author: Austin Fatheree
 
 # Metacalls - Rust - #23b
 
-## Current Status: Discussion
+## Current Status: Awarded
 
 * Discussion (09/14/2022)
 * Ratification 
 * Open for application
-* Assigned 
+* Assigned (12/28/2022) - Assigned to mparikh
 * In Review 
 * Closed 
 

@@ -8,14 +8,14 @@ author: Austin Fatheree
 
 # Motoko ICRC-1 Motoko - #26
 
-## Current Status: Discussion
+## Current Status: Awarded
 
 * Discussion (08/14/2022)
 * Ratification 
 * Open for application
 * Assigned 
 * In Review 
-* Closed 
+* Closed (12/28/2022) - Awarded to tomijiga
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-26-icrc-1-motoko-up-to-10k/14868)
 

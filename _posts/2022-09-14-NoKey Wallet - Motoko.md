@@ -10,14 +10,14 @@ author: Austin Fatheree
 
 ## Current Status: Discussion
 
-* Discussion (09/05/2022)
+* Discussion (10/21/2022)
 * Ratification 
 * Open for application
 * Assigned 
 * In Review 
 * Closed 
 
-[Forum Link - Discussion]()
+[Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-27a-nokeywallet-motoko-up-to-10k/16054)
 
 ## Bounty Details
 

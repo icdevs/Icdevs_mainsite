@@ -8,14 +8,14 @@ author: Austin Fatheree
 
 # Motoko StableBTree - #24
 
-## Current Status: Discussion
+## Current Status: Awarded
 
 * Discussion (08/14/2022)
 * Ratification 
 * Open for application
 * Assigned 
 * In Review 
-* Closed 
+* Closed (12/28/2022) - Awarded to Sardariuss
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-24-stablebtree-mokoko-up-to-10k/14867)
 

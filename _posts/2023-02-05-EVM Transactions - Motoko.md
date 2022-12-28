@@ -1,55 +1,54 @@
 ---
 layout: post
-title:  "Bounty - ICDevs.org NoKey Wallet - Rust"
-date:   2022-09-14 00:00:00 -0600
+title:  "Bounty - EVM Transactions - Motoko"
+date:   2023-02-01 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# Rust NoKey Wallet - #27b
+# RLP - Motoko - #32
 
-## Current Status: Awarded
+## Current Status: Discussion
 
-* Discussion (10/21/2022)
+* Discussion (02/01/2023)
 * Ratification 
 * Open for application
 * Assigned 
 * In Review 
-* Closed (12/28/2022) - Awarded to LiveDuo
+* Closed 
 
-[Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-27b-nokeywallet-rust-up-to-10k/16055)
+[Forum Link - Discussion]()
 
 ## Bounty Details
 
-* Bounty Amount: $5,000 USD of ICP at award date - $5000 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $2000 USD of ICP at award time - (For every ICP sent to 8e6a56cf83240d1f07afe5002d8ce3574e2bde9ede8c4a8964cd6b53c40d0c22, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 125 ICP donated, After 125 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* Bounty Amount: $3,000 USD of ICP at award date - $3,000 USD of ICP Match Available
+* ICDevs.org DFINITY Foundation Grant Match Available: $3000 USD of ICP at award time - (For every ICP sent to 4dc0678d04c632921a7e5b913a4e3f185a3b48e2da6cba71f4be1e86272a789b, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 75 ICP donated, After 75 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
 * Project Type: Team
-* Opened: 09/05/2022
+* Opened: 02/01/2023
 * Time Commitment: Weeks
 * Project Type: Library
 * Experience Type: Intermediate - Rust;
 
 ## Description
 
-This Rust class is allows for canisters to hold assets on other EVM based chains.
+As we make progress to further integrating EVM based blockchains with motoko, we need more EVM based tools.  While Bounty #29 seeks a short term solution, this bounty seeks to implement the fundamental libraries needed to build and verify transactions and data on motoko canisters without having make an async call to a utility canister.
 
-This bounty gives the opportunity to
+To execute this bounty you need to implement a Merkle Patricia Tree in motoko.  See https://ethereum.org/en/developers/docs/data-structures-and-encoding/patricia-merkle-trie/. This library should be stable in nature and use a functional design such that it is not necessary to use pre/post upgrade to stablize data.
 
-* learn Rust
-* learn about signing transactions
-* learn about evm transactions
-* learn about t-ecdsa
-* learn about managing nonces
+See https://github.com/ZhenyaUsenko/motoko-hash-map for a stable pattern methodology.
 
-The NoKey wallet is a stable class that any Rust canister can add that will allow it to act as a wallet for Evm-based chains.  It should implement the following features:
+See https://github.com/ethereumjs/merkle-patricia-tree for a JS implementation. The tests in this project should be repeated in the motoko library.
 
-* Derive a t-ecdsa key according to a consistent derivation scheme.
-* Save that derivation for the user in a (Nat,Text) pair.
-* Sign Evm-based transactions with a t-ecdsa key selected by the wallet owner. The transaction will be passed in as part of the sign function sign(rawtrx, {#derivation([Nat], #named(id)}, nonce, other Info?, saveHistory)
-* Keep a history of signed transactions.
-* Enable clearing the history
-* Provide an upgrade strategy, preferably using stable vars.
-* Suggest and follow a safe nonce generation/management scheme that protects the user.
+You should also offer an optional data pathway to use the stable btree library at https://github.com/sardariuss/MotokoStableBTree if the user needs access to a larger set of memory.
+
+The library should be set up to work with vessel and MOPS.
+
+Completing this bounty will give the developer the chance to tackle [Bounty 31 - EVM Transactions - Motoko](/bounties/2023/02/01/Merkle-Patricia-Trees-Motoko.html), and eventually, [Bounty 27a - No Key Wallet Motoko](/bounties/2022/09/14/NoKey-Wallet-Motoko.html)
+
+This bounty gives the opportunity to:
+
+* learn motoko
+* learn about evms and transaction types
 
 ## To apply for this bounty you should:
 
@@ -76,7 +75,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 8e6a56cf83240d1f07afe5002d8ce3574e2bde9ede8c4a8964cd6b53c40d0c22.  ICDevs will match the bounty $40:1 ICP for the first 125 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 6e8afebab59f703356e189297e3f49fbe18ace5150ccc43f74f30ceb3f6b5ece.  ICDevs will match the bounty $40:1 ICP for the first 125 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## FYI: General Bounty Process
@@ -107,7 +106,7 @@ The award has been given and the bounty is closed.
 
 # Matches
 
-DFINITY Foundation Grant: - $5000 USD of ICP at award date
+DFINITY Foundation Grant: - $2000 USD of ICP at award date
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)
