@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Bounty - Merkle Patricia Tree Motoko"
+title:  "Signing Tree and DER Encoding"
 date:   2023-02-01 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# Merkle Patricia Tree - Motoko - #31
+# Signing Tree and DER Encoding - #36
 
 ## Current Status: Discussion
 
@@ -21,8 +21,8 @@ author: Austin Fatheree
 
 ## Bounty Details
 
-* Bounty Amount: $3,000 USD of ICP at award date - $3,000 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $3,000 USD of ICP at award time - (For every ICP sent to 596b5cdecdae9a8ba967d3bdc448d829f353c40c40a284b5f51a6ca283249e02, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 75 ICP donated, After 75 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* Bounty Amount: $5,000 USD of ICP at award date - $5,000 USD of ICP Match Available
+* ICDevs.org DFINITY Foundation Grant Match Available: $5,000 USD of ICP at award time - (For every ICP sent to 25a63a3dfafde9da5ca73e63b66e6a5912cc61e8cb3581e9df8cd96ca5faa6ab, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 12.5 ICP donated, After 125 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
 * Project Type: Team
 * Opened: 02/01/2023
 * Time Commitment: Weeks
@@ -31,27 +31,35 @@ author: Austin Fatheree
 
 ## Description
 
-As we make progress to further integrating EVM based blockchains with motoko, we need more EVM based tools.  While Bounty #29 seeks a short term solution, this bounty seeks to implement the fundamental libraries needed to build and verify transactions and data on motoko canisters without having make an async call to a utility canister.
+IC Subnets are able to sign a set of data and provide certified variables to applications outside of the IC.  This functionality can also be used have the subnet sign messages and transactions from the IC.
 
-To execute this bounty you need to implement a Merkle Patricia Tree in motoko.  See https://ethereum.org/en/developers/docs/data-structures-and-encoding/patricia-merkle-trie/. This library should be stable in nature and use a functional design such that it is not necessary to use pre/post upgrade to stablize data.
+Reference Material:
 
-See https://github.com/ZhenyaUsenko/motoko-hash-map for a stable pattern methodology.
+[Canister signatures available to canisters on all subnets ](https://forum.dfinity.org/t/canister-signatures-available-to-canisters-on-all-subnets/11240)
+[Certified Data API](https://smartcontracts.org/docs/base-libraries/certifieddata)
+[Haskell example](https://github.com/dfinity/ic-hs/blob/master/src/IC/Crypto/CanisterSig.hs)
+[Signature Spec](https://internetcomputer.org/docs/current/references/ic-interface-spec#signatures)
+[There was an attempt](https://m7sm4-2iaaa-aaaab-qabra-cai.raw.ic0.app/?tag=2473530532)
+[Structure of transactions for signing](https://internetcomputer.org/docs/current/references/ic-interface-spec/#hash-of-map)
+[Haskell DER Encoding](https://github.com/dfinity/ic-hs/blob/master/src/IC/Crypto/DER.hs#L45)
+[Tree Example](https://gist.github.com/nomeata/f325fcd2a6692df06e38adedf9ca1877)
+[Asset Cert Example](https://github.com/nomeata/motoko-certified-http)
+[Video walking through some of it](https://www.youtube.com/watch?v=gaVuMaTP2lQ)
 
-See https://github.com/ethereumjs/merkle-patricia-tree for a JS implementation. The tests in this project should be repeated in the motoko library.
+This bounty has three parts
 
-You should also offer an optional data pathway to use the stable btree library at https://github.com/sardariuss/MotokoStableBTree if the user needs access to a larger set of memory.
+1. Produce a DER encoding library and make it compatible with Vessel and MOPS
+2. Produce a Merkle Tree library that will integrate well with the Certified Data API. Nometa has an example of a one level tree, but we need one that has many levels and allows the creation and verification of witnesses.
+3. Create an example of a canister signing a DER Encoded transaction that can be queried later to find the bytes needed to submit a request to IC.
 
-The library should be set up to work with vessel and MOPS.
-
-Completing this bounty will give the developer the chance to tackle [Bounty 31 - EVM Transactions - Motoko](/bounties/2023/02/01/Merkle-Patricia-Trees-Motoko.html), and eventually, [Bounty 27a - No Key Wallet Motoko](/bounties/2022/09/14/NoKey-Wallet-Motoko.html)
+The developer that completes this bounty will qualify to pursue bounty [23a - Metacalls - Motoko](https://forum.dfinity.org/t/icdevs-org-bounty-23a-metacalls-motoko-up-to-10k/15422)
 
 
+This bounty gives the opportunity to
 
-This bounty gives the opportunity to:
-
-* learn motoko
-* learn about evms and Merkle Patricia Trees
-* learn about witnesses
+* learn about certified data and variables
+* learn about DER Encoding
+* learn how IC transactions are structured
 
 ## To apply for this bounty you should:
 
@@ -78,7 +86,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 596b5cdecdae9a8ba967d3bdc448d829f353c40c40a284b5f51a6ca283249e02.  ICDevs will match the bounty $40:1 ICP for the first 75 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 25a63a3dfafde9da5ca73e63b66e6a5912cc61e8cb3581e9df8cd96ca5faa6ab.  ICDevs will match the bounty $40:1 ICP for the first 125 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## FYI: General Bounty Process

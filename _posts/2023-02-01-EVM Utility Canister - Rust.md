@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Bounty - Merkle Patricia Tree Motoko"
+title:  "Bounty - ICDevs.org EVM Utility Canister - Rust"
 date:   2023-02-01 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# Merkle Patricia Tree - Motoko - #31
+# EVM Utility Canister - #28
 
 ## Current Status: Discussion
 
@@ -21,8 +21,8 @@ author: Austin Fatheree
 
 ## Bounty Details
 
-* Bounty Amount: $3,000 USD of ICP at award date - $3,000 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $3,000 USD of ICP at award time - (For every ICP sent to 596b5cdecdae9a8ba967d3bdc448d829f353c40c40a284b5f51a6ca283249e02, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 75 ICP donated, After 75 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* Bounty Amount: $5,000 USD of ICP at award date - $5,000 USD of ICP Match Available
+* ICDevs.org DFINITY Foundation Grant Match Available: $5,000 USD of ICP at award time - (For every ICP sent to 8e6a56cf83240d1f07afe5002d8ce3574e2bde9ede8c4a8964cd6b53c40d0c22, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 125 ICP donated, After 125 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
 * Project Type: Team
 * Opened: 02/01/2023
 * Time Commitment: Weeks
@@ -31,27 +31,22 @@ author: Austin Fatheree
 
 ## Description
 
-As we make progress to further integrating EVM based blockchains with motoko, we need more EVM based tools.  While Bounty #29 seeks a short term solution, this bounty seeks to implement the fundamental libraries needed to build and verify transactions and data on motoko canisters without having make an async call to a utility canister.
+This rust canister allows motoko canister to query it with data to receive EVM compliant transactions that can be signed via t-ECDSA and submitted to EVM networks.
 
-To execute this bounty you need to implement a Merkle Patricia Tree in motoko.  See https://ethereum.org/en/developers/docs/data-structures-and-encoding/patricia-merkle-trie/. This library should be stable in nature and use a functional design such that it is not necessary to use pre/post upgrade to stablize data.
+This bounty gives the opportunity to
 
-See https://github.com/ZhenyaUsenko/motoko-hash-map for a stable pattern methodology.
+* learn rust
+* learn about signing transactions
+* learn about evm transactions
+* learn about t-ecdsa
 
-See https://github.com/ethereumjs/merkle-patricia-tree for a JS implementation. The tests in this project should be repeated in the motoko library.
+Motoko currently is missing a number of libraries needed to encode, interpret, and sign evm transactions and data. Rust has most of these libraries and many of them have been used in the rust [No Key Wallet project](https://forum.dfinity.org/t/icdevs-org-bounty-27b-nokeywallet-rust-up-to-10k/16055).  Until these libraries are converted to motoko, it would be nice to have a utility canister that does most of this work for a motoko canister.  This will involve async communication and may incur long transaction times, but it will at least let motoko devs get started with EVM based transactions while those motoko libraries are being developed.
 
-You should also offer an optional data pathway to use the stable btree library at https://github.com/sardariuss/MotokoStableBTree if the user needs access to a larger set of memory.
-
-The library should be set up to work with vessel and MOPS.
-
-Completing this bounty will give the developer the chance to tackle [Bounty 31 - EVM Transactions - Motoko](/bounties/2023/02/01/Merkle-Patricia-Trees-Motoko.html), and eventually, [Bounty 27a - No Key Wallet Motoko](/bounties/2022/09/14/NoKey-Wallet-Motoko.html)
-
-
-
-This bounty gives the opportunity to:
-
-* learn motoko
-* learn about evms and Merkle Patricia Trees
-* learn about witnesses
+* Create a proper candid type for passing an EVM transaction to the utility canister and return the encoded bytes and hash that is needed to be signed.  Support multiple network ids and transaction types like Legacy, EIP1559, EIP2930.
+* Create a proper candid type for passing in an evm witness, root, and receiving back a verification that the data is part of the tree under that root.
+* Expose RLP encoding and candid type
+* Expose a keccak hashing function
+* Expose functions similar to https://github.com/ethereumjs/ethereumjs-monorepo/tree/master/packages/util 
 
 ## To apply for this bounty you should:
 
@@ -78,7 +73,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 596b5cdecdae9a8ba967d3bdc448d829f353c40c40a284b5f51a6ca283249e02.  ICDevs will match the bounty $40:1 ICP for the first 75 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 8e6a56cf83240d1f07afe5002d8ce3574e2bde9ede8c4a8964cd6b53c40d0c22.  ICDevs will match the bounty $40:1 ICP for the first 125 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## FYI: General Bounty Process

@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Bounty - ICDevs.org EVM Utility Canister - Rust"
+title:  "RegEx Motoko Analysis"
 date:   2023-02-01 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# EVM Utility Canister - #28
+# RegEx Motoko Analysis - #35
 
 ## Current Status: Discussion
 
@@ -21,8 +21,8 @@ author: Austin Fatheree
 
 ## Bounty Details
 
-* Bounty Amount: $5,000 USD of ICP at award date - $5,000 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $5,000 USD of ICP at award time - (For every ICP sent to 8e6a56cf83240d1f07afe5002d8ce3574e2bde9ede8c4a8964cd6b53c40d0c22, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 125 ICP donated, After 125 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* Bounty Amount: $500 USD of ICP at award date - $500 USD of ICP Match Available
+* ICDevs.org DFINITY Foundation Grant Match Available: $500 USD of ICP at award time - (For every ICP sent to 8b9cbe90c23b9d0a36006e6623205e89c72938d064c911bdbf4fde9e17280b20, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 12.5 ICP donated, After 12.5 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
 * Project Type: Team
 * Opened: 02/01/2023
 * Time Commitment: Weeks
@@ -31,21 +31,21 @@ author: Austin Fatheree
 
 ## Description
 
-This rust canister allows motoko canister to query it with data to receive EVM compliant transactions that can be signed via t-ECDSA and submitted to EVM networks.
+Motoko needs a more robust text search library.  There are many options to complete this task. The options are: 
+
+1. Create a motoko library written in motoko that can be included in the base libraries for RegEx based text searches.
+2. Integrate a native regex library into the compiler as an optional compiler flag(see timer switches)
+3. Add generic rust crate integration and imports into the motoko system so that existing rust crates can be included and called from motoko programs.
+
+This is an analysis bounty that asks the developer to review the options and to make a recommendation about the pros, cons, and estimates of doing each three mentioned strategies.
+
+You should work with the motoko team at DFINITY to understand the complications with the different scenarios and understand their priorities as it comes to the future of motoko.  We would like to develop significant motoko compiler experience outside of the Foundation, but we don't want to duplicate work or undertake work that is currently on the road map in the immediate future.
 
 This bounty gives the opportunity to
 
-* learn rust
-* learn about signing transactions
-* learn about evm transactions
-* learn about t-ecdsa
-
-Motoko currently is missing a number of libraries needed to encode, interpret, and sign evm transactions and data. Rust has most of these libraries and many of them have been used in the rust [No Key Wallet project](https://forum.dfinity.org/t/icdevs-org-bounty-27b-nokeywallet-rust-up-to-10k/16055).  Until these libraries are converted to motoko, it would be nice to have a utility canister that does most of this work for a motoko canister.  This will involve async communication and may incur long transaction times, but it will at least let motoko devs get started with EVM based transactions while those motoko libraries are being developed.
-
-* Create a proper candid type for passing an EVM transaction to the utility canister and return the encoded bytes and hash that is needed to be signed.  Support multiple network ids and transaction types like Legacy, EIP1559, EIP2930.
-* Create a proper candid type for passing in an evm witness, root, and receiving back a verification that the data is part of the tree under that root.
-* Expose RLP encoding and candid type
-* Expose a keccak hashing function
+* learn about the motoko compiler
+* work with the motoko team to understand their priorities
+* learn regex
 
 ## To apply for this bounty you should:
 
@@ -72,7 +72,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 6e8afebab59f703356e189297e3f49fbe18ace5150ccc43f74f30ceb3f6b5ece.  ICDevs will match the bounty $40:1 ICP for the first 125 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 8b9cbe90c23b9d0a36006e6623205e89c72938d064c911bdbf4fde9e17280b20.  ICDevs will match the bounty $40:1 ICP for the first 12.5 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## FYI: General Bounty Process
