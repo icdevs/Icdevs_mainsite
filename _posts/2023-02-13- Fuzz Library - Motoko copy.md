@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Signing Tree and DER Encoding"
+title:  "Async Flow - Fuzz Library - Motoko"
 date:   2023-02-01 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# Signing Tree and DER Encoding - #36
+# Async Flow - Fuzz Library - Motoko - #40
 
 ## Current Status: Discussion
 
@@ -21,45 +21,61 @@ author: Austin Fatheree
 
 ## Bounty Details
 
-* Bounty Amount: $5,000 USD of ICP at award date - $5,000 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $5,000 USD of ICP at award time - (For every ICP sent to 25a63a3dfafde9da5ca73e63b66e6a5912cc61e8cb3581e9df8cd96ca5faa6ab, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 125 ICP donated, After 125 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* Bounty Amount: $2,000 USD of ICP at award date - $2,000 USD of ICP Match Available
+* ICDevs.org DFINITY Foundation Grant Match Available: $2,000 USD of ICP at award time - (For every ICP sent to 801581b2c8f3303eaeb91892784b2eac99e1128115b0fadf739576d6c94f3c8e, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 50 ICP donated, After 50 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
 * Project Type: Individual
 * Opened: 02/01/2023
-* Time Commitment: Weeks
+* Time Commitment: Days
 * Project Type: Library
-* Experience Type: Advanced - Motoko; Advanced - Crypto;
+* Experience Type: Beginner - Motoko;
 
 ## Description
 
-IC Subnets are able to sign a set of data and provide certified variables to applications outside of the IC.  This functionality can also be used have the subnet sign messages and transactions from the IC.
+Fuzzing is a form of testing that allows you to test your code with a number of randomized values and to use different randomized values each time.
 
-Reference Material:
+In this bounty you will create a library that returns randomized values for different motoko data types so that you can write fuzz tests in motoko.
 
-[Canister signatures available to canisters on all subnets ](https://forum.dfinity.org/t/canister-signatures-available-to-canisters-on-all-subnets/11240)
-[Certified Data API](https://smartcontracts.org/docs/base-libraries/certifieddata)
-[Haskell example](https://github.com/dfinity/ic-hs/blob/master/src/IC/Crypto/CanisterSig.hs)
-[Signature Spec](https://internetcomputer.org/docs/current/references/ic-interface-spec#signatures)
-[There was an attempt](https://m7sm4-2iaaa-aaaab-qabra-cai.raw.ic0.app/?tag=2473530532)
-[Structure of transactions for signing](https://internetcomputer.org/docs/current/references/ic-interface-spec/#hash-of-map)
-[Haskell DER Encoding](https://github.com/dfinity/ic-hs/blob/master/src/IC/Crypto/DER.hs#L45)
-[Tree Example](https://gist.github.com/nomeata/f325fcd2a6692df06e38adedf9ca1877)
-[Asset Cert Example](https://github.com/nomeata/motoko-certified-http)
-[Video walking through some of it](https://www.youtube.com/watch?v=gaVuMaTP2lQ)
+The standard types that you need to cover are:
 
-This bounty has three parts
+Int
+Int8
+Int16
+Int32
+Int64
+Nat
+Nat8
+Nat16
+Nat32
+Nat64
+Float
+Char
+Text
+Bool
+Blob
 
-1. Produce a DER encoding library and make it compatible with Vessel and MOPS
-2. Produce a Merkle Tree library that will integrate well with the Certified Data API. Nometa has an example of a one level tree, but we need one that has many levels and allows the creation and verification of witnesses.
-3. Create an example of a canister signing a DER Encoded transaction that can be queried later to find the bytes needed to submit a request to IC.
+Option
 
-The developer that completes this bounty will qualify to pursue bounty [23a - Metacalls - Motoko](https://forum.dfinity.org/t/icdevs-org-bounty-23a-metacalls-motoko-up-to-10k/15422)
+Array
 
+The general fuzzing functions that you need to provide for each type are(where it makes sense):
+
+Fuzz.min<Type>() -> Type - Return the minimum value
+Fuzz.max<Type>() -> Type - Return the max value
+Fuzz.random<Type>() -> Type - Return a random value
+Fuzz.randomRange<Type>(min: Type, max: Type) - return a random in the range
+Fuzz.randomText(length: nat) : Text
+Fuzz.randomAscii(length: nat) : Text
+Fuzz.randomUnicode(length: nat, set: UnicodeSet) : Text
+Fuzz.randomBlob(length: nat) : Blob
+Fuzz.optOrNot<Type>(val : type) : ?Type - randomly assign the val or a null
+Fuzz.randomArray<Type>(() -> Type, length) : [Type] - Create an Array with the specified length
+
+For unbounded types like Nat and Int you will need to come up with a strategy that makes sense for min and max.
 
 This bounty gives the opportunity to
 
-* learn about certified data and variables
-* learn about DER Encoding
-* learn how IC transactions are structured
+* learn about Motoko
+* learn about Fuzzing
 
 ## To apply for this bounty you should:
 
@@ -86,7 +102,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 25a63a3dfafde9da5ca73e63b66e6a5912cc61e8cb3581e9df8cd96ca5faa6ab.  ICDevs will match the bounty $40:1 ICP for the first 125 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 801581b2c8f3303eaeb91892784b2eac99e1128115b0fadf739576d6c94f3c8e.  ICDevs will match the bounty $40:1 ICP for the first 50 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## FYI: General Bounty Process
@@ -117,7 +133,7 @@ The award has been given and the bounty is closed.
 
 # Matches
 
-DFINITY Foundation Grant: - $5000 USD of ICP at award date
+DFINITY Foundation Grant: - $2000 USD of ICP at award date
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)
