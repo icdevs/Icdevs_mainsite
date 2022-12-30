@@ -27,11 +27,11 @@ author: Austin Fatheree
 * Opened: 02/01/2023
 * Time Commitment: Weeks
 * Project Type: Library
-* Experience Type: Intermediate - Rust;
+* Experience Type: Advanced - Motoko; Advanced - OCaml
 
 ## Description
 
-In order to popularize the motoko programing language we need to enable it to run and perform operations out side of the IC.  The strong typing and async model of programming lends itself nicely to a number of modern computing challenges.
+In order to popularize the motoko programing language we need to enable it to run and perform operations outside of the IC.  The strong typing and async model of programming lend itself nicely to a number of modern computing challenges.
 
 [Wasmer](https://wasmer.io/) is a set of tools that let you load wasm modules into other languages and interact with those modules across a range of environments and operating systems.
 
@@ -42,11 +42,11 @@ Create a simple motoko program that takes a string input - x - and returns "Hell
 Call this program from:
 
 - A C# application that runs on windows. Upon clicking a button, the application should take input from the user and then show a windows modal with result of the motoko function. Another button should show the last message created using the the hello world function.
-- A Swift application that runs on MacOs. Upon clicking a button, the application should take input from the user and then show a MacOS modal with result of the motoko function. Another button should show the last message created using the the hello world function.  You may need to bridge to a rust implemntation as described here: https://rymc.io/blog/2021/cacao-rs-macos-ios-rust/ as a swift wasmer implementation does not exist yet.
+- A Swift application that runs on MacOs. Upon clicking a button, the application should take input from the user and then show a MacOS modal with result of the motoko function. Another button should show the last message created using the the hello world function.  You may need to bridge to a rust implementation as described here: https://rymc.io/blog/2021/cacao-rs-macos-ios-rust/ as a swift wasmer implementation does not exist yet.
 - A React-native application that runs on iOS and Android. Upon clicking a button, the application should take input from the user and then show a iOS/android modal with result of the motoko function. Another button should show the last message created using the the hello world function.
 - A Dart application that runs on android/iOS. Upon clicking a button, the application should take input from the user and then show a android/iOS modal with result of the motoko function. Another button should show the last message created using the the hello world function.
 
-See https://github.com/wasmerio/wasmer#-language-integrations for available languages and other documentatin
+See https://github.com/wasmerio/wasmer#-language-integrations for available languages and other documentation
 
 This bounty gives the opportunity to
 
@@ -58,7 +58,7 @@ This bounty gives the opportunity to
 * learn about OS integrations
 * learn about the motoko compiler
 
-At this point we don't expect things like async to work from the motoko wasm. We are looking for basic functionality and the ability to push data into and get data out of motoko libraries.
+At this point, we don't expect things like async to work from the motoko wasm. We are looking for basic functionality and the ability to push data into and get data out of motoko libraries.
 
 Completion of this bounty will qualify the dev for future bounties where we look to enable the async programming model inside of a motoko wasm program and the ability of a running motoko wasm module to send events/signals to its running program.
 
@@ -118,7 +118,7 @@ The award has been given and the bounty is closed.
 
 # Matches
 
-DFINITY Foundation Grant: - $2000 USD of ICP at award date
+DFINITY Foundation Grant: - $5000 USD of ICP at award date
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)

@@ -37,38 +37,38 @@ In this bounty you will create a library that returns randomized values for diff
 
 The standard types that you need to cover are:
 
-Int
-Int8
-Int16
-Int32
-Int64
-Nat
+* Int
+* Int8
+* Int16
+* Int32
+* Int64
+* Nat
 Nat8
-Nat16
-Nat32
-Nat64
-Float
-Char
-Text
-Bool
-Blob
+* Nat16
+* Nat32
+* Nat64
+* Float
+* Char
+* Text
+* Bool
+* Blob
 
-Option
+* Option
 
-Array
+* Array
 
 The general fuzzing functions that you need to provide for each type are(where it makes sense):
 
-Fuzz.min<Type>() -> Type - Return the minimum value
-Fuzz.max<Type>() -> Type - Return the max value
-Fuzz.random<Type>() -> Type - Return a random value
-Fuzz.randomRange<Type>(min: Type, max: Type) - return a random in the range
-Fuzz.randomText(length: nat) : Text
-Fuzz.randomAscii(length: nat) : Text
-Fuzz.randomUnicode(length: nat, set: UnicodeSet) : Text
-Fuzz.randomBlob(length: nat) : Blob
+* Fuzz.min<Type>() -> Type - Return the minimum value
+* Fuzz.max<Type>() -> Type - Return the max value
+* Fuzz.random<Type>() -> Type - Return a random value
+* Fuzz.randomRange<Type>(min: Type, max: Type) - return a random in the range
+* Fuzz.randomText(length: nat) : Text
+* Fuzz.randomAscii(length: nat) : Text
+* Fuzz.randomUnicode(length: nat, set: UnicodeSet) : Text
+* Fuzz.randomBlob(length: nat) : Blob
 Fuzz.optOrNot<Type>(val : type) : ?Type - randomly assign the val or a null
-Fuzz.randomArray<Type>(() -> Type, length) : [Type] - Create an Array with the specified length
+* Fuzz.randomArray<Type>(() -> Type, length) : [Type] - Create an Array with the specified length
 
 For unbounded types like Nat and Int you will need to come up with a strategy that makes sense for min and max.
 

@@ -33,11 +33,11 @@ author: Austin Fatheree
 
 The IC implements an asynchronous messaging system where requests are made to canisters and a transaction id is returned.  The canister then queries the state of this transaction and returns the result when it detects that the function is complete. The Rust CDK and Motoko abstract this away from the user in a way that depends on the IC reliably fulfilling the request with certain guarantees.
 
-Sometimes a canister developer may want to do away with this abstraction and implement their own async flow when the results of the called function are not important to the continuation of their code.  This is more event based programming and it is especially useful while the IC still requires functions to return before upgrades can be performed.  Future functionality will fix this upgrade issue, but async and event based programming is still a useful pattern when services are interacting.  It removes dependencies and allows the developer to slip into an actor based frame of mind that more closely mirrors how the IC is actually working under the covers. Specifically it can keep the developer from making "await" assumptions that open the canister to reentrance attacks.
+Sometimes a canister developer may want to do away with this abstraction and implement their own async flow when the results of the called function are not important to the continuation of their code.  This is more event based programming and it is especially useful while the IC still requires functions to return before upgrades can be performed.  Future functionality will fix this upgrade issue, but async and event based programming is still a useful pattern when services are interacting.  It removes dependencies and allows the developer to slip into an actor based frame of mind that more closely mirrors how the IC is actually working under the covers. Specifically, it can keep the developer from making "await" assumptions that open the canister to reentrance attacks.
 
 In this bounty the user will create a library to handle asynchronous messaging.
 
-When a user initiates an async one-shot call they likely do want to handle some kind of response so that they can confirm that the call was received. In turn, the acknowledger needs to know that the acknowledgement was received. You end up with something that looks a lot like a TCP/IP flow.
+When a user initiates an async one-shot call they likely do want to handle some kind of response so that they can confirm that the call was received. In turn, the acknowledger needs to know that the acknowledgment was received. You end up with something that looks a lot like a TCP/IP flow.
 
 This pattern should expose a number of functions from the canister to implement this flow:
 
@@ -61,11 +61,11 @@ call_async(canister_id: principal, payload: blob) -> async* nat; // the nat shou
 
 ```
 
-Since the IC has a new 5 minute timeout on full queues, the Sender and Receiver should retry this messaging after 5.5 minutes.  Therefore the library needs to keep state of sent messages and should discard those messages after the acknowledgement has been made.
+Since the IC has a new 5 minute timeout on full queues, the Sender and Receiver should retry this messaging after 5.5 minutes.  Therefore the library needs to keep state of sent messages and should discard those messages after the acknowledgment has been made.
 
-The library should also keep track of processed message ids such that if a duplicate message is received, it is not reprocessed and instead, an acknowledgement is sent.
+The library should also keep track of processed message ids such that if a duplicate message is received, it is not reprocessed and instead, an acknowledgment is sent.
 
-The hash is a check to make sure the acknowledgement was of the correct data.  If an improper hash is received the library should hand the request to a corruption handler with enough data to manage the error.
+The hash is a check to make sure the acknowledgment was of the correct data.  If an improper hash is received the library should hand the request to a corruption handler with enough data to manage the error.
 
 This bounty gives the opportunity to
 

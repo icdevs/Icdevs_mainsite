@@ -36,7 +36,7 @@ author: Austin Fatheree
 In this bounty you will:
 
 1. Add documention about how pipelinify works.
-2. Create example for:
+2. Create examples for:
     * Moving a file from one server to another
     * Extending a process to run across multiple rounds
 3. Add the timer API to automate the execution of multi-round tasks.

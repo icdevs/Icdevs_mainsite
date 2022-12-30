@@ -27,13 +27,13 @@ author: Austin Fatheree
 * Opened: 02/01/2023
 * Time Commitment: Weeks
 * Project Type: Library
-* Experience Type: Intermediate - Rust;
+* Experience Type: Intermediate - Motoko;
 
 ## Description
 
-We have a [JSON parser for motoko](https://github.com/aviate-labs/json.mo), but some legacy web apis use XML.  This bounty asks you to use the JSON parser patterns and update it to parse(decode) XML. You will need provide candid types for XML and make sure that you support parsing the [XML Spec](https://www.w3.org/TR/xml/).
+We have a [JSON parser for motoko](https://github.com/aviate-labs/json.mo), but some legacy web apis use XML.  This bounty asks you to use the JSON parser patterns and update it to parse(decode) XML. You will need to provide candid types for XML and make sure that you support parsing the [XML Spec](https://www.w3.org/TR/xml/).
 
-You should also provide and encoder that will take the xml candid type and output the XML as text.  This will be useful for building xml based web services.
+You should also provide an encoder that will take the xml candid type and output the XML as text.  This will be useful for building xml based web services.
 
 This bounty gives the opportunity to
 
@@ -97,7 +97,7 @@ The award has been given and the bounty is closed.
 
 # Matches
 
-DFINITY Foundation Grant: - $2000 USD of ICP at award date
+DFINITY Foundation Grant: - $4000 USD of ICP at award date
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)

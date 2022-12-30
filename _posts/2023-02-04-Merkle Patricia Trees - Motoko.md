@@ -27,13 +27,13 @@ author: Austin Fatheree
 * Opened: 02/01/2023
 * Time Commitment: Weeks
 * Project Type: Library
-* Experience Type: Intermediate - Rust;
+* Experience Type: Intermediate - Motoko; Intermediate - Crypto;
 
 ## Description
 
-As we make progress to further integrating EVM based blockchains with motoko, we need more EVM based tools.  While Bounty #29 seeks a short term solution, this bounty seeks to implement the fundamental libraries needed to build and verify transactions and data on motoko canisters without having make an async call to a utility canister.
+As we make progress to further integrating EVM based blockchains with motoko, we need more EVM based tools.  While Bounty #29 seeks a short term solution, this bounty seeks to implement the fundamental libraries needed to build and verify transactions and data on motoko canisters without having to make an async call to a utility canister.
 
-To execute this bounty you need to implement a Merkle Patricia Tree in motoko.  See https://ethereum.org/en/developers/docs/data-structures-and-encoding/patricia-merkle-trie/. This library should be stable in nature and use a functional design such that it is not necessary to use pre/post upgrade to stablize data.
+To execute this bounty you need to implement a Merkle Patricia Tree in motoko.  See https://ethereum.org/en/developers/docs/data-structures-and-encoding/patricia-merkle-trie/. This library should be stable in nature and use a functional design such that it is not necessary to use pre/post upgrade to stabilize data.
 
 See https://github.com/ZhenyaUsenko/motoko-hash-map for a stable pattern methodology.
 
@@ -109,7 +109,7 @@ The award has been given and the bounty is closed.
 
 # Matches
 
-DFINITY Foundation Grant: - $2000 USD of ICP at award date
+DFINITY Foundation Grant: - $3000 USD of ICP at award date
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)

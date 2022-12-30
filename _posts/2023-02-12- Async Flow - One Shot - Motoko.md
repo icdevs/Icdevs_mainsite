@@ -37,7 +37,7 @@ Sometimes a canister developer may want to do away with this abstraction and imp
 
 In this bounty the user will create a library to handle asynchronous messaging.
 
-When a user initiates an async one-shot call they likely do want to handle some kind of response so that they can confirm that the call was received. In turn, the acknowledger needs to know that the acknowledgement was received. You end up with something that looks a lot like a TCP/IP flow.
+When a user initiates an async one-shot call they likely do want to handle some kind of response so that they can confirm that the call was received. In turn, the acknowledger needs to know that the acknowledgment was received. You end up with something that looks a lot like a TCP/IP flow.
 
 This pattern should expose a number of functions from the canister to implement this flow:
 
@@ -50,7 +50,7 @@ com_asyncFlow_ack({msg_id: nat; hash: ?nat32; payload: blob}) -> () //confirm th
 Receiving Canister:
 ```
 com_asyncFlow_newMessage({msg_id: nat; payload: blob;}) -> () // process a new message - payload is candid encoded data
-com_asyncFlow_ackack({msg_id: nat; hash: ?nat32}) -> () //acknowledges that the acknowledgement was received
+com_asyncFlow_ackack({msg_id: nat; hash: ?nat32}) -> () //acknowledges that the acknowledgment was received
 ```
 
 The library function signature should look something like:
@@ -63,9 +63,9 @@ call_async(canister_id: principal, payload: blob) -> async* nat; // the nat shou
 
 Since the IC has a new 5 minute timeout on full queues, the Sender and Receiver should retry this messaging after 5.5 minutes.  Therefore the library needs to keep state of sent messages and should discard those messages after the acknowledgement has been made.
 
-The library should also keep track of processed message ids such that if a duplicate message is received, it is not reprocessed and instead, an acknowledgement is sent.
+The library should also keep track of processed message ids such that if a duplicate message is received, it is not reprocessed and instead, an acknowledgment is sent.
 
-The hash is a check to make sure the acknowledgement was of the correct data.  If an improper hash is received the library should hand the request to a corruption handler with enough data to manage the error.
+The hash is a check to make sure the acknowledgment was of the correct data.  If an improper hash is received the library should hand the request to a corruption handler with enough data to manage the error.
 
 This bounty gives the opportunity to
 

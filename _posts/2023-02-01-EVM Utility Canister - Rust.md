@@ -27,7 +27,7 @@ author: Austin Fatheree
 * Opened: 02/01/2023
 * Time Commitment: Weeks
 * Project Type: Library
-* Experience Type: Intermediate - Rust;
+* Experience Type: Intermediate - Rust;  Intermediate - Evm;
 
 ## Description
 
@@ -104,7 +104,7 @@ The award has been given and the bounty is closed.
 
 # Matches
 
-DFINITY Foundation Grant: - $2000 USD of ICP at award date
+DFINITY Foundation Grant: - $5000 USD of ICP at award date
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)

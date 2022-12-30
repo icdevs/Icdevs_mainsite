@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Bounty - EVM Transactions - Motoko"
+title:  "File Uploader Pattern - JS, Rust, Motoko"
 date:   2023-02-01 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# EVM Transactions - Motoko - #32
+# File Uploader Pattern - JS, Rust, Motoko - #45
 
 ## Current Status: Discussion
 
@@ -21,30 +21,48 @@ author: Austin Fatheree
 
 ## Bounty Details
 
-* Bounty Amount: $4,000 USD of ICP at award date - $4,000 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $4000 USD of ICP at award time - (For every ICP sent to 4dc0678d04c632921a7e5b913a4e3f185a3b48e2da6cba71f4be1e86272a789b, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 100 ICP donated, After 100 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
-* Project Type: Team
+* Bounty Amount: $5,000 USD of ICP at award date - $5,000 USD of ICP Match Available
+* ICDevs.org DFINITY Foundation Grant Match Available: $5,000 USD of ICP at award time - (For every ICP sent to 88159b4fcc365576856c3d9c12a8d5b0e9614660dd30d507894466dabd58e92b, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 125 ICP donated, After 125 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* Project Type: Individual
 * Opened: 02/01/2023
 * Time Commitment: Weeks
 * Project Type: Library
-* Experience Type: Intermediate - Motoko; Intermediate - EVM;
+* Experience Type: Intermediate - Motoko; Intermediate - Rust; Intermediate - JS;
 
 ## Description
 
-As we make progress to further integrating EVM based blockchains with motoko, we need more EVM based tools.  While Bounty #29 seeks a short term solution, this bounty seeks to implement the fundamental libraries needed to build and verify transactions and data on motoko canisters without having make an async call to a utility canister.
+Uploading files to the IC has been difficult up to this point.  The root cause of this is that the IC has an ingress limit of 2MB. Therefore, if you need to upload a file, you need a custom integration that chunks the files into 2MB chunks and handles the processing and repeated calling of the IC to get the file into your canister.
 
-To execute this bounty you need to implement the creation, encoding, and decoding of EVM based transactions in Motoko. This work has been replicated in RUST at https://github.com/nikolas-con/ic-evm-sign and you should generally follow the candid structures used in this project and replicate the functionality in motoko. The library should be set up to work with vessel and MOPS.
+This bounty call for the developer to create a best-practices tutorial, motoko implementation, rust implementation, and agent-js handler to simplify this function.
 
-The library should support multiple network ids and transaction types like Legacy, EIP1559, EIP2930.
+The example canisters should have the following interface:
 
-You should also implement the various helper functions in the Ethereum js library:  https://github.com/ethereumjs/ethereumjs-monorepo/tree/master/packages/util with proper tests.
+```
+com_uploader_chunk({bytes : [Nat8], file_id: ?Nat, chunk : Nat}) -> Nat; 
+```
 
-Completing this bounty will give the developer the chance to tackle [Bounty 27a - No Key Wallet Motoko](/bounties/2022/09/14/NoKey-Wallet-Motoko.html) which will finalize the functionality and use t-ecdsa to sign and manage these transactions.
+This function should assemble files into a Map of <Nat, [[Nat8]]> or <Nat, Buffer<[Nat8]>]>.
 
-This bounty gives the opportunity to:
+The canister author is free elsewhere to handle the association of the file_id with a file name.
 
-* learn motoko
-* learn about evms and transaction types
+Code elsewhere in the library should be able to retrieve the files in chunked format from this state variable.
+
+The developer should add a function to the dfinity agent that auto handles the uploading of a byte array into this function. It should work similar to https://github.com/ORIGYN-SA/mintjs/blob/3cba559c5cd20e233aec211651cc42c59f9504d3/src/methods/nft/stage.ts#L83.
+
+Create a package in https://github.com/dfinity/agent-js/tree/main/packages called fileUploader.  This should take an actor and an identity.  You should be able to pass it a file and await the upload of that file:
+
+```
+let file_id = await fileUploader(actor, bytes);
+let result = actor.notify_of_file(file_id, "myfile.txt");
+```
+
+
+
+This bounty gives the opportunity to
+
+* learn about Motoko
+* learn about Rust
+* learn about IC File uploads
 
 ## To apply for this bounty you should:
 
@@ -71,7 +89,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 4dc0678d04c632921a7e5b913a4e3f185a3b48e2da6cba71f4be1e86272a789b.  ICDevs will match the bounty $40:1 ICP for the first 75 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 88159b4fcc365576856c3d9c12a8d5b0e9614660dd30d507894466dabd58e92b.  ICDevs will match the bounty $40:1 ICP for the first 125 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## FYI: General Bounty Process
@@ -102,7 +120,7 @@ The award has been given and the bounty is closed.
 
 # Matches
 
-DFINITY Foundation Grant: - $4000 USD of ICP at award date
+DFINITY Foundation Grant: - $5000 USD of ICP at award date
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)

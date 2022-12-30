@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Bounty - Reg Ex Utility Canister - Rust"
+title:  "Candy Library - Rust"
 date:   2023-02-01 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# Reg Ex Utility Canister - Rust - #33
+# Candy Library - Rust - #47
 
 ## Current Status: Discussion
 
@@ -22,31 +22,27 @@ author: Austin Fatheree
 ## Bounty Details
 
 * Bounty Amount: $2,000 USD of ICP at award date - $2,000 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $2000 USD of ICP at award time - (For every ICP sent to 6e8afebab59f703356e189297e3f49fbe18ace5150ccc43f74f30ceb3f6b5ece, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 50 ICP donated, After 50 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
-* Project Type: Team
+* ICDevs.org DFINITY Foundation Grant Match Available: $2,000 USD of ICP at award time - (For every ICP sent to 239ae124bf63b521baf9bdd6051652fae0c16178027ec9b2b093346bad280752, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 50 ICP donated, After 50 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* Project Type: Individual
 * Opened: 02/01/2023
 * Time Commitment: Weeks
 * Project Type: Library
-* Experience Type: Intermediate - Rust;
+* Experience Type: Intermediate - Motoko; Intermediate - Rust; Intermediate - JS;
 
 ## Description
 
-This rust canister allows motoko canister to query it with data to receive EVM compliant transactions that can be signed via t-ECDSA and submitted to EVM networks.
+Candy Library provides an extensible set of types for the basic motoko types.
+
+You will create a rust implementation of the various candid types.  Since some libraries return Candy types it can be helpful to have these types available in rust.
+
+Create a cargo package that allows rust developers to add the candy types to their projects.
+
+Duplicate the functionality in the Candy library:  https://github.com/icdevs/candy_library
 
 This bounty gives the opportunity to
 
-* learn rust
-* learn about regEx
-* learn about intercanister calls and their restrictions
-
-Motoko currently is missing a RegEx library.  Until RegEx is integrated into Motoko, it would be nice to have a utility canister that does most of this work for a motoko canister.  This will involve async communication and may incur long transaction times, but it will at least let motoko devs get started with RegEx based searches while those motoko libraries are being developed.
-
-* Create a proper candid type for passing a single or set of strings and regEx expressions to the utility canister.
-* Expose the RegEx crate with public methods as found at https://docs.rs/regex/latest/regex/
-* Analyze the Performance features and make a recommendation for the the canister.
-* Analyze the Unicode options and provide optional parameters to drive the selection at run time if possible.
-* Analyze the performance of the library and provide guidance on limits of its use(We expect that with the 2MB cap on inter-canister calls that it will be unlikely to hit cycle limits, but we need you to test and report.)
-
+* learn about Rust
+* learn about Candy Library
 
 ## To apply for this bounty you should:
 
@@ -73,7 +69,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 6e8afebab59f703356e189297e3f49fbe18ace5150ccc43f74f30ceb3f6b5ece.  ICDevs will match the bounty $40:1 ICP for the first 50 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 239ae124bf63b521baf9bdd6051652fae0c16178027ec9b2b093346bad280752.  ICDevs will match the bounty $40:1 ICP for the first 50 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## FYI: General Bounty Process

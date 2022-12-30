@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Bounty - EVM Transactions - Motoko"
+title:  "ICRC-2 and ICRC-3 - Motoko "
 date:   2023-02-01 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# EVM Transactions - Motoko - #32
+# ICRC-2 and ICRC-3 - Motoko - #45
 
 ## Current Status: Discussion
 
@@ -21,30 +21,23 @@ author: Austin Fatheree
 
 ## Bounty Details
 
-* Bounty Amount: $4,000 USD of ICP at award date - $4,000 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $4000 USD of ICP at award time - (For every ICP sent to 4dc0678d04c632921a7e5b913a4e3f185a3b48e2da6cba71f4be1e86272a789b, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 100 ICP donated, After 100 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
-* Project Type: Team
+* Bounty Amount: $3,000 USD of ICP at award date - $3,000 USD of ICP Match Available
+* ICDevs.org DFINITY Foundation Grant Match Available: $3,000 USD of ICP at award time - (For every ICP sent to 25be490ab9521ab06c8fb5456a1f376e71204aa565513391322b59b0177aea38, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 75 ICP donated, After 75 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* Project Type: Individual
 * Opened: 02/01/2023
-* Time Commitment: Weeks
+* Time Commitment: Days
 * Project Type: Library
-* Experience Type: Intermediate - Motoko; Intermediate - EVM;
+* Experience Type: Beginner - Motoko;
 
 ## Description
 
-As we make progress to further integrating EVM based blockchains with motoko, we need more EVM based tools.  While Bounty #29 seeks a short term solution, this bounty seeks to implement the fundamental libraries needed to build and verify transactions and data on motoko canisters without having make an async call to a utility canister.
+ICDevs.org has funded the ICRC-1 motoko library at https://github.com/NatLabs/icrc1. It is now time to add the ICRC-2(approval workflow) and ICRC-3(ledger and block query functionality).  These are still subject to approval by the working group, but work can begin now.
 
-To execute this bounty you need to implement the creation, encoding, and decoding of EVM based transactions in Motoko. This work has been replicated in RUST at https://github.com/nikolas-con/ic-evm-sign and you should generally follow the candid structures used in this project and replicate the functionality in motoko. The library should be set up to work with vessel and MOPS.
+This bounty gives the opportunity to
 
-The library should support multiple network ids and transaction types like Legacy, EIP1559, EIP2930.
-
-You should also implement the various helper functions in the Ethereum js library:  https://github.com/ethereumjs/ethereumjs-monorepo/tree/master/packages/util with proper tests.
-
-Completing this bounty will give the developer the chance to tackle [Bounty 27a - No Key Wallet Motoko](/bounties/2022/09/14/NoKey-Wallet-Motoko.html) which will finalize the functionality and use t-ecdsa to sign and manage these transactions.
-
-This bounty gives the opportunity to:
-
-* learn motoko
-* learn about evms and transaction types
+* learn about Motoko
+* learn about ICRC-2 and ICRC-3
+* learn about ICRC-1
 
 ## To apply for this bounty you should:
 
@@ -71,7 +64,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 4dc0678d04c632921a7e5b913a4e3f185a3b48e2da6cba71f4be1e86272a789b.  ICDevs will match the bounty $40:1 ICP for the first 75 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 25be490ab9521ab06c8fb5456a1f376e71204aa565513391322b59b0177aea38.  ICDevs will match the bounty $40:1 ICP for the first 75 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## FYI: General Bounty Process
@@ -102,7 +95,7 @@ The award has been given and the bounty is closed.
 
 # Matches
 
-DFINITY Foundation Grant: - $4000 USD of ICP at award date
+DFINITY Foundation Grant: - $3000 USD of ICP at award date
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)

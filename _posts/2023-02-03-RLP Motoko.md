@@ -23,27 +23,19 @@ author: Austin Fatheree
 
 * Bounty Amount: $2,000 USD of ICP at award date - $2,000 USD of ICP Match Available
 * ICDevs.org DFINITY Foundation Grant Match Available: $2000 USD of ICP at award time - (For every ICP sent to d0e3be904a939ff752979aaa53cfb66fac8d75b85ce4fa878e147d60706be6ed, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 50 ICP donated, After 50 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
-* Project Type: Team
+* Project Type: Individual
 * Opened: 02/01/2023
-* Time Commitment: Weeks
+* Time Commitment: Days
 * Project Type: Library
-* Experience Type: Intermediate - Rust;
+* Experience Type: Intermediate - Motoko; Intermediate - EVM;
 
 ## Description
 
 As we make progress to further integrating EVM based blockchains with motoko, we need more EVM based tools.  While Bounty #29 seeks a short term solution, this bounty seeks to implement the fundamental libraries needed to build and verify transactions and data on motoko canisters without having make an async call to a utility canister.
 
-To execute this bounty you need to implement a Merkle Patricia Tree in motoko.  See https://ethereum.org/en/developers/docs/data-structures-and-encoding/patricia-merkle-trie/. This library should be stable in nature and use a functional design such that it is not necessary to use pre/post upgrade to stablize data.
+To execute this bounty you need to implement RLP encoding and Decoding in motoko.  Some of this work has been started at https://github.com/icdevs/rlp.mo but it has not been tested or completed.  To claim this bounty make all the tests pass and be able to encode and decode RLP.  The library should be set up to work with vessel and MOPS.
 
-See https://github.com/ZhenyaUsenko/motoko-hash-map for a stable pattern methodology.
-
-See https://github.com/ethereumjs/merkle-patricia-tree for a JS implementation. The tests in this project should be repeated in the motoko library.
-
-You should also offer an optional data pathway to use the stable btree library at https://github.com/sardariuss/MotokoStableBTree if the user needs access to a larger set of memory.
-
-The library should be set up to work with vessel and MOPS.
-
-Completing this bounty will give the developer the chance to tackle [Bounty 31 - EVM Transactions - Motoko](/bounties/2023/02/01/Merkle-Patricia-Trees-Motoko.html), and eventually, [Bounty 27a - No Key Wallet Motoko](/bounties/2022/09/14/NoKey-Wallet-Motoko.html)
+Completing this bounty will give the developer the chance to tackle [Bounty 32 - Merkel Patricia Trees - Motoko](/bounties/2023/02/01/Merkle-Patricia-Trees-Motoko.html), and eventually, [Bounty 27a - No Key Wallet Motoko](/bounties/2022/09/14/NoKey-Wallet-Motoko.html)
 
 This bounty gives the opportunity to:
 

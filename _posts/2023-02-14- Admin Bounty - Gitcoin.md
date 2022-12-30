@@ -30,7 +30,7 @@ author: Austin Fatheree
 
 ## Description
 
-The assigned admin will be paid $25/bounty to enter the open bounty in to gitcoin in an attractive and informational format.  The assigned admin will recieve an additional $75/bounty if the item is accepted and executed via gitcoin.
+The assigned admin will be paid $25/bounty to enter the open bounty in to gitcoin in an attractive and informational format.  The assigned admin will receive an additional $75/bounty if the item is accepted and executed via gitcoin.
 
 * learn about gitcoin
 * connect with the ethereum and IC communities
