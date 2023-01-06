@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "Candy Library Documentation and Refactoring - Motoko"
-date:   2023-02-01 00:00:00 -0600
+title:  "Bounty - Merkle Patricia Tree Motoko"
+date:   2023-01-09 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# Candy Library Documentation and Refactoring - Motoko - #46
+# Merkle Patricia Tree - Motoko - #31
 
 ## Current Status: Discussion
 
-* Discussion (02/01/2023)
+* Discussion (01/09/2023)
 * Ratification 
 * Open for application
 * Assigned 
@@ -21,32 +21,37 @@ author: Austin Fatheree
 
 ## Bounty Details
 
-* Bounty Amount: $1,000 USD of ICP at award date - $1,000 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $1,000 USD of ICP at award time - (For every ICP sent to ece0c010e460e7a3094f207c984b37d961387186f45bfcec06be228330a62306, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 25 ICP donated, After 25 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
-* Project Type: Individual
-* Opened: 02/01/2023
+* Bounty Amount: $6,000 USD 
+* ICDevs.org Bounty Acceleration: For each 1 ICP sent to 596b5cdecdae9a8ba967d3bdc448d829f353c40c40a284b5f51a6ca283249e02, ICDevs.org will add  .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives.
+* Project Type: Team
+* Opened: 01/09/2023
 * Time Commitment: Weeks
 * Project Type: Library
-* Experience Type: Intermediate - Motoko; Intermediate - Rust; Intermediate - JS;
+* Experience Type: Intermediate - Motoko; Intermediate - Crypto;
 
 ## Description
 
-Candy Library provides an extensible set of types for the basic motoko types.
+As we make progress to further integrating EVM based blockchains with motoko, we need more EVM based tools.  While Bounty #29 seeks a short term solution, this bounty seeks to implement the fundamental libraries needed to build and verify transactions and data on motoko canisters without having to make an async call to a utility canister.
 
-You will update https://github.com/icdevs/candy_library with documentation and examples for each function in the library.
+To execute this bounty you need to implement a Merkle Patricia Tree in motoko.  See https://ethereum.org/en/developers/docs/data-structures-and-encoding/patricia-merkle-trie/. This library should be stable in nature and use a functional design such that it is not necessary to use pre/post upgrade to stabilize data.
 
-The 2.0 branch needs to be deleted.
+See https://github.com/ZhenyaUsenko/motoko-hash-map for a stable pattern methodology.
 
-The library needs to be set up for Vessel and Mops.
+See https://github.com/ethereumjs/merkle-patricia-tree for a JS implementation. The tests in this project should be repeated in the motoko library.
 
-Add missing conversion types.
+You should also offer an optional data pathway to use the stable btree library at https://github.com/sardariuss/MotokoStableBTree if the user needs access to a larger set of memory.
 
-Update the Buffer Implementation to the latest base library.
+The library should be set up to work with vessel and MOPS.
 
-This bounty gives the opportunity to
+Completing this bounty will give the developer the chance to tackle [Bounty 31 - EVM Transactions - Motoko](/bounties/2023/02/01/Merkle-Patricia-Trees-Motoko.html), and eventually, [Bounty 27a - No Key Wallet Motoko](/bounties/2022/09/14/NoKey-Wallet-Motoko.html)
 
-* learn about Motoko
-* learn about Candy Library
+
+
+This bounty gives the opportunity to:
+
+* learn motoko
+* learn about evms and Merkle Patricia Trees
+* learn about witnesses
 
 ## To apply for this bounty you should:
 
@@ -73,7 +78,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to ece0c010e460e7a3094f207c984b37d961387186f45bfcec06be228330a62306.  ICDevs will match the bounty $40:1 ICP for the first 25 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 596b5cdecdae9a8ba967d3bdc448d829f353c40c40a284b5f51a6ca283249e02.  ICDevs will match the bounty $40:1 ICP for the first 75 ICP out of the DFINITY grant and then 0.25:1.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## FYI: General Bounty Process
@@ -102,9 +107,6 @@ The Dev Council is reviewing the submission
 
 The award has been given and the bounty is closed.
 
-# Matches
-
-DFINITY Foundation Grant: - $1000 USD of ICP at award date
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)

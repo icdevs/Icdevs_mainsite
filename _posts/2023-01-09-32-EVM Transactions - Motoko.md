@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "Bounty - Reg Ex Utility Canister - Rust"
-date:   2023-02-01 00:00:00 -0600
+title:  "Bounty - EVM Transactions - Motoko"
+date:   2023-01-09 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# Reg Ex Utility Canister - Rust - #33
+# EVM Transactions - Motoko - #32
 
 ## Current Status: Discussion
 
-* Discussion (02/01/2023)
+* Discussion (01/09/2023)
 * Ratification 
 * Open for application
 * Assigned 
@@ -21,32 +21,30 @@ author: Austin Fatheree
 
 ## Bounty Details
 
-* Bounty Amount: $2,000 USD of ICP at award date - $2,000 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $2000 USD of ICP at award time - (For every ICP sent to 6e8afebab59f703356e189297e3f49fbe18ace5150ccc43f74f30ceb3f6b5ece, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 50 ICP donated, After 50 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
-* Project Type: Individual
-* Opened: 02/01/2023
-* Time Commitment: Days
-* Project Type: Canister
-* Experience Type: Intermediate - Rust;
+* Bounty Amount: $8,000 USD of ICP at award date
+* ICDevs.org Bounty Acceleration: For each 1 ICP sent to 4dc0678d04c632921a7e5b913a4e3f185a3b48e2da6cba71f4be1e86272a789b, ICDevs.org will add  .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives.
+* Project Type: Team
+* Opened: 01/09/2023
+* Time Commitment: Weeks
+* Project Type: Library
+* Experience Type: Intermediate - Motoko; Intermediate - EVM;
 
 ## Description
 
-This rust canister allows motoko canister to query it with data to receive EVM compliant transactions that can be signed via t-ECDSA and submitted to EVM networks.
+As we make progress to further integrating EVM based blockchains with motoko, we need more EVM based tools.  While Bounty #29 seeks a short term solution, this bounty seeks to implement the fundamental libraries needed to build and verify transactions and data on motoko canisters without having make an async call to a utility canister.
 
-This bounty gives the opportunity to
+To execute this bounty you need to implement the creation, encoding, and decoding of EVM based transactions in Motoko. This work has been replicated in RUST at https://github.com/nikolas-con/ic-evm-sign and you should generally follow the candid structures used in this project and replicate the functionality in motoko. The library should be set up to work with vessel and MOPS.
 
-* learn rust
-* learn about regEx
-* learn about intercanister calls and their restrictions
+The library should support multiple network ids and transaction types like Legacy, EIP1559, EIP2930.
 
-Motoko currently is missing a RegEx library.  Until RegEx is integrated into Motoko, it would be nice to have a utility canister that does most of this work for a motoko canister.  This will involve async communication and may incur long transaction times, but it will at least let motoko devs get started with RegEx based searches while those motoko libraries are being developed.
+You should also implement the various helper functions in the Ethereum js library:  https://github.com/ethereumjs/ethereumjs-monorepo/tree/master/packages/util with proper tests.
 
-* Create a proper candid type for passing a single or set of strings and regEx expressions to the utility canister.
-* Expose the RegEx crate with public methods as found at https://docs.rs/regex/latest/regex/
-* Analyze the Performance features and make a recommendation for the canister.
-* Analyze the Unicode options and provide optional parameters to drive the selection at run time if possible.
-* Analyze the performance of the library and provide guidance on limits of its use(We expect that with the 2MB cap on inter-canister calls that it will be unlikely to hit cycle limits, but we need you to test and report.)
+Completing this bounty will give the developer the chance to tackle [Bounty 27a - No Key Wallet Motoko](/bounties/2022/09/14/NoKey-Wallet-Motoko.html) which will finalize the functionality and use t-ecdsa to sign and manage these transactions.
 
+This bounty gives the opportunity to:
+
+* learn motoko
+* learn about evms and transaction types
 
 ## To apply for this bounty you should:
 
@@ -73,7 +71,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 6e8afebab59f703356e189297e3f49fbe18ace5150ccc43f74f30ceb3f6b5ece.  ICDevs will match the bounty $40:1 ICP for the first 50 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 4dc0678d04c632921a7e5b913a4e3f185a3b48e2da6cba71f4be1e86272a789b.  ICDevs will match the bounty $40:1 ICP for the first 75 ICP out of the DFINITY grant and then 0.25:1.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## FYI: General Bounty Process
@@ -102,9 +100,6 @@ The Dev Council is reviewing the submission
 
 The award has been given and the bounty is closed.
 
-# Matches
-
-DFINITY Foundation Grant: - $2000 USD of ICP at award date
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)

@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "Async Flow - One Shot - Motoko"
-date:   2023-02-01 00:00:00 -0600
+title:  "Async Flow - One Shot - Rust"
+date:   2023-01-09 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# Async Flow - One Shot - Motoko - #39
+# Async Flow - One Shot - Rust - #38
 
 ## Current Status: Discussion
 
-* Discussion (02/01/2023)
+* Discussion (01/09/2023)
 * Ratification 
 * Open for application
 * Assigned 
@@ -21,19 +21,19 @@ author: Austin Fatheree
 
 ## Bounty Details
 
-* Bounty Amount: $3,000 USD of ICP at award date - $3,000 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $3,000 USD of ICP at award time - (For every ICP sent to f2b488b80eb22bf57c1556683efcb51e090b46c181ca28e167e6f095223dfa3e, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 75 ICP donated, After 75 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* Bounty Amount: $6,000 USD of ICP at award date.
+* ICDevs.org Bounty Acceleration: For each 1 ICP sent to 66083bb3c940c7de2a70aa127ec771da75d60deadc10f5f66b280f203d8f6e73, ICDevs.org will add  .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives.
 * Project Type: Individual
-* Opened: 02/01/2023
+* Opened: 01/09/2023
 * Time Commitment: Days
 * Project Type: Library
-* Experience Type: Beginner - Motoko;
+* Experience Type: Intermediate - Rust;
 
 ## Description
 
 The IC implements an asynchronous messaging system where requests are made to canisters and a transaction id is returned.  The canister then queries the state of this transaction and returns the result when it detects that the function is complete. The Rust CDK and Motoko abstract this away from the user in a way that depends on the IC reliably fulfilling the request with certain guarantees.
 
-Sometimes a canister developer may want to do away with this abstraction and implement their own async flow when the results of the called function are not important to the continuation of their code.  This is more event based programming and it is especially useful while the IC still requires functions to return before upgrades can be performed.  Future functionality will fix this upgrade issue, but async and event based programming is still a useful pattern when services are interacting.  It removes dependencies and allows the developer to slip into an actor based frame of mind that more closely mirrors how the IC is actually working under the covers. Specifically it can keep the developer from making "await" assumptions that open the canister to reentrance attacks.
+Sometimes a canister developer may want to do away with this abstraction and implement their own async flow when the results of the called function are not important to the continuation of their code.  This is more event based programming and it is especially useful while the IC still requires functions to return before upgrades can be performed.  Future functionality will fix this upgrade issue, but async and event based programming is still a useful pattern when services are interacting.  It removes dependencies and allows the developer to slip into an actor based frame of mind that more closely mirrors how the IC is actually working under the covers. Specifically, it can keep the developer from making "await" assumptions that open the canister to reentrance attacks.
 
 In this bounty the user will create a library to handle asynchronous messaging.
 
@@ -50,7 +50,7 @@ com_asyncFlow_ack({msg_id: nat; hash: ?nat32; payload: blob}) -> () //confirm th
 Receiving Canister:
 ```
 com_asyncFlow_newMessage({msg_id: nat; payload: blob;}) -> () // process a new message - payload is candid encoded data
-com_asyncFlow_ackack({msg_id: nat; hash: ?nat32}) -> () //acknowledges that the acknowledgment was received
+com_asyncFlow_ackack({msg_id: nat; hash: ?nat32}) -> () //acknowledges that the acknowledgement was received
 ```
 
 The library function signature should look something like:
@@ -61,7 +61,7 @@ call_async(canister_id: principal, payload: blob) -> async* nat; // the nat shou
 
 ```
 
-Since the IC has a new 5 minute timeout on full queues, the Sender and Receiver should retry this messaging after 5.5 minutes.  Therefore the library needs to keep state of sent messages and should discard those messages after the acknowledgement has been made.
+Since the IC has a new 5 minute timeout on full queues, the Sender and Receiver should retry this messaging after 5.5 minutes.  Therefore the library needs to keep state of sent messages and should discard those messages after the acknowledgment has been made.
 
 The library should also keep track of processed message ids such that if a duplicate message is received, it is not reprocessed and instead, an acknowledgment is sent.
 
@@ -69,9 +69,9 @@ The hash is a check to make sure the acknowledgment was of the correct data.  If
 
 This bounty gives the opportunity to
 
-* learn about Motoko
+* learn about rust
 * learn about async messaging
-* learn about state management in Motoko
+* learn about state management in rust
 
 ## To apply for this bounty you should:
 
@@ -98,7 +98,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to f2b488b80eb22bf57c1556683efcb51e090b46c181ca28e167e6f095223dfa3e.  ICDevs will match the bounty $40:1 ICP for the first 75 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 66083bb3c940c7de2a70aa127ec771da75d60deadc10f5f66b280f203d8f6e73.  ICDevs will match the bounty $40:1 ICP for the first 75 ICP out of the DFINITY grant and then 0.25:1.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## FYI: General Bounty Process
@@ -126,10 +126,6 @@ The Dev Council is reviewing the submission
 ### Awarded
 
 The award has been given and the bounty is closed.
-
-# Matches
-
-DFINITY Foundation Grant: - $3000 USD of ICP at award date
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)

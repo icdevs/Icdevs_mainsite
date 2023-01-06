@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "ICRC-2 and ICRC-3 - Motoko "
-date:   2023-02-01 00:00:00 -0600
+title:  "Admin Bounty - Gitcoin"
+date:   2025-01-09 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# ICRC-2 and ICRC-3 - Motoko - #45
+# Admin Bounty - Gitcoin - #41
 
 ## Current Status: Discussion
 
-* Discussion (02/01/2023)
+* Discussion (01/09/2025)
 * Ratification 
 * Open for application
 * Assigned 
@@ -21,29 +21,23 @@ author: Austin Fatheree
 
 ## Bounty Details
 
-* Bounty Amount: $3,000 USD of ICP at award date - $3,000 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $3,000 USD of ICP at award time - (For every ICP sent to 25be490ab9521ab06c8fb5456a1f376e71204aa565513391322b59b0177aea38, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 75 ICP donated, After 75 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* Bounty Amount: $25 USD of ICP at award date per entry + $75 USD of ICP per entry when bounty is completed via gitcoin.
 * Project Type: Individual
-* Opened: 02/01/2023
-* Time Commitment: Days
-* Project Type: Library
-* Experience Type: Beginner - Motoko;
+* Opened: 01/09/2023
+* Time Commitment: Less than a day
+* Project Type: Admin
+* Experience Type: Beginner - Gitcoin;
 
 ## Description
 
-ICDevs.org has funded the ICRC-1 motoko library at https://github.com/NatLabs/icrc1. It is now time to add the ICRC-2(approval workflow) and ICRC-3(ledger and block query functionality).  These are still subject to approval by the working group, but work can begin now.
+The assigned admin will be paid $25/bounty to enter the open bounty in to gitcoin in an attractive and informational format.  The assigned admin will receive an additional $75/bounty if the item is accepted and executed via gitcoin.
 
-This bounty gives the opportunity to
-
-* learn about Motoko
-* learn about ICRC-2 and ICRC-3
-* learn about ICRC-1
+* learn about gitcoin
+* connect with the ethereum and IC communities
 
 ## To apply for this bounty you should:
 
-* Include links to previous work writing tutorials and any other open-source contributions(ie. your github).
 * Include a brief overview of how you will complete the task. This can include things like which dependencies you will use, how you will make it self-contained, the sacrifices you would have to make to achieve that, or how you will make it simple. Anything that can convince us you are taking a thoughtful and expert approach to this design.
-* Give an estimated timeline on completing the task.
 * Post your application text to the Bounty Thread
 
 ## Selection Process
@@ -52,9 +46,7 @@ The ICDevs.org developer's advisors will propose a vote to award the bounty and 
 
 ## Bounty Completion
 
-Please keep your ongoing code in a public repository(fork or branch is ok). Please provide regular (at least weekly) updates.  Code commits count as updates if you link to your branch/fork from the bounty thread.  We just need to be able to see that you are making progress.
-
-The balance of the bounty will be paid out at completion.
+The balance of the bounty will be paid out at completion of each task.
 
 Once you have finished, please alert the dev forum thread that you have completed work and where we can find that work.  We will review and award the bounty reward if the terms have been met.  If there is any coordination work(like a pull request) or additional documentation needed we will inform you of what is needed before we can award the reward.
 
@@ -64,7 +56,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 25be490ab9521ab06c8fb5456a1f376e71204aa565513391322b59b0177aea38.  ICDevs will match the bounty $40:1 ICP for the first 75 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. 
 
 
 ## FYI: General Bounty Process
@@ -92,11 +84,6 @@ The Dev Council is reviewing the submission
 ### Awarded
 
 The award has been given and the bounty is closed.
-
-# Matches
-
-DFINITY Foundation Grant: - $3000 USD of ICP at award date
-
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)
 

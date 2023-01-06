@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "Bounty - ICDevs.org EVM Utility Canister - Rust"
-date:   2023-02-01 00:00:00 -0600
+title:  "Fuzz Library - Motoko"
+date:   2023-01-09 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# EVM Utility Canister - #28
+# Fuzz Library - Motoko - #40
 
 ## Current Status: Discussion
 
-* Discussion (02/01/2023)
+* Discussion (01/09/2023)
 * Ratification 
 * Open for application
 * Assigned 
@@ -21,32 +21,61 @@ author: Austin Fatheree
 
 ## Bounty Details
 
-* Bounty Amount: $5,000 USD of ICP at award date - $5,000 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $5,000 USD of ICP at award time - (For every ICP sent to 8e6a56cf83240d1f07afe5002d8ce3574e2bde9ede8c4a8964cd6b53c40d0c22, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 125 ICP donated, After 125 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
-* Project Type: Team
-* Opened: 02/01/2023
-* Time Commitment: Weeks
+* Bounty Amount: $4,000 USD of ICP at award date.
+* ICDevs.org Bounty Acceleration: For each 1 ICP sent to 801581b2c8f3303eaeb91892784b2eac99e1128115b0fadf739576d6c94f3c8e, ICDevs.org will add  .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives.
+* Project Type: Individual
+* Opened: 01/09/2023
+* Time Commitment: Days
 * Project Type: Library
-* Experience Type: Intermediate - Rust;  Intermediate - Evm;
+* Experience Type: Beginner - Motoko;
 
 ## Description
 
-This rust canister allows motoko canister to query it with data to receive EVM compliant transactions that can be signed via t-ECDSA and submitted to EVM networks.
+Fuzzing is a form of testing that allows you to test your code with a number of randomized values and to use different randomized values each time.
+
+In this bounty you will create a library that returns randomized values for different motoko data types so that you can write fuzz tests in motoko.
+
+The standard types that you need to cover are:
+
+* Int
+* Int8
+* Int16
+* Int32
+* Int64
+* Nat
+Nat8
+* Nat16
+* Nat32
+* Nat64
+* Float
+* Char
+* Text
+* Bool
+* Blob
+
+* Option
+
+* Array
+
+The general fuzzing functions that you need to provide for each type are(where it makes sense):
+
+* Fuzz.min<Type>() -> Type - Return the minimum value
+* Fuzz.max<Type>() -> Type - Return the max value
+* Fuzz.random<Type>() -> Type - Return a random value
+* Fuzz.randomRange<Type>(min: Type, max: Type) - return a random in the range
+* Fuzz.randomText(length: nat) : Text
+* Fuzz.randomAscii(length: nat) : Text
+* Fuzz.randomUnicode(length: nat, set: UnicodeSet) : Text
+* Fuzz.randomBlob(length: nat) : Blob
+Fuzz.optOrNot<Type>(val : type) : ?Type - randomly assign the val or a null
+* Fuzz.randomArray<Type>(() -> Type, length) : [Type] - Create an Array with the specified length
+
+For unbounded types like Nat and Int you will need to come up with a strategy that makes sense for min and max.
 
 This bounty gives the opportunity to
 
-* learn rust
-* learn about signing transactions
-* learn about evm transactions
-* learn about t-ecdsa
-
-Motoko currently is missing a number of libraries needed to encode, interpret, and sign evm transactions and data. Rust has most of these libraries and many of them have been used in the rust [No Key Wallet project](https://forum.dfinity.org/t/icdevs-org-bounty-27b-nokeywallet-rust-up-to-10k/16055).  Until these libraries are converted to motoko, it would be nice to have a utility canister that does most of this work for a motoko canister.  This will involve async communication and may incur long transaction times, but it will at least let motoko devs get started with EVM based transactions while those motoko libraries are being developed.
-
-* Create a proper candid type for passing an EVM transaction to the utility canister and return the encoded bytes and hash that is needed to be signed.  Support multiple network ids and transaction types like Legacy, EIP1559, EIP2930.
-* Create a proper candid type for passing in an evm witness, root, and receiving back a verification that the data is part of the tree under that root.
-* Expose RLP encoding and candid type
-* Expose a keccak hashing function
-* Expose functions similar to https://github.com/ethereumjs/ethereumjs-monorepo/tree/master/packages/util 
+* learn about Motoko
+* learn about Fuzzing
 
 ## To apply for this bounty you should:
 
@@ -73,7 +102,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 8e6a56cf83240d1f07afe5002d8ce3574e2bde9ede8c4a8964cd6b53c40d0c22.  ICDevs will match the bounty $40:1 ICP for the first 125 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 801581b2c8f3303eaeb91892784b2eac99e1128115b0fadf739576d6c94f3c8e.  ICDevs will match the bounty $40:1 ICP for the first 50 ICP out of the DFINITY grant and then 0.25:1.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## FYI: General Bounty Process
@@ -102,9 +131,6 @@ The Dev Council is reviewing the submission
 
 The award has been given and the bounty is closed.
 
-# Matches
-
-DFINITY Foundation Grant: - $5000 USD of ICP at award date
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)

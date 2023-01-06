@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "Async Flow - Fuzz Library - Motoko"
-date:   2023-02-01 00:00:00 -0600
+title:  "File Uploader Pattern - JS, Rust, Motoko"
+date:   2023-01-09 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# Async Flow - Fuzz Library - Motoko - #40
+# File Uploader Pattern - JS, Rust, Motoko - #45
 
 ## Current Status: Discussion
 
-* Discussion (02/01/2023)
+* Discussion (01/09/2023)
 * Ratification 
 * Open for application
 * Assigned 
@@ -21,61 +21,48 @@ author: Austin Fatheree
 
 ## Bounty Details
 
-* Bounty Amount: $2,000 USD of ICP at award date - $2,000 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $2,000 USD of ICP at award time - (For every ICP sent to 801581b2c8f3303eaeb91892784b2eac99e1128115b0fadf739576d6c94f3c8e, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 50 ICP donated, After 50 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* Bounty Amount: $10,000 USD of ICP at award date.
+* ICDevs.org Bounty Acceleration: For each 1 ICP sent to 88159b4fcc365576856c3d9c12a8d5b0e9614660dd30d507894466dabd58e92b, ICDevs.org will add  .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives.
 * Project Type: Individual
-* Opened: 02/01/2023
-* Time Commitment: Days
+* Opened: 01/09/2023
+* Time Commitment: Weeks
 * Project Type: Library
-* Experience Type: Beginner - Motoko;
+* Experience Type: Intermediate - Motoko; Intermediate - Rust; Intermediate - JS;
 
 ## Description
 
-Fuzzing is a form of testing that allows you to test your code with a number of randomized values and to use different randomized values each time.
+Uploading files to the IC has been difficult up to this point.  The root cause of this is that the IC has an ingress limit of 2MB. Therefore, if you need to upload a file, you need a custom integration that chunks the files into 2MB chunks and handles the processing and repeated calling of the IC to get the file into your canister.
 
-In this bounty you will create a library that returns randomized values for different motoko data types so that you can write fuzz tests in motoko.
+This bounty call for the developer to create a best-practices tutorial, motoko implementation, rust implementation, and agent-js handler to simplify this function.
 
-The standard types that you need to cover are:
+The example canisters should have the following interface:
 
-* Int
-* Int8
-* Int16
-* Int32
-* Int64
-* Nat
-Nat8
-* Nat16
-* Nat32
-* Nat64
-* Float
-* Char
-* Text
-* Bool
-* Blob
+```
+com_uploader_chunk({bytes : [Nat8], file_id: ?Nat, chunk : Nat}) -> Nat; 
+```
 
-* Option
+This function should assemble files into a Map of <Nat, [[Nat8]]> or <Nat, Buffer<[Nat8]>]>.
 
-* Array
+The canister author is free elsewhere to handle the association of the file_id with a file name.
 
-The general fuzzing functions that you need to provide for each type are(where it makes sense):
+Code elsewhere in the library should be able to retrieve the files in chunked format from this state variable.
 
-* Fuzz.min<Type>() -> Type - Return the minimum value
-* Fuzz.max<Type>() -> Type - Return the max value
-* Fuzz.random<Type>() -> Type - Return a random value
-* Fuzz.randomRange<Type>(min: Type, max: Type) - return a random in the range
-* Fuzz.randomText(length: nat) : Text
-* Fuzz.randomAscii(length: nat) : Text
-* Fuzz.randomUnicode(length: nat, set: UnicodeSet) : Text
-* Fuzz.randomBlob(length: nat) : Blob
-Fuzz.optOrNot<Type>(val : type) : ?Type - randomly assign the val or a null
-* Fuzz.randomArray<Type>(() -> Type, length) : [Type] - Create an Array with the specified length
+The developer should add a function to the dfinity agent that auto handles the uploading of a byte array into this function. It should work similar to https://github.com/ORIGYN-SA/mintjs/blob/3cba559c5cd20e233aec211651cc42c59f9504d3/src/methods/nft/stage.ts#L83.
 
-For unbounded types like Nat and Int you will need to come up with a strategy that makes sense for min and max.
+Create a package in https://github.com/dfinity/agent-js/tree/main/packages called fileUploader.  This should take an actor and an identity.  You should be able to pass it a file and await the upload of that file:
+
+```
+let file_id = await fileUploader(actor, bytes);
+let result = actor.notify_of_file(file_id, "myfile.txt");
+```
+
+
 
 This bounty gives the opportunity to
 
 * learn about Motoko
-* learn about Fuzzing
+* learn about Rust
+* learn about IC File uploads
 
 ## To apply for this bounty you should:
 
@@ -102,7 +89,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 801581b2c8f3303eaeb91892784b2eac99e1128115b0fadf739576d6c94f3c8e.  ICDevs will match the bounty $40:1 ICP for the first 50 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 88159b4fcc365576856c3d9c12a8d5b0e9614660dd30d507894466dabd58e92b.  ICDevs will match the bounty $40:1 ICP for the first 125 ICP out of the DFINITY grant and then 0.25:1.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## FYI: General Bounty Process
@@ -131,9 +118,6 @@ The Dev Council is reviewing the submission
 
 The award has been given and the bounty is closed.
 
-# Matches
-
-DFINITY Foundation Grant: - $2000 USD of ICP at award date
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)

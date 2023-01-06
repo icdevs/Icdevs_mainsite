@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "Candy Library - Rust"
-date:   2023-02-01 00:00:00 -0600
+title:  "Admin Bounty - Gitcoin"
+date:   2025-01-09 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# Candy Library - Rust - #47
+# Admin Bounty - Gitcoin - #42
 
 ## Current Status: Discussion
 
-* Discussion (02/01/2023)
+* Discussion (01/09/2025)
 * Ratification 
 * Open for application
 * Assigned 
@@ -21,34 +21,30 @@ author: Austin Fatheree
 
 ## Bounty Details
 
-* Bounty Amount: $2,000 USD of ICP at award date - $2,000 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $2,000 USD of ICP at award time - (For every ICP sent to 239ae124bf63b521baf9bdd6051652fae0c16178027ec9b2b093346bad280752, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 50 ICP donated, After 50 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* Bounty Amount: $150 USD/month.
 * Project Type: Individual
-* Opened: 02/01/2023
-* Time Commitment: Weeks
-* Project Type: Library
-* Experience Type: Intermediate - Motoko; Intermediate - Rust; Intermediate - JS;
+* Opened: 01/09/2023
+* Time Commitment: Less than a day
+* Project Type: Admin
+* Experience Type: Beginner - Project Management;
 
 ## Description
 
-Candy Library provides an extensible set of types for the basic motoko types.
+The assigned admin will be paid $200/month to create a status report for all open bounties.
 
-You will create a rust implementation of the various candid types.  Since some libraries return Candy types it can be helpful to have these types available in rust.
+Deliverables:
 
-Create a cargo package that allows rust developers to add the candy types to their projects.
+1. Attempt to contact each bounty assignee on the 20th of the month
+2. Collect current status into a Google Document including any status updates from bounty assignees.
+3. Prepare a tweetable status update to be sent out on the 1st of the month following status updates.
+4. Deliver document to ICDevs by the end of each month.
 
-Duplicate the functionality in the Candy library:  https://github.com/icdevs/candy_library
-
-This bounty gives the opportunity to
-
-* learn about Rust
-* learn about Candy Library
+By completing this bounty you will:
+* connect with IC developer community
 
 ## To apply for this bounty you should:
 
-* Include links to previous work writing tutorials and any other open-source contributions(ie. your github).
 * Include a brief overview of how you will complete the task. This can include things like which dependencies you will use, how you will make it self-contained, the sacrifices you would have to make to achieve that, or how you will make it simple. Anything that can convince us you are taking a thoughtful and expert approach to this design.
-* Give an estimated timeline on completing the task.
 * Post your application text to the Bounty Thread
 
 ## Selection Process
@@ -57,9 +53,7 @@ The ICDevs.org developer's advisors will propose a vote to award the bounty and 
 
 ## Bounty Completion
 
-Please keep your ongoing code in a public repository(fork or branch is ok). Please provide regular (at least weekly) updates.  Code commits count as updates if you link to your branch/fork from the bounty thread.  We just need to be able to see that you are making progress.
-
-The balance of the bounty will be paid out at completion.
+The balance of the bounty will be paid out at completion of each task.
 
 Once you have finished, please alert the dev forum thread that you have completed work and where we can find that work.  We will review and award the bounty reward if the terms have been met.  If there is any coordination work(like a pull request) or additional documentation needed we will inform you of what is needed before we can award the reward.
 
@@ -69,7 +63,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 239ae124bf63b521baf9bdd6051652fae0c16178027ec9b2b093346bad280752.  ICDevs will match the bounty $40:1 ICP for the first 50 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. 
 
 
 ## FYI: General Bounty Process
@@ -97,11 +91,6 @@ The Dev Council is reviewing the submission
 ### Awarded
 
 The award has been given and the bounty is closed.
-
-# Matches
-
-DFINITY Foundation Grant: - $2000 USD of ICP at award date
-
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)
 

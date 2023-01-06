@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "RegEx Motoko Analysis"
-date:   2023-02-01 00:00:00 -0600
+title:  "Bounty - Reg Ex Utility Canister - Rust"
+date:   2023-01-09 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# RegEx Motoko Analysis - #35
+# Reg Ex Utility Canister - Rust - #33
 
 ## Current Status: Discussion
 
-* Discussion (02/01/2023)
+* Discussion (01/09/2023)
 * Ratification 
 * Open for application
 * Assigned 
@@ -21,31 +21,32 @@ author: Austin Fatheree
 
 ## Bounty Details
 
-* Bounty Amount: $500 USD of ICP at award date - $500 USD of ICP Match Available
-* ICDevs.org DFINITY Foundation Grant Match Available: $500 USD of ICP at award time - (For every ICP sent to 8b9cbe90c23b9d0a36006e6623205e89c72938d064c911bdbf4fde9e17280b20, ICDevs.org will add $40 USD of ICP at award date to the bounty, up to the first 12.5 ICP donated, After 12.5 ICP, donations to the above address will add .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives)
+* Bounty Amount: $4,000 USD of ICP at award date.
+* ICDevs.org Bounty Acceleration: For each 1 ICP sent to 6e8afebab59f703356e189297e3f49fbe18ace5150ccc43f74f30ceb3f6b5ece, ICDevs.org will add  .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives.
 * Project Type: Individual
-* Opened: 02/01/2023
+* Opened: 01/09/2023
 * Time Commitment: Days
-* Project Type: Analysis
-* Experience Type: Intermediate - Motoko;
+* Project Type: Canister
+* Experience Type: Intermediate - Rust;
 
 ## Description
 
-Motoko needs a more robust text search library.  There are many options to complete this task. The options are: 
-
-1. Create a motoko library written in motoko that can be included in the base libraries for RegEx based text searches.
-2. Integrate a native regex library into the compiler as an optional compiler flag(see timer switches)
-3. Add generic rust crate integration and imports into the motoko system so that existing rust crates can be included and called from motoko programs.
-
-This is an analysis bounty that asks the developer to review the options and to make a recommendation about the pros, cons, and estimates of doing each three mentioned strategies.
-
-You should work with the motoko team at DFINITY to understand the complications with the different scenarios and understand their priorities as it comes to the future of motoko.  We would like to develop significant motoko compiler experience outside of the Foundation, but we don't want to duplicate work or undertake work that is currently on the road map in the immediate future.
+This rust canister allows motoko canister to query it with data to receive EVM compliant transactions that can be signed via t-ECDSA and submitted to EVM networks.
 
 This bounty gives the opportunity to
 
-* learn about the motoko compiler
-* work with the motoko team to understand their priorities
-* learn regex
+* learn rust
+* learn about regEx
+* learn about intercanister calls and their restrictions
+
+Motoko currently is missing a RegEx library.  Until RegEx is integrated into Motoko, it would be nice to have a utility canister that does most of this work for a motoko canister.  This will involve async communication and may incur long transaction times, but it will at least let motoko devs get started with RegEx based searches while those motoko libraries are being developed.
+
+* Create a proper candid type for passing a single or set of strings and regEx expressions to the utility canister.
+* Expose the RegEx crate with public methods as found at https://docs.rs/regex/latest/regex/
+* Analyze the Performance features and make a recommendation for the canister.
+* Analyze the Unicode options and provide optional parameters to drive the selection at run time if possible.
+* Analyze the performance of the library and provide guidance on limits of its use(We expect that with the 2MB cap on inter-canister calls that it will be unlikely to hit cycle limits, but we need you to test and report.)
+
 
 ## To apply for this bounty you should:
 
@@ -72,7 +73,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 8b9cbe90c23b9d0a36006e6623205e89c72938d064c911bdbf4fde9e17280b20.  ICDevs will match the bounty $40:1 ICP for the first 12.5 ICP out of the DFINITY grant and then 0.25:1 after that.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 6e8afebab59f703356e189297e3f49fbe18ace5150ccc43f74f30ceb3f6b5ece.  ICDevs will match the bounty $40:1 ICP for the first 50 ICP out of the DFINITY grant and then 0.25:1.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## FYI: General Bounty Process
@@ -101,9 +102,6 @@ The Dev Council is reviewing the submission
 
 The award has been given and the bounty is closed.
 
-# Matches
-
-DFINITY Foundation Grant: - $500 USD of ICP at award date
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)

@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "Admin Bounty - Gitcoin"
-date:   2023-02-01 00:00:00 -0600
+title:  "Candy Library Documentation and Refactoring - Motoko"
+date:   2023-01-09 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# Admin Bounty - Gitcoin - #41
+# Candy Library Documentation and Refactoring - Motoko - #46
 
 ## Current Status: Discussion
 
-* Discussion (02/01/2023)
+* Discussion (01/09/2023)
 * Ratification 
 * Open for application
 * Assigned 
@@ -21,23 +21,38 @@ author: Austin Fatheree
 
 ## Bounty Details
 
-* Bounty Amount: $25 USD of ICP at award date per entry + $75 USD of ICP per entry when bounty is completed via gitcoin.
+* Bounty Amount: $2,000 USD of ICP at award date.
+* ICDevs.org Bounty Acceleration: For each 1 ICP sent to ece0c010e460e7a3094f207c984b37d961387186f45bfcec06be228330a62306, ICDevs.org will add  .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives.
 * Project Type: Individual
-* Opened: 02/01/2023
-* Time Commitment: Less than a day
-* Project Type: Admin
-* Experience Type: Beginner - Gitcoin;
+* Opened: 01/09/2023
+* Time Commitment: Weeks
+* Project Type: Library
+* Experience Type: Intermediate - Motoko; Intermediate - Rust; Intermediate - JS;
 
 ## Description
 
-The assigned admin will be paid $25/bounty to enter the open bounty in to gitcoin in an attractive and informational format.  The assigned admin will receive an additional $75/bounty if the item is accepted and executed via gitcoin.
+Candy Library provides an extensible set of types for the basic motoko types.
 
-* learn about gitcoin
-* connect with the ethereum and IC communities
+You will update https://github.com/icdevs/candy_library with documentation and examples for each function in the library.
+
+The 2.0 branch needs to be deleted.
+
+The library needs to be set up for Vessel and Mops.
+
+Add missing conversion types.
+
+Update the Buffer Implementation to the latest base library.
+
+This bounty gives the opportunity to
+
+* learn about Motoko
+* learn about Candy Library
 
 ## To apply for this bounty you should:
 
+* Include links to previous work writing tutorials and any other open-source contributions(ie. your github).
 * Include a brief overview of how you will complete the task. This can include things like which dependencies you will use, how you will make it self-contained, the sacrifices you would have to make to achieve that, or how you will make it simple. Anything that can convince us you are taking a thoughtful and expert approach to this design.
+* Give an estimated timeline on completing the task.
 * Post your application text to the Bounty Thread
 
 ## Selection Process
@@ -46,7 +61,9 @@ The ICDevs.org developer's advisors will propose a vote to award the bounty and 
 
 ## Bounty Completion
 
-The balance of the bounty will be paid out at completion of each task.
+Please keep your ongoing code in a public repository(fork or branch is ok). Please provide regular (at least weekly) updates.  Code commits count as updates if you link to your branch/fork from the bounty thread.  We just need to be able to see that you are making progress.
+
+The balance of the bounty will be paid out at completion.
 
 Once you have finished, please alert the dev forum thread that you have completed work and where we can find that work.  We will review and award the bounty reward if the terms have been met.  If there is any coordination work(like a pull request) or additional documentation needed we will inform you of what is needed before we can award the reward.
 
@@ -56,7 +73,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. 
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to ece0c010e460e7a3094f207c984b37d961387186f45bfcec06be228330a62306.  ICDevs will match the bounty $40:1 ICP for the first 25 ICP out of the DFINITY grant and then 0.25:1.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## FYI: General Bounty Process
@@ -84,6 +101,8 @@ The Dev Council is reviewing the submission
 ### Awarded
 
 The award has been given and the bounty is closed.
+
+
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)
 
