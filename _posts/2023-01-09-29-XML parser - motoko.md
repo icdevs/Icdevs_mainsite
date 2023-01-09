@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bounty - ICDevs.org XML Parser - Motoko"
-date:   2023-01-10 00:00:00 -0600
+date:   2023-01-09 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
@@ -21,7 +21,7 @@ author: Austin Fatheree
 
 ## Bounty Details
 
-* Bounty Amount: $4,000 USD of ICP at award date - $4,000 USD of ICP Match Available
+* Bounty Amount: $8,000 USD of ICP at award date
 * ICDevs.org Bounty Acceleration: For each 1 ICP sent to e156fe180f0f6deffa87344390dc45b2e6d4483d4007f6ea8f3f4d89e56fa5d2, ICDevs.org will add  .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives.
 * Project Type: Team
 * Opened: 01/10/2023

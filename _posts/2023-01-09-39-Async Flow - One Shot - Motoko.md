@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Async Flow - One Shot - Motoko"
+title:  "Bounty - ICDevs.org Async Flow - One Shot - Motoko"
 date:   2023-01-09 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree

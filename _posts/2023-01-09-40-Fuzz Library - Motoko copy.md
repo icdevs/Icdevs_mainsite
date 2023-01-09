@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Fuzz Library - Motoko"
+title:  "Bounty - ICDevs.org Fuzz Library - Motoko"
 date:   2023-01-09 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Pipelinify Updates - Motoko"
+title:  "Bounty - ICDevs.org Pipelinify Updates - Motoko"
 date:   2023-01-09 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree

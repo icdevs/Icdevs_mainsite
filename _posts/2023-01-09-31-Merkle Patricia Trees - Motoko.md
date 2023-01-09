@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bounty - Merkle Patricia Tree Motoko"
+title:  "Bounty - ICDevs.org Merkle Patricia Tree Motoko"
 date:   2023-01-09 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree

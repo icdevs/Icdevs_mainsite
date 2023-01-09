@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Candy Library Documentation and Refactoring - Motoko"
+title:  "Bounty - ICDevs.org Candy Library Documentation and Refactoring - Motoko"
 date:   2023-01-09 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree

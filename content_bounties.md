@@ -55,12 +55,30 @@ The following libraries and applications were funded with ICDevs Bounties:
 18. [Bitcoin on the IC Reference Implementation](/bounties/2022/02/26/Bitcoin-on-the-IC-Reference-Implementation.html) - $10,000 USD of ICP at award date
 
 {:start="23"}
-23. a - [Metacalls - Motoko](/bounties/2022/09/14/Metacalls-Motoko.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available and 
+23. a - [Metacalls - Motoko](/bounties/2022/09/14/Metacalls-Motoko.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available  
 
 {:start="27"}
-27. a - [Motoko NoKey Wallet](/bounties/2022/09/14/NoKey-Wallet-Motoko.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available and
+27. a - [Motoko NoKey Wallet](/bounties/2022/09/14/NoKey-Wallet-Motoko.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available 
+28. [EVM Utility Canister](/bounties/2023/01/09/30-RLP-Motoko.html) - $6,000 USD of ICP at award date
+29. [XML Parser - Motoko](/bounties/2023/01/09/29-XML-parser-motoko.html) - $8,000 USD of ICP at award date
+30. [RLP - Motoko](/bounties/2023/01/09/30-RLP-Motoko.html) - $4,000 USD of ICP at award date
+31. [Merkle Patricia Tree - Motoko](/bounties/2023/01/09/31-Merkle-Patricia-Trees-Motoko.html) - $6000 USD of ICP at award date
+32. [EVM Transactions - Motoko](/bounties/2023/01/09/32-EVM-Transactions-Motoko.html) - $8,000 USD of ICP at award date
+33. [Reg Ex Utility Canister - Rust](/bounties/2023/01/09/33-Reg-Ex-Utility-Canister-Rust.html) - $4,000 USD of ICP at award date
+34. [Wasmer Motoko](/bounties/2023/01/09/34-Wasmer-Motoko.html) - $10,000 USD of ICP at award date
+35. [RegEx Motoko Analysis](/bounties/2023/01/09/35-Reg-Ex-Motoko-Analysis.html) - $500 USD of ICP at award date
+36. [Signing Tree and DER Encoding](/bounties/2023/01/09/36-Signing-Tree-and-DER-Encoding.html) - $10,000 USD of ICP at award date
+37. [PDF Utility Canister - Rust](/bounties/2023/01/09/37-PDF-Utility-Canister-Rust.html) - $6,000 USD of ICP at award date
+38. [Async Flow - One Shot - Rust](/bounties/2023/01/09/38-Async-Flow-One-Shot-Rust.html) - $6,000 USD of ICP at award date
+39. [Async Flow - One Shot - Motoko](/bounties/2023/01/09/39-Async-Flow-One-Shot-Motoko.html) - $6,000 USD of ICP at award date
+40. [Fuzz Library - Motoko](/bounties/2023/01/09/40-Fuzz-Library-Motoko-copy.html) - $4,000 USD of ICP at award date
 
-
+{:start="43"}
+43. [Pipelinify Updates - Motoko ](/bounties/2023/01/09/43-Pipelinify-Updates-Motoko.html) - $4,000 USD of ICP at award date
+44. [ICRC-2 and ICRC-3 - Motoko](/bounties/2023/01/09/44-ICRC-2-and-ICRC-3-Motoko.html) - $6,000 USD of ICP at award date
+45. [File Uploader Pattern - JS, Rust, Motoko](/bounties/2023/01/09/45-File-Uploader-Pattern-JS,-Rust,-Motoko.html) - $10,000 USD of ICP at award date
+46. [Candy Library Documentation and Refactoring - Motoko](/bounties/2023/01/09/46-Candy-Library-Updates.html) - $2,000 USD of ICP at award date
+47. [Candy Library - Rust](/bounties/2023/01/09/47-Candy-Library-Rust.html) - $4,000 USD of ICP at award date
 
 ## Assigned 
 

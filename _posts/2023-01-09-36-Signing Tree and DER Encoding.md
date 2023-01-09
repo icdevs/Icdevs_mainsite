@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Signing Tree and DER Encoding - Motoko"
+title:  "Bounty - ICDevs.org Signing Tree and DER Encoding - Motoko"
 date:   2023-01-09 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
@@ -54,6 +54,7 @@ This bounty has three parts
 
 The developer that completes this bounty will qualify to pursue bounty [23a - Metacalls - Motoko](https://forum.dfinity.org/t/icdevs-org-bounty-23a-metacalls-motoko-up-to-10k/15422)
 
+The following library may be a good starter. https://github.com/icdevs/motoko-merkle-tree. Likely a number of things need to be added such as deleting values from tree.  Please evaluate and update the library if it is missing something.
 
 This bounty gives the opportunity to
 
@@ -67,6 +68,7 @@ This bounty gives the opportunity to
 * Include a brief overview of how you will complete the task. This can include things like which dependencies you will use, how you will make it self-contained, the sacrifices you would have to make to achieve that, or how you will make it simple. Anything that can convince us you are taking a thoughtful and expert approach to this design.
 * Give an estimated timeline on completing the task.
 * Post your application text to the Bounty Thread
+
 
 ## Selection Process
 

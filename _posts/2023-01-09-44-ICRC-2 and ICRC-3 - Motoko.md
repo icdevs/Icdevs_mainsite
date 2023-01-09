@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ICRC-2 and ICRC-3 - Motoko"
+title:  "Bounty - ICDevs.org ICRC-2 and ICRC-3 - Motoko"
 date:   2023-01-09 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree

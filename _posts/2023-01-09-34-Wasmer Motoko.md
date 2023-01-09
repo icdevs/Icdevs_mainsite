@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bounty - Wasmer Motoko"
+title:  "Bounty - ICDevs.org Wasmer Motoko"
 date:   2023-01-09 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree

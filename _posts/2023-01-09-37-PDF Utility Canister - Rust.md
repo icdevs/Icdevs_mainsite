@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "PDF Utility Canister - Rust"
+title:  "Bounty - ICDevs.org PDF Utility Canister - Rust"
 date:   2023-01-09 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree

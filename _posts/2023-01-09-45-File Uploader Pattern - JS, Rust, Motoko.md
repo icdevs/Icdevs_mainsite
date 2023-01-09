@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "File Uploader Pattern - JS, Rust, Motoko"
+title:  "Bounty - ICDevs.org File Uploader Pattern - JS, Rust, Motoko"
 date:   2023-01-09 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree

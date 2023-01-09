@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Candy Library - Rust"
+title:  "Bounty - ICDevs.org Candy Library - Rust"
 date:   2023-01-09 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree

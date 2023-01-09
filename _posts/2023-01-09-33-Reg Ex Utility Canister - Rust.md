@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bounty - Reg Ex Utility Canister - Rust"
+title:  "Bounty - ICDevs.org Reg Ex Utility Canister - Rust"
 date:   2023-01-09 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
