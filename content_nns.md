@@ -14,7 +14,7 @@ A: We vote on governance issues that have some direct or indirect bering on deve
 
 Q: What happens if you don't vote?
 
-A: We currently follow the cycle_dao and ICPMN neurons for governance topics that we decided to not proactively vote on.  Both of these neurons are committed to voting on all governance proposals.  The developer advisory committee may add additional follow neurons in the future.
+A: Currently you will not receive your maturity if we don't vote for you and you don't vote manually. We are writing a contract to alleviate this issue..
 
 Q: How do you decide to vote?
 

@@ -9,6 +9,8 @@
 * [Write a tutorial](/bounties/2021/10/25/speed-run-the-ic-bounty.html)
 * [Tackle a bounty and earn ICP](/bounties.html)
 * [Follow the ICDevs.org Neuron](/nns.html)
+* Get [listed](https://pnbcw-3qaaa-aaaag-qbpqq-cai.raw.ic0.app/) on the ["Builders Too Busy to Pay Attention to Your Allow-List But Will Support You When its Time" DAO](/BuilderDAO.html)
+* Execute the [CIGDao](https://cigdao.com/) [Bounty](/CigDAO.html)
 * [Join the Developer Advisory Committee and help drive our agenda](/developer_advisory_committee.html)
 
 # 🖥️  Who we are:

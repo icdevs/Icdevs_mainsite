@@ -11,8 +11,8 @@ author: Austin Fatheree
 ## Current Status: Discussion
 
 * Discussion (01/09/2023)
-* Ratification 
-* Open for application
+* Ratification: (01/09/2023) 
+* Open for application: (01/09/2023)
 * Assigned 
 * In Review 
 * Closed 
@@ -47,7 +47,7 @@ The canister author is free elsewhere to handle the association of the file_id w
 
 Code elsewhere in the library should be able to retrieve the files in chunked format from this state variable.
 
-The developer should add a function to the dfinity agent that auto handles the uploading of a byte array into this function. It should work similar to https://github.com/ORIGYN-SA/mintjs/blob/3cba559c5cd20e233aec211651cc42c59f9504d3/src/methods/nft/stage.ts#L83.
+The developer should add a function to the dfinity agent that auto handles the uploading of a byte array into this function. Under the hood there is likely much code you can repurpose from https://www.npmjs.com/package/@dfinity/assets.  you should adapt this library so that its not as specific for the asset canister and returns/notifies of the file id. The following offers another approach https://github.com/ORIGYN-SA/mintjs/blob/3cba559c5cd20e233aec211651cc42c59f9504d3/src/methods/nft/stage.ts#L83.
 
 Create a package in https://github.com/dfinity/agent-js/tree/main/packages called fileUploader.  This should take an actor and an identity.  You should be able to pass it a file and await the upload of that file:
 
@@ -55,8 +55,6 @@ Create a package in https://github.com/dfinity/agent-js/tree/main/packages calle
 let file_id = await fileUploader(actor, bytes);
 let result = actor.notify_of_file(file_id, "myfile.txt");
 ```
-
-
 
 This bounty gives the opportunity to
 
@@ -98,7 +96,7 @@ The bounty was generously funded by the DFINITY Foundation. If you would like to
 
 The draft bounty is posted to the DFINITY developer's forum for discussion
 
-### Ratification
+### Ratification: (01/09/2023)
 
 The developer advisor's board will propose a bounty be ratified and a vote will take place to ratify the bounty.  Until a bounty is ratified by the Dev it hasn't been officially adopted. Please take this into consideration if you are considering starting early.
 

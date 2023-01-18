@@ -11,8 +11,8 @@ author: Austin Fatheree
 ## Current Status: Discussion
 
 * Discussion (01/09/2023)
-* Ratification 
-* Open for application
+* Ratification: (01/09/2023) 
+* Open for application: (01/09/2023)
 * Assigned 
 * In Review 
 * Closed 
@@ -84,7 +84,7 @@ The bounty was generously funded by the DFINITY Foundation. If you would like to
 
 The draft bounty is posted to the DFINITY developer's forum for discussion
 
-### Ratification
+### Ratification: (01/09/2023)
 
 The developer advisor's board will propose a bounty be ratified and a vote will take place to ratify the bounty.  Until a bounty is ratified by the Dev it hasn't been officially adopted. Please take this into consideration if you are considering starting early.
 

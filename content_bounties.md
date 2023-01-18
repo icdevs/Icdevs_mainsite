@@ -59,7 +59,7 @@ The following libraries and applications were funded with ICDevs Bounties:
 
 {:start="27"}
 27. a - [Motoko NoKey Wallet](/bounties/2022/09/14/NoKey-Wallet-Motoko.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available 
-28. [EVM Utility Canister](/bounties/2023/01/09/30-RLP-Motoko.html) - $6,000 USD of ICP at award date
+28. [EVM Utility Canister](/bounties/2023/01/09/28-EVM-Utility-Canister-Rust.html) - $6,000 USD of ICP at award date
 29. [XML Parser - Motoko](/bounties/2023/01/09/29-XML-parser-motoko.html) - $8,000 USD of ICP at award date
 30. [RLP - Motoko](/bounties/2023/01/09/30-RLP-Motoko.html) - $4,000 USD of ICP at award date
 31. [Merkle Patricia Tree - Motoko](/bounties/2023/01/09/31-Merkle-Patricia-Trees-Motoko.html) - $6000 USD of ICP at award date
@@ -90,6 +90,9 @@ The following libraries and applications were funded with ICDevs Bounties:
 
 {:start="23"}
 23. b - [Metacalls - Rust](/bounties/2022/09/14/Metacalls-Rust.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
+
+{:start="28"}
+28. [EVM Utility Canister](/bounties/2023/01/09/28-EVM-Utility-Canister-Rust.html) - $6,000 USD of ICP at award date
 
 ## Freezer
 
@@ -133,3 +136,4 @@ These bounties require additional tech before they can be executed and/or have h
 {:start="26"}
 26. [ICRC-1 Motoko](/bounties/2022/08/14/ICRC-1-Motoko.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
 27. b - [Rust NoKey Wallet](/bounties/2022/09/14/NoKey-Wallet-Rust.html) - $5,000 USD of ICP at award date, $5,000 USD of ICP Match Available
+

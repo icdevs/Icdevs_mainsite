@@ -12,7 +12,7 @@ author: Austin Fatheree
 
 * Discussion (10/21/2022)
 * Ratification 
-* Open for application
+* Open for application: (01/09/2023)
 * Assigned 
 * In Review 
 * Closed (12/28/2022) - Awarded to LiveDuo

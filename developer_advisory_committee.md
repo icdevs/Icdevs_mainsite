@@ -23,6 +23,7 @@ The Developer Advisory Committee coordinates the grants, prizes, educational, an
 * [Integral Wizard](https://twitter.com/integral_wizard)
 * [cryptoschindler](https://twitter.com/cryptoschindler) - former community organizer [@dfinity](https://twitter.com/dfinity) / [@waterslide_app](https://twitter.com/waterslide_app) frontend provider for [@LiquityProtocol](https://twitter.com/LiquityProtocol) / plants / coding
 * [quint](https://github.com/di-wu)
+* [Isaac.icp](https://twitter.com/IsaacValadez55)
 
 ## Apply to be a Developer Advisory Board(limited):
 
@@ -48,7 +49,9 @@ Send this info to admin@icdevs.org along with the principal on axon.ooo that you
 
 Once the Developer Advisory Committee voting axon fork is live, we will submit governance and other relevant NNS topics to the system.  Developer Advisory Committee members may vote to approve or reject the topics and the vote of the ICDevs.org neuron will will be decided by majority vote of the Committee.
 
-The ICDevs.org neuron is currently configured to folllow cycle_dao and the ICP Maximalist Network neurons for governance topics that ICDevs.org chooses not to proactivly vote on.
+The ICDevs.org neuron is currently configured to follow no one for Governance, SNS & Community Fund, and Network Canister Management topics. We follow DFINITY on other topics.
+
+Please see this [note about SNS voting](https://forum.dfinity.org/t/icdevs-votes-on-sns-and-nns-proposals/17073)
 
 
 * [Meet our Board and Advisors](/board.html)
