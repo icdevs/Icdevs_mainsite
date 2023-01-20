@@ -37,6 +37,7 @@ This bounty is an analysis and proposal bounty.  To complete this bounty you nee
 
 1. Visit with the founders of CIGDao about the mechanics involved in YC and CIGDao.
 2. Use that information to document 5 Dapp ideas that would burn YC. Those ideas should be:
+* Must be fun!
 * Achievable - We'd want mvps that can be built/deployed in a minimal version in less than a month.
 * Specific
 * Explain the token mechanism
