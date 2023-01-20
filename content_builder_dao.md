@@ -1,6 +1,6 @@
 # 🏗 "Builders Too Busy to Pay Attention to Your Allow-List But Will Support You When its Time" DAO
 
-ICDevs.org has commissioned a DAO to help community developers gain recongnition for their work building up the Interent Computer ecosystem.
+ICDevs.org has commissioned a DAO to help community developers gain recognition for their work building up the Internet Computer ecosystem.
 
 The DAO can be found [here](https://77i6o-oqaaa-aaaag-qbm6q-cai.ic0.app/axon/4).
 

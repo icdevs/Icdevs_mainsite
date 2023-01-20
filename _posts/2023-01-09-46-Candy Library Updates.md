@@ -17,7 +17,7 @@ author: Austin Fatheree
 * In Review 
 * Closed 
 
-[Forum Link - Discussion]()
+[Forum Link - Discussion](https://forum.dfinity.org/t/open-icdevs-org-bounty-46-candy-library-documentation-and-refactoring-2-000/17963/1)
 
 ## Bounty Details
 
@@ -73,7 +73,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to ece0c010e460e7a3094f207c984b37d961387186f45bfcec06be228330a62306.  ICDevs will match the bounty $40:1 ICP for the first 25 ICP out of the DFINITY grant and then 0.25:1.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to ece0c010e460e7a3094f207c984b37d961387186f45bfcec06be228330a62306.  ICDevs will add .25 for every 1 token donated to the bounty.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## FYI: General Bounty Process

@@ -1,52 +1,53 @@
 ---
 layout: post
-title:  "Bounty - ICDevs.org Reg Ex Utility Canister - Rust"
-date:   2023-01-09 00:00:00 -0600
+title:  "Bounty - CIGDao Bounty - YC Burn Brainstorming"
+date:   2023-01-19 00:00:00 -0600
 categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# Reg Ex Utility Canister - Rust - #33
+# YC Burn Brainstorming - #48
 
 ## Current Status: Discussion
 
-* Discussion (01/09/2023)
-* Ratification: (01/09/2023) 
-* Open for application: (01/09/2023)
+* Discussion (01/19/2023)
+* Ratification
+* Open for application
 * Assigned 
 * In Review 
 * Closed 
 
-[Forum Link - Discussion](https://forum.dfinity.org/t/open-icdevs-org-bounty-33-reg-ex-utility-canister-rust-4-000/17886/4)
+[Forum Link - Discussion]()
 
 ## Bounty Details
 
-* Bounty Amount: $4,000 USD of ICP at award date.
-* ICDevs.org Bounty Acceleration: For each 1 ICP sent to 6e8afebab59f703356e189297e3f49fbe18ace5150ccc43f74f30ceb3f6b5ece, ICDevs.org will add  .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives.
+* Bounty Amount: 100,000,000 YC (subject to 11% transaction tax).
+* ICDevs.org Bounty Acceleration: For each 1 ICP sent to fca3c36aad1afdb8482670b4e644b73696155f18e02d12150ba997a628487abe, ICDevs.org will add  .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives.  If you want to fund with YC you can send it to cbjuv-smn7s-j5lwu-opgfw-5qbrk-5cbtb-gigcg-wn5dy-enpo7-xvfou-nqe
 * Project Type: Individual
-* Opened: 01/09/2023
-* Time Commitment: Days
-* Project Type: Canister
-* Experience Type: Intermediate - Rust;
+* Opened: 01/19/2023
+* Time Commitment: Less than a day
+* Project Type: Proposal
+* Experience Type: Beginner - Token Engineering
 
 ## Description
 
-This rust canister allows motoko canister to query it with data to receive EVM compliant transactions that can be signed via t-ECDSA and submitted to EVM networks.
+YC and CIGDao have generously endowed a permanent bounty for ICDevs.
 
-This bounty gives the opportunity to
+This bounty is an analysis and proposal bounty.  To complete this bounty you need to:
 
-* learn rust
-* learn about regEx
-* learn about intercanister calls and their restrictions
+1. Visit with the founders of CIGDao about the mechanics involved in YC and CIGDao.
+2. Use that information to document 5 Dapp ideas that would burn YC. Those ideas should be:
+* Achievable - We'd want mvps that can be built/deployed in a minimal version in less than a month.
+* Specific
+* Explain the token mechanism
+* Explain the value to the community
+* Provide pseudo-code for the mechanism
+* Provide a set of high level user stories for each idea.
 
-Motoko currently is missing a RegEx library.  Until RegEx is integrated into Motoko, it would be nice to have a utility canister that does most of this work for a motoko canister.  This will involve async communication and may incur long transaction times, but it will at least let motoko devs get started with RegEx based searches while those motoko libraries are being developed.
+These ideas will be considered for future CIGDao bounties.
 
-* Create a proper candid type for passing a single or set of strings and regEx expressions to the utility canister.
-* Expose the RegEx crate with public methods as found at https://docs.rs/regex/latest/regex/
-* Analyze the Performance features and make a recommendation for the canister.
-* Analyze the Unicode options and provide optional parameters to drive the selection at run time if possible.
-* Analyze the performance of the library and provide guidance on limits of its use(We expect that with the 2MB cap on inter-canister calls that it will be unlikely to hit cycle limits, but we need you to test and report.)
-
+* learn about YC
+* learn about Token Economics and Engineering
 
 ## To apply for this bounty you should:
 
@@ -73,7 +74,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 6e8afebab59f703356e189297e3f49fbe18ace5150ccc43f74f30ceb3f6b5ece.  ICDevs will add .25 for every 1 token donated to the bounty.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by [CIGDao](https://cigdao.com/). If you would like to turbocharge this bounty you can seed additional donations of ICP to fca3c36aad1afdb8482670b4e644b73696155f18e02d12150ba997a628487abe.  ICDevs will add .25 for every 1 token donated to the bounty. If you want to fund with YC you can send it to cbjuv-smn7s-j5lwu-opgfw-5qbrk-5cbtb-gigcg-wn5dy-enpo7-xvfou-nqe. All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## FYI: General Bounty Process
@@ -101,7 +102,6 @@ The Dev Council is reviewing the submission
 ### Awarded
 
 The award has been given and the bounty is closed.
-
 
 
 [Other ICDevs.org Bounties](https://icdevs.org/bounties.html)

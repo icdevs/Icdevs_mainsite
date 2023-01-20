@@ -13,11 +13,11 @@ author: Austin Fatheree
 * Discussion (01/09/2023)
 * Ratification: (01/09/2023) 
 * Open for application: (01/09/2023)
-* Assigned 
+* Assigned (1/19/2023) - GLDev
 * In Review 
 * Closed 
 
-[Forum Link - Discussion]()
+[Forum Link - Discussion](https://forum.dfinity.org/t/assigned-icdevs-org-bounty-38-async-flow-one-shot-rust-6-000/17900/5)
 
 ## Bounty Details
 
@@ -98,7 +98,7 @@ If you cease work on the bounty for a prolonged(at the Developer Advisory Board'
 
 ## Funding
 
-The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 66083bb3c940c7de2a70aa127ec771da75d60deadc10f5f66b280f203d8f6e73.  ICDevs will match the bounty $40:1 ICP for the first 75 ICP out of the DFINITY grant and then 0.25:1.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
+The bounty was generously funded by the DFINITY Foundation. If you would like to turbocharge this bounty you can seed additional donations of ICP to 66083bb3c940c7de2a70aa127ec771da75d60deadc10f5f66b280f203d8f6e73.  ICDevs will add .25 for every 1 token donated to the bounty.  All donations will be tax deductible for US Citizens and Corporations.  If you send a donation and need a donation receipt, please email the hash of your donation transaction, physical address, and name to donations@icdevs.org.  More information about how you can contribute can be found at our [donations page](https://icdevs.org/donations.html).
 
 
 ## FYI: General Bounty Process

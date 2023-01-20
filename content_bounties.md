@@ -79,6 +79,9 @@ The following libraries and applications were funded with ICDevs Bounties:
 45. [File Uploader Pattern - JS, Rust, Motoko](/bounties/2023/01/09/45-File-Uploader-Pattern-JS,-Rust,-Motoko.html) - $10,000 USD of ICP at award date
 46. [Candy Library Documentation and Refactoring - Motoko](/bounties/2023/01/09/46-Candy-Library-Updates.html) - $2,000 USD of ICP at award date
 47. [Candy Library - Rust](/bounties/2023/01/09/47-Candy-Library-Rust.html) - $4,000 USD of ICP at award date
+48. [CIGDao - Your Coin Burn Brainstorming](/bounties/2023/01/19/YC-CIGDao-Brainstorming.html) - 100,000,000 YC at award date
+
+
 
 ## Assigned 
 
