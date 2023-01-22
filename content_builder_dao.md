@@ -4,6 +4,8 @@ ICDevs.org has commissioned a DAO to help community developers gain recognition 
 
 The DAO can be found [here](https://77i6o-oqaaa-aaaag-qbm6q-cai.ic0.app/axon/4).
 
+Find out more at the [dev forum](https://forum.dfinity.org/t/builders-and-developers-dao-axon-experiment-create-a-list-of-contributors-for-airdrops-beta-lists/18072).
+
 This is a Simple DAO. It lets developers record their principal in a central place where other project owners can find them and send them drops, bonuses, and other assets the may be good for testing and/or launching new efforts on the network.
 
 Only other developers can add you to the list.  Reach out to admin @ icdevs.org or [https://twitter.com/icdevs_org](https://twitter.com/icdevs_org) if you would like to be considered to be added to the list. You need to provide:

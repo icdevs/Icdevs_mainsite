@@ -17,7 +17,7 @@ author: Austin Fatheree
 * In Review 
 * Closed 
 
-[Forum Link - Discussion]()
+[Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-cigdao-bounty-yc-burn-brainstorming-48-100-000-000-yc/18090)
 
 ## Bounty Details
 
