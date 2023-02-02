@@ -6,7 +6,9 @@ Proceeds from this Neuron are used to fund the bounty by buying YC and adding it
 
 The current CIGDao bounty is:
 
+{:start="48"}
 48. [CIGDao - Your Coin Burn Brainstorming](/bounties/2023/01/19/YC-CIGDao-Brainstorming.html) - 100,000,000 YC at award date
+49. [CIGDao - CIGDao Design](/bounties/2023/02/02/YC-CIGDao-Design.html) - 400,000,000 YC at award date
 
 ## Original CIDDao Proposal
 
