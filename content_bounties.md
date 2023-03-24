@@ -27,7 +27,7 @@ The following libraries and applications were funded with ICDevs Bounties:
 - [Shared Canisters - Motoko](https://github.com/professionalGithub99/ScalingBounty)
 - [Storage and Indexing across canisters - Rust](https://github.com/GLicDEV/quickstart_scaling/)
 - [Autoscaling Nodes - Motoko](https://github.com/hoosan/auto-scaling-notes)
-- [Internet Computer Storage Protocol - Motoko](https://github.com/PrimLabs/ICSP0)
+- [Internet Computer Storage Protocol - Motoko](https://github.com/PrimLabs/ICSP)
 - [Scaled Storage - Rust](https://github.com/scroobius-pip/scaled_storage)
 - [Bitcoin Federal Reserve - Actor Model - Motoko](https://github.com/professionalGithub99/actormodelbounty)
 - [Colony Game - Actor Model - Rust](https://github.com/GLicDEV/ic-quickstart-actor-model)

@@ -21,7 +21,7 @@ author: Austin Fatheree
 
 ## Bounty Details
 
-* Bounty Amount: 100,000,000 YC (subject to 11% transaction tax).
+* Bounty Amount: 400,000,000 YC (subject to 11% transaction tax).
 * ICDevs.org Bounty Acceleration: For each 1 ICP sent to fca3c36aad1afdb8482670b4e644b73696155f18e02d12150ba997a628487abe, ICDevs.org will add  .25 ICP to this issue and .75 ICP to fund other ICDevs.org initiatives.  If you want to fund with YC you can send it to cbjuv-smn7s-j5lwu-opgfw-5qbrk-5cbtb-gigcg-wn5dy-enpo7-xvfou-nqe
 * Project Type: Individual
 * Opened: 01/19/2023
