@@ -13,66 +13,35 @@ layout: home
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-# The Language Project
-
-The “Languages Project” is an attempt by ICDevs.org to contribute to the adoption of the Internet Computer by creating generative, form, and pattern language to the community that provides a common set of communication tools that foster well-formed, productive, interoperable, and collaborative systems for innovation on and around the Internet Computer ecosystem.
-
-The “Languages Project” is loosely based on the work of Christopher Alexander in is various works on Architecture including [The Timeless Way of Bulding](https://amzn.to/3o8dZ9h), [A Pattern Language](https://amzn.to/3D7BgMP), [The Nature of Order](https://amzn.to/3xGBGJ1), Volumes [1](https://amzn.to/31efud2), [2](https://amzn.to/3d5lffP), [3](https://amzn.to/3xDDfrd) and [4](https://amzn.to/3D8QLnU).  These ideas have been applied to computer systems in [Thriving Systems Theory and Metaphor-Driven Modeling](https://amzn.to/3D95gI8) by Leslie Waguespack.
-
-A form language provides clear language around the domain objects, processes, and repeatable patterns that can be used to accelerate building new systems.
-
-A pattern language provides a set of interconnected patterns that that support each other in building up a domain. In our case we are interested in patterns that support an open and interoperable Internt Computer.
-
-A generative language provides a set of perscriptive actions that ensure the proper transformation and evolution of a living and dynamic system.
-
-This collection should be a living document that evolves along with the technology, culture, and political climate that manifestis over the years.  ICDevs.org has published this repository at [github](https://github.com/icdevs/Icdevs_fleeksite/tree/main/language_project). We accept issues, debate, and pull requests to help augment the material available to the developer community.  We expect this to be an ongoing project that is ‘never finished’ and that many valid patterns and forms will be superseded by more ‘correct’ and advantageous patterns and forms.
-
-For a full example of these kinds of languages, see [Immortality](https://amzn.to/3d1WJwd) by our Executive Director, Austin Fatheree. [gitbook](https://skilesare.github.io/immortality).
-
-## The Form Language
-
-### Network Level Forms
-
-1. Canisters
-2. Subnets
-3. Nodes
+# [The Language Project](index.html)
 
 ## The Pattern Language
 
-Services on the Interent Computer should exhibit
+### Fallback Mechanisms
 
-[INT. INTEROPERABILITY](interoperability.html)
+Supports: [DVR. DATA VERIFICATION AND REDUNDANCY](data_verification_redundancy.html), [ASD. ADAPTABLE SYSTEM DESIGN](adaptable_system_design.html)
 
+Implement backup data sources and strategies. Ensure system reliability during primary data source failures.
 
-...by using...
+#### Context:
 
-[NSP. NAMESPACED INTERFACES](namespaced_interfaces.html)
+Smart contract systems often rely on external data sources, which can sometimes fail or become unavailable. Maintaining system functionality during such events is essential for a robust and reliable architecture.
 
-When data is needed from outside the system, strive for...
+#### Problem:
 
-[DDP. DECENTRALIZED DATA PROVISION](decentralized_data_provision.html)
+A failure or unavailability of the primary data source can compromise the functionality and reliability of a smart contract system, potentially leading to undesirable consequences.
 
-...enabled by
+These failures can be amplified during black swan events in a way that overcomes the best laid redundancy plan.
 
-[DVR. DATA VERIFICATION AND REDUNDANCY](data_verification_redundancy.html) 
+#### Forces:
 
-and
+* System robustness: Ensuring the system can continue to function despite primary data source failures.
+* Data reliability: Maintaining access to accurate and reliable data during data source failures.
+Redundancy: Implementing backup data sources and strategies without excessive resource consumption.
+* Ease of implementation: Designing fallback mechanisms that can be easily integrated into the system architecture.
 
-[ASD. ADAPTABLE SYSTEM DESIGN](adaptable_system_design.html)
+#### Solution:
 
-...made more robust by...
+Design and implement fallback mechanisms that enable the smart contract system to continue functioning when the primary data source fails or becomes unavailable. These mechanisms can include backup data sources, alternative data retrieval methods, or even temporary suspension of specific functions until the primary data source is restored. By ensuring that the system can maintain its functionality during primary data source failures, developers can create more robust and reliable smart contract systems that are less susceptible to external dependencies.
 
-[EIA. ECONOMIC INCENTIVES ALIGNMENT](economic_incentives_alignment.html) 
-
-and
-
-[CIT. COMPLEXITY VS. INCENTIVIZATION TRADE-OFF](complexity_incentivization_trade.html)
-
-...and implemented by...
-
-[OUT. OUTSIDE-IN](outside_in.html)
-
-and
-
-[STA. SINGLE TRUSTED PARTY AUTHORIZATION](single_trusted_authority.html)
 
