@@ -13,66 +13,35 @@ layout: home
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-# The Language Project
-
-The “Languages Project” is an attempt by ICDevs.org to contribute to the adoption of the Internet Computer by creating generative, form, and pattern language to the community that provides a common set of communication tools that foster well-formed, productive, interoperable, and collaborative systems for innovation on and around the Internet Computer ecosystem.
-
-The “Languages Project” is loosely based on the work of Christopher Alexander in is various works on Architecture including [The Timeless Way of Bulding](https://amzn.to/3o8dZ9h), [A Pattern Language](https://amzn.to/3D7BgMP), [The Nature of Order](https://amzn.to/3xGBGJ1), Volumes [1](https://amzn.to/31efud2), [2](https://amzn.to/3d5lffP), [3](https://amzn.to/3xDDfrd) and [4](https://amzn.to/3D8QLnU).  These ideas have been applied to computer systems in [Thriving Systems Theory and Metaphor-Driven Modeling](https://amzn.to/3D95gI8) by Leslie Waguespack.
-
-A form language provides clear language around the domain objects, processes, and repeatable patterns that can be used to accelerate building new systems.
-
-A pattern language provides a set of interconnected patterns that that support each other in building up a domain. In our case we are interested in patterns that support an open and interoperable Internt Computer.
-
-A generative language provides a set of perscriptive actions that ensure the proper transformation and evolution of a living and dynamic system.
-
-This collection should be a living document that evolves along with the technology, culture, and political climate that manifestis over the years.  ICDevs.org has published this repository at [github](https://github.com/icdevs/Icdevs_fleeksite/tree/main/language_project). We accept issues, debate, and pull requests to help augment the material available to the developer community.  We expect this to be an ongoing project that is ‘never finished’ and that many valid patterns and forms will be superseded by more ‘correct’ and advantageous patterns and forms.
-
-For a full example of these kinds of languages, see [Immortality](https://amzn.to/3d1WJwd) by our Executive Director, Austin Fatheree. [gitbook](https://skilesare.github.io/immortality).
-
-## The Form Language
-
-### Network Level Forms
-
-1. Canisters
-2. Subnets
-3. Nodes
+# [The Language Project](index.html)
 
 ## The Pattern Language
 
-Services on the Interent Computer should exhibit
+### Decentralized Data Provision
 
-[INT. INTEROPERABILITY](interoperability.html)
+Supports: BLOCKCHAIN AND DECENTRALIZATION PRINCIPLES
 
+Leverage decentralized data sources to promote system robustness. Minimize reliance on single points of failure.
 
-...by using...
+#### Context:
 
-[NSP. NAMESPACED INTERFACES](namespaced_interfaces.html)
+Smart contract systems often require external data to function, and the choice of data source can have a significant impact on the overall system architecture.
 
-When data is needed from outside the system, strive for...
+#### Problem:
 
-[DDP. DECENTRALIZED DATA PROVISION](decentralized_data_provision.html)
+Relying on centralized data sources can introduce fragility and undermine the decentralized nature of a smart contract system, making it susceptible to single points of failure.
 
-...enabled by
+#### Forces:
 
-[DVR. DATA VERIFICATION AND REDUNDANCY](data_verification_redundancy.html) 
+  * Decentralization: The desire to maintain a decentralized architecture in smart contract systems.
+  * Data reliability: The need for accurate and reliable data for smart contract execution.
+  * System robustness: Ensuring the system can withstand failures or attacks on data sources.
+  * Integration complexity: The challenge of integrating with multiple decentralized data sources.
 
-and
+#### Solution:
 
-[ASD. ADAPTABLE SYSTEM DESIGN](adaptable_system_design.html)
+Incorporate decentralized data sources and oracles into the system architecture whenever possible. By diversifying data sources and reducing reliance on single points of failure, smart contract systems can become more robust and resilient. In cases where decentralized data sources are not available, strive to implement mitigation strategies to ensure data reliability and maintain system integrity.
 
-...made more robust by...
+Supported By : [OUT. OUTSIDE-IN](outside_in.html), [DVR. DATA VERIFICATION AND REDUNDANCY](data_verification_redundancy.html), [EIA. ECONOMIC INCENTIVES ALIGNMENT](economic_incentives_alignment.html)
 
-[EIA. ECONOMIC INCENTIVES ALIGNMENT](economic_incentives_alignment.html) 
-
-and
-
-[CIT. COMPLEXITY VS. INCENTIVIZATION TRADE-OFF](complexity_incentivization_trade.html)
-
-...and implemented by...
-
-[OUT. OUTSIDE-IN](outside_in.html)
-
-and
-
-[STA. SINGLE TRUSTED PARTY AUTHORIZATION](single_trusted_authority.html)
 

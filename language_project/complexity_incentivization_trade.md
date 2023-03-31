@@ -13,66 +13,35 @@ layout: home
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-# The Language Project
-
-The “Languages Project” is an attempt by ICDevs.org to contribute to the adoption of the Internet Computer by creating generative, form, and pattern language to the community that provides a common set of communication tools that foster well-formed, productive, interoperable, and collaborative systems for innovation on and around the Internet Computer ecosystem.
-
-The “Languages Project” is loosely based on the work of Christopher Alexander in is various works on Architecture including [The Timeless Way of Bulding](https://amzn.to/3o8dZ9h), [A Pattern Language](https://amzn.to/3D7BgMP), [The Nature of Order](https://amzn.to/3xGBGJ1), Volumes [1](https://amzn.to/31efud2), [2](https://amzn.to/3d5lffP), [3](https://amzn.to/3xDDfrd) and [4](https://amzn.to/3D8QLnU).  These ideas have been applied to computer systems in [Thriving Systems Theory and Metaphor-Driven Modeling](https://amzn.to/3D95gI8) by Leslie Waguespack.
-
-A form language provides clear language around the domain objects, processes, and repeatable patterns that can be used to accelerate building new systems.
-
-A pattern language provides a set of interconnected patterns that that support each other in building up a domain. In our case we are interested in patterns that support an open and interoperable Internt Computer.
-
-A generative language provides a set of perscriptive actions that ensure the proper transformation and evolution of a living and dynamic system.
-
-This collection should be a living document that evolves along with the technology, culture, and political climate that manifestis over the years.  ICDevs.org has published this repository at [github](https://github.com/icdevs/Icdevs_fleeksite/tree/main/language_project). We accept issues, debate, and pull requests to help augment the material available to the developer community.  We expect this to be an ongoing project that is ‘never finished’ and that many valid patterns and forms will be superseded by more ‘correct’ and advantageous patterns and forms.
-
-For a full example of these kinds of languages, see [Immortality](https://amzn.to/3d1WJwd) by our Executive Director, Austin Fatheree. [gitbook](https://skilesare.github.io/immortality).
-
-## The Form Language
-
-### Network Level Forms
-
-1. Canisters
-2. Subnets
-3. Nodes
+# [The Language Project](index.html)
 
 ## The Pattern Language
 
-Services on the Interent Computer should exhibit
+### Complexity vs. Incentivization Trade-off
 
-[INT. INTEROPERABILITY](interoperability.html)
+Supports: [EIA. ECONOMIC INCENTIVES ALIGNMENT](economic_incentives_alignment.html)
 
+Evaluate the balance between implementing complex mitigation strategies and using economic incentivization. Optimize system design for simplicity and robustness.
 
-...by using...
+#### Context:
 
-[NSP. NAMESPACED INTERFACES](namespaced_interfaces.html)
+Smart contract systems often require external data, and developers must choose between implementing complex mitigation strategies for HTTP outcalls or relying on simpler, economic incentivization-based methods.
 
-When data is needed from outside the system, strive for...
+#### Problem:
 
-[DDP. DECENTRALIZED DATA PROVISION](decentralized_data_provision.html)
+Complex mitigation strategies can add unnecessary layers of complication and overhead to the system architecture, potentially undermining its efficiency and robustness. Conversely, economic incentivization might not always be sufficient or applicable in every scenario.
 
-...enabled by
+#### Forces:
 
-[DVR. DATA VERIFICATION AND REDUNDANCY](data_verification_redundancy.html) 
+* System simplicity: Designing a smart contract system that is easy to understand, implement, and maintain.
+* Robustness: Ensuring that the system can withstand failures, attacks, or inaccuracies in external data.
+* Incentive design: Evaluating the effectiveness and applicability of economic incentives in various scenarios.
+* Trade-off analysis: Weighing the benefits and drawbacks of complexity and incentivization in system design.
 
-and
+#### Solution:
 
-[ASD. ADAPTABLE SYSTEM DESIGN](adaptable_system_design.html)
+Evaluate the trade-off between implementing complex mitigation strategies for HTTP outcalls and using simpler, economic incentivization-based methods. Carefully consider the system requirements, available resources, and potential risks to make informed decisions about the most appropriate approach. Strive to optimize system design for simplicity and robustness, leveraging economic incentives where possible and implementing more complex strategies only when necessary or when economic incentives are not sufficient or applicable. Be aware that the effectiveness of economic incentives may vary depending on the nature of the data and the specific context of the smart contract system.
 
-...made more robust by...
+When making these decisions, consider factors such as the reliability and accuracy requirements of the data, the potential consequences of data inaccuracies, and the costs associated with implementing and maintaining various mitigation strategies. Additionally, examine the potential for future developments in decentralized data provision technologies, as these may impact the optimal balance between complexity and incentivization.
 
-[EIA. ECONOMIC INCENTIVES ALIGNMENT](economic_incentives_alignment.html) 
-
-and
-
-[CIT. COMPLEXITY VS. INCENTIVIZATION TRADE-OFF](complexity_incentivization_trade.html)
-
-...and implemented by...
-
-[OUT. OUTSIDE-IN](outside_in.html)
-
-and
-
-[STA. SINGLE TRUSTED PARTY AUTHORIZATION](single_trusted_authority.html)
-
+By carefully weighing these factors and prioritizing system simplicity and robustness, developers can create smart contract systems that effectively address the challenges associated with external data provision while remaining adaptable to changes in the data landscape. This approach ensures that smart contract systems can continue to operate efficiently and securely, even as the external environment evolves and new data sources or technologies become available.

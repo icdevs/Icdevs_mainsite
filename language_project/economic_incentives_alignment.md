@@ -13,66 +13,34 @@ layout: home
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-# The Language Project
-
-The “Languages Project” is an attempt by ICDevs.org to contribute to the adoption of the Internet Computer by creating generative, form, and pattern language to the community that provides a common set of communication tools that foster well-formed, productive, interoperable, and collaborative systems for innovation on and around the Internet Computer ecosystem.
-
-The “Languages Project” is loosely based on the work of Christopher Alexander in is various works on Architecture including [The Timeless Way of Bulding](https://amzn.to/3o8dZ9h), [A Pattern Language](https://amzn.to/3D7BgMP), [The Nature of Order](https://amzn.to/3xGBGJ1), Volumes [1](https://amzn.to/31efud2), [2](https://amzn.to/3d5lffP), [3](https://amzn.to/3xDDfrd) and [4](https://amzn.to/3D8QLnU).  These ideas have been applied to computer systems in [Thriving Systems Theory and Metaphor-Driven Modeling](https://amzn.to/3D95gI8) by Leslie Waguespack.
-
-A form language provides clear language around the domain objects, processes, and repeatable patterns that can be used to accelerate building new systems.
-
-A pattern language provides a set of interconnected patterns that that support each other in building up a domain. In our case we are interested in patterns that support an open and interoperable Internt Computer.
-
-A generative language provides a set of perscriptive actions that ensure the proper transformation and evolution of a living and dynamic system.
-
-This collection should be a living document that evolves along with the technology, culture, and political climate that manifestis over the years.  ICDevs.org has published this repository at [github](https://github.com/icdevs/Icdevs_fleeksite/tree/main/language_project). We accept issues, debate, and pull requests to help augment the material available to the developer community.  We expect this to be an ongoing project that is ‘never finished’ and that many valid patterns and forms will be superseded by more ‘correct’ and advantageous patterns and forms.
-
-For a full example of these kinds of languages, see [Immortality](https://amzn.to/3d1WJwd) by our Executive Director, Austin Fatheree. [gitbook](https://skilesare.github.io/immortality).
-
-## The Form Language
-
-### Network Level Forms
-
-1. Canisters
-2. Subnets
-3. Nodes
+# [The Language Project](index.html)
 
 ## The Pattern Language
 
-Services on the Interent Computer should exhibit
+### Economic Incentives Alignment
 
-[INT. INTEROPERABILITY](interoperability.html)
+Supports: [DDP. DECENTRALIZED DATA PROVISION](decentralized_data_provision.html)
 
+Design incentive structures that drive truth-seeking behavior. Foster competition among external data providers.
 
-...by using...
+#### Context:
 
-[NSP. NAMESPACED INTERFACES](namespaced_interfaces.html)
+Smart contract systems often rely on external data providers for essential information. Ensuring the accuracy and reliability of this information is crucial for the proper functioning of the system.
 
-When data is needed from outside the system, strive for...
+#### Problem:
 
-[DDP. DECENTRALIZED DATA PROVISION](decentralized_data_provision.html)
+When data providers lack proper incentives, they may not be motivated to deliver accurate and reliable data, potentially compromising the system's integrity and functionality.
 
-...enabled by
+#### Forces:
 
-[DVR. DATA VERIFICATION AND REDUNDANCY](data_verification_redundancy.html) 
+* Truth-seeking behavior: Encouraging data providers to supply accurate and reliable data.
+* Competition: Fostering a competitive environment among data providers to drive higher quality data provision.
+* Incentive design: Creating effective and balanced incentive structures that motivate data providers.
+* System integrity: Ensuring the smart contract system remains robust and reliable despite potential inaccuracies in external data.
 
-and
+#### Solution:
 
-[ASD. ADAPTABLE SYSTEM DESIGN](adaptable_system_design.html)
+Design economic incentive structures that motivate external data providers to deliver accurate and reliable data. By aligning the interests of data providers with the requirements of the smart contract system, truth-seeking behavior can be encouraged. Additionally, fostering competition among data providers can drive higher quality data provision and further support system integrity. Incentive structures should be carefully designed to balance potential rewards and penalties, ensuring they are effective and sustainable over time.
 
-...made more robust by...
-
-[EIA. ECONOMIC INCENTIVES ALIGNMENT](economic_incentives_alignment.html) 
-
-and
-
-[CIT. COMPLEXITY VS. INCENTIVIZATION TRADE-OFF](complexity_incentivization_trade.html)
-
-...and implemented by...
-
-[OUT. OUTSIDE-IN](outside_in.html)
-
-and
-
-[STA. SINGLE TRUSTED PARTY AUTHORIZATION](single_trusted_authority.html)
+Supported By: [CIT. COMPLEXITY VS. INCENTIVIZATION TRADE-OFF](complexity_incentivization_trade.html)
 
