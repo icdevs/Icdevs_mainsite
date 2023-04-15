@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # Create a HTTP Request Parser in Motoko - #8
 
-## Current Status: Discussion
+## Current Status: Closed
 
 * Discussion (01/11/2022)
 * Ratification (02/10/2022)

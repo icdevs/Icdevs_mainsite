@@ -172,7 +172,7 @@ These bounties require additional tech before they can be executed and/or have h
 
 {:start="39"}
 39. [Async Flow - One Shot - Motoko](/bounties/2023/01/09/39-Async-Flow-One-Shot-Motoko.html) - $6,000 USD of ICP at award date
-40. [Fuzz Library - Motoko](/bounties/2023/01/09/40-Fuzz-Library-Motoko-copy.html) - $4,000 USD of ICP at award date
+40. [Fuzz Library - Motoko](/bounties/2023/01/09/40-Fuzz-Library-Motoko.html) - $4,000 USD of ICP at award date
 
 
 

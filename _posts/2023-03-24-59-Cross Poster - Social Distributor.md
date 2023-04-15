@@ -17,7 +17,7 @@ author: Austin Fatheree
 * In Review 
 * Closed 
 
-[Forum Link - Discussion](https://forum.dfinity.org/t/proposed-icdevs-org-bounty-cross-service-poster-5-000/)
+[Forum Link - Discussion](https://forum.dfinity.org/t/open-icdevs-org-bounty-59-cross-social-service-poster-5-000/19449)
 
 ## Bounty Details
 

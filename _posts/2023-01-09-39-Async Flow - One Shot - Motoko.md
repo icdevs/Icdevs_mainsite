@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # Async Flow - One Shot - Motoko - #39
 
-## Current Status: Discussion
+## Current Status: Awarded
 
 * Discussion (01/09/2023)
 * Ratification: (01/09/2023) 

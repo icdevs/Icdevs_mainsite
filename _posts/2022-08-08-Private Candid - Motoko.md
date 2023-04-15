@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # Private Candid - Motoko - #22a
 
-## Current Status: Discussion
+## Current Status: Freezer
 
 * Discussion (08/08/2022)
 * Ratification 

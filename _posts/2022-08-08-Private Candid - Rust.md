@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # Private Candid - Rust - #22b
 
-## Current Status: Discussion
+## Current Status: Freezer
 
 * Discussion (08/08/2022)
 * Ratification 

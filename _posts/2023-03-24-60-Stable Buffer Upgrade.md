@@ -17,7 +17,7 @@ author: Austin Fatheree
 * In Review 
 * Closed 
 
-[Forum Link - Discussion](https://forum.dfinity.org/t/proposed-icdevs-org-bounty-stablebuffer-library-2-500/)
+[Forum Link - Discussion](https://forum.dfinity.org/t/open-icdevs-org-bounty-60-1-000/19450)
 
 ## Bounty Details
 

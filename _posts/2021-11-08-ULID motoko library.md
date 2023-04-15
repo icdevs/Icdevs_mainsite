@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # Create a ULID Library in Motoko - #3
 
-## Current Status: Discussion
+## Current Status: Closed
 
 * Discussion (11/08/2021) 
 * Ratification (11/19/2021)

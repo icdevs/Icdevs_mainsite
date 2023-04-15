@@ -17,7 +17,7 @@ author: Austin Fatheree
 * In Review 
 * Closed 
 
-[Forum Link - Discussion](https://forum.dfinity.org/t/proposed-icdevs-org-bounty-role-based-authentication-class-4-000/)
+[Forum Link - Discussion](https://forum.dfinity.org/t/open-icdevs-org-bounty-62-role-based-authentication-class-motoko-8-000/19452)
 
 ## Bounty Details
 

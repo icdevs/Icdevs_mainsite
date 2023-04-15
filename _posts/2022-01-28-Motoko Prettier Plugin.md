@@ -8,11 +8,11 @@ author: Austin Fatheree
 
 # Prettier Plugin - #10
 
-## Current Status: Discussion
+## Current Status: Freezer
 
 * Discussion (01/28/2022)
 * Ratification (02/10/2022)
-* **Open for application** (02/10/2022)
+* Open for application (02/10/2022)
 * Assigned 
 * In Review 
 * Closed 

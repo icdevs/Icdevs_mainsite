@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # Create a UUID Library in Motoko - #4
 
-## Current Status: Discussion
+## Current Status: Closed
 
 * Discussion (11/17/2021)
 * Ratification (11/19/2021)

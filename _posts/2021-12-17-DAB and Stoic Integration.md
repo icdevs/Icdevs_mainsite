@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # Integrate DAB with Stoic Wallet - #6
 
-## Current Status: Discussion
+## Current Status: Closed
 
 * Discussion (12/17/2021)
 * Ratification (12/20/2021)

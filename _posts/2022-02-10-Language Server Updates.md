@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # Motoko Language Server Updates - #11
 
-## Current Status: Discussion
+## Current Status: Freezer
 
 * Discussion (02/11/2022)
 * Ratification 

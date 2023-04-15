@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # PNG Encoder/Decoder - #12
 
-## Current Status: Discussion
+## Current Status: Assigned
 
 * Discussion (02/20/2022)
 * Ratification 

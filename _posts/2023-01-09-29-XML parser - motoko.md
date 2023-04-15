@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # XML Parser - Motoko - #29
 
-## Current Status: Discussion
+## Current Status: Awarded
 
 * Discussion (01/10/2023)
 * Ratification: (01/09/2023) 

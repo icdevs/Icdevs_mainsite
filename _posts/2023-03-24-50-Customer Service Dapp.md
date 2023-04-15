@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # Customer Service Dapp - Svelte/React - #50
 
-## Current Status: Discussion
+## Current Status: Assigned
 
 * Discussion (03/24/2023)
 * Ratification: (TBD)
@@ -17,7 +17,7 @@ author: Austin Fatheree
 * In Review 
 * Closed 
 
-[Forum Link - Discussion](https://forum.dfinity.org/t/proposed-icdevs-org-bounty-39-customer-service-dapp-svelte-react-5-000/)
+[Forum Link - Discussion](https://forum.dfinity.org/t/open-icdevs-org-bounty-50/19446)
 
 ## Bounty Details
 
@@ -46,6 +46,8 @@ The primary goals of this bounty include:
 * Allow customization of the dapp with dapp branding.
 * Accept query string parameters that can prefill in the canister ID and default values for calling a function.
 * Allow the user to add a hard-coded list of canisters and function pairs that are allowed to be called for security reasons.
+
+You should use this library as the base for your applictaion as it has most of what you will need built in: https://github.com/dfinity/dfn-components/tree/main/packages/candid-ui
 
 This bounty gives the opportunity to
 

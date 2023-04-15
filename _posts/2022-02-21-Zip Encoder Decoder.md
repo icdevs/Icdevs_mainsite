@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # Zip Encoder/Decoder - #13
 
-## Current Status: Discussion
+## Current Status: Assigned
 
 * Discussion (02/21/2022)
 * Ratification (3/1/2022)

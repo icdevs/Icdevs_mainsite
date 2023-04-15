@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # Wasmer Motoko - #34
 
-## Current Status: Discussion
+## Current Status: Awarded
 
 * Discussion (01/09/2023)
 * Ratification: (01/09/2023) 

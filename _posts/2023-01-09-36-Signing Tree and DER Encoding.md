@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # Signing Tree and DER Encoding - Motoko - #36
 
-## Current Status: Discussion
+## Current Status: Awarded
 
 * Discussion (01/09/2023)
 * Ratification: (01/09/2023) 

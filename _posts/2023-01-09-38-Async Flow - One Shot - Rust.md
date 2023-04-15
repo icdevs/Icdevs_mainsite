@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # Async Flow - One Shot - Rust - #38
 
-## Current Status: Discussion
+## Current Status: Assigned
 
 * Discussion (01/09/2023)
 * Ratification: (01/09/2023) 

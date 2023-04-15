@@ -17,7 +17,7 @@ author: Austin Fatheree
 * In Review 
 * Closed 
 
-[Forum Link - Discussion](https://forum.dfinity.org/t/proposed-icdevs-org-bounty-datetime-library-10-000/)
+[Forum Link - Discussion](https://forum.dfinity.org/t/open-icdevs-org-bounty-53-datetime-library-motoko-10-000/19443)
 
 ## Bounty Details
 

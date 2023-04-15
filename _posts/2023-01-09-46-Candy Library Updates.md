@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # Candy Library Documentation and Refactoring - Motoko - #46
 
-## Current Status: Discussion
+## Current Status: Awarded
 
 * Discussion (01/09/2023)
 * Ratification: (01/09/2023) 

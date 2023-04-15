@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # QuickStart Dapp - Scaling With Canisters - #20
 
-## Current Status: Discussion
+## Current Status: Closed
 
 * Open for submission - (03/28/2022)
 * Closed - (05/16/2022)

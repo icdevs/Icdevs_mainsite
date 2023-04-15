@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # A DAO for Cycles - #17
 
-## Current Status: Discussion
+## Current Status: Closed
 
 * Discussion (02/25/2022)
 * Ratification 

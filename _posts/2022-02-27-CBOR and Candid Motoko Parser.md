@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # CBOR and Candid Motoko Parser - #19
 
-## Current Status: Discussion
+## Current Status: Closed
 
 * Discussion (02/27/2022)
 * Ratification 

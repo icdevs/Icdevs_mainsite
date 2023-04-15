@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # Pipelinify Updates - Motoko - #43
 
-## Current Status: Discussion
+## Current Status: Assigned
 
 * Discussion (01/09/2023)
 * Ratification: (01/09/2023) 
