@@ -6,7 +6,7 @@ categories: "Bounties"
 author: Austin Fatheree
 ---
 
-# ICDevs.org StableBuffer Motoko Library
+# ICDevs.org StableBuffer Motoko Library - #60
 
 ## Current Status: Discussion
 
