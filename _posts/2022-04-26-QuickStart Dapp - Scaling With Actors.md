@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # QuickStart Dapp - Actor Model - #21
 
-## Current Status: ## Current Status: Closed
+## Current Status: Awarded
 
 
 * Open for submission - (04/26/2022)

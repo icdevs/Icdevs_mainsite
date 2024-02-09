@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # Create a CBOR developer plugin - #5
 
-## Current Status: Closed
+## Current Status: Awarded
 
 * Discussion (11/21/2021)
 * Ratification (11/22/2021)

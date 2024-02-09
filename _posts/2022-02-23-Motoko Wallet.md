@@ -8,7 +8,9 @@ author: Austin Fatheree
 
 # Motoko Wallet - #15
 
-## Current Status: Discussion
+## Current Status: Retired
+
+Please see https://github.com/icdevs/axon for most of the features discussed in this bounty
 
 * Discussion (02/23/2022)
 * Ratification 

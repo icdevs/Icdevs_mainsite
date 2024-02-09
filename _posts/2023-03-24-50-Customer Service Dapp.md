@@ -8,14 +8,14 @@ author: Austin Fatheree
 
 # Customer Service Dapp - Svelte/React - #50
 
-## Current Status: Assigned
+## Current Status: Awarded
 
 * Discussion (03/24/2023)
 * Ratification: (TBD)
 * Open for application: (TBD)
 * Assigned (TBD)
 * In Review 
-* Closed 
+* **Closed** https://github.com/dfinity/dfn-components/pull/13 
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/open-icdevs-org-bounty-50/19446)
 

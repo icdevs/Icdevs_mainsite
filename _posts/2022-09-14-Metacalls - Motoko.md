@@ -8,14 +8,14 @@ author: Austin Fatheree
 
 # Metacalls - Motoko - #23a
 
-## Current Status: Discussion
+## Current Status: Awarded
 
 * Discussion (9/14/2022)
 * Ratification 
 * Open for application
 * Assigned 
 * In Review 
-* Closed 
+* **Closed** https://github.com/darkdrag00nv2/metacalls.mo 
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-23a-metacalls-motoko-up-to-10k/15422)
 

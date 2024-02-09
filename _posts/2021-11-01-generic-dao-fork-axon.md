@@ -8,14 +8,14 @@ author: Austin Fatheree
 
 # Add generic dao functions and interface to Axon - #2
 
-## Current Status: Discussion
+## Current Status: Awarded
 
 * Discussion (11/02/2021) 
 * Ratification (11/02/2021)
-* **Open for application** (11/02/2021) <- We are here
+* Open for application (11/02/2021) <- We are here
 * Assigned
 * In Review
-* Closed
+* **Closed**  - https://github.com/icdevsorg/axon
 
 [Issue Link - Discussion Forum](https://forum.dfinity.org/t/icdevs-org-bounty-2-add-generic-dao-functions-and-interface-to-axon/8284)
 

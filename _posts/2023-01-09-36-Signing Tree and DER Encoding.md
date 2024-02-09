@@ -15,7 +15,7 @@ author: Austin Fatheree
 * Open for application: (01/09/2023)
 * Assigned 
 * In Review 
-* Closed 
+* **Closed** https://github.com/nomeata/ic-certification 
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/open-icdev-org-bounty-36-signing-tree-and-der-encoding-motoko-10-000/17889)
 

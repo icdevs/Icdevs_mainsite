@@ -8,14 +8,14 @@ author: Austin Fatheree
 
 # EVM Transactions - Motoko - #32
 
-## Current Status: Discussion
+## Current Status: Awarded
 
 * Discussion (01/09/2023)
 * Ratification: (01/09/2023) 
 * Open for application: (01/09/2023)
 * Assigned 
 * In Review 
-* Closed 
+* **Closed** https://github.com/av1ctor/evm-txs.mo 
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/open-icdevs-org-bounty-32-evm-transactions-motoko-8-000/17884/1)
 

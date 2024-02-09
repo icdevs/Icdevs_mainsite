@@ -15,7 +15,7 @@ author: Austin Fatheree
 * Open for application
 * Assigned to sardariuss
 * In Review 
-* Closed (8/15/2022)
+* Closed (8/15/2022) https://github.com/sardariuss/CyclesDAO
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-17-a-dao-for-cycles-10-000-ht-cycle-dao/11427)
 

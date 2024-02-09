@@ -8,14 +8,14 @@ author: Austin Fatheree
 
 # Candy Library - Rust - #47
 
-## Current Status: Discussion
+## Current Status: Awarded
 
 * Discussion (01/09/2023)
 * Ratification: (01/09/2023) 
 * Open for application: (01/09/2023)
 * Assigned 
 * In Review 
-* Closed 
+* **Closed** https://crates.io/crates/ic_candy 
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/open-icdevs-org-bounty-47-candy-library-rust-4-000/17964/1)
 

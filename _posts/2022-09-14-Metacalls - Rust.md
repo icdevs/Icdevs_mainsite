@@ -8,14 +8,14 @@ author: Austin Fatheree
 
 # Metacalls - Rust - #23b
 
-## Current Status: Awarded
+## Current Status: Retired
 
 * Discussion (09/14/2022)
 * Ratification 
 * Open for application
 * Assigned (12/28/2022) - Assigned to mparikh
 * In Review 
-* Closed 
+* Closed (9/28/23)
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-23b-metacalls-rust-up-to-10k/15423)
 

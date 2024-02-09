@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # Cover Browser Extention - #9
 
-## Current Status: Closed
+## Current Status: Awarded
 
 * Discussion (01/19/2022)
 * Ratification (02/10/2022)

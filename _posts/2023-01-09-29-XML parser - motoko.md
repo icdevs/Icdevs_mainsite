@@ -15,7 +15,7 @@ author: Austin Fatheree
 * Open for application: (01/09/2023)
 * Assigned 
 * In Review 
-* Closed 
+* **Closed** https://github.com/edjCase/motoko_xml 
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/open-icdevs-org-bounty-29-xml-parser-motoko-8-000/17881/3)
 

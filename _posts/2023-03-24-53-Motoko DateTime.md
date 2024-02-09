@@ -8,14 +8,14 @@ author: Austin Fatheree
 
 # ICDevs.org DateTime Library - #53
 
-## Current Status: Discussion
+## Current Status: Awarded
 
 * Discussion (03/24/2023)
 * Ratification: (TBD)
 * Open for application: (TBD)
 * Assigned (TBD)
 * In Review 
-* Closed 
+* **Closed** https://github.com/edjCase/motoko_datetime/ 
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/open-icdevs-org-bounty-53-datetime-library-motoko-10-000/19443)
 

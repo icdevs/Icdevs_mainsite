@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # Admin Bounty - Gitcoin - #42
 
-## Current Status: Discussion
+## Current Status: Freezer
 
 * Discussion (01/09/2025)
 * Ratification 

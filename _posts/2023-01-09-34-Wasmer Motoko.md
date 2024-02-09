@@ -15,7 +15,7 @@ author: Austin Fatheree
 * Open for application: (01/09/2023)
 * Assigned 
 * In Review 
-* Closed 
+* **Closed** https://github.com/av1ctor/icdevs-wasmer 
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/open-icdevs-org-bounty-34-wasmer-motoko-10-000/17887/4)
 

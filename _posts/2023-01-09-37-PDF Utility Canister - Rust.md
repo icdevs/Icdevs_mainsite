@@ -8,14 +8,14 @@ author: Austin Fatheree
 
 # PDF Utility Canister - Rust - #37
 
-## Current Status: Discussion
+## Current Status: Retired
 
 * Discussion (01/09/2023)
 * Ratification: (01/09/2023) 
 * Open for application: (01/09/2023)
 * Assigned (1/19/2021) - fyrex
 * In Review 
-* Closed 
+* Closed (9/28/23)
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/open-icdevs-org-bounty-37-pdf-utility-canister-rust-6-000/17890/3)
 

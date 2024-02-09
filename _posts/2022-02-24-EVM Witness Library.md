@@ -8,16 +8,16 @@ author: Austin Fatheree
 
 # EVM Witness Library - #16
 
-## Current Status: Discussion
+## Current Status: Awarded
 
 * Discussion (02/24/2022)
 * Ratification 
 * Open for application
 * Assigned 
 * In Review 
-* Closed 
+* **Closed** https://mops.one/evm-proof-verifier 
 
-[Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-16-evm-witness-library-8-000)
+[Forum Link - Discussion](https://forum.dfinity.org/t/open-icdevs-org-bounty-16-evm-witness-library-8-000/11346)
 
 ## Bounty Details
 

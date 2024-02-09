@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # Create a ULID Library in Motoko - #3
 
-## Current Status: Closed
+## Current Status: Awarded
 
 * Discussion (11/08/2021) 
 * Ratification (11/19/2021)
@@ -62,7 +62,7 @@ The bounty was generously funded by a donor(The Dragginz Team). If you would lik
 
 ## Award
 
-Github user @di-wu forfeited this bounty back to the ICDevs.org treasury.
+Github user @di-wu forfeited this bounty back to the ICDevs.org treasury. https://github.com/aviate-labs/ulid.mo
 
 ## General Bounty Process
 

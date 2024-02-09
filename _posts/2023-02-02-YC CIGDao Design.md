@@ -8,14 +8,14 @@ author: Austin Fatheree
 
 # CIGDao Design- #49
 
-## Current Status: Discussion
+## Current Status: Retired
 
 * Discussion (02/02/2023)
 * Ratification
 * Open for application
 * Assigned 
 * In Review 
-* Closed 
+* Closed (9/28/2023)
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/open-icdevs-org-bounty-49-yc-design-400-000-000-yc/18346)
 

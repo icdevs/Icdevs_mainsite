@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # React-Native IC Agent Bounty - #0
 
-## Current Status: Discussion
+## Current Status: Retired
 
 * Discussion (10/18/2021)
 * Ratification (10/19/2021) https://axon.ooo/axon/180/proposal/3

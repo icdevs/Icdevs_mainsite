@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # Basic tutorials and site - #1
 
-## Current Status: Discussion
+## Current Status: Awarded
 
 * Discussion (10/25/2021)
 * Ratification (11/1/2021)

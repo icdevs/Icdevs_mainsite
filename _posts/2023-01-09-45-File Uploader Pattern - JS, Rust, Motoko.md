@@ -8,14 +8,14 @@ author: Austin Fatheree
 
 # File Uploader Pattern - JS, Rust, Motoko - #45
 
-## Current Status: Discussion
+## Current Status: Awarded
 
 * Discussion (01/09/2023)
 * Ratification: (01/09/2023) 
 * Open for application: (01/09/2023)
 * Assigned 
 * In Review 
-* Closed 
+* **Closed** https://github.com/cybrowl/upload-file
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/open-icdevs-org-bounty-45-file-uploader-pattern-js-rust-motoko-10k/17962/1)
 

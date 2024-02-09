@@ -8,14 +8,14 @@ author: Austin Fatheree
 
 # CBOR and Candid Motoko Parser - #19
 
-## Current Status: Closed
+## Current Status: Awarded
 
 * Discussion (02/27/2022)
 * Ratification 
 * Open for application
 * Assigned 
 * In Review 
-* Closed (09/09/2022)
+* Closed (09/09/2022) https://mops.one/cbor and https://mops.one/candid
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-18-cbor-and-candid-motoko-parser-3-000)
 

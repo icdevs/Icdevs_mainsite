@@ -8,14 +8,14 @@ author: Austin Fatheree
 
 # PNG Encoder/Decoder - #12
 
-## Current Status: Assigned
+## Current Status: Retired
 
 * Discussion (02/20/2022)
 * Ratification 
 * Open for application
 * Assigned 
 * In Review 
-* Closed 
+* Closed (9/28/23)
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-12-png-encoder-decoder-5000/11189)
 

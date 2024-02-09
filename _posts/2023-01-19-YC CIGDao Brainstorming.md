@@ -8,14 +8,14 @@ author: Austin Fatheree
 
 # YC Burn Brainstorming - #48
 
-## Current Status: Discussion
+## Current Status: Retired
 
 * Discussion (01/19/2023)
 * Ratification
 * Open for application
 * Assigned 
 * In Review 
-* Closed 
+* Closed (9/28/2023)
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-cigdao-bounty-yc-burn-brainstorming-48-100-000-000-yc/18090)
 

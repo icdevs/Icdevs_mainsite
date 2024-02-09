@@ -15,7 +15,7 @@ author: Austin Fatheree
 * Open for application: (01/09/2023)
 * Assigned 
 * In Review 
-* Closed 
+* **Closed** https://github.com/holykol/ic-regex
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/open-icdevs-org-bounty-33-reg-ex-utility-canister-rust-4-000/17886/4)
 

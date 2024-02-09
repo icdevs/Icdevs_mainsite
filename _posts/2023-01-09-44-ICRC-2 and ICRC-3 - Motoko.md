@@ -8,14 +8,14 @@ author: Austin Fatheree
 
 # ICRC-2 and ICRC-3 - Motoko - #44
 
-## Current Status: Discussion
+## Current Status: Awarded
 
 * Discussion (01/09/2023)
 * Ratification: (01/09/2023) 
 * Open for application: (01/09/2023)
 * Assigned 
 * In Review 
-* Closed 
+* **Closed**  https://github.com/PanIndustrial-Org/icrc2.mo https://github.com/PanIndustrial-Org/icrc3.mo
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/open-icdevs-org-bounty-44-icrc-2-and-icrc-3-motoko-6-000/17919/5)
 

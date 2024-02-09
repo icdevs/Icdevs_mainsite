@@ -8,14 +8,14 @@ author: Austin Fatheree
 
 # ICDevs.org StableBuffer Motoko Library - #60
 
-## Current Status: Discussion
+## Current Status: Awarded
 
 * Discussion (03/24/2023)
 * Ratification: (TBD)
 * Open for application: (TBD)
 * Assigned (TBD)
 * In Review 
-* Closed 
+* **Closed**  https://github.com/canscale/StableBuffer/pull/10
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/open-icdevs-org-bounty-60-1-000/19450)
 

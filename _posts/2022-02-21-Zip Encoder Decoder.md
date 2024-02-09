@@ -8,16 +8,16 @@ author: Austin Fatheree
 
 # Zip Encoder/Decoder - #13
 
-## Current Status: Assigned
+## Current Status: Awarded
 
 * Discussion (02/21/2022)
 * Ratification (3/1/2022)
 * Open for application (3/1/2022)
 * Assigned
 * In Review 
-* Closed 
+* **Closed** https://github.com/NatLabs/deflate.mo/tree/main
 
-[Forum Link - Discussion]()
+[Forum Link - Discussion](https://forum.dfinity.org/t/assinged-icdevs-org-bounty-13-zip-encoder-decoder-14-000/11217/16)
 
 ## Bounty Details
 

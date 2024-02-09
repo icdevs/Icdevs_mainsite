@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # Motoko NoKey Wallet - #27a
 
-## Current Status: Discussion
+## Current Status: Assigned
 
 * Discussion (10/21/2022)
 * Ratification 

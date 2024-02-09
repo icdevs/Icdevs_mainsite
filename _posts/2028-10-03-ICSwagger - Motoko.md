@@ -8,7 +8,7 @@ author: Austin Fatheree
 
 # Motoko icSwagger - #25
 
-## Current Status: Discussion
+## Current Status: Freezer
 
 * Discussion (12/03/2022)
 * Ratification 

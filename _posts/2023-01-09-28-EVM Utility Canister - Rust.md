@@ -8,14 +8,14 @@ author: Austin Fatheree
 
 # EVM Utility Canister - #28
 
-## Current Status: Discussion
+## Current Status: Awarded
 
 * Discussion (01/09/2023)
 * Ratification: (01/09/2023) 
 * Open for application: (01/09/2023)
 * Assigned: (01/18/2023) spokor
 * In Review 
-* Closed 
+* **Closed** https://github.com/icopen/evm_utils_ic
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/icdevs-org-bounty-28-evm-utility-canister-6-000/17880/5)
 

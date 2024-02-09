@@ -8,14 +8,14 @@ author: Austin Fatheree
 
 # Async Flow - One Shot - Rust - #38
 
-## Current Status: Assigned
+## Current Status: Retired
 
 * Discussion (01/09/2023)
 * Ratification: (01/09/2023) 
 * Open for application: (01/09/2023)
 * Assigned (1/19/2023) - GLDev
 * In Review 
-* Closed 
+* Closed (9/28/2023)
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/assigned-icdevs-org-bounty-38-async-flow-one-shot-rust-6-000/17900/5)
 

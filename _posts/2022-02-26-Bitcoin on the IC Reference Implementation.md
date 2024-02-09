@@ -8,14 +8,14 @@ author: Austin Fatheree
 
 # Bitcoin on the IC Reference Implementation - #18
 
-## Current Status: Discussion
+## Current Status: Retired
 
 * Discussion (02/26/2022)
 * Ratification 
 * Open for application
 * Assigned 
 * In Review 
-* Closed 
+* Closed (9/28/2023)
 
 [Forum Link - Discussion]()
 

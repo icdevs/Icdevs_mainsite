@@ -8,14 +8,14 @@ author: Austin Fatheree
 
 # ICDevs.org Cross-Service Poster - #59
 
-## Current Status: Discussion
+## Current Status: Retired
 
 * Discussion (03/24/2023)
 * Ratification: (TBD)
 * Open for application: (TBD)
 * Assigned (TBD)
 * In Review 
-* Closed 
+* **Closed**
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/open-icdevs-org-bounty-59-cross-social-service-poster-5-000/19449)
 

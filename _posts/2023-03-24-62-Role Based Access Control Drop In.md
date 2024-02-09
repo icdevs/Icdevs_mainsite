@@ -8,14 +8,14 @@ author: Austin Fatheree
 
 # ICDevs.org Role-Based Authentication Class - Motoko - #62
 
-## Current Status: Discussion
+## Current Status: Awarded
 
 * Discussion (03/24/2023)
 * Ratification: (TBD)
 * Open for application: (TBD)
 * Assigned (TBD)
 * In Review 
-* Closed 
+* **Closed** https://github.com/fury02/rbac-motoko https://github.com/fury02/rbac-motoko-web-admin
 
 [Forum Link - Discussion](https://forum.dfinity.org/t/open-icdevs-org-bounty-62-role-based-authentication-class-motoko-8-000/19452)
 
