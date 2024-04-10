@@ -43,3 +43,7 @@ kramdown:
     default_lang: html
     css_class : 'syntax'
 
+include:
+  - .well-known
+  - .ic-assets.json
+

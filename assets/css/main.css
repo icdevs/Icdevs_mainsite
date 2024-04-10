@@ -352,7 +352,7 @@ and (min-device-width : 768px) {
 
 
 code{
-    display: block;
+    
     overflow-x: auto;
 }
 

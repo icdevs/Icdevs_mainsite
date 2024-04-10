@@ -75,6 +75,9 @@ The following libraries and applications were funded with ICDevs Bounties:
 {:start="7"}
 7. [Bug Bounty](/bounties/2022/01/03/Bug-Bounty.html) - 20 ICP + $500 USD of ICP at award date, Endowment Available
 
+{:start="63"}
+7. [EVM OpCodes and Precompiles in Motoko](/bounties/2024/02/09/evm-opcodes-and_precompiles.html) - 1.9 ckETH
+
 ## Assigned 
 
 {:start="27"}
