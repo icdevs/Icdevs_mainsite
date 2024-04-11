@@ -1,27 +1,43 @@
 # 💰 Donations
 
-ICDevs.org is funded by the Internet Computer community.  Raising funds is essential for us to continue to be able to provide the services that are core to our missing.  There are lots of ways to give and the structure of the ICP token gives us additional creative ways for the community to support our work.
+ICDevs.org is funded by the Internet Computer community.  Raising funds is essential for us to continue to be able to provide the services that are core to our misson.  There are lots of ways to give and the structure of the ICP token gives us additional creative ways for the community to support our work.
+
+## Mint ICDV - The ICDevs token 
+
+$ICDV is a utility token that is used to provide cryptographic proof of donation to ICDevs.org. I has no financial value and anyone minting the token should expect to receive no value other than social proof and self-satisfaction of contributing to public good. We hope to do fun things in the future for $ICDV holders, but there should be no expectation of financial gain or future value. If you mint $ICDV and you are a US Citizen, reach out with your block number on the ICP ledger and your tax payer information and we will get a 501c3 Tax letter to you so that you can deduct the donation on your taxes.
+
+For each ICP donated there is 1000x bonus. 1 ICP = 1_000 ICDV. (Applies to the first 1000 ICP donated).
+
+Currently Donations are supported through <a href="https://plugwallet.ooo/" target="_blank">Plug Wallet</a>. Follow the link to install and then send ICP from your exchange or from <a href="https://nns.ic0.app" target="_blank">the Network Nervous System.</a>
+
+<div id="root"></div>
+
+<script src="/assets/dist/index.js" defer></script>
+
+You can add the ICDV Token to your favorite wallet by adding a custom ICRC-1 token with the canister ID agtsn-xyaaa-aaaag-ak3kq-cai.
+
+Check out our [educational youtube series](https://www.youtube.com/playlist?list=PLuQrY06IeLwNUgGbGdH9rggewQnaaQHjR) where we developed the ICDV token.
 
 ## Giving Levels
 
 ### Developers
 
-1. Developer Advisory Board Members(limited) - Liquid Donation of 60+ ICP or Dedicate a 100+ ICP - 8 year neuron
-2. Developer Advisor -  2.5 Liquid ICP or Dedicate a 18+ ICP Neuron(minimum lock 2 years) - This is a bit high because the maturity takes a long time to be claimable at low ICP levels.  We are trying to keep this at ~$100/year and the purpose is to show a long term commitment to the IC.
+1. Developer Advisory Board Members(limited) - Liquid Donation of 120+ ICP or Dedicate a 200+ ICP - 8 year neuron
+2. Developer Advisor -  12 Liquid ICP or Dedicate a 50+ ICP Neuron(minimum lock 2 years) - This is a bit high because the maturity takes a long time to be claimable at low ICP levels.  We are trying to keep this at ~$100/year and the purpose is to show a long term commitment to the IC.
 3. Anything Helps - Reduce your potential tax liability by dedicating your ICP Neurons and avoiding hard to report income. You can undedicate at any time.
 
 ### Non-Developers
 
-1. Executive Advisors(limited) - Liquid Donation of 20K ICP or dedicate a 50K ICP 8 year Neuron.
-2. Recognized Donor - Liquid Donation of 500+ ICP or Dedicate a 1K ICP Neuron - Name on the ICDevs.org Site
+1. Executive Advisors(limited) - Liquid Donation of 35K ICP or dedicate a 70K ICP 8 year Neuron.
+2. Recognized Donor - Liquid Donation of 1000+ ICP or Dedicate a 3K ICP Neuron - Name on the ICDevs.org Site
 3. Anything Helps - Reduce your potential tax liability by dedicating your ICP Neurons and avoiding hard to report income. You can undedicate at any time.
 
 ### Corporations
 
-1. Diamond - 20K Liquid ICP donation or dedicate a 50K ICP Neuron and start your company's ICP Treasury - Logo on ICDevs.org
-2. Gold - 5K Liquid ICP donation or dedicate a 12.5K ICP Neuron and start your company's ICP Treasury - Logo on ICDevs.org
-3. Silver - 1K Liquid ICP donation or dedicate a 2.5K ICP Neuron and start your company's ICP Treasury - Logo on ICDevs.org
-4. Bronze - 200 Liquid ICP donation or dedicate a 500 ICP Neuron and start your company's ICP Treasury - Logo on ICDevs.org
+1. Diamond - 50K Liquid ICP donation or dedicate a 100K ICP Neuron and start your company's ICP Treasury - Logo on ICDevs.org
+2. Gold - 10K Liquid ICP donation or dedicate a 20K ICP Neuron and start your company's ICP Treasury - Logo on ICDevs.org
+3. Silver - 2K Liquid ICP donation or dedicate a 5K ICP Neuron and start your company's ICP Treasury - Logo on ICDevs.org
+4. Bronze - 400 Liquid ICP donation or dedicate a 1000 ICP Neuron and start your company's ICP Treasury - Logo on ICDevs.org
 5. Matching - Offer corporate matching to you employees. Please Contact Us.
 6. Other Corporate Donations - Reduce your potential tax liability by dedicating your ICP Neurons and avoiding hard to report income.
 
@@ -49,15 +65,17 @@ Please also email us at donations@icdevs.org with the check information, your ad
 
 ## Liquid ICP Details:
 
-Tax Deductable Donations: c8e78c28beebd305370cfc798bbe96132fcade8ac88ec742084a4e6e248913cf
+Tax Deductible Donations: c8e78c28beebd305370cfc798bbe96132fcade8ac88ec742084a4e6e248913cf
 
 Anonymous Donations: 93a3506e08e88e1f65f85990451038f7a232b6f860ee706b42cc9edec96eecee
 
 NFT Donation Principal: p75el-ys2la-2xa6n-unek2-gtnwo-7zklx-25vdp-uepyz-qhdg7-pt2fi-bqe
 
-For Tax Deductible Donations, please email us at donations@icdevs.org  the details of your transaction(from address, date, your SSN, Address so that we can deliver you the appropriate documents you will need to document your taxes
+For Tax Deductible Donations, please email us at donations@icdevs.org  the details of your transaction(from address, date, your SSN, Address so that we can deliver you the appropriate documents you will need to document your taxes)
 
 ## Dedicate a Neuron
+
+The following instructions may not still be relevant. If you would like to dedicate a neuron, please contact us.
 
 ### Step 1. Add ICdevs.org as a hot key to your neuron(so we can see id):
 
@@ -107,7 +125,7 @@ Follow Neuron 14231996777861930328 for the Manage Neuron Topic(instructions). Th
 14. Click the "play" button.
 15. Confirm that your neuron now follows 14231996777861930328 for the Manage Neuron Topic.
 
-Please let us know that you've dedicated your neruon or add our neruon as a hot key on your neuron.
+Please let us know that you've dedicated your neuron or add our neuron as a hot key on your neuron.
 
 
 
@@ -116,7 +134,7 @@ Please let us know that you've dedicated your neruon or add our neruon as a hot 
 
 ### ETH and ETH base ERC20, ETH based NFTs
 
-Tax deductable: 0x4A7C969110f7358bF334b49A2FF1a2585ac372B8
+Tax deductible: 0x4A7C969110f7358bF334b49A2FF1a2585ac372B8
 
 Anonymous: 0x4666fBf259F42ff794A8732A2d9143e1F4a713c0
 

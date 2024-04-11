@@ -47,3 +47,8 @@ include:
   - .well-known
   - .ic-assets.json
 
+exclude:
+  - vite-react-motoko
+  - src
+
+

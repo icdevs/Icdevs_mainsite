@@ -18,5 +18,5 @@ A: Currently you will not receive your maturity if we don't vote for you and you
 
 Q: How do you decide to vote?
 
-A: Once [Bounty #2](/bounties/2021/11/01/generic-dao-fork-axon-copy.html) is complete we will be submitting votes to the will of our developer advisory council. You can learn more about becoming part of the [developer advisory council here](/developer_advisory_committee.html).  Our advisory board will make recommendations and then the members of the committee will vote.  Once a majority is reached, the vote will be executed by the system.
+A: Voting is at the discretion of ICDevs.org. We institute an always reject canister hotkey to make sure we don't miss votes, but we cannot guarantee we will not miss some votes.
 

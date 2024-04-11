@@ -4,15 +4,6 @@
 - name: Dark
   enabled: true
 
-- name: Dragos
-  enabled: true
-
-- name: Ocean
-  enabled: true
-
-- name: Sunset
-  enabled: true
-
 - name: Sandcastle
   enabled: true
 

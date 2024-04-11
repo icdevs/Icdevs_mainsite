@@ -1,0 +1,20 @@
+{
+  "canisters": {
+    "www": {
+      "frontend": {
+        "entrypoint": "_site/index.html"
+      },
+      "source": [
+        "_site"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": "jekyll build"
+    }
+  },
+  "version": 1
+}

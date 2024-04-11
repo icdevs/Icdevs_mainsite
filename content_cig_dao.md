@@ -10,7 +10,7 @@ The current CIGDao bounty is:
 48. [CIGDao - Your Coin Burn Brainstorming](/bounties/2023/01/19/YC-CIGDao-Brainstorming.html) - 100,000,000 YC at award date
 49. [CIGDao - CIGDao Design](/bounties/2023/02/02/YC-CIGDao-Design.html) - 400,000,000 YC at award date
 
-## Original CIDDao Proposal
+## Original CIGDao Proposal
 
 We propose that CIGDAO permanently fund an ICDevs bounty using 2520 ICP from the CIGDao treasury. ICDevs will use 2/3 of the funds to permanently fund the bounty in an 8 year neuron and 1/3 to buy YC to issue a bounty. This will fund an approximately $3,000 bounty to attract developers to the IC/YC ecosystem. ICDevs will work with CIGDAO to determine the first bounty and will buy YC for the bounty with this ICP. As the maturity spawns off the endowed bounty from the NNS neuron, 2/9 of the funds will be used to buy YC to increase the bounty until it is complete. Any dividends accruing to the Pool of YC in the ICDevs treasury will be split according to the same ratio, with 2/3 being used to buy YC for the ICDevs Permanent Treasury, 2/9 funding the CIGDAO bounty, and 1/9 funding ICDevs.
 

@@ -19,7 +19,6 @@ The Developer Advisory Committee coordinates the grants, prizes, educational, an
 
 ## Our Developer Advisor Board Members:
 
-* [Jordan Last](https://github.com/lastmjs) - Defender of the Internet Computer / Creator of Sudograph / Host of the Demergence podcast
 * [Integral Wizard](https://twitter.com/integral_wizard)
 * [cryptoschindler](https://twitter.com/cryptoschindler) - former community organizer [@dfinity](https://twitter.com/dfinity) / [@waterslide_app](https://twitter.com/waterslide_app) frontend provider for [@LiquityProtocol](https://twitter.com/LiquityProtocol) / plants / coding
 * [quint](https://github.com/di-wu)
@@ -30,16 +29,13 @@ The Developer Advisory Committee coordinates the grants, prizes, educational, an
 ## Requirements:
 
 * Demonstrated Familiarity with Internet Computer Development. Send us your github.
-* A commitment to participate in the on-chain governance process in a timely manner. You don't have to actively vote, but we'd love for you to.
-* Liquid Donation of 60+ ICP or Dedicate a 100+ ICP - 8 year neuron.  You can find dedication instructions on the [donations page](/donations.html).
-
+* Liquid Donation of 130+ ICP or Dedicate a 130+ ICP - 8 year neuron.  You can find dedication instructions on the [donations page](/donations.html).
 
 ## Apply to be a Developer Advisory Committee:
 
 ## Requirements:
 
 * Demonstrated Familiarity with Internet Computer Development. Send us your github.
-* A commitment to participate in the on-chain governance process in a timely manner. You don't have to actively vote, but we'd love for you to.
 * A dedicated neuron contributing to the ICDevs.org ecosystem. Please send us your dedicated 18+ ICP 8 year locked neuron address.  You can find dedication instructions on the [donations page](/donations.html).
 
 
@@ -47,9 +43,7 @@ Send this info to admin@icdevs.org along with the principal on axon.ooo that you
 
 ## Voting
 
-Once the Developer Advisory Committee voting axon fork is live, we will submit governance and other relevant NNS topics to the system.  Developer Advisory Committee members may vote to approve or reject the topics and the vote of the ICDevs.org neuron will will be decided by majority vote of the Committee.
-
-The ICDevs.org neuron is currently configured to follow no one for Governance, SNS & Community Fund, and Network Canister Management topics. We follow DFINITY on other topics.
+We have currently retired Developer Advisory votes but are exploring new DAO structures and will have more soon.
 
 Please see this [note about SNS voting](https://forum.dfinity.org/t/icdevs-votes-on-sns-and-nns-proposals/17073)
 

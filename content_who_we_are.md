@@ -1,6 +1,7 @@
 
 # 💪🏾 Act now:
 
+* [Mint ICDV Tokens!](/donations.html)
 * [Donate!](/donations.html)
 * [Dedicate a neuron!](/donations.html) - You keep your neuron's principal and the maturity benifits ICDevs.org
 * Submit a bounty idea to admin@icdevs.org

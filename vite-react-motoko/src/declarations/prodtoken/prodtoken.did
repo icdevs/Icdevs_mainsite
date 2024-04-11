@@ -1,0 +1,498 @@
+type Value__1 = 
+ variant {
+   Array: vec Value__1;
+   Blob: blob;
+   Int: int;
+   Map: vec record {
+              text;
+              Value__1;
+            };
+   Nat: nat;
+   Text: text;
+ };
+type Value = 
+ variant {
+   Array: vec Value;
+   Blob: blob;
+   Int: int;
+   Map: vec record {
+              text;
+              Value;
+            };
+   Nat: nat;
+   Text: text;
+ };
+type UpdateLedgerInfoRequest__2 = 
+ variant {
+   Decimals: nat8;
+   Fee: Fee;
+   FeeCollector: opt Account;
+   Logo: text;
+   MaxAccounts: nat;
+   MaxMemo: nat;
+   MaxSupply: opt nat;
+   Metadata: record {
+               text;
+               opt Value;
+             };
+   MinBurnAmount: opt nat;
+   MintingAccount: Account;
+   Name: text;
+   PermittedDrift: nat64;
+   SettleToAccounts: nat;
+   Symbol: text;
+   TransactionWindow: nat64;
+ };
+type UpdateLedgerInfoRequest__1 = 
+ variant {
+   Fee: Fee__1;
+   MaxAllowance: opt MaxAllowance;
+   MaxApprovals: nat;
+   MaxApprovalsPerAccount: nat;
+   SettleToApprovals: nat;
+ };
+type UpdateLedgerInfoRequest = 
+ variant {
+   Fee: Fee__2;
+   MaxBalances: nat;
+   MaxTransfers: nat;
+ };
+type TxIndex = nat;
+type TransferResult = 
+ variant {
+   Err: TransferError;
+   Ok: TxIndex;
+ };
+type TransferFromResponse = 
+ variant {
+   Err: TransferFromError;
+   Ok: nat;
+ };
+type TransferFromError = 
+ variant {
+   BadBurn: record {min_burn_amount: nat;};
+   BadFee: record {expected_fee: nat;};
+   CreatedInFuture: record {ledger_time: nat64;};
+   Duplicate: record {duplicate_of: nat;};
+   GenericError: record {
+                   error_code: nat;
+                   message: text;
+                 };
+   InsufficientAllowance: record {allowance: nat;};
+   InsufficientFunds: record {balance: nat;};
+   TemporarilyUnavailable;
+   TooOld;
+ };
+type TransferFromArgs = 
+ record {
+   amount: nat;
+   created_at_time: opt nat64;
+   fee: opt nat;
+   from: Account__1;
+   memo: opt blob;
+   spender_subaccount: opt blob;
+   to: Account__1;
+ };
+type TransferError = 
+ variant {
+   BadBurn: record {min_burn_amount: Balance;};
+   BadFee: record {expected_fee: Balance;};
+   CreatedInFuture: record {ledger_time: Timestamp;};
+   Duplicate: record {duplicate_of: TxIndex;};
+   GenericError: record {
+                   error_code: nat;
+                   message: text;
+                 };
+   InsufficientFunds: record {balance: Balance;};
+   TemporarilyUnavailable;
+   TooOld;
+ };
+type TransferBatchResults = vec opt TransferBatchResult;
+type TransferBatchResult = 
+ variant {
+   Err: TransferBatchError;
+   Ok: nat;
+ };
+type TransferBatchError = 
+ variant {
+   BadBurn: record {min_burn_amount: nat;};
+   BadFee: record {expected_fee: nat;};
+   CreatedInFuture: record {ledger_time: nat64;};
+   Duplicate: record {duplicate_of: nat;};
+   GenericBatchError: record {
+                        error_code: nat;
+                        message: text;
+                      };
+   GenericError: record {
+                   error_code: nat;
+                   message: text;
+                 };
+   InsufficientFunds: record {balance: nat;};
+   TemporarilyUnavailable;
+   TooManyRequests: record {limit: nat;};
+   TooOld;
+ };
+type TransferBatchArgs = vec TransferArgs;
+type TransferArgs__1 = 
+ record {
+   amount: Balance;
+   created_at_time: opt Timestamp;
+   fee: opt Balance;
+   from_subaccount: opt Subaccount;
+   memo: opt Memo;
+   to: Account;
+ };
+type TransferArgs = 
+ record {
+   amount: Balance;
+   created_at_time: opt Timestamp;
+   fee: opt Balance;
+   from_subaccount: opt Subaccount;
+   memo: opt Memo;
+   to: Account;
+ };
+type Transfer = 
+ record {
+   amount: Balance;
+   created_at_time: opt Timestamp;
+   fee: opt Balance;
+   from: Account;
+   memo: opt Memo;
+   to: Account;
+ };
+type TransactionRange = 
+ record {
+   length: nat;
+   start: nat;
+ };
+type Transaction = 
+ record {
+   burn: opt Burn;
+   index: TxIndex;
+   kind: text;
+   mint: opt Mint;
+   timestamp: Timestamp;
+   transfer: opt Transfer;
+ };
+type Token = 
+ service {
+   admin_init: () -> ();
+   admin_update_icrc1: (vec UpdateLedgerInfoRequest__2) -> (vec bool);
+   admin_update_icrc2: (vec UpdateLedgerInfoRequest__1) -> (vec bool);
+   admin_update_icrc4: (vec UpdateLedgerInfoRequest) -> (vec bool);
+   admin_update_owner: (principal) -> (bool);
+   burn: (BurnArgs) -> (TransferResult);
+   deposit_cycles: () -> ();
+   get_tip: () -> (Tip) query;
+   icrc10_supported_standards: () -> (vec SupportedStandard) query;
+   icrc1_balance_of: (Account__4) -> (Balance__1) query;
+   icrc1_decimals: () -> (nat8) query;
+   icrc1_fee: () -> (Balance__1) query;
+   icrc1_metadata: () -> (vec MetaDatum) query;
+   icrc1_minting_account: () -> (opt Account__4) query;
+   /// Functions for the ICRC1 token standard
+   icrc1_name: () -> (text) query;
+   icrc1_supported_standards: () -> (vec SupportedStandard) query;
+   icrc1_symbol: () -> (text) query;
+   icrc1_total_supply: () -> (Balance__1) query;
+   icrc1_transfer: (TransferArgs__1) -> (TransferResult);
+   icrc2_allowance: (AllowanceArgs) -> (Allowance) query;
+   icrc2_approve: (ApproveArgs) -> (ApproveResponse);
+   icrc2_transfer_from: (TransferFromArgs) -> (TransferFromResponse);
+   icrc3_get_archives: (GetArchivesArgs) -> (GetArchivesResult) query;
+   icrc3_get_blocks: (GetBlocksArgs) -> (GetBlocksResult) query;
+   icrc3_get_tip_certificate: () -> (opt DataCertificate) query;
+   icrc3_supported_block_types: () -> (vec BlockType__1) query;
+   icrc4_balance_of_batch: (BalanceQueryArgs) -> (BalanceQueryResult) query;
+   icrc4_maximum_query_batch_size: () -> (opt nat) query;
+   icrc4_maximum_update_batch_size: () -> (opt nat) query;
+   icrc4_transfer_batch: (TransferBatchArgs) -> (TransferBatchResults);
+   mint: (Mint__1) -> (TransferResult);
+   mintFromICP: (MintFromICPArgs) -> (TransferResult);
+   withdrawICP: (nat64) -> (nat64);
+ };
+type Tip = 
+ record {
+   hash_tree: blob;
+   last_block_hash: blob;
+   last_block_index: blob;
+ };
+type Timestamp = nat64;
+type SupportedStandard = 
+ record {
+   name: text;
+   url: text;
+ };
+type Subaccount__2 = blob;
+type Subaccount__1 = blob;
+type Subaccount = blob;
+type Mint__1 = 
+ record {
+   amount: Balance;
+   created_at_time: opt Timestamp;
+   memo: opt Memo;
+   to: Account;
+ };
+type MintFromICPArgs = 
+ record {
+   amount: nat;
+   source_subaccount: opt vec nat8;
+   target: opt Account__2;
+ };
+type Mint = 
+ record {
+   amount: Balance;
+   created_at_time: opt Timestamp;
+   memo: opt Memo;
+   to: Account;
+ };
+type MetaDatum = 
+ record {
+   text;
+   Value;
+ };
+type Memo = blob;
+type MaxAllowance = 
+ variant {
+   Fixed: nat;
+   TotalSupply;
+ };
+type InitArgs__4 = 
+ record {
+   fee: opt Fee__2;
+   max_balances: opt nat;
+   max_transfers: opt nat;
+ };
+type InitArgs__3 = 
+ record {
+   archiveControllers: opt opt vec principal;
+   archiveCycles: nat;
+   archiveIndexType: IndexType;
+   maxActiveRecords: nat;
+   maxArchivePages: nat;
+   maxRecordsInArchiveInstance: nat;
+   maxRecordsToArchive: nat;
+   settleToRecords: nat;
+   supportedBlocks: vec BlockType;
+ };
+type InitArgs__2 = opt InitArgs__3;
+type InitArgs__1 = 
+ record {
+   advanced_settings: opt AdvancedSettings__1;
+   fee: opt Fee__1;
+   max_allowance: opt MaxAllowance;
+   max_approvals: opt nat;
+   max_approvals_per_account: opt nat;
+   settle_to_approvals: opt nat;
+ };
+type InitArgs = 
+ record {
+   advanced_settings: opt AdvancedSettings;
+   decimals: nat8;
+   fee: opt Fee;
+   fee_collector: opt Account;
+   logo: opt text;
+   max_accounts: opt nat;
+   max_memo: opt nat;
+   max_supply: opt Balance;
+   metadata: opt Value;
+   min_burn_amount: opt Balance;
+   minting_account: opt Account;
+   name: opt text;
+   permitted_drift: opt Timestamp;
+   settle_to_accounts: opt nat;
+   symbol: opt text;
+   transaction_window: opt Timestamp;
+ };
+type IndexType = 
+ variant {
+   Managed;
+   Stable;
+   StableTyped;
+ };
+type GetTransactionsResult = 
+ record {
+   archived_blocks: vec ArchivedTransactionResponse;
+   blocks: vec record {
+                 block: Value__1;
+                 id: nat;
+               };
+   log_length: nat;
+ };
+type GetTransactionsFn = func (vec TransactionRange) ->
+                          (GetTransactionsResult) query;
+type GetBlocksResult = 
+ record {
+   archived_blocks: vec ArchivedTransactionResponse;
+   blocks: vec record {
+                 block: Value__1;
+                 id: nat;
+               };
+   log_length: nat;
+ };
+type GetBlocksArgs = vec TransactionRange;
+type GetArchivesResultItem = 
+ record {
+   canister_id: principal;
+   end: nat;
+   start: nat;
+ };
+type GetArchivesResult = vec GetArchivesResultItem;
+type GetArchivesArgs = record {from: opt principal;};
+type Fee__2 = 
+ variant {
+   Environment;
+   Fixed: nat;
+   ICRC1;
+ };
+type Fee__1 = 
+ variant {
+   Environment;
+   Fixed: nat;
+   ICRC1;
+ };
+type Fee = 
+ variant {
+   Environment;
+   Fixed: nat;
+ };
+type DataCertificate = 
+ record {
+   certificate: blob;
+   hash_tree: blob;
+ };
+type BurnArgs = 
+ record {
+   amount: Balance;
+   created_at_time: opt Timestamp;
+   from_subaccount: opt Subaccount;
+   memo: opt Memo;
+ };
+type Burn = 
+ record {
+   amount: Balance;
+   created_at_time: opt Timestamp;
+   from: Account;
+   memo: opt Memo;
+ };
+type BlockType__1 = 
+ record {
+   block_type: text;
+   url: text;
+ };
+type BlockType = 
+ record {
+   block_type: text;
+   url: text;
+ };
+type Balance__1 = nat;
+type BalanceQueryResult = vec nat;
+type BalanceQueryArgs = record {accounts: vec Account__3;};
+type Balance = nat;
+type ArchivedTransactionResponse = 
+ record {
+   args: vec TransactionRange;
+   callback: GetTransactionsFn;
+ };
+type ApproveResponse = 
+ variant {
+   Err: ApproveError;
+   Ok: nat;
+ };
+type ApproveError = 
+ variant {
+   AllowanceChanged: record {current_allowance: nat;};
+   BadFee: record {expected_fee: nat;};
+   CreatedInFuture: record {ledger_time: nat64;};
+   Duplicate: record {duplicate_of: nat;};
+   Expired: record {ledger_time: nat64;};
+   GenericError: record {
+                   error_code: nat;
+                   message: text;
+                 };
+   InsufficientFunds: record {balance: nat;};
+   TemporarilyUnavailable;
+   TooOld;
+ };
+type ApproveArgs = 
+ record {
+   amount: nat;
+   created_at_time: opt nat64;
+   expected_allowance: opt nat;
+   expires_at: opt nat64;
+   fee: opt nat;
+   from_subaccount: opt blob;
+   memo: opt blob;
+   spender: Account__1;
+ };
+type ApprovalInfo = 
+ record {
+   amount: nat;
+   expires_at: opt nat64;
+   from_subaccount: opt blob;
+   spender: Account__1;
+ };
+type AllowanceArgs = 
+ record {
+   account: Account__1;
+   spender: Account__1;
+ };
+type Allowance = 
+ record {
+   allowance: nat;
+   expires_at: opt nat64;
+ };
+type AdvancedSettings__1 = record {
+                             existing_approvals:
+                              vec
+                               record {
+                                 record {
+                                   Account__1;
+                                   Account__1;
+                                 };
+                                 ApprovalInfo;
+                               };};
+type AdvancedSettings = 
+ record {
+   burned_tokens: Balance;
+   existing_balances: vec record {
+                            Account;
+                            Balance;
+                          };
+   fee_collector_block: nat;
+   fee_collector_emitted: bool;
+   local_transactions: vec Transaction;
+   minted_tokens: Balance;
+ };
+type Account__4 = 
+ record {
+   owner: principal;
+   subaccount: opt Subaccount;
+ };
+type Account__3 = 
+ record {
+   owner: principal;
+   subaccount: opt Subaccount__2;
+ };
+type Account__2 = 
+ record {
+   owner: principal;
+   subaccount: opt vec nat8;
+ };
+type Account__1 = 
+ record {
+   owner: principal;
+   subaccount: opt Subaccount__1;
+ };
+type Account = 
+ record {
+   owner: principal;
+   subaccount: opt Subaccount;
+ };
+service : (opt
+            record {
+              icrc1: opt InitArgs;
+              icrc2: opt InitArgs__1;
+              icrc3: InitArgs__2;
+              icrc4: opt InitArgs__4;
+            }) -> Token
