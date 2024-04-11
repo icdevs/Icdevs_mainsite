@@ -146,7 +146,7 @@ function App() {
       return;
     }
 
-    const amountToMint = prompt("Enter the amount of ICP to mint ICDV:");
+    const amountToMint = prompt("Enter the amount of ICP to use to mint ICDV:");
     const amountInE8s = BigInt(Number(amountToMint) * 100000000);
 
     if (amountInE8s > icpBalance) {
