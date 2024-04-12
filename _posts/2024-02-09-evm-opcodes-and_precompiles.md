@@ -11,9 +11,9 @@ author: Austin Fatheree
 ## Current Status: Discussion
 
 * Discussion (02/09/2024)
-* Ratification: (TBD)
-* Open for application: (TBD)
-* Assigned (TBD)
+* Ratification: (02/09/2024)
+* Open for application: (02/09/2024)
+* Assigned (04/02/2024) - Github: timk11
 * In Review 
 * Closed 
 

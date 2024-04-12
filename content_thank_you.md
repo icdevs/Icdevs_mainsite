@@ -2,7 +2,7 @@
 
 ICDevs.org is supported by the community, corporations, daos, and projects across the IC ecosystem.  Learn more about becoming a reconginzed by ICDevs at our [donations page](/donations.html)
 
-## Recongized Donors
+## Recognized Donors
 
 Recognized Donors have contributed at least 500 Liquid ICP or dedicated a 1,000 ICP neuron
 

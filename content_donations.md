@@ -4,7 +4,7 @@ ICDevs.org is funded by the Internet Computer community.  Raising funds is essen
 
 ## Mint ICDV - The ICDevs token 
 
-$ICDV is a utility token that is used to provide cryptographic proof of donation to ICDevs.org. I has no financial value and anyone minting the token should expect to receive no value other than social proof and self-satisfaction of contributing to public good. We hope to do fun things in the future for $ICDV holders, but there should be no expectation of financial gain or future value. If you mint $ICDV and you are a US Citizen, reach out with your block number on the ICP ledger and your tax payer information and we will get a 501c3 Tax letter to you so that you can deduct the donation on your taxes.
+$ICDV is a utility token that is used to provide cryptographic proof of donation to ICDevs.org. It has no financial value and anyone minting the token should expect to receive no value other than social proof and self-satisfaction of contributing to public good. We hope to do fun things in the future for $ICDV holders, but there should be no expectation of financial gain or future value. If you mint $ICDV and you are a US Citizen, reach out with your block number on the ICP ledger and your tax payer information and we will get a 501c3 Tax letter to you so that you can deduct the donation on your taxes.
 
 For each ICP donated there is 1000x bonus. 1 ICP = 1_000 ICDV. (Applies to the first 1000 ICP donated).
 
