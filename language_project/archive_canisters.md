@@ -13,81 +13,44 @@ layout: home
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-# The Language Project
-
-The “Languages Project” is an attempt by ICDevs.org to contribute to the adoption of the Internet Computer by creating generative, form, and pattern language to the community that provides a common set of communication tools that foster well-formed, productive, interoperable, and collaborative systems for innovation on and around the Internet Computer ecosystem.
-
-The “Languages Project” is loosely based on the work of Christopher Alexander in is various works on Architecture including [The Timeless Way of Building](https://amzn.to/3o8dZ9h), [A Pattern Language](https://amzn.to/3D7BgMP), [The Nature of Order](https://amzn.to/3xGBGJ1), Volumes [1](https://amzn.to/31efud2), [2](https://amzn.to/3d5lffP), [3](https://amzn.to/3xDDfrd) and [4](https://amzn.to/3D8QLnU).  These ideas have been applied to computer systems in [Thriving Systems Theory and Metaphor-Driven Modeling](https://amzn.to/3D95gI8) by Leslie Waguespack.
-
-A form language provides clear language around the domain objects, processes, and repeatable patterns that can be used to accelerate building new systems.
-
-A pattern language provides a set of interconnected patterns that that support each other in building up a domain. In our case we are interested in patterns that support an open and interoperable Internet Computer.
-
-A generative language provides a set of prescriptive actions that ensure the proper transformation and evolution of a living and dynamic system.
-
-This collection should be a living document that evolves along with the technology, culture, and political climate that manifests over the years.  ICDevs.org has published this repository at [github](https://github.com/icdevs/Icdevs_fleeksite/tree/main/language_project). We accept issues, debate, and pull requests to help augment the material available to the developer community.  We expect this to be an ongoing project that is ‘never finished’ and that many valid patterns and forms will be superseded by more ‘correct’ and advantageous patterns and forms.
-
-For a full example of these kinds of languages, see [Immortality](https://amzn.to/3d1WJwd) by our Executive Director, Austin Fatheree. [gitbook](https://skilesare.github.io/immortality).
+# [The Language Project](index.html)
 
 ## The Form Language
 
-### Network Level Forms
+### ARC. Archive Canisters
 
-1. Canisters
-2. Subnets
-3. Nodes
+...how do you ensure long-term data retention and manage growing data volumes within the Internet Computer ecosystem.
 
-### Application Level Forms
+Focus on utilizing Archive Canisters to offload and store transaction logs from operational canisters, ensuring data permanence and efficiency.
 
-* [ICRC3 Transaction Logs](icrc3_transaction_logs.html)
-* [Archive Canisters](archive_canisters.html)
-* [Transaction Logs](icrc3_transaction_logs.html)
+#### Context:
 
-## The Pattern Language
+As canisters on the Internet Computer process and accumulate transactions over time, they generate vast amounts of data. Maintaining this data within active canisters can lead to inefficiencies, increased costs, and scalability issues.
 
-Services on the Interent Computer should exhibit
+#### Problem:
 
-[INT. INTEROPERABILITY](interoperability.html)
+Operational canisters that retain all transaction data indefinitely face challenges in performance, scalability, and cost. This impacts the overall efficiency and effectiveness of the Internet Computer ecosystem.
 
+#### Forces:
 
-...by using...
+  * Scalability: Ensuring canisters can handle growing amounts of data without degradation in performance.
+  * Cost Efficiency: Managing operational costs associated with data storage on the Internet Computer.
+  * Data Longevity: Maintaining access to historical data without compromising the operational capabilities of active canisters.
+  * System Reliability: Ensuring the system remains robust and responsive as data volumes grow.
 
-[NSP. NAMESPACED INTERFACES](namespaced_interfaces.html)
+#### Description:
 
-and
+Archive Canisters are specialized canisters designed to store large volumes of historical data, such as transaction logs, that are no longer needed for day-to-day operations but must be retained for compliance, auditing, or historical analysis. By offloading this data to Archive Canisters, operational canisters can maintain optimal performance and lower storage costs, potentially by utilizing cheaper subnets dedicated to long-term storage.
 
-[SEV. SAVE EVERYTHING](save_everything.html)
+This pattern involves creating a system where transaction logs from operational canisters (as defined by ICRC3 standards) are periodically transferred to Archive Canisters. This transfer can be triggered based on the volume of data, the age of the data, or specific compliance requirements. Once transferred, the data in Archive Canisters is immutable and indexed for efficient retrieval, supporting both the Save Everything and Time Machine patterns by ensuring that historical data is secure, permanent, and accessible.
 
-When data is needed from outside the system, strive for...
+#### Therefore:
 
-[DDP. DECENTRALIZED DATA PROVISION](decentralized_data_provision.html)
+Implement a routine within ICRC3-compliant canisters to periodically evaluate and transfer older transaction logs to Archive Canisters. Design Archive Canisters to be highly durable, with optimized data retrieval mechanisms to support efficient audits and historical queries. Consider deploying Archive Canisters on specialized subnets that offer cost-effective storage solutions for large-scale data retention.
 
-...enabled by
+#### Resources:
 
-[DVR. DATA VERIFICATION AND REDUNDANCY](data_verification_redundancy.html) 
+- **Motoko Library for ICRC3 that automatically creates archive canisters**: [ICRC3-mo](https://mops.one/icrc3-mo)
 
-and
-
-[ASD. ADAPTABLE SYSTEM DESIGN](adaptable_system_design.html)
-
-...made more robust by...
-
-[EIA. ECONOMIC INCENTIVES ALIGNMENT](economic_incentives_alignment.html) 
-
-and
-
-[CIT. COMPLEXITY VS. INCENTIVIZATION TRADE-OFF](complexity_incentivization_trade.html)
-
-...and implemented by...
-
-[OUT. OUTSIDE-IN](outside_in.html)
-
-and
-
-[STA. SINGLE TRUSTED PARTY AUTHORIZATION](single_trusted_authority.html)
-
-To maximize useful data inside the system leverage...
-
-[TMC. Time Machine](time_machine.html)
 
 

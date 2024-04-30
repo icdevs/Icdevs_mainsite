@@ -13,81 +13,47 @@ layout: home
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-# The Language Project
-
-The “Languages Project” is an attempt by ICDevs.org to contribute to the adoption of the Internet Computer by creating generative, form, and pattern language to the community that provides a common set of communication tools that foster well-formed, productive, interoperable, and collaborative systems for innovation on and around the Internet Computer ecosystem.
-
-The “Languages Project” is loosely based on the work of Christopher Alexander in is various works on Architecture including [The Timeless Way of Building](https://amzn.to/3o8dZ9h), [A Pattern Language](https://amzn.to/3D7BgMP), [The Nature of Order](https://amzn.to/3xGBGJ1), Volumes [1](https://amzn.to/31efud2), [2](https://amzn.to/3d5lffP), [3](https://amzn.to/3xDDfrd) and [4](https://amzn.to/3D8QLnU).  These ideas have been applied to computer systems in [Thriving Systems Theory and Metaphor-Driven Modeling](https://amzn.to/3D95gI8) by Leslie Waguespack.
-
-A form language provides clear language around the domain objects, processes, and repeatable patterns that can be used to accelerate building new systems.
-
-A pattern language provides a set of interconnected patterns that that support each other in building up a domain. In our case we are interested in patterns that support an open and interoperable Internet Computer.
-
-A generative language provides a set of prescriptive actions that ensure the proper transformation and evolution of a living and dynamic system.
-
-This collection should be a living document that evolves along with the technology, culture, and political climate that manifests over the years.  ICDevs.org has published this repository at [github](https://github.com/icdevs/Icdevs_fleeksite/tree/main/language_project). We accept issues, debate, and pull requests to help augment the material available to the developer community.  We expect this to be an ongoing project that is ‘never finished’ and that many valid patterns and forms will be superseded by more ‘correct’ and advantageous patterns and forms.
-
-For a full example of these kinds of languages, see [Immortality](https://amzn.to/3d1WJwd) by our Executive Director, Austin Fatheree. [gitbook](https://skilesare.github.io/immortality).
-
-## The Form Language
-
-### Network Level Forms
-
-1. Canisters
-2. Subnets
-3. Nodes
-
-### Application Level Forms
-
-* [ICRC3 Transaction Logs](icrc3_transaction_logs.html)
-* [Archive Canisters](archive_canisters.html)
-* [Transaction Logs](icrc3_transaction_logs.html)
+# [The Language Project](index.html)
 
 ## The Pattern Language
 
-Services on the Interent Computer should exhibit
+### TMC. Time Machine
 
-[INT. INTEROPERABILITY](interoperability.html)
+...how do you utilize historical data to provide evidence and take action in the present.
+
+Supports [SEV. Save Everything](save_everything.html)
+
+Emphasize the use of historical data to enable applications to revert to past states for audits, error corrections, and strategic decisions.
+
+#### Context:
+
+Decentralized applications on platforms like the Internet Computer often encounter situations where historical data is crucial for resolving disputes, restoring data after accidental changes, or analyzing past activities for informed decision-making.
+
+#### Problem:
+
+Without access to historical data, applications can neither prove past states nor revert to them, which can be critical in situations involving data corruption, user errors, or when historical evidence is needed for audit and compliance.
+
+#### Forces:
+
+  * Historical Access: Necessity of accessing data from any previous point in time.
+  * Data Recovery: Ability to restore previous states after errors or discrepancies.
+  * Compliance and Auditing: Meeting legal and regulatory standards that require evidence of past transactions and activities.
+  * System Performance: Maintaining system performance despite storing and managing large volumes of historical data.
+
+#### Description:
+
+The Time Machine Pattern enables applications to harness historical data for decision-making and operational integrity. This pattern is particularly evident in blockchains like Bitcoin, where the entire transaction history remains accessible and verifiable at any point in time.
+
+For instance, in financial applications on the Internet Computer, being able to revert to a previous state before a transaction error, or analyzing past transaction trends for fraud detection, are direct applications of the Time Machine Pattern. This not only helps in maintaining user trust but also enhances the application's ability to self-correct and adapt over time.
+
+The ability to use past data effectively allows applications to not only verify past states but also simulate future changes based on historical patterns. This can be instrumental in predictive analytics and planning, where understanding the past is crucial to forecasting future trends.
+
+Practical implementations of this pattern can be seen in systems where rollback capabilities are integral. For example, database systems that maintain logs of all changes allow administrators to revert to any previous state, a method used widely in software development environments to manage versions and maintain consistency across changes.
+
+#### Therefore:
+
+Design systems with capabilities to log and index every state change comprehensively. Utilize efficient storage mechanisms to manage the volume of data without compromising access speed. Implement functionality that allows users and systems to query and revert to any past state as needed, ensuring that data remains a robust tool for evidence-based management and recovery.
 
 
-...by using...
-
-[NSP. NAMESPACED INTERFACES](namespaced_interfaces.html)
-
-and
-
-[SEV. SAVE EVERYTHING](save_everything.html)
-
-When data is needed from outside the system, strive for...
-
-[DDP. DECENTRALIZED DATA PROVISION](decentralized_data_provision.html)
-
-...enabled by
-
-[DVR. DATA VERIFICATION AND REDUNDANCY](data_verification_redundancy.html) 
-
-and
-
-[ASD. ADAPTABLE SYSTEM DESIGN](adaptable_system_design.html)
-
-...made more robust by...
-
-[EIA. ECONOMIC INCENTIVES ALIGNMENT](economic_incentives_alignment.html) 
-
-and
-
-[CIT. COMPLEXITY VS. INCENTIVIZATION TRADE-OFF](complexity_incentivization_trade.html)
-
-...and implemented by...
-
-[OUT. OUTSIDE-IN](outside_in.html)
-
-and
-
-[STA. SINGLE TRUSTED PARTY AUTHORIZATION](single_trusted_authority.html)
-
-To maximize useful data inside the system leverage...
-
-[TMC. Time Machine](time_machine.html)
 
 

@@ -13,81 +13,48 @@ layout: home
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-# The Language Project
-
-The “Languages Project” is an attempt by ICDevs.org to contribute to the adoption of the Internet Computer by creating generative, form, and pattern language to the community that provides a common set of communication tools that foster well-formed, productive, interoperable, and collaborative systems for innovation on and around the Internet Computer ecosystem.
-
-The “Languages Project” is loosely based on the work of Christopher Alexander in is various works on Architecture including [The Timeless Way of Building](https://amzn.to/3o8dZ9h), [A Pattern Language](https://amzn.to/3D7BgMP), [The Nature of Order](https://amzn.to/3xGBGJ1), Volumes [1](https://amzn.to/31efud2), [2](https://amzn.to/3d5lffP), [3](https://amzn.to/3xDDfrd) and [4](https://amzn.to/3D8QLnU).  These ideas have been applied to computer systems in [Thriving Systems Theory and Metaphor-Driven Modeling](https://amzn.to/3D95gI8) by Leslie Waguespack.
-
-A form language provides clear language around the domain objects, processes, and repeatable patterns that can be used to accelerate building new systems.
-
-A pattern language provides a set of interconnected patterns that that support each other in building up a domain. In our case we are interested in patterns that support an open and interoperable Internet Computer.
-
-A generative language provides a set of prescriptive actions that ensure the proper transformation and evolution of a living and dynamic system.
-
-This collection should be a living document that evolves along with the technology, culture, and political climate that manifests over the years.  ICDevs.org has published this repository at [github](https://github.com/icdevs/Icdevs_fleeksite/tree/main/language_project). We accept issues, debate, and pull requests to help augment the material available to the developer community.  We expect this to be an ongoing project that is ‘never finished’ and that many valid patterns and forms will be superseded by more ‘correct’ and advantageous patterns and forms.
-
-For a full example of these kinds of languages, see [Immortality](https://amzn.to/3d1WJwd) by our Executive Director, Austin Fatheree. [gitbook](https://skilesare.github.io/immortality).
+# [The Language Project](index.html)
 
 ## The Form Language
 
-### Network Level Forms
+### ICRC3. Transaction Logs
 
-1. Canisters
-2. Subnets
-3. Nodes
+Supports [INT. Interoperability](interoperability.html), [SEV. Save Everything](save_everything.html), [TIM. Time Machine](time_machine.html)
 
-### Application Level Forms
+Focus on creating a comprehensive transaction log for each canister to ensure data integrity, traceability, and interoperability across the Internet Computer.
 
-* [ICRC3 Transaction Logs](icrc3_transaction_logs.html)
-* [Archive Canisters](archive_canisters.html)
-* [Transaction Logs](icrc3_transaction_logs.html)
+#### Context:
 
-## The Pattern Language
+The Internet Computer hosts a rapidly expanding ecosystem of decentralized applications that require a standardized method for recording transactions to ensure compatibility and functionality across different systems.
 
-Services on the Interent Computer should exhibit
+#### Problem:
 
-[INT. INTEROPERABILITY](interoperability.html)
+As the number of canisters and the complexity of interactions increase on the Internet Computer, developers face challenges in ensuring that data from one canister can be reliably and securely accessed and used by others, potentially operating under different standards.
 
+#### Forces:
 
-...by using...
+  * Interoperability: Ensuring that canisters can communicate and operate with one another seamlessly.
+  * Data Integrity: Maintaining the accuracy and consistency of data across different canisters.
+  * Traceability: Being able to track and verify all transactions that occur within the ecosystem.
+  * Scalability: Managing an increasing volume of transactions without compromising performance or security.
 
-[NSP. NAMESPACED INTERFACES](namespaced_interfaces.html)
+#### Description:
 
-and
+ICRC3, or Internet Computer Rich Content 3, establishes a standard for transaction logs on the Internet Computer, ensuring that all interactions are logged in a consistent and reliable manner. This standard is crucial for creating a transparent and auditable system where transactions are immutable and can be verified independently.
 
-[SEV. SAVE EVERYTHING](save_everything.html)
+The pattern defines how to structure transaction logs within canisters, ensuring that logs are compatible with other canisters and external systems. This includes defining the data types and the structure of the log entries, as well as the methods for accessing these logs.
 
-When data is needed from outside the system, strive for...
+For developers building on the Internet Computer, implementing ICRC3 can significantly simplify the process of creating and managing transaction logs. It ensures that all canisters maintain a high level of data integrity and interoperability, which are essential for the system’s overall reliability and functionality.
 
-[DDP. DECENTRALIZED DATA PROVISION](decentralized_data_provision.html)
+#### Therefore:
 
-...enabled by
+Adopt ICRC3 for every canister that handles transactions. This will ensure that all canisters have a consistent logging mechanism that supports traceability and auditability. For implementation, developers can use the provided Motoko component, which outlines methods and data structures compliant with ICRC3 standards.
 
-[DVR. DATA VERIFICATION AND REDUNDANCY](data_verification_redundancy.html) 
+#### Resources:
 
-and
+- **Motoko ICRC3 Component**: [ICRC3 Implementation in Motoko](https://mops.one/icrc3-mo)
+- **ICRC3 Pattern Definition**: [ICRC3 Standard Specification](https://github.com/dfinity/ICRC-1/blob/main/standards/ICRC-3/README.md)
 
-[ASD. ADAPTABLE SYSTEM DESIGN](adaptable_system_design.html)
-
-...made more robust by...
-
-[EIA. ECONOMIC INCENTIVES ALIGNMENT](economic_incentives_alignment.html) 
-
-and
-
-[CIT. COMPLEXITY VS. INCENTIVIZATION TRADE-OFF](complexity_incentivization_trade.html)
-
-...and implemented by...
-
-[OUT. OUTSIDE-IN](outside_in.html)
-
-and
-
-[STA. SINGLE TRUSTED PARTY AUTHORIZATION](single_trusted_authority.html)
-
-To maximize useful data inside the system leverage...
-
-[TMC. Time Machine](time_machine.html)
+Supported By: [Archive Canisters](archive_canisters.html)
 
 

@@ -13,81 +13,51 @@ layout: home
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-# The Language Project
-
-The “Languages Project” is an attempt by ICDevs.org to contribute to the adoption of the Internet Computer by creating generative, form, and pattern language to the community that provides a common set of communication tools that foster well-formed, productive, interoperable, and collaborative systems for innovation on and around the Internet Computer ecosystem.
-
-The “Languages Project” is loosely based on the work of Christopher Alexander in is various works on Architecture including [The Timeless Way of Building](https://amzn.to/3o8dZ9h), [A Pattern Language](https://amzn.to/3D7BgMP), [The Nature of Order](https://amzn.to/3xGBGJ1), Volumes [1](https://amzn.to/31efud2), [2](https://amzn.to/3d5lffP), [3](https://amzn.to/3xDDfrd) and [4](https://amzn.to/3D8QLnU).  These ideas have been applied to computer systems in [Thriving Systems Theory and Metaphor-Driven Modeling](https://amzn.to/3D95gI8) by Leslie Waguespack.
-
-A form language provides clear language around the domain objects, processes, and repeatable patterns that can be used to accelerate building new systems.
-
-A pattern language provides a set of interconnected patterns that that support each other in building up a domain. In our case we are interested in patterns that support an open and interoperable Internet Computer.
-
-A generative language provides a set of prescriptive actions that ensure the proper transformation and evolution of a living and dynamic system.
-
-This collection should be a living document that evolves along with the technology, culture, and political climate that manifests over the years.  ICDevs.org has published this repository at [github](https://github.com/icdevs/Icdevs_fleeksite/tree/main/language_project). We accept issues, debate, and pull requests to help augment the material available to the developer community.  We expect this to be an ongoing project that is ‘never finished’ and that many valid patterns and forms will be superseded by more ‘correct’ and advantageous patterns and forms.
-
-For a full example of these kinds of languages, see [Immortality](https://amzn.to/3d1WJwd) by our Executive Director, Austin Fatheree. [gitbook](https://skilesare.github.io/immortality).
-
-## The Form Language
-
-### Network Level Forms
-
-1. Canisters
-2. Subnets
-3. Nodes
-
-### Application Level Forms
-
-* [ICRC3 Transaction Logs](icrc3_transaction_logs.html)
-* [Archive Canisters](archive_canisters.html)
-* [Transaction Logs](icrc3_transaction_logs.html)
+# [The Language Project](index.html)
 
 ## The Pattern Language
 
-Services on the Interent Computer should exhibit
+### SEV. Save Everything
 
-[INT. INTEROPERABILITY](interoperability.html)
+...how do you provide [INT - Interoperability](interoperability.html) across a broad set of interconnected services.
+
+Supports [INT. Interoperability](interoperability.html)
+
+Emphasize the retention of all historical data to ensure robust audit trails, compliance adherence, and fault tolerance.
+
+#### Context:
+
+In decentralized systems like the Internet Computer, ensuring data permanence is crucial for maintaining transparency and trust. These systems often handle sensitive and critical operations, where data loss or inaccuracy can lead to significant issues.
+
+#### Problem:
+
+Data loss due to accidental deletion, system updates, or malicious activity can compromise system integrity and user trust. It also makes it difficult to comply with audit and regulatory requirements.
+
+#### Forces:
+
+  * Data Integrity: Ensuring the accuracy and completeness of data over its entire lifecycle.
+  * Auditability: The ability to trace back and verify historical transactions and actions.
+  * System Complexity: Managing large volumes of data can introduce performance and scalability issues.
+  * Cost: Permanently storing large amounts of data can incur significant costs.
 
 
-...by using...
+#### Description:
 
-[NSP. NAMESPACED INTERFACES](namespaced_interfaces.html)
+#### Description:
 
-and
+The Save Everything Pattern draws inspiration from blockchain technology, particularly the Ethereum blockchain, where each transaction is permanently recorded. This immutable ledger ensures that data is permanently available for verification, historical analysis, or any future utility. 
 
-[SEV. SAVE EVERYTHING](save_everything.html)
+Consider a decentralized application on the Internet Computer that logs all user interactions. These records could later be used to reward long-term or early users based on their past activities, similar to how Uniswap distributed tokens to early protocol users. This not only fosters user loyalty but also enhances engagement by recognizing and rewarding historical interactions.
 
-When data is needed from outside the system, strive for...
+Furthermore, the comprehensive data captured by this pattern is invaluable for analytics and machine learning, enabling the extraction of actionable insights that can inform future developments and enhancements. It also facilitates compliance with regulatory requirements by providing a complete, unalterable record of all transactions.
 
-[DDP. DECENTRALIZED DATA PROVISION](decentralized_data_provision.html)
+An example of this pattern's practical application can be seen in blockchain-based supply chain management systems, where every transaction and transfer is logged. In scenarios like product recalls, the ability to trace every movement from production to purchase becomes crucial, demonstrating the utility of having a detailed, unbroken data chain.
 
-...enabled by
+Overall, the Save Everything Pattern is a strategic approach that leverages the inherent characteristics of blockchain to treat data as a permanent asset, crucial for ensuring operational resilience and providing a foundation for future functionalities.
 
-[DVR. DATA VERIFICATION AND REDUNDANCY](data_verification_redundancy.html) 
+#### Therefore:
 
-and
+Implement a system design that records every interaction, transaction, and change permanently on the blockchain. The IC provides redundancy and prevents data loss and ensures data is available across multiple nodes. Employ event sourcing techniques where state changes are logged as a sequence of immutable events, enabling any past state to be reconstructed by replaying these events.
 
-[ASD. ADAPTABLE SYSTEM DESIGN](adaptable_system_design.html)
-
-...made more robust by...
-
-[EIA. ECONOMIC INCENTIVES ALIGNMENT](economic_incentives_alignment.html) 
-
-and
-
-[CIT. COMPLEXITY VS. INCENTIVIZATION TRADE-OFF](complexity_incentivization_trade.html)
-
-...and implemented by...
-
-[OUT. OUTSIDE-IN](outside_in.html)
-
-and
-
-[STA. SINGLE TRUSTED PARTY AUTHORIZATION](single_trusted_authority.html)
-
-To maximize useful data inside the system leverage...
-
-[TMC. Time Machine](time_machine.html)
-
+Supported By : [DTI. DATA INTEGRITY](data_integrity.html),[AUD. Auditability](auditability.html),
 

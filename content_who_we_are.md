@@ -1,3 +1,9 @@
+# ⏰  Limited time:
+
+We are raising funds to build an evm in motoko! Donate through [Gitcoin Grants Season 20](https://explorer.gitcoin.co/#/round/42161/26/27).
+
+[More info](/gg20.html)
+
 
 # 💪🏾 Act now:
 
