@@ -15,7 +15,7 @@ about: true
 who_we_are: true
 donations: true
 bounties: true
-gg20: true
+gg20: false
 version: v0.1.0
 
 # Theme settings
