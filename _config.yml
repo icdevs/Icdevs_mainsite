@@ -46,6 +46,7 @@ kramdown:
 
 include:
   - .well-known
+  - .well-known/icdomains
   - .ic-assets.json
 
 exclude:
