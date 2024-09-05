@@ -62,7 +62,7 @@ type SubscriptionStateShared =
    account: Account;
    amountPerInterval: nat;
    baseRateAsset: opt Asset;
-   brokerId: opt principal;
+   brokerId: opt Account;
    checkRate: opt CheckRate;
    endDate: opt nat;
    history: vec nat;
@@ -96,7 +96,7 @@ type SubscriptionRequestItem =
                     Asset__1;
                     CheckRate__1;
                   };
-   broker: principal;
+   broker: Account__1;
    createdAtTime: nat;
    endDate: nat;
    firstPayment: nat;
@@ -116,6 +116,7 @@ type SubscriptionError =
    Duplicate;
    FoundActiveSubscription: nat;
    InsufficientAllowance: nat;
+   InsufficientBalance: nat;
    InvalidDate;
    InvalidInterval;
    Other: record {
@@ -131,7 +132,7 @@ type Subscription =
    account: Account__1;
    amountPerInterval: nat;
    baseRateAsset: opt Asset__1;
-   brokerId: opt principal;
+   brokerId: opt Account__1;
    endDate: opt nat;
    interval: Interval__1;
    productId: opt nat;

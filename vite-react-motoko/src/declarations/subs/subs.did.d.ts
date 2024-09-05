@@ -393,7 +393,7 @@ export interface Subscription {
   'subscriptionId' : bigint,
   'baseRateAsset' : [] | [Asset__1],
   'account' : Account__1,
-  'brokerId' : [] | [Principal],
+  'brokerId' : [] | [Account__1],
   'amountPerInterval' : bigint,
   'targetAccount' : [] | [Account__1],
   'tokenCanister' : Principal,
@@ -404,6 +404,7 @@ export type SubscriptionError = { 'TokenNotFound' : null } |
   { 'SubscriptionNotFound' : null } |
   { 'Duplicate' : null } |
   { 'FoundActiveSubscription' : bigint } |
+  { 'InsufficientBalance' : bigint } |
   { 'InvalidDate' : null } |
   { 'Unauthorized' : null } |
   { 'Other' : { 'code' : bigint, 'message' : string } } |
@@ -411,7 +412,7 @@ export type SubscriptionError = { 'TokenNotFound' : null } |
 export type SubscriptionRequest = Array<Array<SubscriptionRequestItem>>;
 export type SubscriptionRequestItem = { 'serviceCanister' : Principal } |
   { 'firstPayment' : bigint } |
-  { 'broker' : Principal } |
+  { 'broker' : Account__1 } |
   { 'endDate' : bigint } |
   { 'interval' : Interval__1 } |
   { 'memo' : Uint8Array | number[] } |
@@ -445,7 +446,7 @@ export interface SubscriptionStateShared {
   'baseRateAsset' : [] | [Asset],
   'checkRate' : [] | [CheckRate],
   'account' : Account,
-  'brokerId' : [] | [Principal],
+  'brokerId' : [] | [Account],
   'nextTimerId' : [] | [ActionId],
   'nextPayment' : [] | [bigint],
   'amountPerInterval' : bigint,
