@@ -25,8 +25,6 @@ layout: home
 
 {% include_relative content_nns.md %}
 
-{% include_relative content_cig_dao.md %}
-
 {% include_relative content_builder_dao.md %}
 
 

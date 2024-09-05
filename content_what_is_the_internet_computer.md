@@ -16,8 +16,7 @@ ICDevs.org believes in a future where a significant portion of enterprise and co
 Places to learn more:
 
 [DFINITY Foundation](https://dfinity.com/)
-[Internet Computer Association]([)https://internetcomputer.org/)
-[ic.community](https://www.ic.community/)
-[Start Developing](https://dfinity.org/developers/)
+[Start Developing](https://internetcomputer.org/)
+[Developer forum](https://forum.dfinity.org/)
 
 

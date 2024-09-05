@@ -9,6 +9,10 @@
 
 Defining a Form, Pattern, and Generative Language for the Internet Computer.
 
+## [The DAOs Project](https://daos.icdevs.org)
+
+Defining a Form, Pattern, and Generative Language for DAOs.
+
 ## Road Map(Increasing donations and dedicated neurons will help us accelerate our roadmap):
 
 ### Motoko file utilities:

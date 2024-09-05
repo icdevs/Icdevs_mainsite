@@ -2,17 +2,13 @@
 # 💪🏾 Act now:
 
 * [Mint ICDV Tokens!](/donations.html)
-* [Donate!](/donations.html)
-* [Dedicate a neuron!](/donations.html) - You keep your neuron's principal and the maturity benifits ICDevs.org
-* Submit a bounty idea to admin@icdevs.org
+* [Donate tokens via a subscription!](/donations.html)
+* [One tiem DonationDonate!](/donations.html)
 * [Sponsor a Bounty for software you need built](/bounties.html)
 * [Endow the bug bounty](/bounties/2022/01/03/Bug-Bounty.html)
-* [Write a tutorial](/bounties/2021/10/25/speed-run-the-ic-bounty.html)
 * [Tackle a bounty and earn ICP](/bounties.html)
 * [Follow the ICDevs.org Neuron](/nns.html)
 * Get [listed](https://pnbcw-3qaaa-aaaag-qbpqq-cai.raw.ic0.app/) on the ["Builders Too Busy to Pay Attention to Your Allow-List But Will Support You When its Time" DAO](/BuilderDAO.html)
-* Execute the [CIGDao](https://cigdao.com/) [Bounty](/CigDAO.html)
-* [Join the Developer Advisory Committee and help drive our agenda](/developer_advisory_committee.html)
 
 # 🖥️  Who we are:
 
@@ -37,8 +33,8 @@ ICDevs.org seeks to provide the general public with
 ICDevs.org is completely independent from the DFINITY Foundation and the ICA. Our goal is to further diversify and decentralize the Internet Computer ecosystem. By providing a United States-based non-profit organization we open up new, tax-advantaged ways, for US-based proponents of the Internet Computer to organize their resources and influence to advance the Ideals of the Internet Computer.
 
 * [Meet our Board and Advisors](/board.html)
-* [Meet our Developer Advisory Committee](/developer_advisory_committee.html)
 * [Read our Bylaws](/bylaws.html)
 * [Find a bounty to complete and earn ICP](/bounties.html)
 * [Explore the languages we are creating to help build the interent computer](/language_project/index.html)
+* [Explore the languages written exploring DAOs](https://daos.icdevs.org)
 
